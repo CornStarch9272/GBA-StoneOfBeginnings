@@ -121,7 +121,7 @@ mov r2, r4
 @@countQuoteLoop:
 ldrb r0, [r2]
 cmp r0, #0
-beq @@firstNull
+beq @@skipNull
 cmp r0, #0x22
 bne @@skipIncQuote
 add r1, #1
@@ -129,18 +129,19 @@ strb r1, [r3, #1]
 @@skipIncQuote:
 add r2, #1
 b @@countQuoteLoop
-@@firstNull:
-ldrb r0, [r2, #1]
-cmp r0, #0                      ; second null
-bne @@countQuoteRestore         ; error not terminate with two null, abort
-ldrb r0, [r2, #2]
+@@skipNull:
+add r2, #1
+ldrb r0, [r2]
+cmp r0, #0         
+beq @@skipNull         
+@@haveNextLine:
 cmp r0, #8 
 bne @@countQuoteRestore         ; not code for next line, abort
-ldrb r0, [r2, #3]
+ldrb r0, [r2, #1]
 cmp r0, #3
 bne @@countQuoteRestore         ; not code for next line, abort
-add r2, #4
-beq @@countQuoteLoop            ; have next line, count again
+add r2, #2
+b @@countQuoteLoop            ; have next line, count again
 @@quoteCountInc:
 ldr r3, =0x3007ac0
 ldrb r0, [r3]
