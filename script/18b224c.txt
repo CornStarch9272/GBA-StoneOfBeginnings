@@ -17,7 +17,7 @@ goto            @Cond_00b8
 code046c        1
 setvar          $b075, 1
 setvar          $b072, 1
-placetxt        "ゴヴァンの遺跡"
+placetxt        "Govan Ruins"
 code040c        0, @Label_0410
 code040c        1, @Label_05a2
 code040c        2, @Label_0598
@@ -85,7 +85,7 @@ goto            @Cond_03aa
 goto            @Label_03ae
 
 @Label_03ae:
-placetxt        "Govan Ruins　Area 1０"
+placetxt        "Govan Ruins　Area 10"
 code040b        
 
 @Event_03ce:
@@ -138,7 +138,7 @@ setvar          $h137, 30
 call            @Func_0774
 code0421        0
 code0368        
-popuptxt        "元気になった！"
+popuptxt        "You feel refreshed!"
 code0318        
 code0461        3
 code040b        

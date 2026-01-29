@@ -9,8 +9,8 @@ code0479        1, 2, 13
 code047d        1, 110
 call            @Func_0b66
 call            @Func_0ace
-dialogtxt       "とっておきの武器だったのに..."
-dialogtxt       "僕ももっと鍛えなくちゃ..."
+dialogtxt       "That was my best weapon, and still…"
+dialogtxt       "I have to train more…"
 goto            @Label_0162
 
 @Cond_00d4:
@@ -22,7 +22,7 @@ code0479        1, 2, 13
 code047d        1, 110
 call            @Func_0b66
 call            @Func_0ace
-dialogtxt       "何度も君には負けていられないよ"
+dialogtxt       "I won't always keep losing to you."
 goto            @Label_0162
 
 @Label_0162:
@@ -46,14 +46,16 @@ code0479        1, 0, 13
 code047d        1, 110
 call            @Func_0b66
 call            @Func_0ace
-dialogtxt       "親方がいなくなって"
-dialogtxt       "色々忙しくなってるけど"
-dialogtxt       "僕もちゃんと鍛えてるよ"
+dialogtxt       "With Master gone,"
+dialogtxt       "things have gotten busy."
+code0309
+dialogtxt       "But I'm still keeping up"
+dialogtxt       "with my training."
 code047b        
 code0309        
 code0479        1, 2, 13
-dialogtxt       "勝負の準備はできてるから"
-dialogtxt       "いつでも言ってよ"
+dialogtxt       "If you're up for a match,"
+dialogtxt       "tell me any time."
 code0309        
 goto            @Label_033c
 
@@ -64,9 +66,9 @@ code0479        1, 0, 12
 code047d        1, 110
 call            @Func_0b66
 call            @Func_0ace
-dialogtxt       "あの...、親方がいなくなって"
-dialogtxt       "色々忙しくなってるんだけど"
-dialogtxt       "もしかして..."
+dialogtxt       "Um…, Master's gone"
+dialogtxt       "and I've gotten quite busy,"
+dialogtxt       "but maybe…"
 code047b        
 code0309        
 goto            @Label_033c
@@ -78,8 +80,8 @@ code0479        1, 2, 13
 code047d        1, 110
 call            @Func_0b66
 call            @Func_0ace
-dialogtxt       "その顔、良い武器ができたみたいだね"
-dialogtxt       "僕のとっておきと勝負してみるかい？"
+dialogtxt       "I can tell you've made a good weapon."
+dialogtxt       "How about a match with my specialty?"
 code047b        
 code0309        
 goto            @Label_045a
@@ -91,8 +93,8 @@ code0479        1, 0, 16
 code047d        1, 110
 call            @Func_0b66
 call            @Func_0ace
-dialogtxt       "なんだい、その顔..."
-dialogtxt       "もしかして..."
+dialogtxt       "What's with that face…"
+dialogtxt       "Could it be…"
 code047b        
 code0309        
 goto            @Label_045a
@@ -100,8 +102,8 @@ goto            @Label_045a
 @Label_045a:
 call            @Func_0b22
 call            @Func_0a80
-choicetxt       @Choice_0484, "勝負しよう"
-choicetxt       @Choice_049e, "勝負しない"
+choicetxt       @Choice_0484, "Fight"
+choicetxt       @Choice_049e, "Don't Fight"
 choicewait      
 
 @Choice_0484:
@@ -115,8 +117,8 @@ goto            @Label_04dc
 call            @Func_0ab6
 code0479        1, 0, 16
 call            @Func_0aec
-dialogtxt       "そう"
-dialogtxt       "じゃ、また"
+dialogtxt       "I see."
+dialogtxt       "Some other time then."
 code0309        
 call            @Func_0bbc
 call            @Func_0b0a

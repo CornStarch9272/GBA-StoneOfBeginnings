@@ -4,13 +4,15 @@ code047d        0, 0
 call            @Func_0720
 call            @Func_0648
 jumpz           @Cond_007e, ($b002 == 0)
-dialogtxt       "カギがかかってる..."
-dialogtxt       "ハンマーならこわせそうだ"
+dialogtxt       "It's locked…"
+dialogtxt       "Maybe I can break it "
+dialogtxt       "with my hammer."
 goto            @Label_00b4
 
 @Cond_007e:
-dialogtxt       "カギがかかってる..."
-dialogtxt       "ハンマーならこわせるかも"
+dialogtxt       "It's locked…"
+dialogtxt       "Maybe I can break it "
+dialogtxt       "with my hammer."
 goto            @Label_00b4
 
 @Label_00b4:

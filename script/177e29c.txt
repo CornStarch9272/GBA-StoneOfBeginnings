@@ -413,16 +413,15 @@ code0301        8, 7
 code047d        0, 122
 code047e        0, 1
 jumpz           @Cond_10aa, ($b002 == 0)
-dialogtxt       "ギャラハンの息子は"
+dialogtxt       "Gallahan's son…"
 goto            @Label_10c2
 
 @Cond_10aa:
-dialogtxt       "ギャラハンの娘は"
+dialogtxt       "Gallahan's daughter…"
 goto            @Label_10c2
 
 @Label_10c2:
-dialogtxt       "ヴォイジンという男に"
-dialogtxt       "殺されたんじゃ"
+dialogtxt       "Was killed by that man Voijin."
 code0309        
 code047e        0, 0
 code0302        7
@@ -432,38 +431,40 @@ code040b
 code0301        8, 7
 code047d        0, 149
 code047e        0, 1
-dialogtxt       "最近のお母様は、とにかくすごい"
-dialogtxt       "鍛冶師を見つける事だけに"
-dialogtxt       "集中してて大変なの"
+dialogtxt       "Lately, my mother has been focused"
+dialogtxt       "only on finding amazing"
+dialogtxt       "Craftknights, and it's been tough."
 code0309        
-dialogtxt       "まったくお金を儲けてきてくれないから"
-dialogtxt       "私が稼がないと泊まるとこにも"
-dialogtxt       "困っちゃうの"
+dialogtxt       "She isn't earning any money at all."
+dialogtxt       "I need to work or we'd have trouble"
+dialogtxt       "finding a place to stay."
 code0309        
 jumpz           @Cond_14c8, ($f1250 == 0)
-dialogtxt       "ところであなたは、鍛冶師みたいだけど"
-dialogtxt       "強化の情報を聞いていかない？"
+dialogtxt       "You're a Craftknight, aren't you?"
+dialogtxt       "Wanna hear about enhancement tips?"
 code0309        
 code047e        0, 0
-choicetxt       @Choice_126c, "聞いてみる"
-choicetxt       @Choice_14d0, "特に聞かない"
+choicetxt       @Choice_126c, "Sure thing!"
+choicetxt       @Choice_14d0, "Nah, I'm fine."
 choicewait      
 
 @Choice_126c:
 code047e        0, 1
-dialogtxt       "えっとね、強化で「伝説の青竹」を"
-dialogtxt       "使うと特殊効果の「中ヒール」が"
-dialogtxt       "武器に付加されるの"
+dialogtxt       "Let's see…With this"
+dialogtxt       "Legendary Green Bamboo,"
 code0309        
-dialogtxt       "でもって、今回はなんと"
-dialogtxt       "「伝説の青竹」を、１５００バームで"
-dialogtxt       "販売中なの〜"
+dialogtxt       "you can imbue a weapon with"
+dialogtxt       "Medium Heal."
+code0309   
+dialogtxt       "And can you believe it?"
+dialogtxt       "As a special offer, I'm selling it"
+dialogtxt       "for a mere sum of…1500 Boam!"
 code0309        
-dialogtxt       "買ってくれます？"
+dialogtxt       "How about it?"
 code0309        
 code047e        0, 0
-choicetxt       @Choice_1368, "買う"
-choicetxt       @Choice_147e, "買わない"
+choicetxt       @Choice_1368, "Buy"
+choicetxt       @Choice_147e, "Don't buy"
 choicewait      
 
 @Choice_1368:
@@ -478,7 +479,7 @@ code0445        18, 4
 code0446        18
 code0301        8, 7
 code047e        0, 1
-dialogtxt       "ありがと〜"
+dialogtxt       "Thanks~"
 code0309        
 goto            @Label_1520
 
@@ -490,9 +491,9 @@ code0445        18, 5
 code0446        18
 code0301        8, 7
 code047e        0, 1
-dialogtxt       "ええぇ〜これじゃ〜"
-dialogtxt       "お金たりないの〜"
-dialogtxt       "商談不成立だよ〜"
+dialogtxt       "Whaaaaaat!? What do you mean"
+dialogtxt       "you don't have enough money!?"
+dialogtxt       "I'm calling this deal off!"
 code0309        
 goto            @Label_1520
 
@@ -500,8 +501,9 @@ goto            @Choice_147e
 
 @Choice_147e:
 code047e        0, 1
-dialogtxt       "え〜聞くだけ聞いて買ってくれないの〜"
-dialogtxt       "ケチ〜"
+dialogtxt       "Whaaat!? You make me talk a lot"
+dialogtxt       "but you don't want to buy from me?"
+dialogtxt       "Cheapskate!"
 code0309        
 goto            @Label_1520
 
@@ -514,8 +516,9 @@ goto            @Choice_14d0
 
 @Choice_14d0:
 code047e        0, 1
-dialogtxt       "え〜聞いてくれないの〜"
-dialogtxt       "せっかくのお客さんだと思ったのに〜"
+dialogtxt       "Whaaat? You're not interested?!"
+dialogtxt       "Just when I thought"
+dialogtxt       "I finally had a customer…"
 code0309        
 @Label_1520:
 code047e        0, 0
@@ -524,7 +527,7 @@ code040b
 
 @Talk_1538:
 code0301        8, 7
-dialogtxt       "..."
+dialogtxt       "…"
 code0309        
 code0302        7
 code040b        

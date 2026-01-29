@@ -19,7 +19,7 @@ goto            @Cond_00da
 code046c        1
 setvar          $b075, 1
 setvar          $b072, 1
-placetxt        "Mishus Ruins"
+placetxt        "Mishus Abandoned Site"
 code040c        0, @Label_08c8
 code040c        1, @Label_0ab2
 code040c        2, @Label_0aa8
@@ -153,7 +153,7 @@ goto            @Cond_0824
 goto            @Label_0828
 
 @Label_0828:
-placetxt        "Mishus Ruins　Area 1"
+placetxt        "Mishus Abandoned Site　Area 1"
 code040b        
 
 @Event_084a:
@@ -218,7 +218,7 @@ setvar          $h137, 30
 call            @Func_0c54
 code0421        1
 code0368        
-popuptxt        "元気になった！"
+popuptxt        "You feel refreshed!"
 code0318        
 code0461        3
 code040b        

@@ -38,13 +38,13 @@ code047d        1, 2
 call            @Func_101e
 call            @Func_0f1a
 jumpz           @Cond_01c4, ($b002 == 0)
-dialogtxt       "γ"
-dialogtxt       "大丈夫か！？"
+dialogtxt       "[NAME 1]!"
+dialogtxt       "Are you okay!?"
 goto            @Label_01dc
 
 @Cond_01c4:
-dialogtxt       "γ"
-dialogtxt       "大丈夫！？"
+dialogtxt       "[NAME 1]!"
+dialogtxt       "Are you okay!?"
 goto            @Label_01dc
 
 @Label_01dc:
@@ -72,30 +72,30 @@ goto            @Label_0274
 @Label_0274:
 call            @Func_0fa4
 jumpz           @Cond_02ca, ($b003 == 0)
-dialogtxt       "問題アリマセン"
-dialogtxt       "シカシ..."
-dialogtxt       "制御装置ガツケラ[NAME 8]テイマス..."
+dialogtxt       "No Problem."
+dialogtxt       "However…"
+dialogtxt       "The Control Unit Is Attached…"
 goto            @Cond_02ca
 
 @Cond_02ca:
 jumpz           @Cond_031a, ($b003 == 1)
-dialogtxt       "当然じゃ..."
-dialogtxt       "しかし、またあの腕輪で"
-dialogtxt       "身動きがとれん..."
+dialogtxt       "Of course…"
+dialogtxt       "But that bracelet is"
+dialogtxt       "stopping me again…"
 goto            @Cond_031a
 
 @Cond_031a:
 jumpz           @Cond_0372, ($b003 == 2)
-dialogtxt       "当たり前だ..."
-dialogtxt       "ただ、またいまいましい腕輪を"
-dialogtxt       "つけられたがな..."
+dialogtxt       "Obviously…"
+dialogtxt       "It's just that annoying"
+dialogtxt       "bracelet is…"
 goto            @Cond_0372
 
 @Cond_0372:
 jumpz           @Cond_03c6, ($b003 == 3)
-dialogtxt       "はい..."
-dialogtxt       "でも、またあの腕輪をつけられて"
-dialogtxt       "しまいましたわ..."
+dialogtxt       "Yes…"
+dialogtxt       "But they put that"
+dialogtxt       "bracelet on me again…"
 goto            @Cond_03c6
 
 @Cond_03c6:
@@ -104,13 +104,13 @@ call            @Func_0fda
 code0479        0, 2, 14
 call            @Func_0f38
 jumpz           @Cond_0436, ($b002 == 0)
-dialogtxt       "ヒデェことしやがる...！"
-dialogtxt       "待ってろ！　すぐ外してやるから！"
+dialogtxt       "How could they…!"
+dialogtxt       "Just wait! I'll get it off!"
 goto            @Label_047a
 
 @Cond_0436:
-dialogtxt       "なんてヒドイことを...！"
-dialogtxt       "待ってて！　すぐ外してあげるから！"
+dialogtxt       "How could they…!"
+dialogtxt       "Just wait! I'll get it off!"
 goto            @Label_047a
 
 @Label_047a:
@@ -169,7 +169,7 @@ code033e        410
 code0479        0, 2, 12
 call            @Func_0ff2
 call            @Func_0f1a
-dialogtxt       "よし！　外れた！"
+dialogtxt       "Got it!"
 code047b        
 code0309        
 call            @Func_0f6e
@@ -195,26 +195,25 @@ goto            @Label_0758
 call            @Func_1008
 call            @Func_0fa4
 jumpz           @Cond_07a4, ($b003 == 0)
-dialogtxt       "先ホドノ　地ヒビ[NAME 4]..."
-dialogtxt       "何ガアッタノデスカ？"
+dialogtxt       "That Tremor…"
+dialogtxt       "Has Something Happened?"
 goto            @Cond_07a4
 
 @Cond_07a4:
 jumpz           @Cond_07e6, ($b003 == 1)
-dialogtxt       "先ほどの爆音..."
-dialogtxt       "一体なにがあったのじゃ？"
+dialogtxt       "That explosion just now…"
+dialogtxt       "What is going on?"
 goto            @Cond_07e6
 
 @Cond_07e6:
 jumpz           @Cond_082e, ($b003 == 2)
-dialogtxt       "さっき外でドカドカやってたが"
-dialogtxt       "一体なんなんだ？"
+dialogtxt       "What was that noise just now?"
 goto            @Cond_082e
 
 @Cond_082e:
 jumpz           @Cond_0880, ($b003 == 3)
-dialogtxt       "さっき、スゴイ音がしましたけど"
-dialogtxt       "外で何があったんですか？"
+dialogtxt       "I heard a loud noise just now,"
+dialogtxt       "is something happening outside?"
 goto            @Cond_0880
 
 @Cond_0880:
@@ -224,15 +223,15 @@ call            @Func_0fda
 code0479        0, 2, 16
 call            @Func_0f38
 jumpz           @Cond_090a, ($b002 == 0)
-dialogtxt       "[NAME 8]ミィが助けに来てくれたんだ"
-dialogtxt       "アイツ、ひとりでアカバ[NAME 6]と...！"
-dialogtxt       "とにかく出るぞ！"
+dialogtxt       "Lemmy came to save us."
+dialogtxt       "He's facing Red Wing alone…!"
+dialogtxt       "We have to leave!"
 goto            @Label_0962
 
 @Cond_090a:
-dialogtxt       "[NAME 8]ミィが助けに来てくれたの"
-dialogtxt       "あいつ、ひとりでアカバ[NAME 6]と...！"
-dialogtxt       "とにかく出るよ！"
+dialogtxt       "Lemmy came to save us."
+dialogtxt       "He's facing Red Wing alone…!"
+dialogtxt       "We have to leave!"
 goto            @Label_0962
 
 @Label_0962:

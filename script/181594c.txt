@@ -28,13 +28,13 @@ code047d        1, 2
 call            @Func_09e0
 call            @Func_08dc
 jumpz           @Cond_012a, ($b002 == 0)
-dialogtxt       "やった！"
-dialogtxt       "勝ったぞ！"
+dialogtxt       "Yes!"
+dialogtxt       "I won!"
 goto            @Label_0148
 
 @Cond_012a:
-dialogtxt       "やった！"
-dialogtxt       "勝ったよ！"
+dialogtxt       "Yes!"
+dialogtxt       "I won!"
 goto            @Label_0148
 
 @Label_0148:
@@ -62,28 +62,27 @@ goto            @Label_01e0
 @Label_01e0:
 call            @Func_0966
 jumpz           @Cond_0224, ($b003 == 0)
-dialogtxt       "早ク　みゅーの様ヲ"
-dialogtxt       "見ツケ出シマショウ"
+dialogtxt       "Let Us Hurry"
+dialogtxt       "And Locate Lady Murno."
 goto            @Cond_0224
 
 @Cond_0224:
 jumpz           @Cond_0266, ($b003 == 1)
-dialogtxt       "よし"
-dialogtxt       "はやくミューノを"
-dialogtxt       "見つけねばな！"
+dialogtxt       "Good."
+dialogtxt       "Now we must look for Murno!"
 goto            @Cond_0266
 
 @Cond_0266:
 jumpz           @Cond_0296, ($b003 == 2)
-dialogtxt       "ちっ..."
-dialogtxt       "さっさと行くぞ"
+dialogtxt       "Tch…"
+dialogtxt       "Hurry up!"
 goto            @Cond_0296
 
 @Cond_0296:
 jumpz           @Cond_02de, ($b003 == 3)
-dialogtxt       "さあ！"
-dialogtxt       "はやくミューノ様を"
-dialogtxt       "見つけましょう！"
+dialogtxt       "Now then!"
+dialogtxt       "Let us begin our"
+dialogtxt       "search for Lady Murno!"
 goto            @Cond_02de
 
 @Cond_02de:
@@ -91,7 +90,7 @@ code0309
 call            @Func_099c
 code0479        0, 2, 14
 call            @Func_08fa
-dialogtxt       "うん！"
+dialogtxt       "Okay!"
 code0309        
 call            @Func_0a36
 call            @Func_0918

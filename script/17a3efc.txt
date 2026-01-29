@@ -10,7 +10,7 @@ code0412        4, 1
 code0418        2
 setvar          $b075, 1
 setvar          $b072, 0
-placetxt        "Prosban　Suburbs Stairway"
+placetxt        "Prosban Town　Suburb Stairs"
 code040c        1, @Label_03ee
 code040c        2, @Label_03e4
 call            @Func_0b8a
@@ -325,11 +325,12 @@ code040b
 code0301        8, 7
 code047d        0, 120
 code047e        0, 1
-dialogtxt       "なんでも例の廃墟の先に"
-dialogtxt       "何かとんでもない物があるらしい"
+dialogtxt       "I've heard there's something"
+dialogtxt       "incredible at the end of the"
+dialogtxt       "those ruins."
 code0309        
-dialogtxt       "ま、行ったことがないから"
-dialogtxt       "保証はできないけどな"
+dialogtxt       "Well, I've never been myself,"
+dialogtxt       "so I can't say for sure though."
 code0309        
 code047e        0, 0
 code0302        7
@@ -337,7 +338,7 @@ code040b
 
 @Talk_0e50:
 code0301        8, 7
-dialogtxt       "フーッ"
+dialogtxt       "Whew!"
 code0309        
 code0302        7
 code040b        
@@ -345,22 +346,22 @@ code040b
 @Event_0e74:
 code0301        8, 7
 dialogtxt       "　"
-dialogtxt       "　　　　　〜注意しよう！〜"
+dialogtxt       "　　　　 Let's be careful."
 code0309        
-dialogtxt       "団体行動の時は"
-dialogtxt       "よく人数を確認しましょう"
+dialogtxt       "When moving with a group, make"
+dialogtxt       "sure you still have everyone."
 code0309        
-dialogtxt       "誰かいない人が"
-dialogtxt       "いるかもしれませんよ？"
+dialogtxt       "You never know…"
+dialogtxt       "You might be missing someone."
 code0309        
 code0302        7
 code040b        
 
 @Event_0f10:
 code0301        8, 7
-dialogtxt       "ボウタイプが便利ですが"
-dialogtxt       "使いすぎには十分注意してください"
-dialogtxt       "気付いた時には壊れる寸前だったり..."
+dialogtxt       "Bows are super handy, but be"
+dialogtxt       "careful about useing it too much!"
+dialogtxt       "They'll break before you blink!"
 code0309        
 code0302        7
 code040b        
@@ -368,19 +369,20 @@ code040b
 @Event_0f8e:
 code0301        8, 7
 dialogtxt       "　"
-dialogtxt       "　　　　　〜情報求む！〜"
+dialogtxt       "　　　　Seek knowledge!"
 code0309        
-dialogtxt       "タタラの中の炎のように"
-dialogtxt       "燃え上がるような激辛の食べ物を"
-dialogtxt       "探しています"
+dialogtxt       "I'm looking for a spicy food"
+dialogtxt       "that burns like the flame"
+dialogtxt       "inside a furnace."
 code0309        
 code0302        7
 code040b        
 
 @Event_1018:
 code0301        8, 7
-dialogtxt       "町の外では多くのはぐれが出る"
-dialogtxt       "遠出する時は準備をおこたるな！"
+dialogtxt       "There's a lot of Strays outside"
+dialogtxt       "town! Be sure to prep well if"
+dialogtxt       "you're venturing far out!"
 code0309        
 code0302        7
 code040b        

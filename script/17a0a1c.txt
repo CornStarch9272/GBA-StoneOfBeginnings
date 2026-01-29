@@ -10,7 +10,7 @@ code0412        4, 1
 code0418        2
 setvar          $b075, 1
 setvar          $b072, 0
-placetxt        "Mayor's house　second-hand shop"
+placetxt        "Village Chief's House　Toolshop"
 code040c        1, @Label_04de
 code040c        2, @Label_04d4
 code0438        2, 367, 632, 1
@@ -80,7 +80,7 @@ code0412        4, 1
 code0418        2
 setvar          $b075, 1
 setvar          $b072, 0
-placetxt        "Mayor's house　second-hand shop"
+placetxt        "Village Chief's House　Toolshop"
 code040c        1, @Label_04de
 code040c        2, @Label_04d4
 code0438        2, 367, 632, 1
@@ -320,12 +320,12 @@ ret
 code0301        8, 7
 code047d        0, 123
 code047e        0, 1
-dialogtxt       "おおきくなったら"
-dialogtxt       "おとなになるんだ"
+dialogtxt       "When you get bigger"
+dialogtxt       "you become an adult."
 code0309        
-dialogtxt       "とりあえず、そこからかんがえるのが"
-dialogtxt       "げんじつてきだって"
-dialogtxt       "わかったんだ"
+dialogtxt       "For now, I think it's more"
+dialogtxt       "realistic to think of it"
+dialogtxt       "like that."
 code0309        
 code047e        0, 0
 code0302        7

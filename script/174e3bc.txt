@@ -96,7 +96,7 @@ jumpz           @Cond_0498, $h132
 code0301        8, 7
 code047d        0, 120
 code047e        0, 1
-dialogtxt       "武器を取りに来たのか？"
+dialogtxt       "Here to pick up your weapons?"
 code0309        
 code047e        0, 0
 code0302        7
@@ -106,7 +106,7 @@ goto            @Label_04f8
 code0301        8, 7
 code047d        0, 120
 code047e        0, 1
-dialogtxt       "武器を預けに来たのか？"
+dialogtxt       "Here to drop off your weapons?"
 code0309        
 code047e        0, 0
 code0302        7
@@ -115,8 +115,8 @@ goto            @Label_04f8
 @Label_04f8:
 code0312        
 code0313        @Menu_05f0
-menutxt         @Menu_0516, "はい"
-menutxt         @Menu_05f0, "いいえ"
+menutxt         @Menu_0516, "Yes"
+menutxt         @Menu_05f0, "No"
 menuwait        
 
 @Menu_0516:
@@ -126,7 +126,8 @@ jumpz           @Cond_059e, ($b071 == 0 && ($h083 != -1 ? 1 : 0))
 code0301        8, 7
 code047d        0, 120
 code047e        0, 1
-dialogtxt       "預けられそうな武器が無いぞ"
+dialogtxt       "You don't have any<end_line>"
+dialogtxt       "weapons to deposit.<end_line>"
 code0309        
 code047e        0, 0
 code0302        7
@@ -397,12 +398,13 @@ ret
 code0301        8, 7
 code047d        0, 120
 code047e        0, 1
-dialogtxt       "アカバ[NAME 6]って召喚獣が暴れてるって"
-dialogtxt       "プロスバンの町から来たヤツに"
-dialogtxt       "聞いたんだ"
+dialogtxt       "I've heard there's a Stray called"
+dialogtxt       "Red Wing that's causing trouble."
+dialogtxt       "Someone from Prosban told me."
 code0309        
-dialogtxt       "とてつもなく凶暴なヤツらしい"
-dialogtxt       "ほんと、あぶなくってしょうがない"
+dialogtxt       "It's supposed to be very"
+dialogtxt       "ferocious. Man, it's so"
+dialogtxt       "dangerous these days."
 code0309        
 code047e        0, 0
 code0302        7

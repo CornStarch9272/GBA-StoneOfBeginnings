@@ -2,14 +2,15 @@
 jumpz           @Cond_00a8, ($f0038 == 1 && $f0045 == 0 && $h311 == 12)
 code0361        $b003
 code0300        
-popuptxt        "γが我に返った！"
+popuptxt        "<partner/ > has woken up!"
 code0318        
-popuptxt        "装備の変更が可能です"
+popuptxt        "Do you want to change your"
+popuptxt        "your equipment now?"
 code0318        
 code0312        
 code0313        @Menu_00a4
-menutxt         @Menu_0088, "変更する"
-menutxt         @Menu_00a4, "変更しない"
+menutxt         @Menu_0088, "Yes"
+menutxt         @Menu_00a4, "No"
 menuwait        
 
 @Menu_0088:
@@ -43,7 +44,7 @@ code0422        2, 0
 code046c        0
 setvar          $b075, 1
 setvar          $b072, 0
-placetxt        "ゴヴァンの遺跡"
+placetxt        "Govan Ruins"
 code040c        1, @Label_2108
 code040c        2, @Label_20fe
 jumpz           @Cond_04bc, ($f0036 == 1 && $f0038 == 0 && $h311 == 12)
@@ -506,7 +507,7 @@ goto            @Cond_1bb0
 goto            @Label_1bb4
 
 @Label_1bb4:
-placetxt        "Govan Ruins　Altar Chamber"
+placetxt        "Govan Ruins　Ritual Site"
 jumpz           @Cond_1c80, ($f0037 == 1 && $f0038 == 0 && $h311 == 12)
 setvar          $f0038, 1
 code043e        0, 3, 0

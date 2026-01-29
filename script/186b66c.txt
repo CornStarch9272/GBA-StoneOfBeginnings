@@ -10,13 +10,11 @@ call            @Func_0880
 code0479        0, 2, 14
 call            @Func_077c
 jumpz           @Cond_00c8, ($b002 == 0)
-dialogtxt       "この武器なら"
-dialogtxt       "アニ[NAME 4]のナックルに..."
+dialogtxt       "This one should be able to do it…"
 goto            @Label_00f4
 
 @Cond_00c8:
-dialogtxt       "この武器なら"
-dialogtxt       "アニ[NAME 4]のナックルに..."
+dialogtxt       "This one should be able to do it…"
 goto            @Label_00f4
 
 @Label_00f4:
@@ -25,25 +23,25 @@ code0309
 call            @Func_07d0
 code0479        1, 0, 13
 call            @Func_0806
-dialogtxt       "へえ..."
-dialogtxt       "これでオ[NAME 8]のナックルに"
-dialogtxt       "勝つつもりなのか？"
+dialogtxt       "Oh…"
+dialogtxt       "You intend to"
+dialogtxt       "win with that thing?"
 code0309        
 call            @Func_083c
 code0479        0, 2, 12
 call            @Func_079a
-dialogtxt       "..."
+dialogtxt       "…"
 code0309        
 call            @Func_07d0
 code0479        1, 2, 13
 call            @Func_0806
-dialogtxt       "ほぉ..."
-dialogtxt       "そうか..."
+dialogtxt       "Hoh…"
+dialogtxt       "I see…"
 code0309        
 code0479        1, 3, 15
-dialogtxt       "よし"
-dialogtxt       "手加減はなしだ！"
-dialogtxt       "かかってこい！"
+dialogtxt       "Alright then."
+dialogtxt       "Don't hold back!"
+dialogtxt       "Come at me!"
 code0309        
 call            @Func_08d6
 call            @Func_0824

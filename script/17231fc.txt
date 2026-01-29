@@ -2,100 +2,100 @@ code0301        0, 7
 code0305        1
 jumpz           @Cond_05ac, ($h319 == 44)
 jumpz           @Cond_00ee, ($h311 == 4)
-dialogtxt       "ぐるぐる回して賞品ゲット！"
-dialogtxt       "今回の賞品は..."
+dialogtxt       "Spin and get a prize!"
+dialogtxt       "Available prizes are…"
 code0309        
-dialogtxt       "特賞　重金鉱"
-dialogtxt       "２等　破滅スイッチ"
-dialogtxt       "３等　赤サビの粉"
+dialogtxt       "First Place: Heavy Gold Ore"
+dialogtxt       "Second Place: Ruin Switch"
+dialogtxt       "Third Place: Rust Powder"
 code0309        
-dialogtxt       "４等　ジュウユ薬"
-dialogtxt       "５等　熟れすぎた木の実"
-dialogtxt       "以上になっております"
+dialogtxt       "Fourth Place: Heartleaf Potion"
+dialogtxt       "Fifth Place: Overripe Berry"
+dialogtxt       "And that's all."
 goto            @Label_059e
 
 @Cond_00ee:
 jumpz           @Cond_01ac, ($h311 == 5)
-dialogtxt       "ガラガラ回せば幸せきっと！"
-dialogtxt       "今回の賞品は..."
+dialogtxt       "Spin the wheel, receive joy!"
+dialogtxt       "Your prizes are…"
 code0309        
-dialogtxt       "特賞　延長の指輪"
-dialogtxt       "２等　怪力の証"
-dialogtxt       "３等　鉄壁の証"
+dialogtxt       "First Place: Friend Ring"
+dialogtxt       "Second Place: Proof of Power"
+dialogtxt       "Third Place: Bulletproof"
 code0309        
-dialogtxt       "４等　達人の証"
-dialogtxt       "５等　手頃な小枝"
-dialogtxt       "以上になっております"
+dialogtxt       "Fourth Place: Expert's Mark"
+dialogtxt       "Fifth Place: Tree Branch"
+dialogtxt       "And that's all."
 goto            @Label_059e
 
 @Cond_01ac:
 jumpz           @Cond_027a, ($h311 == 8)
-dialogtxt       "赤字覚悟だ！　もってけドロボー！"
-dialogtxt       "今回の賞品は..."
+dialogtxt       "We'll go broke at this rate!"
+dialogtxt       "Available prizes are…"
 code0309        
-dialogtxt       "特賞　伝説のバ[NAME 6]"
-dialogtxt       "２等　真っ暗サングラス"
-dialogtxt       "３等　極意の巻物"
+dialogtxt       "First Place: Legendary Spring"
+dialogtxt       "Second Place: Dark Sunglasses"
+dialogtxt       "Third Place: Secret Scroll"
 code0309        
-dialogtxt       "４等　体術の巻物"
-dialogtxt       "５等　上等な紙"
-dialogtxt       "以上になっております"
+dialogtxt       "Fourth Place: Taijutsu Scroll"
+dialogtxt       "Fifth Place: Premium Paper"
+dialogtxt       "And that's all."
 goto            @Label_059e
 
 @Cond_027a:
 jumpz           @Cond_0348, ($h311 == 9)
-dialogtxt       "ここまでやるか！？　驚きの賞品！"
-dialogtxt       "今回の賞品は..."
+dialogtxt       "Still going!? You madman!"
+dialogtxt       "Available prizes are…"
 code0309        
-dialogtxt       "特賞　閃光の護符"
-dialogtxt       "２等　リペアパーツ"
-dialogtxt       "３等　気合い鉢巻"
+dialogtxt       "First Place: Flash Charm"
+dialogtxt       "Second Place: Repair Parts"
+dialogtxt       "Third Place: Spirit Headband"
 code0309        
-dialogtxt       "４等　武術の教本"
-dialogtxt       "５等　悪臭にんにく"
-dialogtxt       "以上になっております"
+dialogtxt       "Fourth Place: Martial Treatise"
+dialogtxt       "Fifth Place: Stinky Garlic"
+dialogtxt       "And that's all."
 goto            @Label_059e
 
 @Cond_0348:
 jumpz           @Cond_040c, ($h311 == 11)
-dialogtxt       "回せば道は開かれる！？"
-dialogtxt       "今回の賞品は..."
+dialogtxt       "Spin, and the path will open!?"
+dialogtxt       "Available prizes are…"
 code0309        
-dialogtxt       "特賞　伝説級の鉄串"
-dialogtxt       "２等　古びた砥石"
-dialogtxt       "３等　健康サンダル"
+dialogtxt       "First Place: Legendary Skewer"
+dialogtxt       "Second Place: Old Grindstone"
+dialogtxt       "Third Place: Life Sandals"
 code0309        
-dialogtxt       "４等　猛毒の鉄くず"
-dialogtxt       "５等　干しエビ"
-dialogtxt       "以上になっております"
+dialogtxt       "Fourth Place: Poison Powder"
+dialogtxt       "Fifth Place: Red Shrimp"
+dialogtxt       "And that's all."
 goto            @Label_059e
 
 @Cond_040c:
 jumpz           @Cond_04d2, ($h311 == 12)
-dialogtxt       "回すその手に祈りを込めて！"
-dialogtxt       "今回の賞品は..."
+dialogtxt       "Believe in yourself! Spin the wheel!"
+dialogtxt       "Available prizes are…"
 code0309        
-dialogtxt       "特賞　伝説の青竹"
-dialogtxt       "２等　超加速装置"
-dialogtxt       "３等　強運のお守り"
+dialogtxt       "First Place: Legendary Bamboo"
+dialogtxt       "Second Place: Speeding Device"
+dialogtxt       "Third Place: Lucky Charm"
 code0309        
-dialogtxt       "４等　辛いカ[NAME 8]ー"
-dialogtxt       "５等　ロブスター"
-dialogtxt       "以上になっております"
+dialogtxt       "Fourth Place: Hot Curry"
+dialogtxt       "Fifth Place: Lobster"
+dialogtxt       "And that's all."
 goto            @Label_059e
 
 @Cond_04d2:
 jumpz           @Label_059e, ($h311 == 99)
-dialogtxt       "これで最後だ！　一球入魂！！"
-dialogtxt       "今回の賞品は..."
+dialogtxt       "This is it! The ultimate spin!!"
+dialogtxt       "Available prizes are…"
 code0309        
-dialogtxt       "特賞　決死のラブ[NAME 8]ター"
-dialogtxt       "２等　伝説の青竹"
-dialogtxt       "３等　伝説級の鉄串"
+dialogtxt       "First Place: Death Note"
+dialogtxt       "Second Place: Legendary Bamboo"
+dialogtxt       "Third Place: Legendary Skewer"
 code0309        
-dialogtxt       "４等　救急セット"
-dialogtxt       "５等　高級な貝"
-dialogtxt       "以上になっております"
+dialogtxt       "Fourth Place: Med Kit"
+dialogtxt       "Fifth Place: Gourmet Clam"
+dialogtxt       "And that's all."
 goto            @Label_059e
 
 @Label_059e:
@@ -105,109 +105,108 @@ goto            @Label_0b08
 
 @Cond_05ac:
 jumpz           @Cond_0682, ($h311 == 8)
-dialogtxt       "特賞が出なくても抽選機に"
-dialogtxt       "バックアタックしちゃダメだ！"
-dialogtxt       "今回の賞品は..."
+dialogtxt       "Don't attack the machine"
+dialogtxt       "if you miss first place!"
+dialogtxt       "Available prizes are…"
 code0309        
-dialogtxt       "特賞　再延長の指輪"
-dialogtxt       "２等　雷光の護符"
-dialogtxt       "３等　雷結晶"
+dialogtxt       "First Place: Friend Ring"
+dialogtxt       "Second Place: Thunder Charm"
+dialogtxt       "Third Place: Thunder Crystal"
 code0309        
-dialogtxt       "４等　烈火の護符"
-dialogtxt       "５等　炎結晶"
-dialogtxt       "以上だぁっ！！"
+dialogtxt       "Fourth Place: Flare Charm"
+dialogtxt       "Fifth Place: Flare Crystal"
+dialogtxt       "And that's all!"
 goto            @Label_0afa
 
 @Cond_0682:
 jumpz           @Cond_0738, ($h311 == 9)
-dialogtxt       "特賞ちゃんがおよびですよ〜"
-dialogtxt       "今回の賞品は..."
+dialogtxt       "The grand prize is calling you!"
+dialogtxt       "Available prizes are…"
 code0309        
-dialogtxt       "特賞　必殺の指輪"
-dialogtxt       "２等　水流の護符"
-dialogtxt       "３等　水結晶"
+dialogtxt       "First Place: Ultra Move Ring"
+dialogtxt       "Second Place: Torrent Charm"
+dialogtxt       "Third Place: Water Crystal"
 code0309        
-dialogtxt       "４等　疾風の護符"
-dialogtxt       "５等　風結晶"
-dialogtxt       "以上だぁっ！！"
+dialogtxt       "Fourth Place: Gale Charm"
+dialogtxt       "Fifth Place: Gale Crystal"
+dialogtxt       "And that's all!"
 goto            @Label_0afa
 
 @Cond_0738:
 jumpz           @Cond_0800, ($h311 == 10)
-dialogtxt       "男も女も関係無い！"
-dialogtxt       "色っぽく回せ！"
-dialogtxt       "今回の賞品は..."
+dialogtxt       "Man or woman!"
+dialogtxt       "Try to look sexy as you spin it!"
+dialogtxt       "Available prizes are…"
 code0309        
-dialogtxt       "特賞　救急セット"
-dialogtxt       "２等　辛いカ[NAME 8]ー"
-dialogtxt       "３等　卵かけ飯"
+dialogtxt       "First Place: Med Kit"
+dialogtxt       "Second Place: Hot Curry"
+dialogtxt       "Third Place: Seasoned Rice"
 code0309        
-dialogtxt       "４等　柔らか半熟卵"
-dialogtxt       "５等　ジュウユ薬"
-dialogtxt       "以上だぁっ！！"
+dialogtxt       "Fourth Place: Hardboiled Egg"
+dialogtxt       "Fifth Place: Heartleaf Potion"
+dialogtxt       "And that's all!"
 goto            @Label_0afa
 
 @Cond_0800:
 jumpz           @Cond_0962, ($h311 == 11)
 jumpz           @Cond_083e, ($b003 == 0)
-dialogtxt       "コンナ賞品アリエナイ！"
+dialogtxt       "These Prizes Are Unbelievable!"
 goto            @Label_08cc
 
 @Cond_083e:
 jumpz           @Cond_0866, ($b003 == 1)
-dialogtxt       "福引きで勝負だ！"
+dialogtxt       "Let us challenge the wheel!"
 goto            @Label_08cc
 
 @Cond_0866:
 jumpz           @Cond_089e, ($b003 == 2)
-dialogtxt       "福引きするの？"
-dialogtxt       "しかたないわね"
+dialogtxt       "Want to give it a try?"
+dialogtxt       "Fine."
 goto            @Label_08cc
 
 @Cond_089e:
-dialogtxt       "すごい賞品だって"
-dialogtxt       "風が言ってるです！"
+dialogtxt       "I can sense an"
+dialogtxt       "amazing prize coming!"
 goto            @Label_08cc
 
 @Label_08cc:
-dialogtxt       "今回の賞品は..."
+dialogtxt       "Available prizes are…"
 code0309        
-dialogtxt       "特賞　魔力の腕輪"
-dialogtxt       "２等　決死のラブ[NAME 8]ター"
-dialogtxt       "３等　超加速装置"
+dialogtxt       "First Place: Magic Armlet"
+dialogtxt       "Second Place: Death Note"
+dialogtxt       "Third Place: Speeding Device"
 code0309        
-dialogtxt       "４等　しびれ鉄粉"
-dialogtxt       "５等　[NAME 6]ムリ鉄粉"
-dialogtxt       "以上だぁっ！！"
+dialogtxt       "Fourth Place: Paralyze Powder"
+dialogtxt       "Fifth Place: Sleep Powder"
+dialogtxt       "And that's all!"
 goto            @Label_0afa
 
 @Cond_0962:
 jumpz           @Cond_0a36, ($h311 == 12)
-dialogtxt       "特賞が出なくても"
-dialogtxt       "それはそれだ！"
-dialogtxt       "今回の賞品は..."
+dialogtxt       "Don't be too sad if you"
+dialogtxt       "don't get the grand prize!"
 code0309        
-dialogtxt       "特賞　長期保証の指輪"
-dialogtxt       "２等　スプ[NAME 8]ンド鉱石"
-dialogtxt       "３等　エクセル鉱石"
+dialogtxt       "First Place: Friendship Ring"
+dialogtxt       "Second Place: Splendid Mineral"
+dialogtxt       "Third Place: Excellent Ore"
 code0309        
-dialogtxt       "４等　パニッシュ鉱"
-dialogtxt       "５等　サッシュ鉱石"
-dialogtxt       "以上だぁっ！！"
+dialogtxt       "Fourth Place: Banish Material"
+dialogtxt       "Fifth Place: Sash Ore"
+dialogtxt       "And that's all!"
 goto            @Label_0afa
 
 @Cond_0a36:
 jumpz           @Label_0afa, ($h311 == 99)
-dialogtxt       "これで最後だ！　気合で回せ！"
-dialogtxt       "今回の賞品は..."
+dialogtxt       "This is the last one! Go for it!"
+dialogtxt       "Available prizes are…"
 code0309        
-dialogtxt       "特賞　超絶電動機"
-dialogtxt       "２等　鋼牙原石"
-dialogtxt       "３等　狂乱幻舞鉱"
+dialogtxt       "First Place: Ultimate Motor"
+dialogtxt       "Second Place: Steel Fang Ore"
+dialogtxt       "Third Place: Frenzy Dance Ore"
 code0309        
-dialogtxt       "４等　ユウビス鉱石"
-dialogtxt       "５等　[NAME 8]ジスト原石"
-dialogtxt       "ぬぉぉぉぉぉう！"
+dialogtxt       "Fourth Place: Refined Ore"
+dialogtxt       "Fifth Place: Resistor Crystal"
+dialogtxt       "Nuooooooooh!"
 goto            @Label_0afa
 
 @Label_0afa:

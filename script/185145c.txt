@@ -17,13 +17,13 @@ code047d        1, 138
 call            @Func_1932
 call            @Func_189a
 jumpz           @Cond_012c, ($b002 == 0)
-dialogtxt       "あ、おにーちゃん"
-dialogtxt       "きたよー"
+dialogtxt       "Ah, big bro,"
+dialogtxt       "you're here!"
 goto            @Label_0150
 
 @Cond_012c:
-dialogtxt       "あ、おねーちゃん"
-dialogtxt       "きたよー"
+dialogtxt       "Ah, big sis,"
+dialogtxt       "you're here!"
 goto            @Label_0150
 
 @Label_0150:
@@ -37,9 +37,8 @@ code0479        1, 0, 12
 code047d        1, 108
 call            @Func_191c
 call            @Func_18b8
-dialogtxt       "さてと"
-dialogtxt       "それじゃ、まず"
-dialogtxt       "どこから手をつけようか..."
+dialogtxt       "Now then."
+dialogtxt       "Where should we start…"
 code047b        
 code0309        
 call            @Func_1988
@@ -48,7 +47,7 @@ code047b
 code047d        0, 106
 code0301        8, 0
 code047e        0, 1
-dialogtxt       "すみませ〜ん..."
+dialogtxt       "Excuse me~…"
 code0309        
 code047e        0, 0
 code0302        0
@@ -67,7 +66,7 @@ code0479        1, 0, 16
 code047d        1, 109
 call            @Func_191c
 call            @Func_189a
-dialogtxt       "あれ、あの人は..."
+dialogtxt       "Huh, that's…"
 code047b        
 code0309        
 call            @Func_1972
@@ -88,9 +87,9 @@ code0479        0, 4, 15
 code047d        0, 112
 call            @Func_1906
 call            @Func_182e
-dialogtxt       "大変です"
-dialogtxt       "さっき、アニスの仲間らしき人を"
-dialogtxt       "見たって通報が入って..."
+dialogtxt       "It's terrible!"
+dialogtxt       "We've received a tip that"
+dialogtxt       "Anise may have been spotted."
 code047b        
 code0309        
 call            @Func_195c
@@ -109,9 +108,9 @@ code0479        0, 4, 14
 code047d        0, 112
 call            @Func_1906
 call            @Func_182e
-dialogtxt       "だから僕がこうやって急いで知らせに..."
-dialogtxt       "でも、みんなはぐれ退治に忙しそうだし"
-dialogtxt       "ボスタフさんもいなかったし..."
+dialogtxt       "I hurried to inform everyone, but…"
+dialogtxt       "Everyone was too busy exterminating"
+dialogtxt       "Strays, and Bostaph was gone…"
 code0309        
 call            @Func_1882
 code0478        1, 9
@@ -119,15 +118,15 @@ code0479        1, 2, 15
 code047d        1, 108
 call            @Func_191c
 call            @Func_18b8
-dialogtxt       "アンタのことはいいから！"
-dialogtxt       "アニスたちはドコにいたって！？"
+dialogtxt       "Enough about you!"
+dialogtxt       "Where is Anise!?"
 code047b        
 code0309        
 call            @Func_18ee
 code0479        0, 4, 16
 call            @Func_184c
-dialogtxt       "そ、それが..."
-dialogtxt       "リュート岩窟だって..."
+dialogtxt       "Th-they're…"
+dialogtxt       "at Lute Grotto…"
 code0309        
 call            @Func_1972
 call            @Func_1882
@@ -137,9 +136,9 @@ code0479        1, 2, 16
 code047d        1, 138
 call            @Func_191c
 call            @Func_18b8
-dialogtxt       "ええ〜..."
-dialogtxt       "またリュートがんくつが"
-dialogtxt       "あぶないの...？"
+dialogtxt       "Ehh~…"
+dialogtxt       "Lute Grotto is becoming"
+dialogtxt       "dangerous again…?"
 code0309        
 call            @Func_195c
 call            @Func_18ee
@@ -153,9 +152,9 @@ code047d        0, 0
 call            @Func_1906
 call            @Func_184c
 jumpz           @Cond_07ea, ($b002 == 0)
-dialogtxt       "そうだね"
-dialogtxt       "あぶないから材料集めは"
-dialogtxt       "やめた方がいいよ"
+dialogtxt       "It is."
+dialogtxt       "It would be best if you"
+dialogtxt       "stopped going there."
 code047b        
 code0309        
 code0334        
@@ -163,15 +162,15 @@ code0331        40, 256
 code043c        2, 3
 code043c        3, 3
 code0479        0, 2, 12
-dialogtxt       "オ[NAME 8]たちが悪いヤツらを"
-dialogtxt       "捕まえるまではね！"
-dialogtxt       "さあ、リュート岩窟に行こう！"
+dialogtxt       "Just until we"
+dialogtxt       "capture the bad guys!"
+dialogtxt       "Alright, let's head to Lute Grotto!"
 goto            @Label_08be
 
 @Cond_07ea:
-dialogtxt       "そうだね"
-dialogtxt       "あぶないから材料集めは"
-dialogtxt       "やめた方がいいよ"
+dialogtxt       "It is."
+dialogtxt       "It would be best if you"
+dialogtxt       "stopped going there."
 code047b        
 code0309        
 code0334        
@@ -179,9 +178,9 @@ code0331        40, 256
 code043c        2, 3
 code043c        3, 3
 code0479        0, 2, 12
-dialogtxt       "わたしたちが悪いヤツらを"
-dialogtxt       "捕まえるまではね！"
-dialogtxt       "さあ、リュート岩窟に行こう！"
+dialogtxt       "Just until we"
+dialogtxt       "capture the bad guys!"
+dialogtxt       "Alright, let's head to Lute Grotto!"
 goto            @Label_08be
 
 @Label_08be:
@@ -194,7 +193,7 @@ code0479        0, 0, 17
 code047d        0, 112
 call            @Func_1906
 call            @Func_182e
-dialogtxt       "あ、ちょっと..."
+dialogtxt       "Ah, wait…"
 code047b        
 code0309        
 call            @Func_1882
@@ -204,30 +203,29 @@ code0479        1, 2, 12
 code047d        1, 108
 call            @Func_191c
 call            @Func_18b8
-dialogtxt       "なんだい？"
-dialogtxt       "アンタもついてきたいのかい？"
-dialogtxt       "気持ちはありがたいんだけど..."
+dialogtxt       "What is it?"
+dialogtxt       "Do you want to come too?"
+dialogtxt       "I'm grateful, but…"
 code047b        
 code0309        
 code0479        1, 2, 14
 code0479        0, 0, 14
-dialogtxt       "アンタまともに召喚術も"
-dialogtxt       "使えないんだろ？"
-dialogtxt       "危ないからさ、やめときなよ"
+dialogtxt       "You're not a Summoner, right?"
+dialogtxt       "It's too dangerous for you."
 code0309        
 call            @Func_18ee
 code0479        0, 5, 17
 call            @Func_184c
-dialogtxt       "あ、当たり前じゃないですか！"
-dialogtxt       "行くわけないですよ！"
-dialogtxt       "そんな危なそうなところなんて！"
+dialogtxt       "Of, of course not!"
+dialogtxt       "There's no way I'd go"
+dialogtxt       "to a place that dangerous!"
 code0309        
 call            @Func_1882
 code0479        1, 5, 16
 call            @Func_18b8
-dialogtxt       "あ、ああ、そうなの...？"
-dialogtxt       "んじゃ、もう用はないみたいだから"
-dialogtxt       "アタシたちはこれで"
+dialogtxt       "O-oh, is that so…?"
+dialogtxt       "Well, if there's nothing else,"
+dialogtxt       "we'll be off."
 code0309        
 call            @Func_1988
 call            @Func_18d6
@@ -259,9 +257,9 @@ code046e        38, 256, 2
 code0479        0, 4, 16
 call            @Func_1906
 call            @Func_182e
-dialogtxt       "あ..."
-dialogtxt       "あの、せめて"
-dialogtxt       "お礼くらい言ってくれても..."
+dialogtxt       "Ah…"
+dialogtxt       "Um, at least,"
+dialogtxt       "thank me…"
 code047b        
 code0309        
 call            @Func_1882
@@ -271,8 +269,8 @@ code0479        1, 4, 12
 code047d        1, 0
 call            @Func_191c
 call            @Func_18b8
-dialogtxt       "あ、ああ..."
-dialogtxt       "えと、ありがとうございます..."
+dialogtxt       "Ah, ahh…"
+dialogtxt       "Um, thank you very much…"
 code047b        
 code0309        
 call            @Func_195c
@@ -303,49 +301,49 @@ code047d        0, 2
 call            @Func_1906
 call            @Func_184c
 jumpz           @Cond_0e9a, ($b003 == 0)
-dialogtxt       "..."
-dialogtxt       "早ク行[NAME 4]マショウ"
+dialogtxt       "…"
+dialogtxt       "Let's Hurry."
 code047b        
 code0309        
 call            @Func_1882
 code0479        1, 2, 12
 call            @Func_18b8
-dialogtxt       "おー！"
+dialogtxt       "Yeah!"
 goto            @Cond_0e9a
 
 @Cond_0e9a:
 jumpz           @Cond_0eee, ($b003 == 1)
-dialogtxt       "ふう..."
-dialogtxt       "早く行くぞ"
+dialogtxt       "Fuu…"
+dialogtxt       "Let's get going."
 code0309        
 call            @Func_1882
 code0479        1, 2, 12
 call            @Func_18b8
-dialogtxt       "うん！"
+dialogtxt       "Right!"
 goto            @Cond_0eee
 
 @Cond_0eee:
 jumpz           @Cond_0f76, ($b003 == 2)
-dialogtxt       "ちっ..."
-dialogtxt       "こんなヤツとウダウダ話してる"
-dialogtxt       "ヒマがあるのか？"
+dialogtxt       "Tch…"
+dialogtxt       "We don't have time to waste"
+dialogtxt       "on meaningless conversation."
 code0309        
 call            @Func_1882
 code0479        1, 2, 14
 call            @Func_18b8
-dialogtxt       "わかった"
-dialogtxt       "急ごう！"
+dialogtxt       "Right."
+dialogtxt       "Let's go!"
 goto            @Cond_0f76
 
 @Cond_0f76:
 jumpz           @Cond_0fd6, ($b003 == 3)
-dialogtxt       "さあさあ！"
-dialogtxt       "早く行きましょう！"
+dialogtxt       "Come now!"
+dialogtxt       "It's time to go!"
 code0309        
 call            @Func_1882
 code0479        1, 2, 12
 call            @Func_18b8
-dialogtxt       "うん！"
+dialogtxt       "Right!"
 goto            @Cond_0fd6
 
 @Cond_0fd6:
@@ -360,7 +358,7 @@ call            @Func_191c
 code043c        0, 4
 code043c        1, 4
 call            @Func_189a
-dialogtxt       "いってらっしゃ〜い"
+dialogtxt       "Take care~!"
 code047b        
 code0309        
 call            @Func_1972
@@ -371,8 +369,8 @@ code0479        0, 4, 14
 code047d        0, 112
 call            @Func_1906
 call            @Func_182e
-dialogtxt       "..."
-dialogtxt       "僕も帰ろう..."
+dialogtxt       "…"
+dialogtxt       "Guess I'll go home…"
 code047b        
 code0309        
 call            @Func_195c

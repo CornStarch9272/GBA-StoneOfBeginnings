@@ -1,5 +1,5 @@
-table 0x080BFD38 + 0, 28, 28
-tabletxt 0, "You don't have any weapons" ; "武器を持っていません"
+table 0x080BFD38 + 0, 24, 24
+tabletxt 0, "Don't have any weapons" ; "武器を持っていません"
 table 0x080BFD50 + 0, 28, 28
 tabletxt 0, "You don't have any items" ; "アイテムを持っていません"
 table 0x080BFD6C + 0, 20, 20
@@ -24,8 +24,8 @@ table 0x080BFDEC + 0, 8, 8
 tabletxt 0, "Send" ; "送信"
 table 0x080BFE3C + 0, 20, 20
 tabletxt 0, "Remove upgrades?" ; "強化解除しますか？"
-table 0x080BFEA8 + 0, 28, 28
-tabletxt 0, "You don't have any weapons" ; "武器を持っていません"
+table 0x080BFEA8 + 0, 24, 24
+tabletxt 0, "Don't have any weapons" ; "武器を持っていません"
 table 0x080BFEC0 + 0, 28, 28
 tabletxt 0, "All weapons repaired" ; "武器の耐久度が回復しました"
 table 0x080BFEDC + 0, 12, 12

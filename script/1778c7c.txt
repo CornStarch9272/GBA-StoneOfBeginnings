@@ -392,7 +392,7 @@ code040b
 code0301        8, 7
 code047d        0, 120
 code047e        0, 1
-dialogtxt       "金欠って悲しいよな..."
+dialogtxt       "Bankruptcy is so depressing…"
 code0309        
 code047e        0, 0
 code0302        7
@@ -402,11 +402,11 @@ code040b
 code0301        8, 7
 code047d        0, 120
 code047e        0, 1
-dialogtxt       "な、なんだよオマエは"
+dialogtxt       "Wh-whats up with you."
 code0309        
-dialogtxt       "金の派閥の一員は"
-dialogtxt       "福引きしちゃいけない"
-dialogtxt       "とでも言いたいのか！"
+dialogtxt       "You trying to say a member"
+dialogtxt       "of the Gold Council shouldn't play"
+dialogtxt       "the lottery!?"
 code0309        
 code047e        0, 0
 code0302        7
@@ -414,31 +414,31 @@ code040b
 
 @Event_10f2:
 code0301        8, 7
-dialogtxt       "　　　　　　　　贅"
-dialogtxt       "　　　　　　　　沢"
-dialogtxt       "　　　　　　　　は"
+dialogtxt       "Luxury"
+dialogtxt       ""
+dialogtxt       "feels"
 code0309        
-dialogtxt       "　　　　　　　　素"
-dialogtxt       "　　　　　　　　敵"
-dialogtxt       "　　　　　　　　だ"
+dialogtxt       "so"
+dialogtxt       ""
+dialogtxt       "lovely"
 code0309        
 code0302        7
 code040b        
 
 @Event_1192:
 code0301        8, 7
-dialogtxt       "「福引き」であなたの運を"
-dialogtxt       "試してみませんか？"
-dialogtxt       "毎日抽選！空くじ無し！！"
+dialogtxt       "Care to try our Lucky Draw?"
+dialogtxt       "It's available all day, everyday!"
+dialogtxt       "Guaranteed no losing tickets!"
 code0309        
 code0302        7
 code040b        
 
 @Event_11fa:
 code0301        8, 7
-dialogtxt       "パラメータに物足りなさを感じたら"
-dialogtxt       "ぜひアクセサリーを装備してください"
-dialogtxt       "道具屋からのお知らせでした"
+dialogtxt       "If you want to boost your stats,"
+dialogtxt       "please equip an accessory."
+dialogtxt       "A message from our shop."
 code0309        
 code0302        7
 code040b        

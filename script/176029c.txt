@@ -179,12 +179,12 @@ goto            @start
 code0301        8, 7
 code047d        0, 144
 code047e        0, 1
-dialogtxt       "にゃ？"
+dialogtxt       "Meow?"
 code0309        
 code047e        0, 0
 code0302        7
 code0366        507, 1
-popuptxt        "迷い[NAME 6]コを保護した！"
+popuptxt        "You found the lost cat!"
 code0318        
 code043b        15
 code0439        15
@@ -455,9 +455,9 @@ ret
 code0301        8, 7
 code047d        0, 121
 code047e        0, 1
-dialogtxt       "こんなカビくさい村を出て"
-dialogtxt       "大きな町に行きたいわ"
-dialogtxt       "ああ〜でも村の掟が..."
+dialogtxt       "I wanna leave this musty old village"
+dialogtxt       "and head for the big city! But…"
+dialogtxt       "Sigh, village rules and all…"
 code0309        
 code047e        0, 0
 code0302        7

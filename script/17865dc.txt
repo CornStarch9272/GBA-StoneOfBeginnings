@@ -191,15 +191,19 @@ code0301        8, 7
 code047d        0, 114
 code047e        0, 1
 jumpz           @Cond_0824, ($b002 == 0)
-dialogtxt       "δくん、ごめんなさいね"
+dialogtxt       "[NAME 2],"
+dialogtxt       "I'm so sorry about Tier"
 goto            @Label_0844
 
 @Cond_0824:
-dialogtxt       "δちゃん、ごめんなさいね"
+dialogtxt       "[NAME 2],"
+dialogtxt       "I'm so sorry about Tier"
 goto            @Label_0844
 
 @Label_0844:
-dialogtxt       "あのコ、一度言い出したらきかないの"
+dialogtxt       "That girl just wouldn't listen"
+dialogtxt       "listen to anyone once she sets"
+dialogtxt       "her mind to anything…"
 code0309        
 code047e        0, 0
 code0302        7
@@ -209,7 +213,8 @@ code040b
 code0301        8, 7
 code047d        0, 114
 code047e        0, 1
-dialogtxt       "うちのコ、迷惑かけてない？"
+dialogtxt       "Has my daughter been"
+dialogtxt       "causing you any trouble?"
 code0309        
 code047e        0, 0
 code0302        7
@@ -217,9 +222,9 @@ code040b
 
 @Event_08e6:
 code0301        8, 7
-dialogtxt       "ここから先は乙女の秘密◎"
-dialogtxt       "立ち入り禁止！！"
-dialogtxt       "　　　　　　　　　　　ティエ"
+dialogtxt       "A lady's secret lies beyond here◎"
+dialogtxt       "NO TRESPASSING!!!"
+dialogtxt       "　　　　　　　　　　　-Tier<end_line>"
 code0309        
 code0302        7
 code040b        

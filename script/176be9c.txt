@@ -116,15 +116,15 @@ code0301        8, 7
 code047d        0, 0
 code047e        0, 1
 jumpz           @Cond_05f8, ($b002 == 0)
-dialogtxt       "ねらわれてるミューノをつれて"
-dialogtxt       "あまりウロウロしない方がいいな..."
-dialogtxt       "とにかく工房に行こう"
+dialogtxt       "I shouldn't wander around while"
+dialogtxt       "Murno is still in danger…"
+dialogtxt       "Let's head to the workshop."
 goto            @Label_065a
 
 @Cond_05f8:
-dialogtxt       "ねらわれてるミューノをつれて"
-dialogtxt       "あまりウロウロしない方がいいよね..."
-dialogtxt       "とにかく工房に行こう"
+dialogtxt       "I shouldn't wander around while"
+dialogtxt       "Murno is still in danger…"
+dialogtxt       "Let's head to the workshop."
 goto            @Label_065a
 
 @Label_065a:
@@ -180,7 +180,7 @@ code034f
 goto            @start
 
 code0301        8, 7
-dialogtxt       "何らかのメッセージ予定"
+dialogtxt       "Some kind of message planned."
 code0309        
 code0302        7
 code040b        
@@ -403,13 +403,13 @@ ret
 code0301        8, 7
 code047d        0, 118
 code047e        0, 1
-dialogtxt       "いつもの門番がカゼひいたから"
-dialogtxt       "今日はオ[NAME 8]が代わりだよ"
-dialogtxt       "メンドウだなぁ..."
+dialogtxt       "The usual gatekeeper caught a cold."
+dialogtxt       "Now I have to take his place…"
+dialogtxt       "What a pain…"
 code0309        
-dialogtxt       "この先にはアカバ[NAME 6]って"
-dialogtxt       "コワイはぐれがいるらしいけど"
-dialogtxt       "行きたいなら止めないぜ"
+dialogtxt       "Just ahead is a really scary Stray"
+dialogtxt       "called Red Wing. If you really want"
+dialogtxt       "to go, I won't stop you."
 code0309        
 code047e        0, 0
 code0302        7
@@ -417,35 +417,35 @@ code040b
 
 @Talk_11a6:
 code0301        8, 7
-dialogtxt       "わう！"
+dialogtxt       "Woof!"
 code0309        
 code0302        7
 code040b        
 
 @Event_11ca:
 code0301        8, 7
-dialogtxt       "この先のス[NAME 8]ンジ採掘場には"
-dialogtxt       "凶悪なはぐれ召喚獣が出ます！"
-dialogtxt       "お出かけの時にはご注意ください"
+dialogtxt       "There are some really tough"
+dialogtxt       "strays in Surange Mine!"
+dialogtxt       "Be careful outside of town."
 code0309        
 code0302        7
 code040b        
 
 @Event_1244:
 code0301        8, 7
-dialogtxt       "何度武器で攻撃してもダメージが"
-dialogtxt       "１の場合には、魔法しか効かない"
-dialogtxt       "恐ろしい相手の可能性があります"
+dialogtxt       "If your weapon only deals 1 damage,"
+dialogtxt       "you may have encountered an "
+dialogtxt       "opponent you must face with magic."
 code0309        
 code0302        7
 code040b        
 
 @Event_12c4:
 code0301        8, 7
-dialogtxt       "下を見ろ↓"
+dialogtxt       "Look down ↓"
 code0309        
-dialogtxt       "↑上を見たい時は"
-dialogtxt       "ＳＴＡＲＴボタン"
+dialogtxt       "When you want to look up ↑"
+dialogtxt       "press the START button."
 code0309        
 code0302        7
 code040b        

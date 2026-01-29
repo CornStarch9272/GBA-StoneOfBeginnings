@@ -25,13 +25,13 @@ code047d        1, 2
 call            @Func_0ed6
 call            @Func_0dd2
 jumpz           @Cond_011e, ($b002 == 0)
-dialogtxt       "さてと"
-dialogtxt       "今日も修行をはじめるか！"
+dialogtxt       "Well then,"
+dialogtxt       "time for training!"
 goto            @Label_014a
 
 @Cond_011e:
-dialogtxt       "さてと"
-dialogtxt       "今日も修行をはじめよっか！"
+dialogtxt       "Well then,"
+dialogtxt       "time for training!"
 goto            @Label_014a
 
 @Label_014a:
@@ -59,32 +59,32 @@ goto            @Label_01e2
 @Label_01e2:
 call            @Func_0e5c
 jumpz           @Cond_0228, ($b003 == 0)
-dialogtxt       "了解デス"
-dialogtxt       "本日ハ　何をスル　予定デスカ？"
+dialogtxt       "Affirmative."
+dialogtxt       "What Do You Have Planned For Today?"
 goto            @Cond_0228
 
 @Cond_0228:
 jumpz           @Cond_0298, ($b003 == 1)
-dialogtxt       "うむ！　千里の道も一歩から"
-dialogtxt       "毎日、毎日、日々精進じゃ！"
-dialogtxt       "して、今日は何をするのじゃ？"
+dialogtxt       "Right! A journey begins with a"
+dialogtxt       "single step. One must persevere!"
+dialogtxt       "So, what shall we do today?"
 goto            @Cond_0298
 
 @Cond_0298:
 jumpz           @Cond_0346, ($b003 == 2)
-dialogtxt       "イヤだ..."
-dialogtxt       "と言うだけムダなことはわかった"
-dialogtxt       "しかたない、つきあってやるが..."
+dialogtxt       "If I said I don't want to…"
+dialogtxt       "I suppose it wouldn't matter."
+dialogtxt       "Fine, I'll tag along…"
 code0309        
 code0479        1, 0, 12
-dialogtxt       "で、[NAME 4]サマはこりもせず"
-dialogtxt       "何をするつもりなんだ？"
+dialogtxt       "Let's get on with it."
+dialogtxt       "What's the plan?"
 goto            @Cond_0346
 
 @Cond_0346:
 jumpz           @Cond_039c, ($b003 == 3)
-dialogtxt       "そうですね、がんばりますわ！"
-dialogtxt       "じゃあ今日は、何をしましょう？"
+dialogtxt       "That's right, let's work hard!"
+dialogtxt       "What shall we do today?"
 goto            @Cond_039c
 
 @Cond_039c:
@@ -93,15 +93,15 @@ call            @Func_0e92
 code0479        0, 2, 16
 call            @Func_0df0
 jumpz           @Cond_042c, ($b002 == 0)
-dialogtxt       "そうだな、新しい武器も作りたいし"
-dialogtxt       "召喚獣といっしょの[NAME 8]ミィとも"
-dialogtxt       "勝負したいし、う〜ん..."
+dialogtxt       "Hmm, I wanted to make a new weapon,"
+dialogtxt       "and also have a match with Lemmy"
+dialogtxt       "and his Summon Beast…"
 goto            @Label_048e
 
 @Cond_042c:
-dialogtxt       "そうねぇ、新しい武器も作りたいし"
-dialogtxt       "召喚獣といっしょの[NAME 8]ミィとも"
-dialogtxt       "勝負したいし、う〜ん..."
+dialogtxt       "Hmm, I wanted to make a new weapon,"
+dialogtxt       "and also have a match with Lemmy"
+dialogtxt       "and his Summon Beast…"
 goto            @Label_048e
 
 @Label_048e:
@@ -128,30 +128,30 @@ goto            @Label_0524
 @Label_0524:
 call            @Func_0e5c
 jumpz           @Cond_0568, ($b003 == 0)
-dialogtxt       "デハ　イツモ通リ"
-dialogtxt       "適当"
-dialogtxt       "ト言ウコトデ"
+dialogtxt       "You Mean,"
+dialogtxt       "Whatever Randomly Comes To Mind."
+dialogtxt       "As Usual."
 goto            @Cond_0568
 
 @Cond_0568:
 jumpz           @Cond_05ae, ($b003 == 1)
-dialogtxt       "つまり、いつも通り"
-dialogtxt       "適当"
-dialogtxt       "と言うことじゃな"
+dialogtxt       "In other words,"
+dialogtxt       "whatever randomly comes to mind."
+dialogtxt       "As usual."
 goto            @Cond_05ae
 
 @Cond_05ae:
 jumpz           @Cond_05fa, ($b003 == 2)
-dialogtxt       "ちっ...、要するにいつも通り"
-dialogtxt       "適当"
-dialogtxt       "と言うことだな"
+dialogtxt       "Tch… In other words,"
+dialogtxt       "whatever randomly comes to mind."
+dialogtxt       "As always."
 goto            @Cond_05fa
 
 @Cond_05fa:
 jumpz           @Cond_0648, ($b003 == 3)
-dialogtxt       "わかりましたわ、いつも通り"
-dialogtxt       "適当"
-dialogtxt       "と言うことですね"
+dialogtxt       "Understood,"
+dialogtxt       "so whatever randomly comes to mind."
+dialogtxt       "As always."
 goto            @Cond_0648
 
 @Cond_0648:
@@ -160,13 +160,13 @@ call            @Func_0e92
 code0479        0, 1, 13
 call            @Func_0df0
 jumpz           @Cond_06ac, ($b002 == 0)
-dialogtxt       "まあ、そうだな"
-dialogtxt       "いつも通り、楽しくいこうぜ！"
+dialogtxt       "I guess so."
+dialogtxt       "Well, let's have fun with it!"
 goto            @Label_06e0
 
 @Cond_06ac:
-dialogtxt       "まあ、そうだね"
-dialogtxt       "いつも通り、楽しくいこう！"
+dialogtxt       "I guess so."
+dialogtxt       "Well, let's have fun with it!"
 goto            @Label_06e0
 
 @Label_06e0:
@@ -193,23 +193,23 @@ goto            @Label_0776
 @Label_0776:
 call            @Func_0e5c
 jumpz           @Cond_0798, ($b003 == 0)
-dialogtxt       "オー！"
+dialogtxt       "Yes!"
 goto            @Cond_0798
 
 @Cond_0798:
 jumpz           @Cond_07c0, ($b003 == 1)
-dialogtxt       "うむ、承知した！"
+dialogtxt       "Mm, acknowledged!"
 goto            @Cond_07c0
 
 @Cond_07c0:
 jumpz           @Cond_07ec, ($b003 == 2)
-dialogtxt       "ふっ..."
-dialogtxt       "好きにしろ"
+dialogtxt       "Fu…"
+dialogtxt       "Whatever."
 goto            @Cond_07ec
 
 @Cond_07ec:
 jumpz           @Cond_0812, ($b003 == 3)
-dialogtxt       "はい、δさん！"
+dialogtxt       "Yes, [NAME 2]!"
 goto            @Cond_0812
 
 @Cond_0812:

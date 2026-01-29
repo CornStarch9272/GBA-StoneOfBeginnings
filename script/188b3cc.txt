@@ -7,21 +7,21 @@ code047d        1, 114
 call            @Func_07ae
 call            @Func_0716
 jumpz           @Cond_0090, ($b002 == 0)
-dialogtxt       "δくんのカツヤク"
+dialogtxt       "[NAME 2] did it!"
 goto            @Label_00aa
 
 @Cond_0090:
-dialogtxt       "δちゃんのカツヤク"
+dialogtxt       "[NAME 2] did it!"
 goto            @Label_00aa
 
 @Label_00aa:
-dialogtxt       "ティエから聞いたわ"
-dialogtxt       "スゴイわね！"
+dialogtxt       "I heard from Tier!"
+dialogtxt       "You were amazing!"
 code047b        
 code0309        
 code0479        1, 0, 13
-dialogtxt       "早く、ウチの鍛冶師として"
-dialogtxt       "いらっしゃいな！"
+dialogtxt       "I hope you join as one of our"
+dialogtxt       "Craftknights soon!"
 code0309        
 call            @Func_0804
 call            @Func_0752

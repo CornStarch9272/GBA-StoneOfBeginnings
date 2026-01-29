@@ -136,9 +136,9 @@ goto            @start
 code0301        8, 7
 code047d        0, 136
 code047e        0, 1
-dialogtxt       "なんだ？　また来たのか"
-dialogtxt       "仕方ないヤツだな..."
-dialogtxt       "ま、ゆっくりしていけ"
+dialogtxt       "Hm? You again?"
+dialogtxt       "What an incorrigible fellow…"
+dialogtxt       "Well, take your time."
 code0309        
 code047e        0, 0
 code0302        7
@@ -146,9 +146,9 @@ code040b
 
 @Event_06b6:
 code0301        8, 7
-dialogtxt       "ギャラハン工房からのお知らせ"
-dialogtxt       "カウンターに店員がいないときには"
-dialogtxt       "勝手に買い物してください"
+dialogtxt       "A notice From Gallahan's Workshop:"
+dialogtxt       "When a clerk is not at the counter,"
+dialogtxt       "please shop at your own convenience."
 code0309        
 code0302        7
 code040b        
@@ -358,63 +358,68 @@ ret
 code0301        8, 7
 code047d        0, 148
 code047e        0, 1
-dialogtxt       "あら、そのハンマーは鍛冶師ね"
-dialogtxt       "今、鍛冶師や鍛冶職人に会うために"
-dialogtxt       "旅をして面識を広げてるのよ"
+dialogtxt       "My, that's a Crafknight's hammer."
+dialogtxt       "I'm actually a traveling peddler,"
+dialogtxt       "trying to make a name for myself"
+dialogtxt       "among Craftknights and blacksmiths."
 code0309        
-dialogtxt       "将来は大きな店をもって娘と２人で"
-dialogtxt       "暮らすためにお得意さんを"
-dialogtxt       "見つけるためにね"
+dialogtxt       "Eventually I'd like to open"
+dialogtxt       "a shop with my daugher. And for"
+dialogtxt       "that, we need customers."
 code0309        
-dialogtxt       "鍛冶の事には詳しいから何か"
-dialogtxt       "知りたいことがあったら聞いてね"
+dialogtxt       "I know quite a lot about smithing."
+dialogtxt       "Feel free to ask me anything."
 code0309        
 code047e        0, 0
-choicetxt       @Choice_10a6, "作製について教えてほしい"
-choicetxt       @Choice_1208, "解体について教えてほしい"
-choicetxt       @Choice_1348, "今は特にない"
+choicetxt       @Choice_10a6, "Teach me about crafting"
+choicetxt       @Choice_1208, "Teach me about disassembly"
+choicetxt       @Choice_1348, "Nothing right now"
 choicewait      
 
 @Choice_10a6:
 code047e        0, 1
-dialogtxt       "とっておきの情報なんだけど"
-dialogtxt       "良質な武器が出来る秘密を"
-dialogtxt       "教えてあげるね"
+dialogtxt       "This is very information."
+dialogtxt       "I'll teach you the secret"
+dialogtxt       "to making high quality weapons."
 code0309        
-dialogtxt       "普通に作製すると武器ランクが"
-dialogtxt       "鍛冶ランクよりも高いと確率は"
-dialogtxt       "低くてなかなかできないの"
+dialogtxt       "Normally, your weapon rank will"
+dialogtxt       "not exceed your smithing rank,"
+dialogtxt       "and you have a low chance of"
+dialogtxt       "achieving high quality."
 code0309        
-dialogtxt       "でもね、鍛冶ランクより低い武器を"
-dialogtxt       "作製すると確率が高くなるのよ"
+dialogtxt       "However, if you craft a weapon"
+dialogtxt       "with a rank lower than your smithing"
+dialogtxt       "rank, that chance increases."
 code0309        
-dialogtxt       "それから、パートナーが得意な武器を"
-dialogtxt       "作るときには確率がさらに上がることが"
-dialogtxt       "わかったの"
+dialogtxt       "What's more, that chance will be"
+dialogtxt       "even higher for weapons matching"
+dialogtxt       "your partner's specialty."
+dialogtxt       "Understand?"
 code0309        
 goto            @Label_1372
 
 @Choice_1208:
 code047e        0, 1
-dialogtxt       "じゃ、今回はとっておきの解体を"
-dialogtxt       "教えてあげるね"
+dialogtxt       "Well then, this time I'll teach"
+dialogtxt       "you about disassembly."
 code0309        
-dialogtxt       "解体には普通の解体の他に"
-dialogtxt       "解体改って言うのがあるのを"
-dialogtxt       "知ってるかな？"
+dialogtxt       "Did you know that in addition to"
+dialogtxt       "normal disassembly, there is"
+dialogtxt       "also revision disassembly?"
 code0309        
-dialogtxt       "これはね、熟練度が最大の武器を"
-dialogtxt       "解体すると必殺技や特殊効果が"
-dialogtxt       "残ったマテルが手にはいるの"
+dialogtxt       "When you disassemble weapons with"
+dialogtxt       "maxed skill, the leftover materials"
+dialogtxt       "may have special skills or effects."
 code0309        
-dialogtxt       "このマテルを使えば、好きな武器に"
-dialogtxt       "好きな効果がつけられて便利よね"
+dialogtxt       "You can use those materials"
+dialogtxt       "to add special effects to any"
+dialogtxt       "weapon you like."
 code0309        
 goto            @Label_1372
 
 @Choice_1348:
 code047e        0, 1
-dialogtxt       "気が向いたらまた来てね"
+dialogtxt       "Come again!"
 code0309        
 @Label_1372:
 code047e        0, 0

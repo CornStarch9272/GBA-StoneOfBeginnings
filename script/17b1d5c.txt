@@ -391,8 +391,8 @@ ret
 code0301        8, 7
 code047d        0, 118
 code047e        0, 1
-dialogtxt       "はぐれがおとなしくなってきたんで"
-dialogtxt       "少し気も楽になったよ"
+dialogtxt       "The Strays finally calmed down,"
+dialogtxt       "so I feel I can relax a little."
 code0309        
 code047e        0, 0
 code0302        7
@@ -402,12 +402,12 @@ code040b
 code0301        8, 7
 code047d        0, 120
 code047e        0, 1
-dialogtxt       "ここだけの話だけど"
-dialogtxt       "何とかって遺跡の下にさらに"
-dialogtxt       "ナゾがあるらしいんだ"
+dialogtxt       "Just between you and me, I heard"
+dialogtxt       "there's something weird lurking"
+dialogtxt       "far beneath the ruins…"
 code0309        
-dialogtxt       "ま、冒険してみたいなら"
-dialogtxt       "行ってみるといいさ"
+dialogtxt       "Well, if you want some thrill in"
+dialogtxt       "your life, why not give it a shot?"
 code0309        
 code047e        0, 0
 code0302        7
@@ -415,9 +415,9 @@ code040b
 
 @Event_1076:
 code0301        8, 7
-dialogtxt       "強刃のしすぎで新しい武器を"
-dialogtxt       "鍛えない職人が増えたと"
-dialogtxt       "ベン[NAME 5]ンさんは嘆いているみたいです"
+dialogtxt       "Benson's miffed that Craftknights"
+dialogtxt       "who prioritize honing their own"
+dialogtxt       "weapons neglect to craft new ones."
 code0309        
 code0302        7
 code040b        

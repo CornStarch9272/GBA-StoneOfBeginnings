@@ -21,6 +21,7 @@ struct Args {
 	bool dryRun = false;
 	bool quiet = false;
 	bool noPatch = false;
+    bool useExternalImporter = true;
 };
 
 static int parse_args(Args &result, int argc, char *argv[]) {
@@ -38,6 +39,8 @@ static int parse_args(Args &result, int argc, char *argv[]) {
 				result.pos = (uint32_t)strtoul(argv[++i], nullptr, 16);
 			} else if (!strcmp(argv[i], "--dry-run")) {
 				result.dryRun = true;
+			} else if (!strcmp(argv[i], "--no-extern")) {
+				result.useExternalImporter = false;
 			} else if (!strcmp(argv[i], "--quiet")) {
 				result.quiet = true;
 			} else if (!strcmp(argv[i], "--no-patch")) {
@@ -143,7 +146,10 @@ int main(int argc, char *argv[]) {
 	}
 
 	InsertInfo info = detect_insert_info(args.image, args.pos);
-	std::vector<uint8_t> data = prepare_insert(out, info);
+	std::vector<uint8_t> data = prepare_insert(out, info, args.quiet);
+    if (args.useExternalImporter){
+        return 0;
+    }
 	if (!info.valid) {
 		fprintf(stderr, "Insertion failed: %s\n", info.error.c_str());
 		return 4;

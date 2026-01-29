@@ -58,15 +58,15 @@ code0301        8, 7
 code047d        0, 0
 code047e        0, 1
 jumpz           @Cond_032a, ($b002 == 0)
-dialogtxt       "ねらわれてるミューノをつれて"
-dialogtxt       "あまりウロウロしない方がいいな..."
-dialogtxt       "とにかく工房に行こう"
+dialogtxt       "I shouldn't wander around while"
+dialogtxt       "Murno is still in danger…"
+dialogtxt       "Let's head to the workshop."
 goto            @Label_038c
 
 @Cond_032a:
-dialogtxt       "ねらわれてるミューノをつれて"
-dialogtxt       "あまりウロウロしない方がいいよね..."
-dialogtxt       "とにかく工房に行こう"
+dialogtxt       "I shouldn't wander around while"
+dialogtxt       "Murno is still in danger…"
+dialogtxt       "Let's head to the workshop."
 goto            @Label_038c
 
 @Label_038c:
@@ -349,8 +349,7 @@ ret
 code0301        8, 7
 code047d        0, 118
 code047e        0, 1
-dialogtxt       "ス[NAME 7]ート洞窟はまだ"
-dialogtxt       "立ち入り禁止だよ"
+dialogtxt       "Spoat Grotto is still off-limits."
 code0309        
 code047e        0, 0
 code0302        7
@@ -360,8 +359,8 @@ code040b
 code0301        8, 7
 code047d        0, 120
 code047e        0, 1
-dialogtxt       "会員証をお持ちの方はどうぞ"
-dialogtxt       "お通り下さい"
+dialogtxt       "Only those with a Membership"
+dialogtxt       "Card may pass."
 code0309        
 code047e        0, 0
 code0302        7
@@ -371,12 +370,11 @@ code040b
 code0301        8, 7
 code047d        0, 120
 code047e        0, 1
-dialogtxt       "悪いがここから先は特別に"
-dialogtxt       "許可された者しか通すわけには"
-dialogtxt       "いかないな"
+dialogtxt       "Sorry, but only VIPs can"
+dialogtxt       "pass through here."
 code0309        
-dialogtxt       "ただし会員証を持っているなら"
-dialogtxt       "話は別だがな"
+dialogtxt       "But, if you have a Membership"
+dialogtxt       "Card, we might let you in."
 code0309        
 code047e        0, 0
 code0302        7
@@ -384,9 +382,9 @@ code040b
 
 @Event_0f84:
 code0301        8, 7
-dialogtxt       "選ばれたお客様だけに"
-dialogtxt       "最高の一時を差し上げます"
-dialogtxt       "福引きしてみませんか？"
+dialogtxt       "We offer the best experience"
+dialogtxt       "only to select customers!"
+dialogtxt       "Want to give the lottery a try?"
 code0309        
 code0302        7
 code040b        

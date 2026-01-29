@@ -10,7 +10,7 @@ code0412        4, 1
 code0418        2
 setvar          $b075, 1
 setvar          $b072, 0
-placetxt        "Auric Collective　Entrance"
+placetxt        "Gold Council　Entrance"
 code040c        1, @Label_0216
 code040c        2, @Label_020c
 code0438        2, 220, 569, 1
@@ -274,8 +274,8 @@ code043e        16, 3, 0
 code0301        8, 7
 code047d        0, 127
 code047e        0, 1
-dialogtxt       "はぐれもおとなしくなったんで"
-dialogtxt       "特に仕事は無いよ"
+dialogtxt       "The Strays have quelled down, so"
+dialogtxt       "we don't have any agenda today."
 code0309        
 code047e        0, 0
 code0302        7
@@ -287,11 +287,11 @@ code040b
 code0301        8, 7
 code047d        0, 120
 code047e        0, 1
-dialogtxt       "ベルヴォ[NAME 8]ンさん"
-dialogtxt       "どこに行っちゃったんでしょう"
+dialogtxt       "I wonder where has Sir"
+dialogtxt       "Velvoren one off to…"
 code0309        
-dialogtxt       "イアナさんに聞いても"
-dialogtxt       "はぐらかされるだけですし"
+dialogtxt       "I already asked Ms. Ianna, but she"
+dialogtxt       "refused to tell me for some reason."
 code0309        
 code047e        0, 0
 code0302        7

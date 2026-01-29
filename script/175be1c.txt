@@ -16,7 +16,7 @@ code0418        1
 setvar          $b075, 1
 setvar          $b072, 0
 code046c        0
-placetxt        "Gallahan's Workshop - Workshop"
+placetxt        "Gallahan's Workshop　Workshop"
 jumpz           @Cond_010c, ($f0043 == 1)
 code040c        1, @Label_0b36
 goto            @Cond_010c
@@ -193,9 +193,9 @@ code043e        0, 3, 0
 code0301        8, 7
 code047d        0, 136
 code047e        0, 1
-dialogtxt       "信じてもらいたいのなら"
-dialogtxt       "おかしな行動はするべきでは"
-dialogtxt       "ないと思うぞ？"
+dialogtxt       "If you want us to trust you,"
+dialogtxt       "you shouldn't act suspicous,"
+dialogtxt       "right?"
 code0309        
 code047e        0, 0
 code0302        7
@@ -290,8 +290,9 @@ goto            @Cond_0034
 code0301        8, 7
 code047d        0, 136
 code047e        0, 1
-dialogtxt       "どうした？"
-dialogtxt       "剣の修理ぐらい出来て当然だろう？"
+dialogtxt       "What's wrong?"
+dialogtxt       "You should be able to at"
+dialogtxt       "least repair a sword."
 code0309        
 code047e        0, 0
 code0302        7

@@ -261,15 +261,16 @@ ret
 
 @Event_0a06:
 code0301        8, 7
-dialogtxt       "はれたひは"
-dialogtxt       "じっとなんかしていられない"
-dialogtxt       "まちのそとはちょっと[NAME 4]ケンだけど"
+dialogtxt       "I just can't sit still when"
+dialogtxt       "the weather is perfect today!"
+dialogtxt       "Going outside town's risky, though."
 code0309        
-dialogtxt       "りゆうなんていらない"
-dialogtxt       "のはらをかけぬけ　かわをこえ"
-dialogtxt       "いきたいところへ"
+dialogtxt       "Reasons, I do not need"
+dialogtxt       "Whereto plains and rivers yonder"
+dialogtxt       "I travel indeed."
 code0309        
-dialogtxt       "しゅうちゃくえきなんてないのだから"
+dialogtxt       "For there is naught a"
+dialogtxt       "final destination."
 code0309        
 code0302        7
 code040b        

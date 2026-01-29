@@ -10,7 +10,7 @@ code0412        4, 1
 code0418        2
 setvar          $b075, 1
 setvar          $b072, 0
-placetxt        "Prosban　second-hand shop"
+placetxt        "Prosban Town　Toolshop"
 code040c        1, @Label_048a
 code040c        2, @Label_0480
 code0438        2, 397, 645, 1
@@ -68,7 +68,7 @@ code0412        4, 1
 code0418        2
 setvar          $b075, 1
 setvar          $b072, 0
-placetxt        "Prosban　second-hand shop"
+placetxt        "Prosban Town　Toolshop"
 code040c        1, @Label_048a
 code040c        2, @Label_0480
 code0438        2, 397, 645, 1
@@ -105,9 +105,9 @@ goto            @start
 
 @Event_049e:
 code0301        8, 7
-dialogtxt       "旅先でケガをした経験はありませんか？"
-dialogtxt       "そんな時にはＦエイド、何でもそろう"
-dialogtxt       "便利な道具屋"
+dialogtxt       "Have you ever been injured"
+dialogtxt       "with no inn in sight?"
+dialogtxt       "When that happens, think of F-Aid!"
 code0309        
 code0302        7
 code040b        
@@ -317,16 +317,16 @@ ret
 code0301        8, 7
 code047d        0, 148
 code047e        0, 1
-dialogtxt       "そうそう、この町にはベン[NAME 5]ン親方って"
-dialogtxt       "すごい鍛冶職人がいるらしいね"
-dialogtxt       "鍛冶のウデはいいんだけど..."
+dialogtxt       "Oh yeah, there seems to be a"
+dialogtxt       "great blacksmith named Benson"
+dialogtxt       "in this town."
 code0309        
-dialogtxt       "話をしてくれなかったの"
-dialogtxt       "それと...すっごく迫力があって"
-dialogtxt       "ちょっと違うかなってね"
+dialogtxt       "They say he's pretty intense,"
+dialogtxt       "but I think it's a little"
+dialogtxt       "different."
 code0309        
-dialogtxt       "また、振り出しにもどってしまった"
-dialogtxt       "感じね"
+dialogtxt       "It feels like he's returning"
+dialogtxt       "to how he used to be."
 code0309        
 code047e        0, 0
 code0302        7

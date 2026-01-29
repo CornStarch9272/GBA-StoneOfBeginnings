@@ -62,8 +62,8 @@ goto            @start
 
 @Event_0296:
 code0301        8, 7
-dialogtxt       "召喚獣トロッコに乗車の際には"
-dialogtxt       "足下に十分ご注意下さい"
+dialogtxt       "Please watch your step when you"
+dialogtxt       "board the Summon Beast railway!"
 code0309        
 code0302        7
 code040b        
@@ -342,19 +342,20 @@ ret
 code0301        8, 7
 code047d        0, 149
 code047e        0, 1
-dialogtxt       "お母様は何かに特化した"
-dialogtxt       "達人がいいっていってるけど"
-dialogtxt       "私は全てを極めた人が..."
+dialogtxt       "Mom says she wants a Master who is"
+dialogtxt       "proficient in one weapon, but I"
+dialogtxt       "want one who is proficient in ALL!"
 code0309        
-dialogtxt       "いっちばんすごいと思うの"
+dialogtxt       "Doesn't that sound REALLY awesome!?"
 code0309        
 jumpz           @Cond_0f7e, (($f1268 == 0 || $f1269 == 0) || $f1270 == 0)
-dialogtxt       "あなたは、どこまで極めた？"
-dialogtxt       "聞かせてもらっていい？"
+dialogtxt       "…Anyway, how far have you"
+dialogtxt       "come along as a Craftknight?"
+dialogtxt       "Come on, I wanna know!"
 code0309        
 code047e        0, 0
-choicetxt       @Choice_0f86, "教える"
-choicetxt       @Choice_16c6, "教えない"
+choicetxt       @Choice_0f86, "Tell her"
+choicetxt       @Choice_16c6, "Don't tell her"
 choicewait      
 
 goto            @Choice_0f86
@@ -410,13 +411,13 @@ jumpz           @Cond_1282, ($h305 == 6)
 setvar          $f1268, 1
 code0301        8, 7
 code047e        0, 1
-dialogtxt       "すっごーーーーーーいっ"
-dialogtxt       "鍛冶ランクが全て最高なんて"
-dialogtxt       "すごーーーーーーーい◎"
+dialogtxt       "WHAAAT!? OMIIIIGOSH!!!"
+dialogtxt       "ALL your Crafting Ranks are higher"
+dialogtxt       "than anyone else's! AMAZING!◎"
 code0309        
-dialogtxt       "じゃ、特別にこれをあげる"
-dialogtxt       "「鍛冶の極意書」なんだけど"
-dialogtxt       "更に鍛錬を頑張ってね"
+dialogtxt       "Here! This is for you, the"
+dialogtxt       "Ultimate Craftknight Manual!"
+dialogtxt       "Please put it to good use!"
 code0309        
 code047e        0, 0
 code0302        7
@@ -424,9 +425,9 @@ code0366        529, 1
 code0367        
 code0301        0, 7
 code0305        1
-dialogtxt       "「鍛冶の極意書」を持った状態で"
-dialogtxt       "セーブを行うことで、おまけ条件に"
-dialogtxt       "「ロブ」が追加されます"
+dialogtxt       "Keeping the Ultimate Craftknight"
+dialogtxt       "Manual in your inventory while"
+dialogtxt       "saving unlocks Rob in Bonus Mode!"
 code0309        
 code0302        7
 goto            @Cond_1282
@@ -441,13 +442,13 @@ jumpz           @Cond_1428, ($h134 == 1)
 setvar          $f1269, 1
 code0301        8, 7
 code047e        0, 1
-dialogtxt       "うわぉっ"
-dialogtxt       "全部の秘伝を集めちゃったわけ？！"
-dialogtxt       "すごすぎじゃないの〜"
+dialogtxt       "Wow…! Did you"
+dialogtxt       "get all the Secret Techniques?"
+dialogtxt       "That's such an amazing feat!"
 code0309        
-dialogtxt       "じゃ、特別にこれをあげる"
-dialogtxt       "「音声試聴機」なんだけど"
-dialogtxt       "何に使う物か、知らないけどね"
+dialogtxt       "Here! This is for you. They call"
+dialogtxt       "this an Audio Listening Device."
+dialogtxt       "I have no idea what it's for…"
 code0309        
 code047e        0, 0
 code0302        7
@@ -455,9 +456,9 @@ code0366        531, 1
 code0367        
 code0301        0, 7
 code0305        1
-dialogtxt       "「音声試聴機」を持った状態で"
-dialogtxt       "セーブを行うことで、おまけ条件に"
-dialogtxt       "「ＶＯＩＣＥ」が追加されます"
+dialogtxt       "Having the Audio Listening Device"
+dialogtxt       "in your inventory while saving lets"
+dialogtxt       "you unlock VOICE in Bonus Mode!"
 code0309        
 code0302        7
 goto            @Cond_1428
@@ -472,13 +473,13 @@ jumpz           @Cond_15da, ($h134 == 1)
 setvar          $f1270, 1
 code0301        8, 7
 code047e        0, 1
-dialogtxt       "はんぱじゃないわね〜"
-dialogtxt       "全部のはぐれと会ったわけ？！"
-dialogtxt       "はんぱじゃないよ〜◎"
+dialogtxt       "Oh, you're kidding!"
+dialogtxt       "Did you really fight every Stray!?"
+dialogtxt       "You are so unreal!◎"
 code0309        
-dialogtxt       "じゃ、特別にこれをあげる"
-dialogtxt       "「大戦チケット」なんだけど"
-dialogtxt       "何かそれっぽいからあげるね"
+dialogtxt       "Here! This is for you. They call"
+dialogtxt       "this an Ultimate Battle Ticket."
+dialogtxt       "I have no idea what it's for…"
 code0309        
 code047e        0, 0
 code0302        7
@@ -486,9 +487,9 @@ code0366        533, 1
 code0367        
 code0301        0, 7
 code0305        1
-dialogtxt       "「大戦チケット」を持った状態で"
-dialogtxt       "セーブを行うことで、おまけ条件に"
-dialogtxt       "「ボスアタック」が追加されます"
+dialogtxt       "Having the Ultimate Battle Ticket"
+dialogtxt       "in your inventory while saving"
+dialogtxt       "unlocks Boss Rush in Bonus Mode!"
 code0309        
 code0302        7
 goto            @Cond_15da
@@ -500,9 +501,9 @@ goto            @Cond_15de
 jumpz           @Cond_1668, ($f1268 == 0 && $f1269 == 0 && $f1270 == 0)
 code0301        8, 7
 code047e        0, 1
-dialogtxt       "な〜んだっ"
-dialogtxt       "何も極めてないのね〜"
-dialogtxt       "まぁ、ガンバってね"
+dialogtxt       "Wow, look at you!"
+dialogtxt       "You've got nothing else to improve!"
+dialogtxt       "Well, keep working harder!"
 code0309        
 goto            @Label_172c
 
@@ -511,8 +512,9 @@ goto            @Label_16c2
 @Cond_1668:
 code0301        8, 7
 code047e        0, 1
-dialogtxt       "やっぱり全てを極めてこそ"
-dialogtxt       "ホンモノだと思うの〜"
+dialogtxt       "Looks like you've gotta master"
+dialogtxt       "all weapons first before I"
+dialogtxt       "consider you the real deal!"
 code0309        
 goto            @Label_172c
 
@@ -523,9 +525,9 @@ goto            @Label_172c
 
 @Choice_16c6:
 code047e        0, 1
-dialogtxt       "えぇ〜教えてくれないの〜"
-dialogtxt       "ちょっとぐらいいいのにな〜"
-dialogtxt       "その気になったら教えてね"
+dialogtxt       "Whaaat!? You don't wanna talk about"
+dialogtxt       "it!? Gee, at least tell me a bit!"
+dialogtxt       "…Or not. You will soon enough!"
 code0309        
 @Label_172c:
 code047e        0, 0

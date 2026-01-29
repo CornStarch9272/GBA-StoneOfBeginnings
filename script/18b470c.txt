@@ -82,7 +82,7 @@ goto            @Cond_03e8
 goto            @Label_03ec
 
 @Label_03ec:
-placetxt        "Rekui Water Ruins Area 1"
+placetxt        "Rekui Water Ruins　Area 1"
 code040b        
 
 setvar          $h096, 47

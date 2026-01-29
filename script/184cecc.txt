@@ -6,17 +6,17 @@ code047d        0, 0
 code047a        0, 1, 1
 code0301        2, 4
 code047e        0, 1
-dialogtxt       "ロブ親方が人殺し、か..."
+dialogtxt       "Master Rob, a murderer…"
 code0309        
 code0479        0, 2, 14
 jumpz           @Cond_00e2, ($b002 == 0)
-dialogtxt       "そんなわけ、あるもんか..."
-dialogtxt       "絶対に..."
+dialogtxt       "That's impossible…"
+dialogtxt       "I'm sure…"
 goto            @Label_0112
 
 @Cond_00e2:
-dialogtxt       "そんなこと、あるわけないよ..."
-dialogtxt       "絶対に..."
+dialogtxt       "That's impossible…"
+dialogtxt       "I'm sure…"
 goto            @Label_0112
 
 @Label_0112:
@@ -34,8 +34,8 @@ code0479        0, 0, 16
 code047a        0, 1, 1
 code0301        2, 4
 code047e        0, 1
-dialogtxt       "誰か来たみたいだ"
-dialogtxt       "もしかして..."
+dialogtxt       "Someone's here."
+dialogtxt       "Maybe it's…"
 code047b        
 code0309        
 code047e        0, 0
@@ -43,12 +43,12 @@ code047a        0, 0, 1
 code0302        4
 code047b        
 code0312        
-menutxt         @Menu_0258, "ミューノ"
-menutxt         @Menu_0264, "γ"
-menutxt         @Menu_0270, "ヴィー"
-menutxt         @Menu_027c, "[NAME 8]ミィ"
-menutxt         @Menu_0288, "ジェイド"
-menutxt         @Menu_0294, "ティエ"
+menutxt         @Menu_0258, "Murno"
+menutxt         @Menu_0264, "[NAME 1]"
+menutxt         @Menu_0270, "V.E"
+menutxt         @Menu_027c, "Lemmy"
+menutxt         @Menu_0288, "Jade"
+menutxt         @Menu_0294, "Tier"
 menuwait        
 
 @Menu_0258:

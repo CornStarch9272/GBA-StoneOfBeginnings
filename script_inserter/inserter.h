@@ -14,5 +14,5 @@ struct InsertInfo {
 };
 
 InsertInfo detect_insert_info(const std::string &filename, uint32_t pos);
-std::vector<uint8_t> prepare_insert(const std::vector<uint8_t> &data, InsertInfo &info);
+std::vector<uint8_t> prepare_insert(const std::vector<uint8_t> &data, InsertInfo &info, bool quiet);
 bool insert_script_data(const std::string &filename, const std::vector<uint8_t> &data, const InsertInfo &info);

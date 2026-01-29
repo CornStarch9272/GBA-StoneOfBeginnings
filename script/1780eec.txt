@@ -11,7 +11,7 @@ code0418        2
 setvar          $b075, 1
 setvar          $b072, 0
 code046c        0
-placetxt        "Louise Village　Villager's House B"
+placetxt        "Louise Village　Private House B"
 code040c        1, @Label_01ba
 code040c        2, @Label_01a0
 call            @Func_0956
@@ -266,7 +266,7 @@ code040b
 
 @Talk_0a4c:
 code0301        8, 7
-dialogtxt       "ゴロゴロ..."
+dialogtxt       "Purr…"
 code0309        
 code0302        7
 code040b        

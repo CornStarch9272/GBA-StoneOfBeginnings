@@ -336,8 +336,9 @@ ret
 code0301        8, 7
 code047d        0, 118
 code047e        0, 1
-dialogtxt       "西門の門番がケガしたらしい"
-dialogtxt       "この仕事も危ないなぁ..."
+dialogtxt       "The West Gate's keeper"
+dialogtxt       "seems to be injured…"
+dialogtxt       "Man, this is such a risky job…"
 code0309        
 code047e        0, 0
 code0302        7
@@ -347,11 +348,11 @@ code040b
 code0301        8, 7
 code047d        0, 123
 code047e        0, 1
-dialogtxt       "この町って、ごみごみしてて"
-dialogtxt       "いやよね"
+dialogtxt       "This town's so crowded and"
+dialogtxt       "cramped! I hate it here!"
 code0309        
-dialogtxt       "どこかに、しずかなところ"
-dialogtxt       "ないかしら"
+dialogtxt       "I wonder if there's anywhere"
+dialogtxt       "in this town that's quiet"
 code0309        
 code047e        0, 0
 code0302        7
@@ -361,9 +362,9 @@ code040b
 code0301        8, 7
 code047d        0, 120
 code047e        0, 1
-dialogtxt       "ん〜どうして勝てないのかな〜"
-dialogtxt       "今日もカケに負けて"
-dialogtxt       "召喚獣の散歩です..."
+dialogtxt       "Gah, why can't I ever win! I always"
+dialogtxt       "lose every single day! Guess I'll"
+dialogtxt       "just stroll with my Summon Beast…"
 code0309        
 code047e        0, 0
 code0302        7
@@ -386,8 +387,8 @@ code040b
 
 @Event_0f8c:
 code0301        8, 7
-dialogtxt       "　　　プロスバンの町の創設者"
-dialogtxt       "　　　勇者プロスバンの石像"
+dialogtxt       "　　　The Founder Of This City,"
+dialogtxt       "　　　Our Hero Prosban"
 code0309        
 code0302        7
 code040b        

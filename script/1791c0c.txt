@@ -250,17 +250,19 @@ ret
 code0301        8, 7
 code047d        0, 120
 code047e        0, 1
-dialogtxt       "この忙しいときに、ザックの野郎"
-dialogtxt       "実家に帰りやがった"
+dialogtxt       "Right when we start getting busy!"
+dialogtxt       "That brat, Zakk's parents"
+dialogtxt       "took him back home!"
 code0309        
-dialogtxt       "こないだのケガで親が心配して"
-dialogtxt       "呼び戻されたっていうけどよ..."
+dialogtxt       "The kid's parents took him bac"
+dialogtxt       "BECAUSE of his injury, y'know…"
 code0309        
-dialogtxt       "鍛冶職人の修行なめてんのかって"
-dialogtxt       "言ってやりてぇよ、けど..."
+dialogtxt       "You think Craftknightship"
+dialogtxt       "is a joke to you!?"
+dialogtxt       "…Is what I oughta say, but…"
 code0309        
-dialogtxt       "俺の親なんて"
-dialogtxt       "そんな心配してくれねぇよ"
+dialogtxt       "Hell, not even my own parents"
+dialogtxt       "worry about me that much…"
 code0309        
 code047e        0, 0
 code0302        7

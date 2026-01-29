@@ -147,15 +147,16 @@ code0301        8, 7
 code047d        0, 114
 code047e        0, 1
 jumpz           @Cond_06a4, ($b002 == 0)
-dialogtxt       "δくん"
+dialogtxt       "[NAME 2]…"
 goto            @Label_06b4
 
 @Cond_06a4:
-dialogtxt       "δちゃん"
+dialogtxt       "[NAME 2]…"
 goto            @Label_06b4
 
 @Label_06b4:
-dialogtxt       "娘のこと、たのみましたよ"
+dialogtxt       "Please watch over my daughter"
+dialogtxt       "for me, okay?"
 code0309        
 code047e        0, 0
 code0302        7
@@ -165,8 +166,8 @@ code040b
 code0301        8, 7
 code047d        0, 113
 code047e        0, 1
-dialogtxt       "ティエが無事に帰ってくること"
-dialogtxt       "それが私たちの願いです..."
+dialogtxt       "Our wish id for our daughter,"
+dialogtxt       "Tier, to return home safe…"
 code0309        
 code047e        0, 0
 code0302        7
@@ -174,9 +175,9 @@ code040b
 
 @Event_076a:
 code0301        8, 7
-dialogtxt       "ここから先は乙女の秘密◎"
-dialogtxt       "立ち入り禁止！！"
-dialogtxt       "　　　　　　　　　　　ティエ"
+dialogtxt       "A lady's secret lies beyond here◎"
+dialogtxt       "NO TRESPASSING!!!"
+dialogtxt       "　　　　　　　　　　　-Tier"
 code0309        
 code0302        7
 code040b        
@@ -402,7 +403,8 @@ ret
 code0301        8, 7
 code047d        0, 121
 code047e        0, 1
-dialogtxt       "ここはのんびりできていい宿ね"
+dialogtxt       "This inn has such an easygoing"
+dialogtxt       "vibe!"
 code0309        
 code047e        0, 0
 code0302        7
@@ -415,7 +417,7 @@ code040b
 
 @Talk_111e:
 code0301        8, 7
-dialogtxt       "ゴロゴロ..."
+dialogtxt       "Purr…"
 code0309        
 code0302        7
 code040b        

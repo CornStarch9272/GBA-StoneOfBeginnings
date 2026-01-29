@@ -13,7 +13,7 @@ code0479        0, 2, 16
 code047d        0, 0
 call            @Func_13e0
 call            @Func_1308
-dialogtxt       "おとなしくなったけど..."
+dialogtxt       "It's calmed down now…"
 code047b        
 code0309        
 call            @Func_1436
@@ -93,8 +93,8 @@ code0331        38, 256
 code0479        0, 5, 17
 call            @Func_13e0
 call            @Func_1308
-dialogtxt       "え！？"
-dialogtxt       "消えた...！？"
+dialogtxt       "Eh!?"
+dialogtxt       "It disappeared…!?"
 code047b        
 code0309        
 call            @Func_135c
@@ -122,25 +122,25 @@ code047d        1, 2
 call            @Func_13f6
 call            @Func_1392
 jumpz           @Cond_0646, ($b003 == 0)
-dialogtxt       "送還サ[NAME 8]タ　ヨウデス[NAME 6]"
+dialogtxt       "It Seems To Have Been Dismissed."
 goto            @Cond_0646
 
 @Cond_0646:
 jumpz           @Cond_067e, ($b003 == 1)
-dialogtxt       "どうやら"
-dialogtxt       "送還されたようじゃの"
+dialogtxt       "It seems like"
+dialogtxt       "it was dismissed."
 goto            @Cond_067e
 
 @Cond_067e:
 jumpz           @Cond_06b0, ($b003 == 2)
-dialogtxt       "ちっ..."
-dialogtxt       "送還されるとは..."
+dialogtxt       "Tch…"
+dialogtxt       "It was dismissed…"
 goto            @Cond_06b0
 
 @Cond_06b0:
 jumpz           @Cond_06ec, ($b003 == 3)
-dialogtxt       "どうやら..."
-dialogtxt       "送還されたみたいですわ"
+dialogtxt       "It seems…"
+dialogtxt       "It was dismissed."
 goto            @Cond_06ec
 
 @Cond_06ec:
@@ -150,8 +150,8 @@ call            @Func_13c8
 code043c        0, 1
 code0479        0, 2, 16
 call            @Func_1326
-dialogtxt       "送還..."
-dialogtxt       "...ってどういう...？"
+dialogtxt       "Dismissed…"
+dialogtxt       "…How could it…?"
 code0309        
 call            @Func_1462
 call            @Func_1344
@@ -164,8 +164,8 @@ code0446        0
 code0479        0, 2, 15
 call            @Func_13e0
 call            @Func_1308
-dialogtxt       "あ！　アニスがいない！？"
-dialogtxt       "いつの間に...！？"
+dialogtxt       "Ah! Anise is gone!?"
+dialogtxt       "When did she…!?"
 code047b        
 code0309        
 call            @Func_135c
@@ -176,9 +176,9 @@ code0479        1, 2, 14
 code047d        1, 135
 call            @Func_13f6
 call            @Func_1392
-dialogtxt       "混乱に乗じて、いつの間にか"
-dialogtxt       "召喚石を取り戻していた"
-dialogtxt       "みたいですね..."
+dialogtxt       "Looks like she took"
+dialogtxt       "back her Summonite"
+dialogtxt       "during the commotion…"
 code047b        
 code0309        
 call            @Func_13c8
@@ -187,13 +187,13 @@ code043c        1, 4
 code0479        0, 2, 14
 call            @Func_1326
 jumpz           @Cond_08e8, ($b002 == 0)
-dialogtxt       "あいつ、逃げ出したのか！？"
-dialogtxt       "追いかけないと！"
+dialogtxt       "She ran away!?"
+dialogtxt       "We have to find her!"
 goto            @Label_091c
 
 @Cond_08e8:
-dialogtxt       "あいつ、逃げ出したの！？"
-dialogtxt       "追いかけなきゃ！"
+dialogtxt       "She ran away!?"
+dialogtxt       "We have to find her!"
 goto            @Label_091c
 
 @Label_091c:
@@ -226,30 +226,29 @@ code047d        1, 2
 call            @Func_13f6
 call            @Func_1392
 jumpz           @Cond_0a4c, ($b003 == 0)
-dialogtxt       "彼女ガ逃ゲタ場合"
-dialogtxt       "魔石ヲ　手ニ入[NAME 8]ルタメ"
-dialogtxt       "仲間ヲツ[NAME 8]テ　戻ル可能性ガ..."
+dialogtxt       "Now That She Has Escaped,"
+dialogtxt       "It Is Likely She Will Return"
+dialogtxt       "With For The Demon Stone…"
 goto            @Cond_0a4c
 
 @Cond_0a4c:
 jumpz           @Cond_0ab4, ($b003 == 1)
-dialogtxt       "このまま逃がしてしまうと"
-dialogtxt       "魔石を手に入れるため"
-dialogtxt       "仲間をつれてくるかもしれぬぞ"
+dialogtxt       "Now that she escaped,"
+dialogtxt       "she may gather her comrades and"
+dialogtxt       "return for the Demon Stone."
 goto            @Cond_0ab4
 
 @Cond_0ab4:
 jumpz           @Cond_0b1c, ($b003 == 2)
-dialogtxt       "あいつのことだ..."
-dialogtxt       "仲間をつれて戻ってくるんじゃないか"
-dialogtxt       "魔石を手に入れるために"
+dialogtxt       "That woman…"
+dialogtxt       "She'll probably come back with her"
+dialogtxt       "comrades to get the Demon Stone."
 goto            @Cond_0b1c
 
 @Cond_0b1c:
 jumpz           @Cond_0b78, ($b003 == 3)
-dialogtxt       "仲間をつれて戻ってくるかも"
-dialogtxt       "しれませんわ"
-dialogtxt       "魔石を手に入れるために"
+dialogtxt       "She may return with her"
+dialogtxt       "comrades for the Demon Stone…"
 goto            @Cond_0b78
 
 @Cond_0b78:
@@ -263,7 +262,7 @@ code0479        1, 0, 16
 code047d        1, 135
 call            @Func_13f6
 call            @Func_1392
-dialogtxt       "それはないと思います..."
+dialogtxt       "I don't think that will happen…"
 code047b        
 code0309        
 call            @Func_13c8
@@ -271,30 +270,30 @@ code043c        0, 4
 code043c        1, 4
 code0479        0, 2, 16
 call            @Func_1326
-dialogtxt       "なんで！？"
+dialogtxt       "Why!?"
 code047b        
 code0309        
 call            @Func_135c
 code0479        1, 2, 14
 call            @Func_1392
-dialogtxt       "ふたたびあの連中を"
-dialogtxt       "この村に招き入れたら何が起こるか"
-dialogtxt       "彼女もよく知っていますから..."
+dialogtxt       "She knows very well what will"
+dialogtxt       "happen if those people come"
+dialogtxt       "to the village again…"
 code0309        
 code0479        1, 4, 16
-dialogtxt       "アニスはこの村を"
-dialogtxt       "憎んでいるかもしれないが"
-dialogtxt       "愛していないわけでもないハズです..."
+dialogtxt       "Anise appears to"
+dialogtxt       "hate this village,"
+dialogtxt       "but deep down I'm sure…"
 code0309        
 call            @Func_13c8
 code0479        0, 2, 14
 call            @Func_1326
-dialogtxt       "..."
+dialogtxt       "…"
 code0309        
 call            @Func_135c
 code0479        1, 0, 15
 call            @Func_1392
-dialogtxt       "とにかく、さがしましょう！"
+dialogtxt       "Anyway, let's look for her!"
 code0309        
 call            @Func_1462
 call            @Func_13b0

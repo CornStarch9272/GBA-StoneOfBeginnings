@@ -14,12 +14,13 @@ code047d        0, 0
 call            @Func_0f4c
 call            @Func_0e74
 jumpz           @Cond_00ec, ($b002 == 0)
-dialogtxt       "村って、たしかコッチだったな..."
+dialogtxt       "If I remember correctly,"
+dialogtxt       "the village is this way…"
 goto            @Label_0116
 
 @Cond_00ec:
-dialogtxt       "村って"
-dialogtxt       "たしかコッチだったよね..."
+dialogtxt       "If I remember correctly,"
+dialogtxt       "the village is this way…"
 goto            @Label_0116
 
 @Label_0116:
@@ -38,8 +39,8 @@ code040d        5
 code0479        0, 2, 14
 call            @Func_0f4c
 call            @Func_0e74
-dialogtxt       "よし！"
-dialogtxt       "急ごう！"
+dialogtxt       "Okay!"
+dialogtxt       "Let's go!"
 code047b        
 code0309        
 call            @Func_0fa2
@@ -76,18 +77,18 @@ goto            @Label_02b0
 code047d        1, 2
 call            @Func_0f78
 call            @Func_0ee0
-dialogtxt       "..."
+dialogtxt       "…"
 code047b        
 code0309        
 call            @Func_0f34
 code0479        0, 0, 16
 call            @Func_0e92
 jumpz           @Cond_030e, ($b002 == 0)
-dialogtxt       "なんだよ？"
+dialogtxt       "What?"
 goto            @Label_031e
 
 @Cond_030e:
-dialogtxt       "なによ？"
+dialogtxt       "What?"
 goto            @Label_031e
 
 @Label_031e:
@@ -114,18 +115,18 @@ goto            @Label_03b4
 @Label_03b4:
 call            @Func_0efe
 jumpz           @Cond_04d4, ($b003 == 0)
-dialogtxt       "ココカラ先ハ　見ツカラナイヨウニ"
-dialogtxt       "シンチョウニ　行動シテクダサイ"
+dialogtxt       "Please Be Cautious To"
+dialogtxt       "Avoid Being Discovered."
 code0309        
 call            @Func_0f34
 code0479        0, 2, 12
 call            @Func_0e92
 jumpz           @Cond_0454, ($b002 == 0)
-dialogtxt       "わかってるって！"
+dialogtxt       "I know, I know!"
 goto            @Label_046c
 
 @Cond_0454:
-dialogtxt       "わかってるわよ！"
+dialogtxt       "I know, I know!"
 goto            @Label_046c
 
 @Label_046c:
@@ -133,24 +134,25 @@ code0309
 call            @Func_0ec8
 code0479        1, 4, 12
 call            @Func_0efe
-dialogtxt       "理解シテイルノハ　ワカリマシタカラ"
-dialogtxt       "チャント行動ヲ　シテクダサイ"
+dialogtxt       "Your Actions Do Not"
+dialogtxt       "Reflect Your Words."
 goto            @Cond_04d4
 
 @Cond_04d4:
 jumpz           @Cond_05d6, ($b003 == 1)
-dialogtxt       "うかつに動くではないぞ"
-dialogtxt       "見つかっては元も子もないからな"
+dialogtxt       "Do not move carelessly."
+dialogtxt       "It's all over if we are"
+dialogtxt       "discovered."
 code0309        
 call            @Func_0f34
 code0479        0, 2, 12
 call            @Func_0e92
 jumpz           @Cond_0566, ($b002 == 0)
-dialogtxt       "わかってるって！"
+dialogtxt       "I know, I know!"
 goto            @Label_057e
 
 @Cond_0566:
-dialogtxt       "わかってるわよ！"
+dialogtxt       "I know, I know!"
 goto            @Label_057e
 
 @Label_057e:
@@ -158,26 +160,25 @@ code0309
 call            @Func_0ec8
 code0479        1, 2, 15
 call            @Func_0efe
-dialogtxt       "わかっているのなら行動しろと"
-dialogtxt       "言っておるのじゃ！"
+dialogtxt       "Then act like it!"
 goto            @Cond_05d6
 
 @Cond_05d6:
 jumpz           @Cond_06e6, ($b003 == 2)
-dialogtxt       "ボーッとするな"
-dialogtxt       "見つかりたいのか"
+dialogtxt       "Pay attention."
+dialogtxt       "Do you want to get caught again?"
 code0309        
 call            @Func_0f34
 code0479        0, 2, 17
 call            @Func_0e92
 jumpz           @Cond_066c, ($b002 == 0)
-dialogtxt       "なんだよ"
-dialogtxt       "ボーッとなんかしてないだろ！？"
+dialogtxt       "What?"
+dialogtxt       "I'm totally focused!"
 goto            @Label_069c
 
 @Cond_066c:
-dialogtxt       "なによ"
-dialogtxt       "ボーッとなんかしてないでしょ！"
+dialogtxt       "What?"
+dialogtxt       "I'm totally focused!"
 goto            @Label_069c
 
 @Label_069c:
@@ -185,24 +186,24 @@ code0309
 call            @Func_0ec8
 code0479        1, 2, 14
 call            @Func_0efe
-dialogtxt       "でかい声をだすな"
-dialogtxt       "見つかりたいのか"
+dialogtxt       "Don't shout."
+dialogtxt       "Do you want to get caught again?"
 goto            @Cond_06e6
 
 @Cond_06e6:
 jumpz           @Cond_0864, ($b003 == 3)
-dialogtxt       "ここから先は見つからないように"
-dialogtxt       "シンチョウに行動してくださいね"
+dialogtxt       "Please be careful."
+dialogtxt       "We mustn't let them find us."
 code0309        
 call            @Func_0f34
 code0479        0, 4, 12
 call            @Func_0e92
 jumpz           @Cond_0786, ($b002 == 0)
-dialogtxt       "なんだよ、コワイのか？"
+dialogtxt       "What, are you scared?"
 goto            @Label_07a0
 
 @Cond_0786:
-dialogtxt       "なによ、コワイの？"
+dialogtxt       "What, are you scared?"
 goto            @Label_07a0
 
 @Label_07a0:
@@ -210,13 +211,13 @@ code0309
 call            @Func_0ec8
 code0479        1, 5, 17
 call            @Func_0efe
-dialogtxt       "ちっ、ちがいますわ！"
-dialogtxt       "今、見つかったら"
-dialogtxt       "また牢に逆戻りなんですから"
+dialogtxt       "I-I am not!"
+dialogtxt       "They'll imprison us again"
+dialogtxt       "if we're found out."
 code0309        
 code0479        1, 2, 14
-dialogtxt       "いつもみたいにいいかげんなことは"
-dialogtxt       "やめてくださいってことです"
+dialogtxt       "Please refrain from your"
+dialogtxt       "usual reckless actions."
 goto            @Cond_0864
 
 @Cond_0864:
@@ -225,13 +226,13 @@ call            @Func_0f34
 code0479        0, 1, 16
 call            @Func_0e92
 jumpz           @Cond_08ae, ($b002 == 0)
-dialogtxt       "..."
-dialogtxt       "わかりましたよ"
+dialogtxt       "…"
+dialogtxt       "I know, I know."
 goto            @Label_08c8
 
 @Cond_08ae:
-dialogtxt       "..."
-dialogtxt       "わかったわよ"
+dialogtxt       "…"
+dialogtxt       "I know, I know."
 goto            @Label_08c8
 
 @Label_08c8:

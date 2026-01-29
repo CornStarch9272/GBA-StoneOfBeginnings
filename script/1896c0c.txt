@@ -192,7 +192,7 @@ code046c        1
 goto            @Cond_0b1e
 
 @Cond_0b1e:
-placetxt        "リュート岩窟　エリア２"
+placetxt        "Lute Cave　Area 2"
 code040b        
 
 @Event_0b3a:

@@ -488,11 +488,11 @@ setvar          $f1202, 1
 code0301        8, 7
 code047d        0, 143
 code047e        0, 1
-dialogtxt       "お待ちしておりましたわ◎"
+dialogtxt       "I've waited for you◎"
 code0309        
-dialogtxt       "あなたの弓への愛情に敬意を表して"
-dialogtxt       "弓専用の必殺技を付加する"
-dialogtxt       "強化アイテム一式を差し上げますわ"
+dialogtxt       "To honor your devotion to the bow,"
+dialogtxt       "I shall bequeath onto you items"
+dialogtxt       "imbued with special bow techniques!"
 code0309        
 code047e        0, 0
 code0302        7
@@ -511,12 +511,12 @@ code043e        0, 59, 1
 code033a        112, 0
 code033e        112
 code043f        0
-popuptxt        "弓強化セットをもらった！"
+popuptxt        "I got the special bow item set!"
 code0318        
 code0301        8, 7
 code047d        0, 143
 code047e        0, 1
-dialogtxt       "さらに弓を極めてくださいな"
+dialogtxt       "Please master the ways of the bow."
 code0309        
 code047e        0, 0
 code0302        7
@@ -527,13 +527,14 @@ goto            @Label_1a56
 code0301        8, 7
 code047d        0, 143
 code047e        0, 1
-dialogtxt       "ひとつ豆知識ですわ"
+dialogtxt       "I have an interesting"
+dialogtxt       "tidbit for you…"
 code0309        
-dialogtxt       "弓の数え方は"
-dialogtxt       "一張（ひとはり）、二張（ふたはり）"
-dialogtxt       "と数えるんですよ"
+dialogtxt       "A bow you can string alone is just"
+dialogtxt       "fine, but to string a truly strong"
+dialogtxt       "bow calls for fellowship."
 code0309        
-dialogtxt       "知っておられました？"
+dialogtxt       "Were you aware of that?"
 code0309        
 code047e        0, 0
 code0302        7
@@ -544,11 +545,11 @@ code040b
 
 @Talk_1a58:
 code0301        8, 7
-dialogtxt       "..."
+dialogtxt       "…"
 code0309        
-dialogtxt       "..."
+dialogtxt       "…"
 code0309        
-dialogtxt       "にゃ..."
+dialogtxt       "Meow…"
 code0309        
 code0302        7
 code040b        
@@ -556,13 +557,13 @@ code040b
 @Event_1a8c:
 code0301        8, 7
 dialogtxt       "　"
-dialogtxt       "　　　　　〜注意しよう！〜"
+dialogtxt       "　　　　 Let's be careful."
 code0309        
-dialogtxt       "団体行動の時は"
-dialogtxt       "よく人数を確認しましょう"
+dialogtxt       "If you're travelling in groups,"
+dialogtxt       "make sure to check on your pals!"
 code0309        
-dialogtxt       "誰かいない人が"
-dialogtxt       "いるかもしれませんよ？"
+dialogtxt       "You'll never know when someone"
+dialogtxt       "eventually goes missing, you know?"
 code0309        
 code0302        7
 code040b        
@@ -570,10 +571,10 @@ code040b
 @Event_1b28:
 code0301        8, 7
 dialogtxt       "　"
-dialogtxt       "　　　　∞きいてきいて！∞"
+dialogtxt       "　　　　∞Listen, listen!∞"
 code0309        
-dialogtxt       "あたし、甘いもの嫌いなの！"
-dialogtxt       "コショウが一番よね！"
+dialogtxt       "I really, really hate sweets!"
+dialogtxt       "Oh, and I love peppers, by the way!"
 code0309        
 code0302        7
 code040b        
@@ -581,26 +582,27 @@ code040b
 @Event_1b9e:
 code0301        8, 7
 dialogtxt       "　"
-dialogtxt       "　　　　　〜情報求む！〜"
+dialogtxt       "　　　　Seek knowledge!"
 code0309        
-dialogtxt       "タタラの中の炎のように"
-dialogtxt       "燃え上がるような激辛の食べ物を"
-dialogtxt       "探しています"
+dialogtxt       "I crave for super-duper spicy food"
+dialogtxt       "so hot, it'll easily put the"
+dialogtxt       "hottest forge ever to shame!"
 code0309        
 code0302        7
 code040b        
 
 @Event_1c28:
 code0301        8, 7
-dialogtxt       "くるしいときには"
-dialogtxt       "らくになれたらと"
-dialogtxt       "ふとおもう"
+dialogtxt       "As I feel at unease,"
+dialogtxt       "I yearn to put my mind"
+dialogtxt       "back to peace and silence."
 code0309        
-dialogtxt       "とおくはなれたこのまちで"
-dialogtxt       "そらをながめていると"
-dialogtxt       "おもいがけずなみだがおちる"
+dialogtxt       "In this town, so far away,"
+dialogtxt       "I look to the sky."
+dialogtxt       "Tears falling from my face…"
 code0309        
-dialogtxt       "どこにいてもそらはおなじなのに"
+dialogtxt       "No matter where you may be,"
+dialogtxt       "above is the same sky I see."
 code0309        
 code0302        7
 code040b        

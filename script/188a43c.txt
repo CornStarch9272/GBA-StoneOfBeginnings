@@ -9,8 +9,8 @@ code0479        1, 1, 13
 code047d        1, 135
 call            @Func_0b58
 call            @Func_0ac0
-dialogtxt       "強くなりましたね"
-dialogtxt       "また勝負してください"
+dialogtxt       "You've gotten stronger."
+dialogtxt       "Let's have another match some time."
 goto            @Label_016a
 
 @Cond_00c4:
@@ -22,9 +22,9 @@ code0479        1, 0, 12
 code047d        1, 135
 call            @Func_0b58
 call            @Func_0ac0
-dialogtxt       "まだまだですね"
-dialogtxt       "もっと修行してから"
-dialogtxt       "勝負しましょう"
+dialogtxt       "You still have a ways to go."
+dialogtxt       "Go train some more,"
+dialogtxt       "then we'll have another match."
 goto            @Label_016a
 
 @Label_016a:
@@ -48,14 +48,14 @@ code0479        1, 0, 16
 code047d        1, 135
 call            @Func_0b58
 call            @Func_0ac0
-dialogtxt       "幻龍鬼があんなことをするなんて"
-dialogtxt       "大変なことになっていた様ですね..."
+dialogtxt       "That Phantom Dragon's actions seems to"
+dialogtxt       "have become a big problem…"
 code047b        
 code0309        
 call            @Func_0b14
 code0479        0, 0, 14
 call            @Func_0a72
-dialogtxt       "そうなんだ、実は..."
+dialogtxt       "That's right, actually…"
 code0309        
 setvar          $h137, 60
 setvar          $h136, 0
@@ -68,14 +68,14 @@ call            @Func_0510
 code0479        1, 0, 14
 call            @Func_0b58
 call            @Func_0ac0
-dialogtxt       "そんなことが..."
+dialogtxt       "About that…"
 code047b        
 code0309        
 code0479        0, 0, 16
 code0479        1, 0, 12
-dialogtxt       "でもまだ私はどこかで"
-dialogtxt       "アニスが生きているような"
-dialogtxt       "気がしますよ..."
+dialogtxt       "I have a feeling that somewhere"
+dialogtxt       "out there, Anise is still"
+dialogtxt       "alive and kicking…"
 code0309        
 call            @Func_0bae
 call            @Func_0afc
@@ -94,15 +94,15 @@ code0479        1, 0, 12
 code047d        1, 135
 call            @Func_0b58
 call            @Func_0ac0
-dialogtxt       "どうやらあなたはずいぶん"
-dialogtxt       "強くなったみたいですね..."
-dialogtxt       "また私と勝負しませんか？"
+dialogtxt       "Seems like you've grown"
+dialogtxt       "quite strong…"
+dialogtxt       "Shall we have another match?"
 code047b        
 code0309        
 call            @Func_0b14
 call            @Func_0a72
-choicetxt       @Cond_0464, "勝負する"
-choicetxt       @Choice_047e, "勝負しない"
+choicetxt       @Cond_0464, "Fight"
+choicetxt       @Choice_047e, "Don't fight"
 choicewait      
 
 goto            @Cond_0464
@@ -118,8 +118,9 @@ goto            @Label_04ce
 call            @Func_0aa8
 code0479        1, 0, 16
 call            @Func_0ade
-dialogtxt       "そうですか"
-dialogtxt       "いつでもお相手しますよ"
+dialogtxt       "Is that so?"
+dialogtxt       "I'll be here if you"
+dialogtxt       "change your mind."
 code0309        
 call            @Func_0bae
 call            @Func_0afc

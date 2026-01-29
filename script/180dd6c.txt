@@ -21,23 +21,22 @@ code047d        1, 138
 call            @Func_08d0
 call            @Func_084e
 jumpz           @Cond_018c, ($b002 == 0)
-dialogtxt       "おにーちゃん"
+dialogtxt       "Mister,"
 goto            @Label_01a0
 
 @Cond_018c:
-dialogtxt       "おねーちゃん"
+dialogtxt       "Miss,"
 goto            @Label_01a0
 
 @Label_01a0:
-dialogtxt       "おそとにでるには"
-dialogtxt       "こっちからだよ"
+dialogtxt       "it's this way!"
 code047b        
 code0309        
 call            @Func_08a2
 call            @Func_08ba
 call            @Func_0800
-dialogtxt       "うん"
-dialogtxt       "わかった！"
+dialogtxt       "Ok."
+dialogtxt       "Got it!"
 code047b        
 code0309        
 call            @Func_093c

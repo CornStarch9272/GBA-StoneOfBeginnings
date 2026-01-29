@@ -15,15 +15,15 @@ code047d        1, 132
 call            @Func_141c
 call            @Func_1318
 jumpz           @Cond_010c, ($b002 == 0)
-dialogtxt       "ア...アニ[NAME 4]...！"
-dialogtxt       "大切な武器なのに..."
-dialogtxt       "ごめん...、オ[NAME 8]..."
+dialogtxt       "Br… bro…!"
+dialogtxt       "Such a precious weapon, yet…"
+dialogtxt       "Sorry…, I…"
 goto            @Label_014e
 
 @Cond_010c:
-dialogtxt       "ア...アニ[NAME 4]...！"
-dialogtxt       "大切な武器なのに..."
-dialogtxt       "ごめん...、わたし..."
+dialogtxt       "Br… bro…!"
+dialogtxt       "Such a precious weapon, yet…"
+dialogtxt       "Sorry…, I…"
 goto            @Label_014e
 
 @Label_014e:
@@ -52,13 +52,13 @@ code047d        1, 132
 call            @Func_141c
 call            @Func_1318
 jumpz           @Cond_02ba, ($b002 == 0)
-dialogtxt       "どうしたんだよ、アニ[NAME 4]"
-dialogtxt       "ちょっと動きがおかしかった..."
+dialogtxt       "What's wrong, Bro?"
+dialogtxt       "You're acting strange…"
 goto            @Label_02f6
 
 @Cond_02ba:
-dialogtxt       "どうしたの、アニ[NAME 4]"
-dialogtxt       "ちょっと動きがおかしかったよ..."
+dialogtxt       "What's wrong, Bro?"
+dialogtxt       "You're acting strange…"
 goto            @Label_02f6
 
 @Label_02f6:
@@ -67,7 +67,7 @@ code0309
 call            @Func_136c
 code0479        1, 2, 12
 call            @Func_13a2
-dialogtxt       "...これまでか"
+dialogtxt       "…Guess that's it then."
 code0309        
 call            @Func_1472
 call            @Func_13c0
@@ -97,15 +97,15 @@ code0479        1, 4, 12
 call            @Func_141c
 call            @Func_1318
 jumpz           @Cond_049a, ($b002 == 0)
-dialogtxt       "うわ！"
-dialogtxt       "そんな...、オ[NAME 8]..."
-dialogtxt       "こわすつもりなんて..."
+dialogtxt       "Uwah!"
+dialogtxt       "But…, I…"
+dialogtxt       "I didn't mean to break it…"
 goto            @Label_04d6
 
 @Cond_049a:
-dialogtxt       "うわ！"
-dialogtxt       "そんな...、わたし..."
-dialogtxt       "こわすつもりなんて..."
+dialogtxt       "Uwah!"
+dialogtxt       "But…, I…"
+dialogtxt       "I didn't mean to break it…"
 goto            @Label_04d6
 
 @Label_04d6:
@@ -117,36 +117,36 @@ goto            @Label_04e2
 @Label_04e2:
 code0479        1, 4, 16
 call            @Func_13a2
-dialogtxt       "お前のせいじゃない"
-dialogtxt       "ロブと戦った時、すでに"
-dialogtxt       "弱っていたんだろうな"
+dialogtxt       "It's not your fault."
+dialogtxt       "It was already weakened"
+dialogtxt       "from when I fought Rob."
 code0309        
 code0333        2, 30
 code0479        1, 1, 12
 code0479        0, 0, 16
-dialogtxt       "だがこのナックルもきっと"
-dialogtxt       "本望だと思うぜ"
-dialogtxt       "なぜならば..."
+dialogtxt       "But I'm sure this is what"
+dialogtxt       "these knuckles wanted."
+dialogtxt       "Because…"
 code0309        
 code0334        
 code046e        31, 256, 1
 code0479        1, 2, 13
-dialogtxt       "ロブの技を受け継いだ鍛冶師に"
-dialogtxt       "超えられたんだからな"
+dialogtxt       "We had one last fight against"
+dialogtxt       "old Rob's techniques."
 code0309        
 call            @Func_13d8
 code0479        0, 6, 12
 call            @Func_1336
 jumpz           @Cond_067a, ($b002 == 0)
-dialogtxt       "あ...、アニ[NAME 4]..."
-dialogtxt       "それって..."
-dialogtxt       "オ[NAME 8]が..."
+dialogtxt       "Ah…, Bro…"
+dialogtxt       "You mean…"
+dialogtxt       "That I…"
 goto            @Label_06aa
 
 @Cond_067a:
-dialogtxt       "あ...、アニ[NAME 4]..."
-dialogtxt       "それって..."
-dialogtxt       "わたし..."
+dialogtxt       "Ah…, Bro…"
+dialogtxt       "You mean…"
+dialogtxt       "That I…"
 goto            @Label_06aa
 
 @Label_06aa:
@@ -154,28 +154,28 @@ code0309
 call            @Func_136c
 code0479        1, 0, 16
 call            @Func_13a2
-dialogtxt       "オ[NAME 8]が鍛冶職人になってから"
-dialogtxt       "鍛冶と戦いの両方で負けを認めたのは"
-dialogtxt       "ベン[NAME 5]ン親方と、ロブだけだ..."
+dialogtxt       "Since I became a smithy,"
+dialogtxt       "the only people who have beaten me"
+dialogtxt       "are Master Benson and Rob…"
 code0309        
 code0479        1, 2, 13
-dialogtxt       "お前は確かに弟子として"
-dialogtxt       "あいつの技を受け継いでいるよ"
-dialogtxt       "今回の戦いで、よくわかった..."
+dialogtxt       "You've definitly inherited"
+dialogtxt       "their techniques."
+dialogtxt       "With this fight, I understood that…"
 code0309        
 code0443        2, 16, 1
 code0443        2, 32, 1
 code043b        3
 code0439        3
 code0479        1, 1, 13
-dialogtxt       "だから、認めてやるよ"
-dialogtxt       "お前はもう立派な鍛冶師だぜ"
+dialogtxt       "So, I acknowlede your strength."
+dialogtxt       "You've become a fine Craftknight."
 code0309        
 call            @Func_13d8
 code0479        0, 1, 13
 call            @Func_1336
-dialogtxt       "ありがとう！"
-dialogtxt       "アニ[NAME 4]！"
+dialogtxt       "Thank you!"
+dialogtxt       "Bro!"
 code0309        
 call            @Func_1472
 call            @Func_1354
@@ -234,33 +234,33 @@ code0446        0
 code0479        0, 11, 17
 call            @Func_13f0
 call            @Func_1318
-dialogtxt       "あわわ..."
-dialogtxt       "ごっ、ごめん、アニ[NAME 4]..."
+dialogtxt       "Awawa…"
+dialogtxt       "S-sorry, Bro…"
 code047b        
 code0309        
 call            @Func_136c
 call            @Func_1406
 code0479        1, 1, 12
 call            @Func_13a2
-dialogtxt       "だが、まだまだおっちょこちょいだな"
-dialogtxt       "あいつの弟子ならもう少し"
-dialogtxt       "しっかりしなくちゃな"
+dialogtxt       "But you've still got a ways to go,"
+dialogtxt       "birdbrain. As Rob's apprentice,"
+dialogtxt       "you've got to be more reliable."
 code047b        
 code0309        
 code0479        0, 0, 16
 code0479        1, 0, 13
-dialogtxt       "じゃないとまだまだお前には"
-dialogtxt       "負けを認めないぜ"
+dialogtxt       "If you don't, I won't acknowledge"
+dialogtxt       "that you've beaten me."
 code0309        
 call            @Func_13d8
 code0479        0, 7, 12
 call            @Func_1336
 jumpz           @Cond_0cc2, ($b002 == 0)
-dialogtxt       "へへ"
+dialogtxt       "Heheh."
 goto            @Label_0cd0
 
 @Cond_0cc2:
-dialogtxt       "えへへ"
+dialogtxt       "Heheh."
 goto            @Label_0cd0
 
 @Label_0cd0:
@@ -276,8 +276,8 @@ code040d        15
 code047d        0, 132
 code0301        16, 7
 code047e        0, 1
-dialogtxt       "お前との勝負..."
-dialogtxt       "長くなりそうだな！"
+dialogtxt       "A match with you…"
+dialogtxt       "Would be a long one!"
 code0309        
 code047e        0, 0
 code0302        7

@@ -423,9 +423,9 @@ ret
 code0301        8, 7
 code047d        0, 121
 code047e        0, 1
-dialogtxt       "こんなカビくさい村を出て"
-dialogtxt       "大きな町に行きたいわ"
-dialogtxt       "ああ〜でも村の掟が..."
+dialogtxt       "I wanna leave this musty old village"
+dialogtxt       "and head for the big city! But…"
+dialogtxt       "Sigh, village rules and all…"
 code0309        
 code047e        0, 0
 code0302        7
@@ -440,9 +440,10 @@ code040b
 code0301        8, 7
 code047d        0, 126
 code047e        0, 1
-dialogtxt       "ギャラハンさんは、いい人なんだけどね"
-dialogtxt       "あれ以来、ちょっと近寄りがたいよ"
-dialogtxt       "まあ、しょうがないけどね"
+dialogtxt       "Mr. Gallahan is a good person, "
+dialogtxt       "but ever since THAT happened,"
+dialogtxt       "he's been hard to approach."
+dialogtxt       "Well, that's to be expected."
 code0309        
 code047e        0, 0
 code0302        7
@@ -450,7 +451,7 @@ code040b
 
 @Talk_1220:
 code0301        8, 7
-dialogtxt       "ゴロゴロ..."
+dialogtxt       "Purr…"
 code0309        
 code0302        7
 code040b        

@@ -14,7 +14,7 @@ code0482
 code047d        0, 132
 code0301        16, 3
 code047e        0, 1
-dialogtxt       "よう、δ！"
+dialogtxt       "Yo, [NAME 2]!"
 code0309        
 code047e        0, 0
 code0302        3
@@ -44,34 +44,32 @@ code0479        1, 0, 16
 code047d        1, 132
 call            @Func_0f52
 call            @Func_0eba
-dialogtxt       "今日は本当にご苦労だったな"
-dialogtxt       "お前たちのおかげで"
-dialogtxt       "アニスたちのこともわかったし"
+dialogtxt       "Good work today."
+dialogtxt       "Thanks to you, we learned"
+dialogtxt       "about Anise and her gang."
 code0309        
 code0479        1, 0, 13
-dialogtxt       "アカバ[NAME 6]まで退治してもらえるとはな"
+dialogtxt       "And you eliminated Red Wing."
 code0309        
 call            @Func_0f0e
 code0479        0, 0, 13
 call            @Func_0e6c
 jumpz           @Cond_03d8, ($b002 == 0)
-dialogtxt       "それはどっちも[NAME 8]ミィのおかげなんだ"
-dialogtxt       "アニスたちに捕まっていたとき"
-dialogtxt       "あいつが来てくれなかったら..."
+dialogtxt       "Both of those were thanks to Lemmy."
+dialogtxt       "If he hadn't shown up when"
+dialogtxt       "Anise captured us…"
 code0309        
 code0479        0, 4, 12
-dialogtxt       "オ[NAME 8]たち、あそこで"
-dialogtxt       "やられてたかもしれない..."
+dialogtxt       "We might have been done for…"
 goto            @Label_048a
 
 @Cond_03d8:
-dialogtxt       "それはどっちも[NAME 8]ミィのおかげなの"
-dialogtxt       "アニスたちに捕まっていたとき"
-dialogtxt       "あいつが来てくれなかったら..."
+dialogtxt       "Both of those were thanks to Lemmy."
+dialogtxt       "If he hadn't shown up when"
+dialogtxt       "Anise captured us…"
 code0309        
 code0479        0, 4, 12
-dialogtxt       "わたしたち、あそこで"
-dialogtxt       "やられてたかもしれない..."
+dialogtxt       "We might have been done for…"
 goto            @Label_048a
 
 @Label_048a:
@@ -79,42 +77,42 @@ code0309
 call            @Func_0ea2
 code0479        1, 0, 12
 call            @Func_0ed8
-dialogtxt       "そっか"
-dialogtxt       "さすがあいつ"
-dialogtxt       "おいしいところを持って行きやがる"
+dialogtxt       "I see."
+dialogtxt       "That's to be expected of him."
+dialogtxt       "Taking all the good parts."
 code0309        
 code0479        0, 0, 12
 code0479        1, 4, 16
-dialogtxt       "それに引き替えこのオ[NAME 8]は..."
-dialogtxt       "出番もおそけりゃ"
-dialogtxt       "[NAME 4]メの台詞も言えやしねぇ..."
+dialogtxt       "Then look at me…"
+dialogtxt       "I show up late and"
+dialogtxt       "constantly get interrupted…"
 code0309        
 call            @Func_0f0e
 code0479        0, 4, 13
 call            @Func_0e6c
-dialogtxt       "まあまあ"
-dialogtxt       "そんなに落ち込まないで..."
+dialogtxt       "Now now,"
+dialogtxt       "don't get so down…"
 code0309        
 call            @Func_0ea2
 code0479        1, 0, 12
 call            @Func_0ed8
-dialogtxt       "それにしても"
-dialogtxt       "よくお前たちだけでアカバ[NAME 6]を"
-dialogtxt       "たおせたもんだなぁ"
+dialogtxt       "But still, I'm amazed"
+dialogtxt       "you guys managed to"
+dialogtxt       "defeat Red Wing by yourselves."
 code0309        
 call            @Func_0f0e
 code0479        0, 2, 12
 call            @Func_0e6c
 jumpz           @Cond_069a, ($b002 == 0)
-dialogtxt       "あいつも[NAME 8]ミィが戦って"
-dialogtxt       "弱らせてくれたから勝てたんだよ"
-dialogtxt       "くやしいけど、あいつはスゴイよ"
+dialogtxt       "Even that's because Lemmy"
+dialogtxt       "was able to weaken it."
+dialogtxt       "I hate to admit it, but he's great."
 goto            @Label_0702
 
 @Cond_069a:
-dialogtxt       "あれだって[NAME 8]ミィが先に戦って"
-dialogtxt       "弱らせてくれたから勝てたんだ..."
-dialogtxt       "くやしいけど、あいつはスゴイよ"
+dialogtxt       "Even that's because Lemmy"
+dialogtxt       "was able to weaken it."
+dialogtxt       "I hate to admit it, but he's great."
 goto            @Label_0702
 
 @Label_0702:
@@ -122,39 +120,39 @@ code0309
 call            @Func_0ea2
 code0479        1, 2, 16
 call            @Func_0ed8
-dialogtxt       "[NAME 8]ミィ...、そうか..."
-dialogtxt       "そういえばその時お前"
-dialogtxt       "召喚獣は見なかったのか？"
+dialogtxt       "Lemmy…, I see…"
+dialogtxt       "Which reminds me, did you"
+dialogtxt       "see a Summon Beast then?"
 code0309        
 call            @Func_0f0e
 code0479        0, 0, 16
 call            @Func_0e6c
-dialogtxt       "召喚獣？"
-dialogtxt       "アカバ[NAME 6]しかいなかったけど..."
+dialogtxt       "Summon Beast?"
+dialogtxt       "None besides Red Wing…"
 code0309        
 call            @Func_0ea2
 code0479        1, 4, 12
 call            @Func_0ed8
-dialogtxt       "そうか..."
-dialogtxt       "やっぱ、あいつ、まだ..."
+dialogtxt       "I see…"
+dialogtxt       "Like I thought, he's still…"
 code0309        
 call            @Func_0f0e
 code0479        0, 5, 16
 call            @Func_0e6c
-dialogtxt       "え、何？"
-dialogtxt       "なんかあるの？"
+dialogtxt       "Eh, what?"
+dialogtxt       "Is there some sort of issue?"
 code0309        
 call            @Func_0ea2
 code0479        1, 1, 12
 call            @Func_0ed8
-dialogtxt       "あ？"
-dialogtxt       "いや、何でもない"
+dialogtxt       "Ah?"
+dialogtxt       "No, it's nothing."
 code0309        
 call            @Func_0f0e
 code0479        0, 2, 14
 call            @Func_0e6c
-dialogtxt       "あ、あやしい"
-dialogtxt       "あやしすぎる..."
+dialogtxt       "S-suspicious."
+dialogtxt       "Very suspicious…"
 code0309        
 call            @Func_0fa8
 call            @Func_0e8a

@@ -115,7 +115,7 @@ code0439        3
 goto            @Cond_0584
 
 @Cond_0584:
-placetxt        "[NAME 8]クイの水遺跡　エリア４"
+placetxt        "Rekui Water Ruins　Area 4"
 code040b        
 
 @Event_05a2:
@@ -191,13 +191,13 @@ code0301        8, 7
 code047d        0, 0
 code047e        0, 1
 jumpz           @Cond_08c2, ($b002 == 0)
-dialogtxt       "近くに誰かいるみたいだ..."
-dialogtxt       "たしかめてみよう"
+dialogtxt       "There's someone there…"
+dialogtxt       "Let's have a look."
 goto            @Label_08f0
 
 @Cond_08c2:
-dialogtxt       "近くに誰かいるみたい..."
-dialogtxt       "行ってみよう"
+dialogtxt       "There's someone there…"
+dialogtxt       "Let's have a look."
 goto            @Label_08f0
 
 @Label_08f0:

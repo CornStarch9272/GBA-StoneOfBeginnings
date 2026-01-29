@@ -1,0 +1,1 @@
+python font\font_import.py build\swordcraft3-test.gba build\swordcraft3-test.gba

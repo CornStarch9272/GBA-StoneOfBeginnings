@@ -38,49 +38,49 @@ code047d        1, 2
 call            @Func_0d2c
 call            @Func_0caa
 jumpz           @Cond_021e, ($b003 == 0)
-dialogtxt       "..."
-dialogtxt       "波動ガ大分　強クナッテ[NAME 4]マシタ..."
-dialogtxt       "保護れべるヲ　あっぷシマス"
+dialogtxt       "…"
+dialogtxt       "Waves Are Increasing In Strength…"
+dialogtxt       "Increasing Protection."
 code047b        
 code0309        
-dialogtxt       "魔石ヲ収メテイタ遺跡ニ"
-dialogtxt       "近ヅイタカラデショウ"
+dialogtxt       "We Are Approaching"
+dialogtxt       "The Ruins."
 goto            @Cond_021e
 
 @Cond_021e:
 jumpz           @Cond_02ca, ($b003 == 1)
-dialogtxt       "むぅ..."
-dialogtxt       "イヤな気が大分強くなってきたな..."
-dialogtxt       "少し、こたえるのぉ..."
+dialogtxt       "Mmm…"
+dialogtxt       "The air itself is so oppressive…"
+dialogtxt       "As I expected…"
 code047b        
 code0309        
 code0479        1, 4, 14
-dialogtxt       "魔石を収めていた遺跡に"
-dialogtxt       "近づいてきたからじゃろうて..."
+dialogtxt       "We must be getting"
+dialogtxt       "closer to the ruins…"
 goto            @Cond_02ca
 
 @Cond_02ca:
 jumpz           @Cond_0368, ($b003 == 2)
-dialogtxt       "ちぃっ..."
-dialogtxt       "イヤな感じがヒドクなってきた..."
-dialogtxt       "うっとうしい..."
+dialogtxt       "Tch…"
+dialogtxt       "It feels disgusting here…"
+dialogtxt       "How annoying…"
 code047b        
 code0309        
 code0479        1, 4, 16
-dialogtxt       "魔石を収めていた遺跡に"
-dialogtxt       "近づいてきたからか..."
+dialogtxt       "We must be getting"
+dialogtxt       "closer to the ruins…"
 goto            @Cond_0368
 
 @Cond_0368:
 jumpz           @Cond_0406, ($b003 == 3)
-dialogtxt       "うぅ..."
-dialogtxt       "イヤな感じがヒドクなって"
-dialogtxt       "きましたわ..."
+dialogtxt       "Uu…"
+dialogtxt       "This place is very unsettling…"
+dialogtxt       "We're almost there…"
 code047b        
 code0309        
 code0479        1, 4, 16
-dialogtxt       "きっと魔石を収めていた"
-dialogtxt       "遺跡に近づいてきたからですわ..."
+dialogtxt       "I'm certain we are"
+dialogtxt       "approaching the ruins…"
 goto            @Cond_0406
 
 @Cond_0406:
@@ -90,11 +90,11 @@ code0479        0, 2, 16
 call            @Func_0d16
 call            @Func_0c5c
 jumpz           @Cond_0450, ($b002 == 0)
-dialogtxt       "大丈夫か？　γ..."
+dialogtxt       "[NAME 1], are you okay?"
 goto            @Label_0466
 
 @Cond_0450:
-dialogtxt       "大丈夫？　γ..."
+dialogtxt       "[NAME 1], are you okay?"
 goto            @Label_0466
 
 @Label_0466:
@@ -110,13 +110,13 @@ code0479        0, 2, 16
 call            @Func_0d16
 call            @Func_0c3e
 jumpz           @Cond_04e6, ($b002 == 0)
-dialogtxt       "そこの家で"
-dialogtxt       "少し休んでいくか？"
+dialogtxt       "Want to rest"
+dialogtxt       "over there?"
 goto            @Label_050a
 
 @Cond_04e6:
-dialogtxt       "そこの家で"
-dialogtxt       "少し休もうか？"
+dialogtxt       "Want to rest"
+dialogtxt       "over there?"
 goto            @Label_050a
 
 @Label_050a:
@@ -151,23 +151,23 @@ goto            @Label_05ce
 call            @Func_0d2c
 call            @Func_0caa
 jumpz           @Cond_05fa, ($b003 == 0)
-dialogtxt       "マカセマス..."
+dialogtxt       "It Is Your Decision…"
 goto            @Cond_05fa
 
 @Cond_05fa:
 jumpz           @Cond_0622, ($b003 == 1)
-dialogtxt       "おぬしにまかせる"
+dialogtxt       "If you want to."
 goto            @Cond_0622
 
 @Cond_0622:
 jumpz           @Cond_0644, ($b003 == 2)
-dialogtxt       "好きにしろ"
+dialogtxt       "Whatever is fine."
 goto            @Cond_0644
 
 @Cond_0644:
 jumpz           @Cond_068c, ($b003 == 3)
-dialogtxt       "ありがとうございます"
-dialogtxt       "δさんにおまかせしますわ"
+dialogtxt       "Thank you."
+dialogtxt       "I will let you decide."
 goto            @Cond_068c
 
 @Cond_068c:

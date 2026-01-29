@@ -381,8 +381,8 @@ ret
 code0301        8, 7
 code047d        0, 123
 code047e        0, 1
-dialogtxt       "おかえりなさい"
-dialogtxt       "いつでも帰ってきていいのよ"
+dialogtxt       "Welcome back!"
+dialogtxt       "Feel free to visit us often!"
 code0309        
 code047e        0, 0
 code0302        7
@@ -392,11 +392,11 @@ code040b
 code0301        8, 7
 code047d        0, 120
 code047e        0, 1
-dialogtxt       "信じることをやめるな！"
-dialogtxt       "とにかく追いかけろ！"
-dialogtxt       "ってじいちゃんがよく言ってたよ"
+dialogtxt       "Don't stop believing in yourself!"
+dialogtxt       "Never stop chasing your dreams!"
+dialogtxt       "…My Gramps would say those a lot."
 code0309        
-dialogtxt       "[NAME 4]ミは何か追いかけてる？"
+dialogtxt       "What are you aspiring for?"
 code0309        
 code047e        0, 0
 code0302        7
@@ -411,9 +411,9 @@ code040b
 code0301        8, 7
 code047d        0, 118
 code047e        0, 1
-dialogtxt       "ザック君が居なくなると"
-dialogtxt       "村もなんだか静かで"
-dialogtxt       "寂しいな"
+dialogtxt       "Whenever Zakk is gone, the"
+dialogtxt       "village feels a little quieter."
+dialogtxt       "And a little more lonely."
 code0309        
 code047e        0, 0
 code0302        7

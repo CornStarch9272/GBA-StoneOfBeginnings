@@ -15,7 +15,7 @@ code0482
 code047d        0, 132
 code0301        16, 3
 code047e        0, 1
-dialogtxt       "今日もご苦労だったな、δ"
+dialogtxt       "You did great today, [NAME 2]."
 code0309        
 code047e        0, 0
 code0302        3
@@ -45,126 +45,126 @@ code0479        1, 0, 13
 code047d        1, 132
 call            @Func_0fae
 call            @Func_0f16
-dialogtxt       "お前たちのおかげでアニスたちを"
-dialogtxt       "全員捕まえることができた"
-dialogtxt       "自警団を代表して礼を言うよ"
+dialogtxt       "Thanks to you, we caught every"
+dialogtxt       "member of Anise's group. As a part"
+dialogtxt       "of the Vigilante Corps, thank you."
 code047b        
 code0309        
 call            @Func_0f6a
 code0479        0, 4, 13
 call            @Func_0ec8
-dialogtxt       "そんな..."
-dialogtxt       "お礼なんて、いいよ〜"
+dialogtxt       "That's not…"
+dialogtxt       "You don't need to thank me."
 code0309        
 call            @Func_0efe
 code0479        1, 0, 12
 call            @Func_0f34
-dialogtxt       "しっかし、ここしばらくの間で"
-dialogtxt       "お前のウデも相当なもんに"
-dialogtxt       "なったみたいだな"
+dialogtxt       "You know, it hasn't been long"
+dialogtxt       "but you've already grown"
+dialogtxt       "quite strong."
 code0309        
 call            @Func_0f6a
 code0479        0, 0, 12
 call            @Func_0ec8
-dialogtxt       "え？"
-dialogtxt       "そう思う？"
+dialogtxt       "Eh?"
+dialogtxt       "You think so?"
 code0309        
 call            @Func_0efe
 code0479        1, 0, 13
 call            @Func_0f34
-dialogtxt       "前にアニスたちとやりあった時とは"
-dialogtxt       "比べもんにならないくらい"
-dialogtxt       "強くなってたじゃないか"
+dialogtxt       "So strong you can't be compared"
+dialogtxt       "to how you were before,"
+dialogtxt       "the first time we fought Anise."
 code0309        
 call            @Func_0f6a
 code0479        0, 1, 13
 call            @Func_0ec8
-dialogtxt       "えへへ..."
-dialogtxt       "そっかな〜"
+dialogtxt       "Ehehe…"
+dialogtxt       "I see~."
 code0309        
 call            @Func_0efe
 code0479        1, 2, 12
 call            @Func_0f34
-dialogtxt       "でも、まだまだロブのウデには"
-dialogtxt       "およばないがな"
+dialogtxt       "But, you're still not"
+dialogtxt       "on the same level as Rob."
 code0309        
 call            @Func_0f6a
 code0479        0, 4, 15
 call            @Func_0ec8
-dialogtxt       "う..."
-dialogtxt       "そんなぁ..."
+dialogtxt       "Ugh…"
+dialogtxt       "No wayy…"
 code0309        
 call            @Func_0efe
 code0479        1, 1, 13
 call            @Func_0f34
-dialogtxt       "ま、早くロブの弟子としても"
-dialogtxt       "ふさわしい鍛冶師になるように"
-dialogtxt       "ちゃんと修行するんだな"
+dialogtxt       "Well, make sure to keep practicing,"
+dialogtxt       "so you can become a Craftknight"
+dialogtxt       "worthy of being Rob's apprentice."
 code0309        
 call            @Func_0f6a
 code0479        0, 4, 12
 call            @Func_0ec8
-dialogtxt       "はぁ..."
-dialogtxt       "ロブ親方って"
-dialogtxt       "やっぱりスゴかったんだね..."
+dialogtxt       "Haa…"
+dialogtxt       "Master Rob was really amazing,"
+dialogtxt       "wasn't he…"
 code0309        
 call            @Func_0efe
 code0479        1, 2, 12
 call            @Func_0f34
-dialogtxt       "そうだぜ"
-dialogtxt       "このオ[NAME 8]だってロブに認められた武器は"
-dialogtxt       "ひとつしかないんだ"
+dialogtxt       "He was."
+dialogtxt       "Even I only have one weapon"
+dialogtxt       "he acknowledged."
 code0309        
 code0479        1, 2, 13
-dialogtxt       "その武器は今でもオ[NAME 8]の宝物だぜ..."
+dialogtxt       "That weapon is very precious to me…"
 code0309        
 call            @Func_0f6a
 code0479        0, 0, 16
 call            @Func_0ec8
-dialogtxt       "へぇ..."
-dialogtxt       "どんな武器なの？"
+dialogtxt       "Ohh…"
+dialogtxt       "Which one is it?"
 code0309        
 call            @Func_0efe
 code0479        1, 0, 12
 call            @Func_0f34
-dialogtxt       "見たいか？"
+dialogtxt       "Wanna see it?"
 code0309        
 call            @Func_0f6a
 code0479        0, 5, 13
 call            @Func_0ec8
-dialogtxt       "見たい！"
+dialogtxt       "I do!"
 code0309        
 call            @Func_0efe
 code0479        1, 0, 13
 call            @Func_0f34
-dialogtxt       "どうしても？"
+dialogtxt       "No matter what?"
 code0309        
 call            @Func_0f6a
 code0479        0, 2, 12
 call            @Func_0ec8
-dialogtxt       "どうしても！"
+dialogtxt       "No matter what!"
 code0309        
 call            @Func_0efe
 code0479        1, 0, 12
 call            @Func_0f34
-dialogtxt       "そうか..."
+dialogtxt       "I see…"
 code0309        
 code0479        1, 0, 13
-dialogtxt       "どうしようかな..."
+dialogtxt       "What should I do…"
 code0309        
 call            @Func_0f6a
 code0479        0, 2, 15
 call            @Func_0ec8
 jumpz           @Cond_080e, ($b002 == 0)
-dialogtxt       "ちょっとアニ[NAME 4]！"
-dialogtxt       "もったいぶるなよ！"
-dialogtxt       "ケチ！"
+dialogtxt       "Hey, Bro!"
+dialogtxt       "Don't go acting all high and mighty!"
+dialogtxt       "Stingy!"
 goto            @Label_084a
 
 @Cond_080e:
-dialogtxt       "ちょっとアニ[NAME 4]！"
-dialogtxt       "もったいぶらないでよ！"
-dialogtxt       "ケチ！"
+dialogtxt       "Hey, Bro!"
+dialogtxt       "Don't go acting all high and mighty!"
+dialogtxt       "Stingy!"
 goto            @Label_084a
 
 @Label_084a:
@@ -172,19 +172,19 @@ code0309
 call            @Func_0efe
 code0479        1, 2, 14
 call            @Func_0f34
-dialogtxt       "誰がケチだ！"
-dialogtxt       "わかったよ、仕方ねぇ"
-dialogtxt       "お前だけに特別に見せてやろう"
+dialogtxt       "Who's stingy!"
+dialogtxt       "Alright, I got it."
+dialogtxt       "Just this once, okay?"
 code0309        
 call            @Func_0f6a
 code0479        0, 1, 13
 call            @Func_0ec8
-dialogtxt       "やった！"
+dialogtxt       "Yay!"
 code0309        
 call            @Func_0efe
 code0479        1, 0, 13
 call            @Func_0f34
-dialogtxt       "んじゃ、明日な"
+dialogtxt       "Tomorrow then."
 code0309        
 call            @Func_1004
 call            @Func_0f52

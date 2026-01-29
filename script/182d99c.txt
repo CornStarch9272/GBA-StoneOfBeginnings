@@ -31,22 +31,22 @@ code047d        1, 2
 call            @Func_0940
 call            @Func_08a8
 jumpz           @Cond_014e, ($b003 == 0)
-dialogtxt       "注意シテクダサイ！"
+dialogtxt       "Please Be Careful!"
 goto            @Cond_014e
 
 @Cond_014e:
 jumpz           @Cond_0172, ($b003 == 1)
-dialogtxt       "気をつけろ！"
+dialogtxt       "Watch out!"
 goto            @Cond_0172
 
 @Cond_0172:
 jumpz           @Cond_0192, ($b003 == 2)
-dialogtxt       "止まれ！"
+dialogtxt       "Stop!"
 goto            @Cond_0192
 
 @Cond_0192:
 jumpz           @Cond_01b8, ($b003 == 3)
-dialogtxt       "待ってください"
+dialogtxt       "Please wait!"
 goto            @Cond_01b8
 
 @Cond_01b8:
@@ -64,13 +64,13 @@ code047d        1, 0
 call            @Func_092a
 call            @Func_08c6
 jumpz           @Cond_0254, ($b002 == 0)
-dialogtxt       "人か..."
-dialogtxt       "こっちには行けないな..."
+dialogtxt       "There's someone there…"
+dialogtxt       "Can't go this way…"
 goto            @Label_027c
 
 @Cond_0254:
-dialogtxt       "人か..."
-dialogtxt       "こっちには行けないね..."
+dialogtxt       "There's someone there…"
+dialogtxt       "Can't go this way…"
 goto            @Label_027c
 
 @Label_027c:

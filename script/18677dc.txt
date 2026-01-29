@@ -19,13 +19,13 @@ code047d        1, 0
 call            @Func_0fba
 call            @Func_0f38
 jumpz           @Cond_0154, ($b002 == 0)
-dialogtxt       "あれ？"
-dialogtxt       "γ、ドコ行くんだよ"
+dialogtxt       "Huh?"
+dialogtxt       "[NAME 1], where are you going?"
 goto            @Label_0176
 
 @Cond_0154:
-dialogtxt       "あれ？"
-dialogtxt       "γ、ドコ行くの？"
+dialogtxt       "Huh?"
+dialogtxt       "[NAME 1], where are you going?"
 goto            @Label_0176
 
 @Label_0176:
@@ -56,29 +56,29 @@ code047d        0, 2
 call            @Func_0fa4
 call            @Func_0eea
 jumpz           @Cond_02a8, ($b003 == 0)
-dialogtxt       "みゅーの様ト　今後ノ計画ニツイテ"
-dialogtxt       "打チ合ワセスル　必要ガアリマスノデ"
-dialogtxt       "シバラク　出カケマス"
+dialogtxt       "I Must Meet Lady Murno"
+dialogtxt       "To Discuss Our Plans From Hereon."
+dialogtxt       "I Will Be Away For Some Time."
 goto            @Cond_02a8
 
 @Cond_02a8:
 jumpz           @Cond_030c, ($b003 == 1)
-dialogtxt       "これからの事でミューノに話があっての"
-dialogtxt       "すまんが少し"
-dialogtxt       "勝手をさせてもらうぞ"
+dialogtxt       "I need to talk to Murno about"
+dialogtxt       "our plans from hereon."
+dialogtxt       "My apologies. I will be off."
 goto            @Cond_030c
 
 @Cond_030c:
 jumpz           @Cond_0352, ($b003 == 2)
-dialogtxt       "ミューノに話があるだけだ"
-dialogtxt       "[NAME 4]サマには関係ない"
+dialogtxt       "I have to talk to Murno."
+dialogtxt       "It has nothing to dowith you."
 goto            @Cond_0352
 
 @Cond_0352:
 jumpz           @Cond_03ae, ($b003 == 3)
-dialogtxt       "ミューノ様とこれからのことを"
-dialogtxt       "お話ししたいので..."
-dialogtxt       "すみませんが..."
+dialogtxt       "I want to talk with Lady Murno"
+dialogtxt       "about what to do from hereon…"
+dialogtxt       "I'm sorry, but…"
 goto            @Cond_03ae
 
 @Cond_03ae:
@@ -88,15 +88,15 @@ call            @Func_0f20
 code0479        1, 0, 12
 call            @Func_0f56
 jumpz           @Cond_040a, ($b002 == 0)
-dialogtxt       "そっか..."
-dialogtxt       "そうだな..."
-dialogtxt       "わかったよ"
+dialogtxt       "Oh…"
+dialogtxt       "Okay…"
+dialogtxt       "Understood."
 goto            @Label_0436
 
 @Cond_040a:
-dialogtxt       "そっか..."
-dialogtxt       "そうだね..."
-dialogtxt       "わかったよ"
+dialogtxt       "Oh…"
+dialogtxt       "Okay…"
+dialogtxt       "Understood."
 goto            @Label_0436
 
 @Label_0436:
@@ -130,7 +130,7 @@ code0479        1, 0, 14
 code047d        1, 0
 call            @Func_0fa4
 call            @Func_0ecc
-dialogtxt       "おまたせー"
+dialogtxt       "Thanks for waiting!"
 code0309        
 call            @Func_0ffa
 call            @Func_0f08
@@ -153,39 +153,37 @@ code0479        0, 0, 14
 code047d        0, 0
 call            @Func_0fd0
 call            @Func_0f38
-dialogtxt       "さ、δ"
-dialogtxt       "早くほほえみ亭に向かいましょ"
+dialogtxt       "Now, [NAME 2],"
+dialogtxt       "let's head to Smile Inn."
 code0309        
 call            @Func_0f8c
 code0479        0, 0, 16
 call            @Func_0eea
 jumpz           @Cond_0760, ($b002 == 0)
-dialogtxt       "そっか"
-dialogtxt       "そうだったな"
+dialogtxt       "Oh, right."
 goto            @Label_077e
 
 @Cond_0760:
-dialogtxt       "そっか"
-dialogtxt       "そうだったね"
+dialogtxt       "Oh, right."
 goto            @Label_077e
 
 @Label_077e:
 code0309        
 code0479        1, 0, 12
-choicetxt       @Choice_08c2, "じゃあ出発しよう"
-choicetxt       @Choice_07c8, "まだ準備ができてないよ"
+choicetxt       @Choice_08c2, "Let's go."
+choicetxt       @Choice_07c8, "I'm not ready yet."
 choicewait      
 
 @Choice_07c8:
 code0479        0, 0, 12
 jumpz           @Cond_081a, ($b002 == 0)
-dialogtxt       "準備するから"
-dialogtxt       "ちょっと待っててくれよ"
+dialogtxt       "I need to get ready,"
+dialogtxt       "wait a moment."
 goto            @Label_0842
 
 @Cond_081a:
-dialogtxt       "準備するから"
-dialogtxt       "ちょっと待ってて"
+dialogtxt       "I need to get ready,"
+dialogtxt       "wait a moment."
 goto            @Label_0842
 
 @Label_0842:
@@ -193,8 +191,8 @@ code0309
 call            @Func_0f20
 code0479        1, 0, 16
 call            @Func_0f56
-dialogtxt       "じゃあここで待ってるから"
-dialogtxt       "早くしてね"
+dialogtxt       "I'll be waiting here."
+dialogtxt       "Don't take too long."
 code0309        
 call            @Func_1026
 call            @Func_0f74
@@ -207,13 +205,13 @@ goto            @Label_0946
 setvar          $f0138, 1
 code0479        0, 0, 12
 jumpz           @Cond_090c, ($b002 == 0)
-dialogtxt       "わかった"
-dialogtxt       "行くよ"
+dialogtxt       "Alright."
+dialogtxt       "Let's go."
 goto            @Label_092a
 
 @Cond_090c:
-dialogtxt       "それじゃあ"
-dialogtxt       "行こっか"
+dialogtxt       "Okay then,"
+dialogtxt       "let's go."
 goto            @Label_092a
 
 @Label_092a:

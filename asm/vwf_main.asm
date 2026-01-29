@@ -11,7 +11,7 @@ mov r7,r10
 mov r6,r9
 mov r5,r8
 push r5-r7
-sub sp,8
+sub sp, #8
 
 ; Save out the important parameters.
 mov r10,r0
@@ -32,13 +32,14 @@ b @@skiplog
 @@skiplog:
 
 ; Copy bgColor to sp+0 for all calls to DrawStrGlyph.
-ldr r0,[sp,40]
+ldr r0, [sp, #40]
 str r0,[sp,0]
 
 ; Prep some counters, r7 will be pixelsWritten and sp+40 codepos+codeout.
 mov r7,0
 mov r6,r2
-str r6,[sp,40]
+str r6, [sp, #40]
+
 
 ; And a trick: this is where we push the str for a name.
 ; We reuse our main loop and just swap the pointer.
@@ -104,6 +105,52 @@ beq @@pointerCode
 mov r1,0
 ; Fall-through.
 
+;--- KurobaM: fix closing double quote
+cmp r0, #0x22
+bne @@handleJIS
+ldr r3, =0x3007ac0      ; unused memory location
+ldrb r0, [r3]
+cmp r0, 0x55
+bne @@quoteCountInc
+; count double quote
+mov r12, r1
+mov r1, #1
+strb r1, [r3]
+strb r1, [r3, #1]
+mov r2, r4
+@@countQuoteLoop:
+ldrb r0, [r2]
+cmp r0, #0
+beq @@firstNull
+cmp r0, #0x22
+bne @@skipIncQuote
+add r1, #1
+strb r1, [r3, #1]
+@@skipIncQuote:
+add r2, #1
+b @@countQuoteLoop
+@@firstNull:
+ldrb r0, [r2, #1]
+cmp r0, #0                      ; second null
+bne @@countQuoteRestore         ; error not terminate with two null, abort
+ldrb r0, [r2, #2]
+cmp r0, #8 
+bne @@countQuoteRestore         ; not code for next line, abort
+ldrb r0, [r2, #3]
+cmp r0, #3
+bne @@countQuoteRestore         ; not code for next line, abort
+add r2, #4
+beq @@countQuoteLoop            ; have next line, count again
+@@quoteCountInc:
+ldr r3, =0x3007ac0
+ldrb r0, [r3]
+add r0, #1
+strb r0, [r3]
+@@countQuoteRestore:
+mov r1, r12
+mov r0, #0x22
+;------------------------------------------------
+
 @@handleJIS:
 ; Combine to a single character code.
 lsl r1,r1,8
@@ -113,6 +160,24 @@ orr r0,r1
 bl LookupGlyph
 ; That returned the width in r1.
 str r1,[sp,4]
+
+;--- KurobaM: fix closing double quote
+ldr r3, =0x3007ac0
+ldrb r1, [r3]
+cmp r1, #2
+bne @@skipNonClosingQuote
+add r0, #0x18
+mov r1, #0
+strb r1, [r3]
+ldrb r1, [r3, #1]
+sub r1, #2
+cmp r1, #2
+bhs @@skipNonClosingQuote
+mov r1, #0x55
+strb r1, [r3]
+strb r1, [r3, #1]
+@@skipNonClosingQuote:
+;-----------------------------------------------
 
 ; Prep the dst, rounding to nearest tile pair.
 lsl r1,r7,3
@@ -154,10 +219,10 @@ lsr r0,r0,3
 ; Combine and write to codeout.
 lsl r0,r0,8
 orr r0,r1
-ldr r2,[sp,40]
+ldr r2, [sp, #40]
 strh r0,[r2]
 add r2,r2,2
-str r2,[sp,40]
+str r2, [sp, #40]
 
 ; That's it for the control code.
 b @@nextChar
@@ -177,7 +242,7 @@ cmp r4,0
 bne @@nextChar
 
 ; Okay, time for cleanup.  Write out FFFF if we wrote zero control codes.
-ldr r2,[sp,40]
+ldr r2, [sp, #40]
 cmp r2,r9
 bne @@skipFFFF
 
@@ -191,7 +256,7 @@ add r0,11
 mov r1,12
 swi 6 ; Div
 
-add sp,8
+add sp, #8
 pop r1-r7
 mov r8,r1
 mov r9,r2

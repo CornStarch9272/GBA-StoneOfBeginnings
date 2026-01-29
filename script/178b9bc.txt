@@ -10,7 +10,7 @@ code0412        4, 1
 code0418        2
 setvar          $b075, 1
 setvar          $b072, 0
-placetxt        "Prosban　Lottery"
+placetxt        "Prosban Town　Lottery Shop"
 code040c        1, @Label_0302
 call            @Func_0b04
 code041c        0, 128, 247, 1
@@ -66,7 +66,7 @@ code040b
 code0301        8, 7
 code047d        0, 0
 code047e        0, 1
-dialogtxt       "これは賞品じゃないのかな？"
+dialogtxt       "This isn't a prize?"
 code0309        
 code047e        0, 0
 code0302        7
@@ -83,9 +83,9 @@ goto            @start
 
 @Event_0316:
 code0301        8, 7
-dialogtxt       "当店をご利用のお客様へ"
-dialogtxt       "福引券１枚につき１回の福引が"
-dialogtxt       "ご利用頂けます"
+dialogtxt       "To our esteemed customers:"
+dialogtxt       "In order to play the lottery,"
+dialogtxt       "5 lottery tickets are needed."
 code0309        
 code0302        7
 code040b        

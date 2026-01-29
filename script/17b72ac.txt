@@ -10,7 +10,7 @@ code0412        4, 1
 code0418        2
 setvar          $b075, 1
 setvar          $b072, 0
-placetxt        "Prosban　Secret Lottery"
+placetxt        "Prosban Town　Back Lottery Shop"
 code040c        1, @Label_046c
 code040c        2, @Label_0462
 call            @Func_0c28
@@ -70,9 +70,9 @@ code040b
 @Event_0302:
 code0301        0, 7
 code0305        1
-dialogtxt       "当店をご利用のお客様へ"
-dialogtxt       "当店では福引き券５枚で１回の"
-dialogtxt       "福引きとなっております"
+dialogtxt       "To our esteemed customers:"
+dialogtxt       "In order to play the lottery,"
+dialogtxt       "5 lottery tickets are needed."
 code0309        
 code0302        7
 code040b        
@@ -82,11 +82,11 @@ code0301        8, 7
 code047d        0, 0
 code047e        0, 1
 jumpz           @Cond_03d2, ($b002 == 0)
-dialogtxt       "中になにが入ってるんだ？"
+dialogtxt       "What's inside?"
 goto            @Label_03ea
 
 @Cond_03d2:
-dialogtxt       "中身が気になる..."
+dialogtxt       "I wonder what's inside…"
 goto            @Label_03ea
 
 @Label_03ea:
@@ -98,8 +98,9 @@ code040b
 @Event_0404:
 code0301        0, 7
 code0305        1
-dialogtxt       "どんな食材も危険物に変える"
-dialogtxt       "少女が持っていたぬいぐるみ"
+dialogtxt       "The stuffed animal of a girl"
+dialogtxt       "who could turn any ingredient"
+dialogtxt       "into a dangerous substance."
 code0309        
 code0302        7
 code040b        

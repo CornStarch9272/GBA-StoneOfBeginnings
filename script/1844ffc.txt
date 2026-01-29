@@ -18,15 +18,15 @@ code047d        1, 0
 call            @Func_110a
 call            @Func_1088
 jumpz           @Cond_013a, ($b002 == 0)
-dialogtxt       "あれ？"
-dialogtxt       "[NAME 8]ミィ"
-dialogtxt       "何してんだよ？"
+dialogtxt       "Huh?"
+dialogtxt       "Lemmy?"
+dialogtxt       "What are you doing here?"
 goto            @Label_0162
 
 @Cond_013a:
-dialogtxt       "あれ？"
-dialogtxt       "[NAME 8]ミィ"
-dialogtxt       "何してるの？"
+dialogtxt       "Huh?"
+dialogtxt       "Lemmy?"
+dialogtxt       "What are you doing here?"
 goto            @Label_0162
 
 @Label_0162:
@@ -38,22 +38,22 @@ code0479        0, 5, 16
 code047d        0, 110
 call            @Func_10f4
 call            @Func_103a
-dialogtxt       "な、何って"
+dialogtxt       "Wh-what?"
 code047b        
 code0309        
 call            @Func_1070
 code0479        1, 0, 14
 call            @Func_10a6
 jumpz           @Cond_0232, ($b002 == 0)
-dialogtxt       "知らないのか？"
-dialogtxt       "ここにはアカバ[NAME 6]って"
-dialogtxt       "コワイはぐれがすんでるって話だぜ"
+dialogtxt       "You didn't know?"
+dialogtxt       "They say a scary Stray named"
+dialogtxt       "Red Wing lives here."
 goto            @Label_0282
 
 @Cond_0232:
-dialogtxt       "知らないの？"
-dialogtxt       "ここにはアカバ[NAME 6]って"
-dialogtxt       "コワイはぐれがすんでるって話だよ"
+dialogtxt       "You didn't know?"
+dialogtxt       "They say a scary Stray named"
+dialogtxt       "Red Wing lives here."
 goto            @Label_0282
 
 @Label_0282:
@@ -61,22 +61,22 @@ code0309
 call            @Func_10dc
 code0479        0, 2, 12
 call            @Func_103a
-dialogtxt       "それぐらい知ってるさ！"
-dialogtxt       "だけど、それを知っていて"
-dialogtxt       "君たちはどうしてここに？"
+dialogtxt       "Of course I know that!"
+dialogtxt       "What about you?"
+dialogtxt       "You came here knowing that?"
 code0309        
 call            @Func_1070
 code0479        1, 2, 14
 call            @Func_10a6
-dialogtxt       "どうしてって..."
-dialogtxt       "この辺りにアニスたちがかくれてるって"
-dialogtxt       "ザックから聞いたから"
+dialogtxt       "Well…"
+dialogtxt       "Zakk told me that Anise"
+dialogtxt       "was hiding somewhere in here."
 code0309        
 call            @Func_10dc
 code0479        0, 4, 14
 call            @Func_103a
-dialogtxt       "ザックか..."
-dialogtxt       "また余計なことを"
+dialogtxt       "Zakk…"
+dialogtxt       "Meddling again."
 code0309        
 call            @Func_1160
 call            @Func_1070
@@ -105,28 +105,27 @@ code047d        1, 2
 call            @Func_110a
 call            @Func_10a6
 jumpz           @Cond_04a0, ($b003 == 0)
-dialogtxt       "[NAME 5][NAME 8]デ　アナタハ"
-dialogtxt       "何ノ用ナノデスカ？"
+dialogtxt       "And What Business"
+dialogtxt       "Do You Have Here?"
 goto            @Cond_04a0
 
 @Cond_04a0:
 jumpz           @Cond_04e2, ($b003 == 1)
-dialogtxt       "で、おぬしはココに"
-dialogtxt       "何をしにきたのじゃ？"
+dialogtxt       "So, what business do"
+dialogtxt       "you have here?"
 goto            @Cond_04e2
 
 @Cond_04e2:
 jumpz           @Cond_0534, ($b003 == 2)
-dialogtxt       "ふん"
-dialogtxt       "で、[NAME 4]サマこそどうして"
-dialogtxt       "こんなところにいるんだ？"
+dialogtxt       "Hm."
+dialogtxt       "So, why are you in"
+dialogtxt       "a place like this?"
 goto            @Cond_0534
 
 @Cond_0534:
 jumpz           @Cond_0586, ($b003 == 3)
-dialogtxt       "それであなたは"
-dialogtxt       "どうしてこんなところに"
-dialogtxt       "いるんですの？"
+dialogtxt       "And so why are you"
+dialogtxt       "in a place like this?"
 goto            @Cond_0586
 
 @Cond_0586:
@@ -135,9 +134,9 @@ code0309
 call            @Func_10dc
 code0479        0, 5, 17
 call            @Func_103a
-dialogtxt       "ぼ、僕は...！"
-dialogtxt       "武器を..."
-dialogtxt       "そう、武器を鍛えに来ただけだ"
+dialogtxt       "I-I'm…! Weapons…"
+dialogtxt       "Right, I'm here to"
+dialogtxt       "strengthen my weapons."
 code0309        
 call            @Func_1160
 call            @Func_1070
@@ -148,15 +147,15 @@ code047d        1, 0
 call            @Func_110a
 call            @Func_10a6
 jumpz           @Cond_0678, ($b002 == 0)
-dialogtxt       "へえ！　やるなあ"
-dialogtxt       "わざわざアブナイとこで"
-dialogtxt       "鍛えてたのか"
+dialogtxt       "Oh! That's great!"
+dialogtxt       "Deliberately training in"
+dialogtxt       "such a dangerous place."
 goto            @Label_06ba
 
 @Cond_0678:
-dialogtxt       "へえ！　やるわね"
-dialogtxt       "わざわざアブナイとこで"
-dialogtxt       "鍛えてたんだ"
+dialogtxt       "Oh! That's great!"
+dialogtxt       "Deliberately training in"
+dialogtxt       "such a dangerous place."
 goto            @Label_06ba
 
 @Label_06ba:
@@ -165,7 +164,7 @@ code0309
 call            @Func_10dc
 code0479        0, 2, 16
 call            @Func_103a
-dialogtxt       "でも、もう帰るから"
+dialogtxt       "Although, I was just leaving."
 code0309        
 call            @Func_1176
 call            @Func_1058
@@ -208,15 +207,15 @@ call            @Func_1120
 code0479        1, 2, 16
 call            @Func_1088
 jumpz           @Cond_08f0, ($b002 == 0)
-dialogtxt       "なんだよ、あいつ"
-dialogtxt       "ずっと怒ってるのかよ..."
-dialogtxt       "ホント感じ悪いなぁ"
+dialogtxt       "What's wrong with him?"
+dialogtxt       "Is he always that angry?"
+dialogtxt       "He gives me a bad feeling."
 goto            @Label_0932
 
 @Cond_08f0:
-dialogtxt       "なによ、あいつ"
-dialogtxt       "ずっと怒ってるの？"
-dialogtxt       "ホント感じ悪いなぁ"
+dialogtxt       "What's wrong with him?"
+dialogtxt       "Is he always that angry?"
+dialogtxt       "He gives me a bad feeling."
 goto            @Label_0932
 
 @Label_0932:
@@ -244,25 +243,25 @@ goto            @Label_09ca
 @Label_09ca:
 call            @Func_103a
 jumpz           @Cond_09f0, ($b003 == 0)
-dialogtxt       "[NAME 5]ウデス[NAME 6]"
+dialogtxt       "That Is True."
 goto            @Cond_09f0
 
 @Cond_09f0:
 jumpz           @Cond_0a24, ($b003 == 1)
-dialogtxt       "まあまあ"
-dialogtxt       "そう言うでないわ"
+dialogtxt       "Come on,"
+dialogtxt       "don't say that."
 goto            @Cond_0a24
 
 @Cond_0a24:
 jumpz           @Cond_0a4a, ($b003 == 2)
-dialogtxt       "ふ"
-dialogtxt       "そうだな"
+dialogtxt       "Hm."
+dialogtxt       "True."
 goto            @Cond_0a4a
 
 @Cond_0a4a:
 jumpz           @Cond_0a7a, ($b003 == 3)
-dialogtxt       "ホント"
-dialogtxt       "ドンカンですわ"
+dialogtxt       "He truly is."
+dialogtxt       "What an inconsiderate man!"
 goto            @Cond_0a7a
 
 @Cond_0a7a:

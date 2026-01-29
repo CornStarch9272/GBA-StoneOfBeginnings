@@ -20,8 +20,8 @@ code047d        0, 0
 call            @Func_0a1a
 call            @Func_0942
 jumpz           @Cond_024a, ($b002 == 0)
-dialogtxt       "ここは..."
-dialogtxt       "一体どこなんだ？"
+dialogtxt       "Where…"
+dialogtxt       "Where am I?"
 code0309        
 call            @Func_0a70
 call            @Func_097e
@@ -34,8 +34,8 @@ code040d        15
 code0479        0, 5, 16
 call            @Func_0a1a
 call            @Func_0942
-dialogtxt       "γ...！？"
-dialogtxt       "ミューノ！？"
+dialogtxt       "[NAME 1]…!?"
+dialogtxt       "Murno!?"
 code047b        
 code0309        
 call            @Func_0a70
@@ -47,19 +47,19 @@ code0446        0
 code0479        0, 5, 17
 call            @Func_0a1a
 call            @Func_0942
-dialogtxt       "あれ？"
-dialogtxt       "武器がない？"
-dialogtxt       "ほかのも...！？"
+dialogtxt       "Huh?"
+dialogtxt       "My weapon's gone?"
+dialogtxt       "What about…!?"
 code047b        
 code0309        
 code0479        0, 2, 15
-dialogtxt       "ああっ！？"
-dialogtxt       "ハンマーもない！？"
+dialogtxt       "Crap!"
+dialogtxt       "No hammer either!?"
 goto            @Label_0398
 
 @Cond_024a:
-dialogtxt       "ここは..."
-dialogtxt       "一体どこ？"
+dialogtxt       "Where…"
+dialogtxt       "Where am I?"
 code0309        
 call            @Func_0a70
 call            @Func_097e
@@ -72,8 +72,8 @@ code040d        15
 code0479        0, 5, 16
 call            @Func_0a1a
 call            @Func_0942
-dialogtxt       "γ...！？"
-dialogtxt       "ミューノ！？"
+dialogtxt       "[NAME 1]…!?"
+dialogtxt       "Murno!?"
 code047b        
 code0309        
 call            @Func_0a70
@@ -85,14 +85,14 @@ code0446        0
 code0479        0, 5, 17
 call            @Func_0a1a
 call            @Func_0942
-dialogtxt       "あれ？"
-dialogtxt       "武器がない？"
-dialogtxt       "ほかのも...！？"
+dialogtxt       "Huh?"
+dialogtxt       "My weapon's gone?"
+dialogtxt       "What about…!?"
 code047b        
 code0309        
 code0479        0, 2, 15
-dialogtxt       "ああっ！？"
-dialogtxt       "ハンマーもないの！？"
+dialogtxt       "What!?"
+dialogtxt       "No hammer either!?"
 goto            @Label_0398
 
 @Label_0398:

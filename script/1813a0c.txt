@@ -17,29 +17,28 @@ code0479        1, 0, 14
 code047d        1, 108
 call            @Func_178e
 call            @Func_168a
-dialogtxt       "あ、親方"
-dialogtxt       "帰ってたんだ"
-dialogtxt       "話し合いはどうだった？"
+dialogtxt       "Ah, Master,"
+dialogtxt       "you're back."
+dialogtxt       "How'd the meeting go?"
 code047b        
 code0309        
 call            @Func_16de
 code0479        1, 2, 14
 call            @Func_1714
-dialogtxt       "話し合い？"
-dialogtxt       "ああ、はぐれが出たってんで"
-dialogtxt       "それどころじゃなくなったよ"
+dialogtxt       "Oh, a Stray showed up so we"
+dialogtxt       "really didn't get anything done."
 code0309        
 code0479        1, 2, 16
-dialogtxt       "それより、δ"
-dialogtxt       "どこ行ってたんだい？"
-dialogtxt       "ミューノはいっしょじゃないのかい？"
+dialogtxt       "More importantly,"
+dialogtxt       "where have you been?"
+dialogtxt       "Is Murno with you?"
 code0309        
 call            @Func_174a
 code0479        0, 2, 16
 call            @Func_16a8
-dialogtxt       "どこって、アニ[NAME 4]にたのまれて"
-dialogtxt       "ちょっとお使いだよ"
-dialogtxt       "ミューノならエリエと..."
+dialogtxt       "Bro asked me to"
+dialogtxt       "run an errand for him."
+dialogtxt       "Murno should be with Elieze."
 code0309        
 call            @Func_17e4
 call            @Func_16c6
@@ -70,9 +69,9 @@ goto            @Label_034c
 code047d        1, 2
 call            @Func_1762
 call            @Func_168a
-dialogtxt       "ううん"
-dialogtxt       "ミューノおねーちゃん"
-dialogtxt       "いっちゃったよ"
+dialogtxt       "No,"
+dialogtxt       "big sis Murno"
+dialogtxt       "already left."
 code047b        
 code0309        
 call            @Func_17b8
@@ -90,26 +89,26 @@ code0331        39, 256
 call            @Func_178e
 call            @Func_16f6
 jumpz           @Cond_044a, ($b003 == 0)
-dialogtxt       "行ッタ？"
-dialogtxt       "ドコヘデスカ？"
+dialogtxt       "Left?"
+dialogtxt       "Where Did She Go?"
 goto            @Cond_044a
 
 @Cond_044a:
 jumpz           @Cond_047c, ($b003 == 1)
-dialogtxt       "行ったじゃと？"
-dialogtxt       "どこへ？"
+dialogtxt       "She left?"
+dialogtxt       "Where to?"
 goto            @Cond_047c
 
 @Cond_047c:
 jumpz           @Cond_04a6, ($b003 == 2)
-dialogtxt       "行った？"
-dialogtxt       "どこへ"
+dialogtxt       "She left?"
+dialogtxt       "Where to?"
 goto            @Cond_04a6
 
 @Cond_04a6:
 jumpz           @Cond_04dc, ($b003 == 3)
-dialogtxt       "行ったって..."
-dialogtxt       "ドコへですか？"
+dialogtxt       "She left…?"
+dialogtxt       "Where did she go?"
 goto            @Cond_04dc
 
 @Cond_04dc:
@@ -118,7 +117,7 @@ code0309
 call            @Func_174a
 code0479        0, 0, 16
 call            @Func_16a8
-dialogtxt       "わかんない"
+dialogtxt       "I dunno."
 code0309        
 call            @Func_16de
 jumpz           @Cond_0538, ($b003 == 0)
@@ -142,30 +141,30 @@ goto            @Label_05a0
 @Label_05a0:
 call            @Func_1714
 jumpz           @Cond_060a, ($b003 == 0)
-dialogtxt       "ヨク思イダシテ下サイ"
-dialogtxt       "手ガカリニナルヨウナコトハ"
-dialogtxt       "言ッテイマセンデシタカ？"
+dialogtxt       "Please Try To Remember."
+dialogtxt       "Did She Say Anything"
+dialogtxt       "That Could Be A Clue?"
 goto            @Cond_060a
 
 @Cond_060a:
 jumpz           @Cond_066e, ($b003 == 1)
-dialogtxt       "なんじゃと！？"
-dialogtxt       "良く思い出すのじゃ！"
-dialogtxt       "ミューノは何か言っていなかったか？"
+dialogtxt       "What!?"
+dialogtxt       "Try to remember!"
+dialogtxt       "Did she say anything?"
 goto            @Cond_066e
 
 @Cond_066e:
 jumpz           @Cond_06ba, ($b003 == 2)
-dialogtxt       "なんだと！？"
-dialogtxt       "それは本当なのか？"
-dialogtxt       "良く思い出せ！"
+dialogtxt       "What!?"
+dialogtxt       "Are you serious!?"
+dialogtxt       "Try to remember!"
 goto            @Cond_06ba
 
 @Cond_06ba:
 jumpz           @Cond_0712, ($b003 == 3)
-dialogtxt       "そんな！？"
-dialogtxt       "本当にミューノ様はなにも"
-dialogtxt       "言ってませんでしたか？"
+dialogtxt       "No way!?"
+dialogtxt       "Did she really not"
+dialogtxt       "tell you anything?"
 goto            @Cond_0712
 
 @Cond_0712:
@@ -173,9 +172,9 @@ code0309
 call            @Func_174a
 code0479        0, 4, 16
 call            @Func_16a8
-dialogtxt       "う...あの...おにーちゃんが"
-dialogtxt       "はぐれたいじに、いっちゃって"
-dialogtxt       "そのあとに、おねーちゃんが..."
+dialogtxt       "Uh…um…"
+dialogtxt       "Mr. Jade left to fight Strays,"
+dialogtxt       "and then, Ms. Murno, umm…"
 code0309        
 call            @Func_17e4
 call            @Func_16c6
@@ -185,7 +184,7 @@ code0446        3
 code0479        0, 4, 16
 call            @Func_1762
 call            @Func_168a
-dialogtxt       "うぅぅ..."
+dialogtxt       "Urgh…"
 code047b        
 code0309        
 call            @Func_16de
@@ -194,8 +193,8 @@ code0479        1, 0, 12
 code047d        1, 108
 call            @Func_1778
 call            @Func_1714
-dialogtxt       "もういいよ、エリエ"
-dialogtxt       "ありがとうな"
+dialogtxt       "That's enough, Elieze."
+dialogtxt       "Thank you."
 code047b        
 code0309        
 call            @Func_17b8
@@ -226,9 +225,9 @@ goto            @Label_090e
 code047d        0, 2
 code0479        1, 2, 14
 call            @Func_1762
-dialogtxt       "いいね、γ"
-dialogtxt       "こんな小さい子を責めても"
-dialogtxt       "しかたないだろう"
+dialogtxt       "Hey, [NAME 1]."
+dialogtxt       "You can't blame her,"
+dialogtxt       "she's just a child."
 code047b        
 code0309        
 call            @Func_174a
@@ -253,24 +252,23 @@ goto            @Label_0a0a
 @Label_0a0a:
 call            @Func_16a8
 jumpz           @Cond_0a4e, ($b003 == 0)
-dialogtxt       "私ハ　責メテイタワケデハ"
-dialogtxt       "アリマセンガ"
+dialogtxt       "That Was Not My Intention."
 goto            @Cond_0a4e
 
 @Cond_0a4e:
 jumpz           @Cond_0a7a, ($b003 == 1)
-dialogtxt       "それは、そうじゃな..."
+dialogtxt       "That's…true…"
 goto            @Cond_0a7a
 
 @Cond_0a7a:
 jumpz           @Cond_0a98, ($b003 == 2)
-dialogtxt       "ちっ..."
+dialogtxt       "Tsk…"
 goto            @Cond_0a98
 
 @Cond_0a98:
 jumpz           @Cond_0ace, ($b003 == 3)
-dialogtxt       "そうですわね..."
-dialogtxt       "すみません..."
+dialogtxt       "You're right…"
+dialogtxt       "I'm sorry…"
 goto            @Cond_0ace
 
 @Cond_0ace:
@@ -287,23 +285,23 @@ code047d        0, 0
 code0479        1, 2, 16
 call            @Func_16f6
 call            @Func_1778
-dialogtxt       "あの子ここへきてから"
-dialogtxt       "様子がおかしくなったから"
-dialogtxt       "こんなときにいないと心配だね..."
+dialogtxt       "Murno… Ever since we arrived,"
+dialogtxt       "she's been acting strange."
+dialogtxt       "And now she's gone missing…"
 code047b        
 code0309        
 code043c        2, 2
 call            @Func_1762
 code0479        1, 0, 16
-dialogtxt       "ジェイドは自警団の仕事で出かけてるし"
-dialogtxt       "アンタたちこそあの子のこと"
-dialogtxt       "なんか知らないのかい？"
+dialogtxt       "Jade is out there with the militia."
+dialogtxt       "What about you guys,"
+dialogtxt       "do you know anything?"
 code047b        
 code0309        
 call            @Func_174a
 code0479        0, 2, 16
 call            @Func_16a8
-dialogtxt       "なにかって..."
+dialogtxt       "Well…"
 code0309        
 code031a        7
 code031b        7, -1, -1, $h136, 30
@@ -329,8 +327,8 @@ code031c        8, 1
 code031f        8
 code031c        7, 2
 code031f        7
-dialogtxt       "なんでもその娘のせいで、この辺りの"
-dialogtxt       "はぐれ召喚獣があばれだしたらしい..."
+dialogtxt       "The rumors say the Stray Summons"
+dialogtxt       "are going berserk because of her…"
 code0309        
 code031c        7, 1
 code031f        7
@@ -351,22 +349,22 @@ code031c        7, 2
 code031f        7
 code031a        7
 code0479        0, 2, 14
-dialogtxt       "（まさか..."
-dialogtxt       "　はぐれ召喚獣と関係が...）"
+dialogtxt       "(No way…"
+dialogtxt       "　So she really is…?)"
 code0309        
 call            @Func_16de
 code0333        2, 30
 code0479        1, 2, 14
 call            @Func_1714
-dialogtxt       "..."
-dialogtxt       "仕方ないね"
+dialogtxt       "…"
+dialogtxt       "No choice."
 code0309        
 code0334        
 code046e        38, 256, 2
 code0479        1, 2, 15
-dialogtxt       "とにかくこの辺りを"
-dialogtxt       "さがしてみるか！"
-dialogtxt       "行くよ！"
+dialogtxt       "Split up and"
+dialogtxt       "search the area!"
+dialogtxt       "Let's go!"
 code0309        
 call            @Func_17e4
 call            @Func_1732

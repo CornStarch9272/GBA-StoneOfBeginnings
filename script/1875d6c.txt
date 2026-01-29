@@ -30,30 +30,30 @@ code047d        1, 2
 call            @Func_0b88
 call            @Func_0af0
 jumpz           @Cond_017a, ($b003 == 0)
-dialogtxt       "コノ先ガ　魔石ガ収メラ[NAME 8]テイタ"
-dialogtxt       "ご※ぁんノ遺跡デス"
-dialogtxt       "オ[NAME 5]ラク　コノ先ニ..."
+dialogtxt       "Just Ahead Is The Govan Ruins,"
+dialogtxt       "Where The Demon Stone Is Stored."
+dialogtxt       "It Is Likely That…"
 goto            @Cond_017a
 
 @Cond_017a:
 jumpz           @Cond_01dc, ($b003 == 1)
-dialogtxt       "この先が、魔石を収めていた"
-dialogtxt       "ゴヴァンの遺跡じゃ..."
-dialogtxt       "おそらく、この先に..."
+dialogtxt       "Just ahead is the Govan Ruins,"
+dialogtxt       "where the demon stone is stored."
+dialogtxt       "Most likely…"
 goto            @Cond_01dc
 
 @Cond_01dc:
 jumpz           @Cond_023c, ($b003 == 2)
-dialogtxt       "この先が、魔石を収めていた"
-dialogtxt       "ゴヴァンの遺跡だ..."
-dialogtxt       "おそらく、この先に..."
+dialogtxt       "Just ahead is the Govan Ruins,"
+dialogtxt       "where the demon stone is stored."
+dialogtxt       "Most likely…"
 goto            @Cond_023c
 
 @Cond_023c:
 jumpz           @Cond_029e, ($b003 == 3)
-dialogtxt       "この先が、魔石を収めていた"
-dialogtxt       "ゴヴァンの遺跡ですわ..."
-dialogtxt       "きっと、この先に..."
+dialogtxt       "Just ahead is the Govan Ruins,"
+dialogtxt       "where the demon stone is stored."
+dialogtxt       "Surely…"
 goto            @Cond_029e
 
 @Cond_029e:
@@ -63,23 +63,23 @@ call            @Func_0b44
 code0479        0, 2, 16
 call            @Func_0aa2
 jumpz           @Cond_034a, ($b002 == 0)
-dialogtxt       "ミューノがいるんだな..."
-dialogtxt       "アニスといっしょに..."
-dialogtxt       "気合いを入れないとな..."
+dialogtxt       "Murno will be there…"
+dialogtxt       "Along with Anise…"
+dialogtxt       "I have to give it my all…"
 code0309        
 code0479        0, 2, 14
-dialogtxt       "行くぞ..."
-dialogtxt       "γ...！"
+dialogtxt       "Let's go…"
+dialogtxt       "[NAME 1]…!"
 goto            @Label_03c4
 
 @Cond_034a:
-dialogtxt       "ミューノがいるんだね..."
-dialogtxt       "アニスといっしょに..."
-dialogtxt       "気合いを入れないと..."
+dialogtxt       "Murno will be there…"
+dialogtxt       "Along with Anise…"
+dialogtxt       "I have to give it my all…"
 code0309        
 code0479        0, 2, 14
-dialogtxt       "行くよ..."
-dialogtxt       "γ...！"
+dialogtxt       "Let's go…"
+dialogtxt       "[NAME 1]…!"
 goto            @Label_03c4
 
 @Label_03c4:
@@ -106,22 +106,22 @@ goto            @Label_045a
 @Label_045a:
 call            @Func_0b0e
 jumpz           @Cond_047c, ($b003 == 0)
-dialogtxt       "オー！"
+dialogtxt       "Yes!"
 goto            @Cond_047c
 
 @Cond_047c:
 jumpz           @Cond_049a, ($b003 == 1)
-dialogtxt       "承知！"
+dialogtxt       "Acknowledged!"
 goto            @Cond_049a
 
 @Cond_049a:
 jumpz           @Cond_04c0, ($b003 == 2)
-dialogtxt       "いつでもいいぞ"
+dialogtxt       "Any time now."
 goto            @Cond_04c0
 
 @Cond_04c0:
 jumpz           @Cond_04de, ($b003 == 3)
-dialogtxt       "はい！"
+dialogtxt       "Yes!"
 goto            @Cond_04de
 
 @Cond_04de:

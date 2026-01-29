@@ -10,7 +10,7 @@ code0412        4, 1
 code0418        2
 setvar          $b075, 1
 setvar          $b072, 0
-placetxt        "Auric Collective　Entrance"
+placetxt        "Gold Council　Entrance"
 code040c        1, @Label_01d2
 code040c        2, @Label_01c8
 call            @Func_096e
@@ -290,13 +290,12 @@ code040b
 code0301        8, 7
 code047d        0, 120
 code047e        0, 1
-dialogtxt       "ス[NAME 7]ート洞窟は"
-dialogtxt       "強い風が吹き上げる場所が"
-dialogtxt       "あるから十分気をつけるように"
+dialogtxt       "Spoat Grotto has a spot where"
+dialogtxt       "strong wind blows, so be very"
+dialogtxt       "careful."
 code0309        
-dialogtxt       "って言われてるけど"
-dialogtxt       "気をつけたところで"
-dialogtxt       "どうにもならないよね"
+dialogtxt       "But, you can't get anything"
+dialogtxt       "done if your too careful."
 code0309        
 code047e        0, 0
 code0302        7

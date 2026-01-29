@@ -27,13 +27,13 @@ code047d        0, 0
 call            @Func_20b4
 call            @Func_1fdc
 jumpz           @Cond_01f6, ($b002 == 0)
-dialogtxt       "なんだよ...？"
-dialogtxt       "ここはドコなんだよ...！？"
+dialogtxt       "What just…?"
+dialogtxt       "Where are we…!?"
 goto            @Label_0228
 
 @Cond_01f6:
-dialogtxt       "なによ、これ...？"
-dialogtxt       "ここはドコなのよ...！？"
+dialogtxt       "What just…?"
+dialogtxt       "Where are we…!?"
 goto            @Label_0228
 
 @Label_0228:
@@ -64,30 +64,30 @@ code047d        1, 2
 call            @Func_20ca
 call            @Func_2066
 jumpz           @Cond_0356, ($b003 == 0)
-dialogtxt       "門ノ中ニ　飲ミ込マ[NAME 8]タヨウデス..."
-dialogtxt       "マダ　裂ケ目ガアリマス"
-dialogtxt       "[NAME 5]コカラデ[NAME 8]バ　元ノ世界ニ..."
+dialogtxt       "We Have Been Swallowed By The Gate…"
+dialogtxt       "However, There Is Still An Opening."
+dialogtxt       "We Should Be Able to Return…"
 goto            @Cond_0356
 
 @Cond_0356:
 jumpz           @Cond_03d0, ($b003 == 1)
-dialogtxt       "門の中に飲み込まれたようじゃな..."
-dialogtxt       "しかしまだ裂け目があるようじゃ"
-dialogtxt       "そこから戻れば、元の世界に..."
+dialogtxt       "We've been swallowed by the gate…"
+dialogtxt       "But there's still an opening."
+dialogtxt       "We should be able to go back…"
 goto            @Cond_03d0
 
 @Cond_03d0:
 jumpz           @Cond_0440, ($b003 == 2)
-dialogtxt       "門の中に飲み込まれたようだが..."
-dialogtxt       "まだ裂け目があるようだ"
-dialogtxt       "そこから戻れば、元の世界に..."
+dialogtxt       "We've been swallowed by the gate…"
+dialogtxt       "But there's still an opening."
+dialogtxt       "We should be able to go back…"
 goto            @Cond_0440
 
 @Cond_0440:
 jumpz           @Cond_04b8, ($b003 == 3)
-dialogtxt       "門の中に飲み込まれたようです..."
-dialogtxt       "しかしまだ裂け目があるはずです"
-dialogtxt       "そこから戻れば、元の世界に..."
+dialogtxt       "We've been swallowed by the gate…"
+dialogtxt       "But there's still an opening."
+dialogtxt       "We should be able to go back…"
 goto            @Cond_04b8
 
 @Cond_04b8:
@@ -100,7 +100,7 @@ code043c        0, 4
 code047d        0, 106
 code0301        8, 0
 code047e        0, 1
-dialogtxt       "ニン、ゲン..."
+dialogtxt       "Hu… man…"
 code0309        
 code047e        0, 0
 code0302        0
@@ -123,7 +123,7 @@ code040d        15
 code047d        0, 106
 code0301        16, 3
 code047e        0, 1
-dialogtxt       "..."
+dialogtxt       "…"
 code0309        
 code047e        0, 0
 code0302        3
@@ -157,9 +157,9 @@ goto            @Label_071a
 @Label_071a:
 call            @Func_20e0
 call            @Func_1fdc
-dialogtxt       "あれは？"
-dialogtxt       "あの剣...！"
-dialogtxt       "まさか、ベルヴォ[NAME 8]ンさん...？"
+dialogtxt       "What's that?"
+dialogtxt       "That sword…!"
+dialogtxt       "Is that… Velvoren…?"
 code047b        
 code0309        
 call            @Func_2030
@@ -184,30 +184,30 @@ goto            @Label_07f4
 @Label_07f4:
 call            @Func_2066
 jumpz           @Cond_0862, ($b003 == 0)
-dialogtxt       "スデニ肉体ハ　アリマセン"
-dialogtxt       "剣ノ　強大ナ　えねるぎーガ"
-dialogtxt       "実体化シテイルヨウデス！"
+dialogtxt       "His Physical Body Is Already Gone."
+dialogtxt       "It Appears To Be The Materialization"
+dialogtxt       "Of The Sword's Powerful Energy."
 goto            @Cond_0862
 
 @Cond_0862:
 jumpz           @Cond_08e0, ($b003 == 1)
-dialogtxt       "すでに肉体はないようじゃ..."
-dialogtxt       "剣に宿った邪気が暴走しておるのか..."
-dialogtxt       "おそろしいほどの憎しみと怒りじゃ！"
+dialogtxt       "His body is already gone…"
+dialogtxt       "The sword is running wild…"
+dialogtxt       "What a frightening amount of hatred!"
 goto            @Cond_08e0
 
 @Cond_08e0:
 jumpz           @Cond_094a, ($b003 == 2)
-dialogtxt       "すでに肉体はないぞ..."
-dialogtxt       "剣に宿った邪気が暴走している！"
-dialogtxt       "憎しみと、怒りの力だ...！"
+dialogtxt       "His body is already gone…"
+dialogtxt       "The sword's malice has taken form!"
+dialogtxt       "It's the power of hatred and anger…!"
 goto            @Cond_094a
 
 @Cond_094a:
 jumpz           @Cond_09c0, ($b003 == 3)
-dialogtxt       "か、体が全部、剣に宿った力に"
-dialogtxt       "取り込まれてしまったみたいですわ..."
-dialogtxt       "すごい憎しみと、怒り...！"
+dialogtxt       "H-his entire body has been"
+dialogtxt       "taken in by the power of the sword…"
+dialogtxt       "So much hatred and anger…!"
 goto            @Cond_09c0
 
 @Cond_09c0:
@@ -216,15 +216,15 @@ call            @Func_209c
 code0479        0, 2, 16
 call            @Func_1ffa
 jumpz           @Cond_0a42, ($b002 == 0)
-dialogtxt       "な、なんだよ、この感じ...！"
-dialogtxt       "くそっ、全身に寒気が..."
-dialogtxt       "オ[NAME 8]、どうすれば...！"
+dialogtxt       "Wh-what's this feeling…!"
+dialogtxt       "Shit, my entire body's gone cold…"
+dialogtxt       "What should I…!"
 goto            @Label_0a96
 
 @Cond_0a42:
-dialogtxt       "な、なによ、この感じ...！"
-dialogtxt       "うぅ...、全身に寒気が..."
-dialogtxt       "わたし、どうすれば...！"
+dialogtxt       "Wh-what's this feeling…!"
+dialogtxt       "Uu, my entire body's gone cold…"
+dialogtxt       "What should I…!"
 goto            @Label_0a96
 
 @Label_0a96:
@@ -243,8 +243,8 @@ code040d        15
 code047d        0, 112
 code0301        16, 3
 code047e        0, 1
-dialogtxt       "ニンゲン..."
-dialogtxt       "コロス...！"
+dialogtxt       "Humans…"
+dialogtxt       "Kill…!"
 code0309        
 code047e        0, 0
 code0302        3
@@ -262,15 +262,15 @@ code047d        0, 0
 call            @Func_20b4
 call            @Func_1fdc
 jumpz           @Cond_0c10, ($b002 == 0)
-dialogtxt       "く..."
-dialogtxt       "オ、オ[NAME 8]..."
-dialogtxt       "γ...！"
+dialogtxt       "Ku…"
+dialogtxt       "I-I…"
+dialogtxt       "[NAME 1]…!"
 goto            @Label_0c38
 
 @Cond_0c10:
-dialogtxt       "うぅ..."
-dialogtxt       "わ、わたし..."
-dialogtxt       "γ...！"
+dialogtxt       "Uu…"
+dialogtxt       "I-I…"
+dialogtxt       "[NAME 1]…!"
 goto            @Label_0c38
 
 @Label_0c38:
@@ -344,30 +344,29 @@ goto            @Label_0f10
 call            @Func_20e0
 call            @Func_2048
 jumpz           @Cond_0f70, ($b003 == 0)
-dialogtxt       "マズハ　落チ着イテ"
-dialogtxt       "[NAME 5][NAME 8]カラ　思イ出シテクダサイ"
-dialogtxt       "ぱーとなー"
+dialogtxt       "First Of All, Calm Down."
+dialogtxt       "Then, Remember, Partner."
 goto            @Cond_0f70
 
 @Cond_0f70:
 jumpz           @Cond_0fd6, ($b003 == 1)
-dialogtxt       "なんじゃ..."
-dialogtxt       "おぬし怖じ気づいておるのか？"
-dialogtxt       "めずらしいこともあるもんじゃのう"
+dialogtxt       "What's this…"
+dialogtxt       "You're scared?"
+dialogtxt       "Strange things do happen."
 goto            @Cond_0fd6
 
 @Cond_0fd6:
 jumpz           @Cond_101c, ($b003 == 2)
-dialogtxt       "ふ..."
-dialogtxt       "ビクビクしやがって"
-dialogtxt       "情けないヤツだ..."
+dialogtxt       "Fu…"
+dialogtxt       "Getting all scared."
+dialogtxt       "How pathetic…"
 goto            @Cond_101c
 
 @Cond_101c:
 jumpz           @Cond_1082, ($b003 == 3)
-dialogtxt       "どうしたんですが、δさん"
-dialogtxt       "そんなにコワがっちゃうなんて"
-dialogtxt       "らしくありませんわ"
+dialogtxt       "What's wrong, [NAME 2]?"
+dialogtxt       "Are you scared?"
+dialogtxt       "This isn't like you."
 goto            @Cond_1082
 
 @Cond_1082:
@@ -377,7 +376,7 @@ call            @Func_209c
 code043c        0, 4
 code0479        0, 5, 16
 call            @Func_1ffa
-dialogtxt       "γ..."
+dialogtxt       "…"
 code0309        
 call            @Func_2030
 jumpz           @Cond_10e6, ($b003 == 0)
@@ -401,48 +400,48 @@ goto            @Label_114e
 @Label_114e:
 call            @Func_2066
 jumpz           @Cond_1214, ($b003 == 0)
-dialogtxt       "コ[NAME 8]マデ戦ッタ　ドンナ相手デモ"
-dialogtxt       "私タチガ協力ス[NAME 8]バ　必ズ"
-dialogtxt       "乗リ越エルコトガ　デ[NAME 4]マシタ"
+dialogtxt       "Up Until Now,"
+dialogtxt       "We Have Persevered By"
+dialogtxt       "Working Together."
 code0309        
 code0479        1, 1, 12
-dialogtxt       "ダカラ　今回モ　大丈夫デス！"
-dialogtxt       "私タチナラ　勝テマス！"
+dialogtxt       "This Time Is No Different!"
+dialogtxt       "Together, We Can Win!"
 goto            @Cond_1214
 
 @Cond_1214:
 jumpz           @Cond_12e0, ($b003 == 1)
-dialogtxt       "思い出せ！"
-dialogtxt       "今までふたりで力を合わせれば"
-dialogtxt       "勝てない敵などなかったハズじゃぞ"
+dialogtxt       "Remember!  Up until now,"
+dialogtxt       "no matter our opponent, there"
+dialogtxt       "hasn't been one we cannot defeat."
 code0309        
 code0479        1, 2, 13
-dialogtxt       "だから、今回も大丈夫じゃ！"
-dialogtxt       "このマゲにかけて誓おう..."
-dialogtxt       "我らなら、勝てる！"
+dialogtxt       "This time is no different!"
+dialogtxt       "I swear upon this topknot…"
+dialogtxt       "Together, we can win!"
 goto            @Cond_12e0
 
 @Cond_12e0:
 jumpz           @Cond_13a8, ($b003 == 2)
-dialogtxt       "この程度の相手ならば今までだって"
-dialogtxt       "ふたりで乗り越えてきたハズだ"
-dialogtxt       "おびえることなど、ない！"
+dialogtxt       "We've been able to overcome"
+dialogtxt       "enemies of this level before."
+dialogtxt       "There's no reason to be afraid!"
 code0309        
 code0479        1, 3, 13
-dialogtxt       "だから、今回も大丈夫だ"
-dialogtxt       "[NAME 4]サマと私なら..."
-dialogtxt       "必ず勝てる！"
+dialogtxt       "This is no different!"
+dialogtxt       "You and I…"
+dialogtxt       "Are unbeatable!"
 goto            @Cond_13a8
 
 @Cond_13a8:
 jumpz           @Cond_1478, ($b003 == 3)
-dialogtxt       "コワがることなんて、ありませんわ！"
-dialogtxt       "今までだってどんなことも"
-dialogtxt       "ふたりで乗り越えてきたんですもの"
+dialogtxt       "There is nothing to be afraid of!"
+dialogtxt       "Up until now, we've overcome many"
+dialogtxt       "difficulties together."
 code0309        
 code0479        1, 2, 13
-dialogtxt       "だから、今回だって大丈夫です"
-dialogtxt       "ふたりなら絶対に勝てますわ！"
+dialogtxt       "This time is no different!"
+dialogtxt       "Together, we will win!"
 goto            @Cond_1478
 
 @Cond_1478:
@@ -451,25 +450,25 @@ call            @Func_209c
 code0479        0, 5, 12
 call            @Func_1ffa
 jumpz           @Cond_151c, ($b002 == 0)
-dialogtxt       "は..."
-dialogtxt       "はは..."
-dialogtxt       "そっか..."
+dialogtxt       "Ha…"
+dialogtxt       "Haha…"
+dialogtxt       "I see…"
 code0309        
 code0479        0, 2, 12
-dialogtxt       "そうだな..."
-dialogtxt       "ふたりなら、勝てる..."
-dialogtxt       "オ[NAME 8]たちふたりなら！"
+dialogtxt       "You're right…"
+dialogtxt       "You and I…"
+dialogtxt       "Together, we can win!"
 goto            @Label_1596
 
 @Cond_151c:
-dialogtxt       "は..."
-dialogtxt       "あはは..."
-dialogtxt       "そっか..."
+dialogtxt       "Ha…"
+dialogtxt       "Ahaha…"
+dialogtxt       "I see…"
 code0309        
 code0479        0, 2, 12
-dialogtxt       "そうだね..."
-dialogtxt       "ふたりなら、勝てる..."
-dialogtxt       "わたしたちふたりなら！"
+dialogtxt       "You're right…"
+dialogtxt       "You and I…"
+dialogtxt       "Together, we can win!"
 goto            @Label_1596
 
 @Label_1596:
@@ -482,8 +481,8 @@ code048c
 code047d        0, 112
 code0301        8, 3
 code047e        0, 1
-dialogtxt       "ユルサンゾ...！"
-dialogtxt       "ニ・ン・ゲ・ン...！"
+dialogtxt       "I won't forgive you…!"
+dialogtxt       "H・u・m・a・n…!"
 code0309        
 code047e        0, 0
 code0302        3
@@ -512,11 +511,11 @@ code0479        0, 2, 13
 call            @Func_20b4
 call            @Func_1fdc
 jumpz           @Cond_173a, ($b002 == 0)
-dialogtxt       "行くぞ、γ！"
+dialogtxt       "Let's go, [NAME 1]!"
 goto            @Label_174e
 
 @Cond_173a:
-dialogtxt       "行くよ、γ！"
+dialogtxt       "Let's go, [NAME 1]!"
 goto            @Label_174e
 
 @Label_174e:
@@ -545,22 +544,22 @@ goto            @Label_17e6
 call            @Func_20ca
 call            @Func_2066
 jumpz           @Cond_180c, ($b003 == 0)
-dialogtxt       "オー！"
+dialogtxt       "Yes!"
 goto            @Cond_180c
 
 @Cond_180c:
 jumpz           @Cond_182a, ($b003 == 1)
-dialogtxt       "承知！"
+dialogtxt       "Acknowledged!"
 goto            @Cond_182a
 
 @Cond_182a:
 jumpz           @Cond_184e, ($b003 == 2)
-dialogtxt       "わかってる！"
+dialogtxt       "Got it!"
 goto            @Cond_184e
 
 @Cond_184e:
 jumpz           @Cond_186c, ($b003 == 3)
-dialogtxt       "はい！"
+dialogtxt       "Yes!"
 goto            @Cond_186c
 
 @Cond_186c:
@@ -591,7 +590,7 @@ goto            @Label_1926
 code0301        6, 7
 code047e        0, 1
 code047e        1, 1
-dialogbig       24, 116, 1, 3, 0, "うぉおおお！！！"
+dialogbig       24, 116, 1, 3, 0, "Uwoooo!!!"
 code030c        
 code047e        0, 0
 code047e        1, 0

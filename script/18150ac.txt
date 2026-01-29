@@ -18,24 +18,23 @@ code0479        1, 2, 14
 code047d        1, 108
 call            @Func_0b7e
 call            @Func_0ae6
-dialogtxt       "おい、δ！"
-dialogtxt       "ミューノがここを通って"
-dialogtxt       "ベリートの森に行ったってよ！"
+dialogtxt       "Hey, [NAME 2]!"
+dialogtxt       "Murno passed through here."
+dialogtxt       "She's going to Beleet Forest!"
 code047b        
 code0309        
 call            @Func_0b3a
 code0479        0, 2, 14
 call            @Func_0a98
-dialogtxt       "そんな...！"
-dialogtxt       "じゃあ、やっぱり"
-dialogtxt       "はぐれ召喚獣のところに..."
+dialogtxt       "I thought so…!"
+dialogtxt       "That's where the Strays are!"
 code0309        
 call            @Func_0ace
 code0479        1, 2, 16
 call            @Func_0b04
-dialogtxt       "なんかね、ティエも"
-dialogtxt       "いっしょだったみたいなんだよ"
-dialogtxt       "まったく、どういうことなんだい..."
+dialogtxt       "For some reason Tier"
+dialogtxt       "was with her too."
+dialogtxt       "Geez, what is she doing…"
 code0309        
 call            @Func_0ba8
 call            @Func_0b3a
@@ -64,22 +63,22 @@ code047d        0, 2
 call            @Func_0b52
 call            @Func_0a98
 jumpz           @Cond_0314, ($b003 == 0)
-dialogtxt       "てぃえサンガ...？"
+dialogtxt       "Tier…?"
 goto            @Cond_0314
 
 @Cond_0314:
 jumpz           @Cond_0334, ($b003 == 1)
-dialogtxt       "あの娘..."
+dialogtxt       "That girl…"
 goto            @Cond_0334
 
 @Cond_0334:
 jumpz           @Cond_035a, ($b003 == 2)
-dialogtxt       "あのニンゲン..."
+dialogtxt       "That human…"
 goto            @Cond_035a
 
 @Cond_035a:
 jumpz           @Cond_0380, ($b003 == 3)
-dialogtxt       "あの子が...！？"
+dialogtxt       "That girl is…!?"
 goto            @Cond_0380
 
 @Cond_0380:
@@ -88,8 +87,9 @@ code0309
 call            @Func_0ace
 code0479        1, 2, 14
 call            @Func_0b04
-dialogtxt       "なんにせよ、行ってみるしかないね"
-dialogtxt       "アンタたちも気をつけなよ"
+dialogtxt       "In any case,"
+dialogtxt       "we have to check it out."
+dialogtxt       "Be careful you two."
 code0309        
 call            @Func_0ba8
 call            @Func_0b3a
@@ -99,7 +99,7 @@ code0479        0, 2, 14
 code047d        0, 0
 call            @Func_0b52
 call            @Func_0a98
-dialogtxt       "はい！"
+dialogtxt       "Yes!"
 code047b        
 code0309        
 call            @Func_0bd4

@@ -110,7 +110,7 @@ goto            @Cond_05a2
 goto            @Label_05a6
 
 @Label_05a6:
-placetxt        "リュート岩窟　エリア３"
+placetxt        "Lute Cave　Area 3"
 code040b        
 
 @Label_05c2:

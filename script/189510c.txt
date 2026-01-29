@@ -100,7 +100,7 @@ goto            @Cond_053c
 goto            @Label_0540
 
 @Label_0540:
-placetxt        "ピュビックの森　エリア４"
+placetxt        "Pubick Forest　Area 4"
 code040b        
 
 @Event_055e:

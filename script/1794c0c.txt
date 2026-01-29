@@ -277,11 +277,13 @@ ret
 code0301        8, 7
 code047d        0, 120
 code047e        0, 1
-dialogtxt       "確かス[NAME 7]ート洞窟を抜けた先だったと"
-dialogtxt       "思うんだが、廃墟があるってうわさだな"
+dialogtxt       "This is all hearsay, but I heard"
+dialogtxt       "that there are ruins beyond the"
+dialogtxt       "far end of Sproat Grotto…"
 code0309        
-dialogtxt       "もとは村があった場所らしいけど"
-dialogtxt       "行ってみないとわからないな"
+dialogtxt       "Apparently a village used to"
+dialogtxt       "exist there, why not check"
+dialogtxt       "it out for yourselves?"
 code0309        
 code047e        0, 0
 code0302        7
@@ -289,9 +291,9 @@ code040b
 
 @Event_0b6e:
 code0301        8, 7
-dialogtxt       "魔法で攻撃してもダメージが"
-dialogtxt       "１の場合には、魔法が効かない"
-dialogtxt       "恐ろしい相手の可能性があります"
+dialogtxt       "If you can only muster one speck of"
+dialogtxt       "magic damage, it's useless against"
+dialogtxt       "opponents immune to it."
 code0309        
 code0302        7
 code040b        

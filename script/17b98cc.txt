@@ -139,9 +139,9 @@ goto            @start
 
 @Event_0640:
 code0301        8, 7
-dialogtxt       "ギャラハン工房からのお知らせ"
-dialogtxt       "カウンターに店員がいないときには"
-dialogtxt       "勝手に買い物してください"
+dialogtxt       "A notice From Gallahan's Workshop:"
+dialogtxt       "When a clerk is not at the counter,"
+dialogtxt       "please shop at your own convenience."
 code0309        
 code0302        7
 code040b        
@@ -360,7 +360,7 @@ code040b
 
 @Talk_0f2a:
 code0301        8, 7
-dialogtxt       "ゴロゴロ..."
+dialogtxt       "Purr…"
 code0309        
 code0302        7
 code040b        

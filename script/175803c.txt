@@ -12,7 +12,7 @@ code0418        0
 setvar          $b075, 1
 setvar          $b072, 0
 code046c        0
-placetxt        "？？？"
+placetxt        "???"
 jumpz           @Cond_01dc, ($f0049 == 0)
 code041c        0, 240, 320, 1
 code043e        0, 3, 0
@@ -72,7 +72,7 @@ goto            @Cond_0346
 
 @Cond_0346:
 code041d        
-placetxt        "？？？"
+placetxt        "???"
 jumpz           @Cond_03d4, ($f0048 == 1 && $f0049 == 0)
 setvar          $h137, 60
 setvar          $h136, 0

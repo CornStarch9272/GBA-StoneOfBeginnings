@@ -43,15 +43,15 @@ code047d        1, 2
 call            @Func_0b1c
 call            @Func_0a18
 jumpz           @Cond_0216, ($b002 == 0)
-dialogtxt       "ここがヌシさまってヤツがいる"
-dialogtxt       "遺跡だな..."
-dialogtxt       "でっかい..."
+dialogtxt       "This is the ruins where"
+dialogtxt       "their master is…"
+dialogtxt       "It's huge…"
 goto            @Label_0252
 
 @Cond_0216:
-dialogtxt       "ここがヌシさまってのがいる"
-dialogtxt       "遺跡ね..."
-dialogtxt       "おっきい..."
+dialogtxt       "This is the ruins where"
+dialogtxt       "their master is…"
+dialogtxt       "It's huge…"
 goto            @Label_0252
 
 @Label_0252:
@@ -79,30 +79,29 @@ goto            @Label_02ea
 @Label_02ea:
 call            @Func_0aa2
 jumpz           @Cond_0356, ($b003 == 0)
-dialogtxt       "みゅーの様ハ　地下ニイルノデ"
-dialogtxt       "下ニアル　トビラダト　思ワ[NAME 8]マス"
-dialogtxt       "急ギマショウ"
+dialogtxt       "Lady Murno Is Underground."
+dialogtxt       "There Must Be A Way In."
+dialogtxt       "Let Us Hurry."
 goto            @Cond_0356
 
 @Cond_0356:
 jumpz           @Cond_03ae, ($b003 == 1)
-dialogtxt       "ミューノは地下にいるのじゃから"
-dialogtxt       "下のトビラじゃろう！"
-dialogtxt       "急ぐぞ"
+dialogtxt       "Murno is being held underground."
+dialogtxt       "There must be a way in!"
+dialogtxt       "Hurry!"
 goto            @Cond_03ae
 
 @Cond_03ae:
 jumpz           @Cond_0402, ($b003 == 2)
-dialogtxt       "あいつは一番下に"
-dialogtxt       "いるんだったな"
-dialogtxt       "だったら下のトビラか..."
+dialogtxt       "Murno is being held underground."
+dialogtxt       "There should be a way in…"
 goto            @Cond_0402
 
 @Cond_0402:
 jumpz           @Cond_0466, ($b003 == 3)
-dialogtxt       "ミューノ様は一番下の階ですから"
-dialogtxt       "絶対に下のトビラですわ！"
-dialogtxt       "急ぎましょう！"
+dialogtxt       "Lady Murno is being held here!"
+dialogtxt       "There must be a way in!"
+dialogtxt       "Let's hurry!"
 goto            @Cond_0466
 
 @Cond_0466:

@@ -15,7 +15,7 @@ code047d        1, 0
 call            @Func_0f70
 call            @Func_0f70
 call            @Func_0eee
-dialogtxt       "ここが、金の派閥"
+dialogtxt       "So this is the Gold Council."
 code047b        
 code0309        
 call            @Func_0fc6
@@ -33,9 +33,9 @@ code040d        60
 code047d        0, 132
 code0301        8, 4
 code047e        0, 1
-dialogtxt       "そうだ"
-dialogtxt       "このプロスバンの町を仕切っている"
-dialogtxt       "召喚師が集まっているところだ..."
+dialogtxt       "That's right."
+dialogtxt       "This is where the Summoners"
+dialogtxt       "who manage Prosban gather…"
 code0309        
 code047e        0, 0
 code0302        4
@@ -55,24 +55,24 @@ code0479        1, 0, 12
 code047d        1, 132
 call            @Func_0f70
 call            @Func_0eee
-dialogtxt       "さて、全員そろったし"
-dialogtxt       "行くか"
+dialogtxt       "Now that we're all here,"
+dialogtxt       "let's head inside."
 code047b        
 code0309        
 call            @Func_0f42
 call            @Func_0f5a
 call            @Func_0ea0
-dialogtxt       "よぉ〜し！"
-dialogtxt       "絶対にやっつけ代を"
-dialogtxt       "もらうんだから！"
+dialogtxt       "Alright!"
+dialogtxt       "I'll make sure we get paid for"
+dialogtxt       "taking care of those Strays!"
 code047b        
 code0309        
 call            @Func_0ed6
 code0479        1, 0, 16
 call            @Func_0f0c
-dialogtxt       "あのイアナ女史が"
-dialogtxt       "金をはらうとは思わないが"
-dialogtxt       "せいぜい、がんばれ"
+dialogtxt       "I don't think Ms. Ianna"
+dialogtxt       "will give you money,"
+dialogtxt       "but feel free to try."
 code0309        
 call            @Func_0fdc
 call            @Func_0f2a
@@ -90,13 +90,13 @@ code0479        0, 4, 14
 code047d        0, 107
 call            @Func_0f86
 call            @Func_0e82
-dialogtxt       "ふう..."
+dialogtxt       "Fuu…"
 code047b        
 code0309        
 call            @Func_0ed6
 code0479        1, 2, 16
 call            @Func_0f0c
-dialogtxt       "ミューノ..."
+dialogtxt       "Murno…"
 code0309        
 call            @Func_0fb0
 code047b        
@@ -108,13 +108,13 @@ code047d        0, 2
 code0479        1, 2, 14
 call            @Func_0f5a
 jumpz           @Cond_0534, ($b002 == 0)
-dialogtxt       "なあ、γ"
-dialogtxt       "ベルヴォ[NAME 8]ンってどんなヤツなんだ？"
+dialogtxt       "Hey, [NAME 1],"
+dialogtxt       "what kind of person is Velvoren?"
 goto            @Label_0568
 
 @Cond_0534:
-dialogtxt       "ねえ、γ"
-dialogtxt       "ベルヴォ[NAME 8]ンってどんなヒトなの？"
+dialogtxt       "Hey, [NAME 1],"
+dialogtxt       "what kind of person is Velvoren?"
 goto            @Label_0568
 
 @Label_0568:
@@ -142,59 +142,58 @@ goto            @Label_0600
 @Label_0600:
 call            @Func_0ea0
 jumpz           @Cond_06ba, ($b003 == 0)
-dialogtxt       "べる※ぉれん　トイウ名前ノ"
-dialogtxt       "人物ノ記録ハ　アリマセン"
+dialogtxt       "I Do Not Have Any Records Of"
+dialogtxt       "A Person By That Name."
 code0309        
 call            @Func_0ed6
 code0479        1, 2, 16
 call            @Func_0f0c
-dialogtxt       "ええと"
-dialogtxt       "カンタンに言うと"
+dialogtxt       "Umm,"
+dialogtxt       "meaning?"
 code0309        
 call            @Func_0f42
 code0479        0, 0, 12
 call            @Func_0ea0
-dialogtxt       "知リマセン"
+dialogtxt       "I Don't Know."
 goto            @Cond_06ba
 
 @Cond_06ba:
 jumpz           @Cond_0702, ($b003 == 1)
-dialogtxt       "わからん"
-dialogtxt       "ワガハイも会ったことは"
-dialogtxt       "ないのじゃ"
+dialogtxt       "I don't know."
+dialogtxt       "I've never met him."
 goto            @Cond_0702
 
 @Cond_0702:
 jumpz           @Cond_0774, ($b003 == 2)
-dialogtxt       "知らん"
+dialogtxt       "No idea."
 code0309        
 call            @Func_0ed6
 code0479        1, 2, 16
 call            @Func_0f0c
-dialogtxt       "本当に？"
+dialogtxt       "Really?"
 code0309        
 call            @Func_0f42
 code0479        0, 2, 14
 call            @Func_0ea0
-dialogtxt       "くどいぞ"
+dialogtxt       "Shut it."
 goto            @Cond_0774
 
 @Cond_0774:
 jumpz           @Cond_085a, ($b003 == 3)
-dialogtxt       "私も知らないんです"
-dialogtxt       "会ったこともありませんわ"
+dialogtxt       "I don't know either."
+dialogtxt       "I have never met him."
 code0309        
 call            @Func_0ed6
 code0479        1, 0, 16
 call            @Func_0f0c
-dialogtxt       "そうなんだ"
+dialogtxt       "I see."
 code0309        
 call            @Func_0f42
 code0479        0, 0, 16
 call            @Func_0ea0
-dialogtxt       "外の世界の人には"
-dialogtxt       "召喚術に関する知識があることを"
-dialogtxt       "ヒミツにしてたみたいですから"
+dialogtxt       "I believe he is trying to keep"
+dialogtxt       "knowledge of Summoning techniques"
+dialogtxt       "from spreading."
 goto            @Cond_085a
 
 @Cond_085a:
@@ -207,8 +206,8 @@ code0479        0, 0, 12
 code047d        0, 132
 call            @Func_0f5a
 call            @Func_0e82
-dialogtxt       "さ"
-dialogtxt       "こっちだ"
+dialogtxt       "Come,"
+dialogtxt       "this way."
 code047b        
 code0309        
 call            @Func_0fb0

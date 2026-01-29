@@ -62,7 +62,7 @@ code0006        2802
 goto            @Cond_02f6
 
 @Cond_02f6:
-placetxt        "Govan Ruins - Gate's Front"
+placetxt        "Govan Ruins　Gateway"
 code040b        
 
 setvar          $h096, 47

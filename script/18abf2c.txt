@@ -15,7 +15,7 @@ code0422        1, 0
 code046c        1
 setvar          $b075, 1
 setvar          $b072, 1
-placetxt        "Mishus Ruins"
+placetxt        "Mishus Abandoned Site"
 code040c        0, @Label_082a
 code040c        1, @Label_09e0
 code040c        2, @Label_09d6
@@ -146,7 +146,7 @@ goto            @Cond_0804
 goto            @Label_0808
 
 @Label_0808:
-placetxt        "Mishus Ruins　Area 4"
+placetxt        "Mishus Abandoned Site　Area 4"
 code040b        
 
 @Label_082a:

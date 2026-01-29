@@ -1,14 +1,14 @@
 code0304        1
-dialogtxt       "　　　　　　なんだかんだで　　　　　"
-dialogtxt       "　明日トラムと勝負をすることになった"
+dialogtxt       "　　　　Somehow we ended up 　　　　"
+dialogtxt       "　　scheduling a match with Tram. 　"
 code030a        6, 1
-dialogtxt       "　　　　　　　それから　　　　　　　"
-dialogtxt       "　ギャラハンさん家に泊まることにも　"
-dialogtxt       "　　　　　　　なっていた　　　　　　"
+dialogtxt       "　　　　　　I've ended up 　　　　　"
+dialogtxt       "　　　　staying at Gallahan's 　　　"
+dialogtxt       "　　　　　　place for now.　　　　　"
 code030a        6, 1
-dialogtxt       "　　　なっちゃったもんは仕方ない　　"
-dialogtxt       "　　　　　　　とにかく　　　　　　　"
-dialogtxt       "　　　　　　　勝とう！　　　　　　　"
+dialogtxt       "　　　Well, no changing it now. 　　"
+dialogtxt       "　　　　　　　I just　　　　　　　　"
+dialogtxt       "　　　　　　have to win!　　　　　　"
 code030a        6, 1
 code0304        0
 done            

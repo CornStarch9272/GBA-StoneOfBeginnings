@@ -33,29 +33,29 @@ goto            @Label_013e
 code047d        1, 2
 call            @Func_0e2e
 call            @Func_0d56
-dialogtxt       "あれは...！"
+dialogtxt       "That's…!"
 code047b        
 code0309        
 call            @Func_0daa
 call            @Func_0e44
 call            @Func_0de0
 jumpz           @Cond_0198, ($b003 == 0)
-dialogtxt       "みゅーの様！？"
+dialogtxt       "Lady Murno!?"
 goto            @Cond_0198
 
 @Cond_0198:
 jumpz           @Cond_01c2, ($b003 == 1)
-dialogtxt       "ミューノじゃと！？"
+dialogtxt       "Murno!?"
 goto            @Cond_01c2
 
 @Cond_01c2:
 jumpz           @Cond_01e6, ($b003 == 2)
-dialogtxt       "ミューノ！？"
+dialogtxt       "Murno!?"
 goto            @Cond_01e6
 
 @Cond_01e6:
 jumpz           @Cond_020c, ($b003 == 3)
-dialogtxt       "ミューノ様！？"
+dialogtxt       "Lady Murno!?"
 goto            @Cond_020c
 
 @Cond_020c:
@@ -81,15 +81,15 @@ code0479        0, 2, 14
 call            @Func_0e5a
 call            @Func_0d56
 jumpz           @Cond_0358, ($b002 == 0)
-dialogtxt       "大丈夫か、ミューノ？"
-dialogtxt       "ケガしてないか？"
-dialogtxt       "それに、ヌシさまってヤツは...？"
+dialogtxt       "Murno, are you okay?"
+dialogtxt       "Any injuries?"
+dialogtxt       "And where's that master thing…?"
 goto            @Label_03a8
 
 @Cond_0358:
-dialogtxt       "ミューノ、大丈夫なの？"
-dialogtxt       "ケガしてない？"
-dialogtxt       "それに、ヌシさまってのは...？"
+dialogtxt       "Murno, are you okay?"
+dialogtxt       "Any injuries?"
+dialogtxt       "And where's that master thing…?"
 goto            @Label_03a8
 
 @Label_03a8:
@@ -98,50 +98,50 @@ code0309
 call            @Func_0daa
 code0479        1, 4, 16
 call            @Func_0de0
-dialogtxt       "私..."
-dialogtxt       "逃げてきたの..."
+dialogtxt       "I…"
+dialogtxt       "Ran away…"
 code0309        
 call            @Func_0e16
 code0479        0, 5, 17
 call            @Func_0d74
-dialogtxt       "ここまで？"
-dialogtxt       "ひとりで！？"
+dialogtxt       "This far?"
+dialogtxt       "By yourself!?"
 code0309        
 call            @Func_0daa
 code0479        1, 4, 17
 call            @Func_0de0
-dialogtxt       "そうよ..."
-dialogtxt       "だからはやく..."
-dialogtxt       "はやく戻りましょう"
+dialogtxt       "That's right…"
+dialogtxt       "So, hurry…"
+dialogtxt       "Let's get out of here…"
 code0309        
 call            @Func_0e16
 code0479        0, 2, 16
 call            @Func_0d74
 jumpz           @Cond_04b0, ($b002 == 0)
-dialogtxt       "あ、ああ..."
+dialogtxt       "Y-yeah…"
 goto            @Label_04c2
 
 @Cond_04b0:
-dialogtxt       "う、うん..."
+dialogtxt       "Y-yeah…"
 goto            @Label_04c2
 
 @Label_04c2:
 code0309        
 code0479        0, 2, 14
-choicetxt       @Choice_0518, "わかった！　すぐ戻ろう"
-choicetxt       @Choice_05d0, "聞きたいことがあるんだけど..."
+choicetxt       @Choice_0518, "Okay! Let's go."
+choicetxt       @Choice_05d0, "Let me ask you something…"
 choicewait      
 
 @Choice_0518:
 setvar          $f0138, 1
 code0479        0, 2, 12
-dialogtxt       "じゃあ、早く戻ろう"
+dialogtxt       "Alright, let's go."
 code0309        
 call            @Func_0daa
 code0479        1, 1, 13
 call            @Func_0de0
-dialogtxt       "よかった"
-dialogtxt       "もう２度と来ないでね"
+dialogtxt       "I'm so glad."
+dialogtxt       "Let's never come back."
 code0309        
 code033a        113, 0
 setvar          $h136, 32767
@@ -154,39 +154,38 @@ goto            @Label_07d0
 
 @Choice_05d0:
 code0479        0, 2, 16
-dialogtxt       "あのさ..."
-dialogtxt       "本当にミューノ"
-dialogtxt       "だよね...？"
+dialogtxt       "Hey…"
+dialogtxt       "You're the real Murno…"
+dialogtxt       "Right…?"
 code0309        
 call            @Func_0daa
 code0479        1, 2, 14
 call            @Func_0de0
-dialogtxt       "本当にって、どういうイミ？"
-dialogtxt       "当たり前じゃない"
+dialogtxt       "What do you mean, real?"
+dialogtxt       "Of course I am."
 code0309        
 call            @Func_0e16
 code0479        0, 4, 14
 call            @Func_0d74
-dialogtxt       "さっき親方とかにも会ったんだけど"
-dialogtxt       "消えちゃったりしてさ"
-dialogtxt       "ヘンなんだ、ここ"
+dialogtxt       "Well, I met Master and some others"
+dialogtxt       "earlier, but they disappeared."
+dialogtxt       "This place is weird."
 code0309        
 call            @Func_0daa
 code0479        1, 4, 16
 call            @Func_0de0
-dialogtxt       "信じて、私は本物よ"
-dialogtxt       "とにかくはやく戻りましょ"
-dialogtxt       "またあの人たちに捕まったら..."
+dialogtxt       "Believe me, I'm real."
+dialogtxt       "We should get going."
+dialogtxt       "If they find me again…"
 code0309        
 code0479        1, 4, 17
-dialogtxt       "今度こそ私"
-dialogtxt       "ヌシのエサにされちゃう！"
+dialogtxt       "They'll feed me to their master!"
 code0309        
 call            @Func_0e16
 code0479        0, 2, 14
 call            @Func_0d74
-dialogtxt       "そうだ...！"
-dialogtxt       "あいつら、ミューノを..."
+dialogtxt       "That's right…!"
+dialogtxt       "Those people were…"
 code0309        
 call            @Func_0e84
 call            @Func_0daa

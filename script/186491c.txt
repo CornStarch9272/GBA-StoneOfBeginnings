@@ -18,13 +18,13 @@ code047d        1, 0
 call            @Func_0d90
 call            @Func_0d0e
 jumpz           @Cond_0148, ($b002 == 0)
-dialogtxt       "あれ？"
-dialogtxt       "γ、ドコ行くんだよ"
+dialogtxt       "Huh?"
+dialogtxt       "[NAME 1], where are you going?"
 goto            @Label_016a
 
 @Cond_0148:
-dialogtxt       "あれ？"
-dialogtxt       "γ、ドコ行くの？"
+dialogtxt       "Huh?"
+dialogtxt       "[NAME 1], where are you going?"
 goto            @Label_016a
 
 @Label_016a:
@@ -55,29 +55,29 @@ code047d        0, 2
 call            @Func_0d7a
 call            @Func_0cc0
 jumpz           @Cond_029c, ($b003 == 0)
-dialogtxt       "みゅーの様ト　今後ノ計画ニツイテ"
-dialogtxt       "打チ合ワセスル　必要ガアリマスノデ"
-dialogtxt       "シバラク　出カケマス"
+dialogtxt       "I Must Meet Lady Murno"
+dialogtxt       "To Discuss Our Plans From Hereon."
+dialogtxt       "I Will Be Away For Some Time."
 goto            @Cond_029c
 
 @Cond_029c:
 jumpz           @Cond_0300, ($b003 == 1)
-dialogtxt       "これからの事でミューノに話があっての"
-dialogtxt       "すまんが少し"
-dialogtxt       "勝手をさせてもらうぞ"
+dialogtxt       "I need to talk to Murno about"
+dialogtxt       "our plans from hereon."
+dialogtxt       "My apologies. I will be off."
 goto            @Cond_0300
 
 @Cond_0300:
 jumpz           @Cond_0346, ($b003 == 2)
-dialogtxt       "ミューノに話があるだけだ"
-dialogtxt       "[NAME 4]サマには関係ない"
+dialogtxt       "I have to talk to Murno. Alone."
+dialogtxt       "It has nothing to do with you."
 goto            @Cond_0346
 
 @Cond_0346:
 jumpz           @Cond_03a2, ($b003 == 3)
-dialogtxt       "ミューノ様とこれからのことを"
-dialogtxt       "お話ししたいので..."
-dialogtxt       "すみませんが..."
+dialogtxt       "I want to talk with Lady Murno"
+dialogtxt       "about what to do from hereon…"
+dialogtxt       "I'm sorry, but…"
 goto            @Cond_03a2
 
 @Cond_03a2:
@@ -87,13 +87,13 @@ call            @Func_0cf6
 code0479        1, 0, 14
 call            @Func_0d2c
 jumpz           @Cond_03f0, ($b002 == 0)
-dialogtxt       "そっか..."
-dialogtxt       "わかったよ"
+dialogtxt       "Oh…"
+dialogtxt       "Sure, go on ahead."
 goto            @Label_040e
 
 @Cond_03f0:
-dialogtxt       "そっか..."
-dialogtxt       "わかったよ"
+dialogtxt       "Oh…"
+dialogtxt       "Sure, go on ahead."
 goto            @Label_040e
 
 @Label_040e:
@@ -115,37 +115,37 @@ code047d        0, 0
 call            @Func_0d7a
 call            @Func_0ca2
 jumpz           @Cond_05ec, ($b002 == 0)
-dialogtxt       "ミューノのお父さんもいるし"
-dialogtxt       "もうすぐ村にかえるワケだし"
-dialogtxt       "きっと色々あるんだよな..."
+dialogtxt       "With her father's condition, and"
+dialogtxt       "returning to the village,"
+dialogtxt       "they've got a lot to think about…"
 code047b        
 code0309        
 code0479        0, 0, 12
-dialogtxt       "仕方ない"
-dialogtxt       "オ[NAME 8]はオ[NAME 8]でミューノの村へ行く"
-dialogtxt       "準備をすすめておこう"
+dialogtxt       "Oh well."
+dialogtxt       "I need to get my own"
+dialogtxt       "things ready too."
 code0309        
 code0479        0, 0, 14
-dialogtxt       "そういえば、[NAME 8]ミィはやっぱり"
-dialogtxt       "お母さんにだまって行くつもり"
-dialogtxt       "なのかなぁ..."
+dialogtxt       "That reminds me, I wonder if "
+dialogtxt       "Lemmy is really not going"
+dialogtxt       "to tell his mother anything…"
 goto            @Label_0710
 
 @Cond_05ec:
-dialogtxt       "ミューノのお父さんもいるし"
-dialogtxt       "もうすぐ村にかえるワケだし"
-dialogtxt       "きっと色々あるんだよね..."
+dialogtxt       "With her father's condition, and"
+dialogtxt       "returning to the village,"
+dialogtxt       "they've got a lot to think about…"
 code047b        
 code0309        
 code0479        0, 0, 12
-dialogtxt       "仕方ない"
-dialogtxt       "わたしはわたしでミューノの村へ行く"
-dialogtxt       "準備をすすめておこう"
+dialogtxt       "Oh well."
+dialogtxt       "I need to get my own"
+dialogtxt       "things ready too."
 code0309        
 code0479        0, 0, 14
-dialogtxt       "そういえば、[NAME 8]ミィはやっぱり"
-dialogtxt       "お母さんにだまって行くつもり"
-dialogtxt       "なのかなぁ..."
+dialogtxt       "That reminds me, I wonder if "
+dialogtxt       "Lemmy is really not going"
+dialogtxt       "to tell his mother anything…"
 goto            @Label_0710
 
 @Label_0710:

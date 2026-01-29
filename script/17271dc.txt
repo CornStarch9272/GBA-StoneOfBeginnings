@@ -9,8 +9,8 @@ code0114
 code0300        
 code0312        
 code0313        @Menu_007e
-menutxt         @Menu_0052, "Let me prepare first!"
-menutxt         @Menu_007e, "Start battle"
+menutxt         @Menu_0052, "Let me get ready!"
+menutxt         @Menu_007e, "I'm ready to fight!"
 menuwait        
 
 @Menu_0052:
@@ -25,7 +25,7 @@ goto            @Label_002a
 code036f        
 jumpz           @Cond_00b6, ($b071 != 1)
 code0300        
-popuptxt        "武器を１本にして下さい"
+popuptxt        "Please equip only one weapon."
 code0318        
 goto            @Label_002a
 

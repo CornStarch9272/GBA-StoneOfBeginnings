@@ -23,9 +23,9 @@ code047d        0, 2
 call            @Func_271c
 call            @Func_2662
 jumpz           @Cond_08b0, ($b003 == 0)
-dialogtxt       "シカシ　彼ラハ　ナゼ"
-dialogtxt       "急ニ　処刑ナドト"
-dialogtxt       "言イ出シタノデショウカ？"
+dialogtxt       "I Am Curious, Why Did They"
+dialogtxt       "Suddenly Bring Up"
+dialogtxt       "The Concept of Execution?"
 code047b        
 code0309        
 call            @Func_2698
@@ -33,15 +33,15 @@ code0334
 code0331        39, 256
 code0479        1, 2, 14
 call            @Func_26ce
-dialogtxt       "なぜって..."
-dialogtxt       "あなたも私が本物かどうか"
-dialogtxt       "ためしているの？"
+dialogtxt       "Why, you say…"
+dialogtxt       "Are you trying to test"
+dialogtxt       "my authenticity too?"
 code0309        
 call            @Func_2704
 code0479        0, 0, 12
 call            @Func_2662
-dialogtxt       "イイエ"
-dialogtxt       "タメシテナド　イマセン"
+dialogtxt       "No."
+dialogtxt       "There Is No Need."
 code0309        
 call            @Func_279e
 call            @Func_2680
@@ -54,17 +54,16 @@ code047d        0, 0
 code0479        1, 2, 16
 call            @Func_2748
 call            @Func_26b0
-dialogtxt       "気をつけて、δ"
-dialogtxt       "γこそニセモノかも"
-dialogtxt       "しれないわ..."
+dialogtxt       "Be careful, [NAME 2]…"
+dialogtxt       "[NAME 1] may be"
+dialogtxt       "an imposter…"
 code047b        
 code0309        
 call            @Func_2704
 code043c        0, 4
 code0479        0, 5, 16
 call            @Func_2662
-dialogtxt       "そんな！？"
-dialogtxt       "まさか..."
+dialogtxt       "What!?"
 code0309        
 call            @Func_2772
 call            @Func_2698
@@ -74,44 +73,44 @@ code0479        0, 0, 12
 code047d        0, 2
 call            @Func_271c
 call            @Func_2662
-dialogtxt       "私ハ　本物デス"
+dialogtxt       "I Am The Real Thing."
 code047b        
 code0309        
 call            @Func_2698
 code043c        0, 3
 code0479        1, 2, 14
 call            @Func_26ce
-dialogtxt       "だったらあなたにもわかるでしょう"
-dialogtxt       "どうしてあの人たちが"
-dialogtxt       "私を処刑したいのか"
+dialogtxt       "Then you should know."
+dialogtxt       "The reason those people"
+dialogtxt       "want to get rid of me."
 code0309        
 call            @Func_2704
 code0479        0, 0, 12
 call            @Func_2662
-dialogtxt       "..."
-dialogtxt       "ワカリマセン"
+dialogtxt       "…"
+dialogtxt       "I Do Not."
 code0309        
 call            @Func_2698
 code0479        1, 4, 16
 call            @Func_26ce
-dialogtxt       "本物だったらカンタンにわかる"
-dialogtxt       "ことなのに"
-dialogtxt       "しかたないわね..."
+dialogtxt       "The real [NAME 1]"
+dialogtxt       "would have known…"
+dialogtxt       "Fine, I'll tell you…"
 code0309        
 code0479        1, 2, 14
-dialogtxt       "バ[NAME 8]たのよ..."
+dialogtxt       "They found out…"
 code0309        
 call            @Func_2704
 code0479        0, 5, 12
 call            @Func_2662
-dialogtxt       "バ[NAME 8]タ...？"
+dialogtxt       "Found Out…?"
 code0309        
 call            @Func_2698
 code0479        1, 2, 15
 call            @Func_26ce
-dialogtxt       "私がこの村をメチャクチャにした"
-dialogtxt       "ヴォイジンの仲間だったことが"
-dialogtxt       "バ[NAME 8]たのよ！"
+dialogtxt       "They found out that I'm"
+dialogtxt       "the one who destroyed the village!"
+dialogtxt       "That I'm Voijin's accomplice!"
 code0309        
 call            @Func_279e
 call            @Func_26ec
@@ -129,15 +128,15 @@ code0479        1, 2, 14
 call            @Func_2748
 call            @Func_2644
 jumpz           @Cond_05d6, ($b002 == 0)
-dialogtxt       "ミューノが、ヴォイジンの"
-dialogtxt       "仲間...？"
-dialogtxt       "な...、なに言ってるんだ..."
+dialogtxt       "Murno…"
+dialogtxt       "You're Voijin's accomplice…?"
+dialogtxt       "Wha… What are you saying…?"
 goto            @Label_061e
 
 @Cond_05d6:
-dialogtxt       "ミューノが、ヴォイジンの"
-dialogtxt       "仲間...？"
-dialogtxt       "な...、なに言ってるの...？"
+dialogtxt       "Murno…"
+dialogtxt       "You're Voijin's accomplice…?"
+dialogtxt       "Wha… What are you saying…?"
 goto            @Label_061e
 
 @Label_061e:
@@ -146,26 +145,26 @@ code0309
 call            @Func_2698
 code0479        1, 4, 16
 call            @Func_26ce
-dialogtxt       "だまっててごめんなさい"
-dialogtxt       "でも、本当のことなの"
-dialogtxt       "私はヴォイジンの仲間だったわ"
+dialogtxt       "I'm sorry I couldn't tell you."
+dialogtxt       "But it's the truth."
+dialogtxt       "I was cooperating with him."
 code0309        
 code0479        1, 4, 12
-dialogtxt       "だけどお宝を横流ししてたのがバ[NAME 8]て"
-dialogtxt       "うらぎり者としてアニスたちに"
-dialogtxt       "追われていたのよ..."
+dialogtxt       "After we were exposed selling"
+dialogtxt       "contraband on the black market,"
+dialogtxt       "Anise came after me…"
 code0309        
 call            @Func_2704
 code0479        0, 2, 16
 call            @Func_2662
-dialogtxt       "そんな...、ミューノが..."
-dialogtxt       "あいつらの仲間だったなんて..."
+dialogtxt       "No… Murno, you were…"
+dialogtxt       "Working with them…?"
 code0309        
 call            @Func_2698
 code0479        1, 2, 15
 call            @Func_26ce
-dialogtxt       "これでわかったでしょう"
-dialogtxt       "はやく逃げましょう！"
+dialogtxt       "Now that you understand,"
+dialogtxt       "let's hurry and get out of here!"
 code0309        
 call            @Func_2788
 call            @Func_2704
@@ -176,22 +175,21 @@ code0479        1, 5, 12
 code047d        1, 2
 call            @Func_2732
 call            @Func_26ce
-dialogtxt       "ウ[NAME 5]デス！"
-dialogtxt       "みゅーの様ハ　※ぉいじんノ"
-dialogtxt       "仲間デハ　アリマセン"
+dialogtxt       "That Is A Lie!"
+dialogtxt       "Murno Is Not Collaborating"
+dialogtxt       "With Voijin."
 code047b        
 code0309        
 code0479        1, 0, 12
-dialogtxt       "彼女ハ本物デナイ可能性ガ　高イデス"
-dialogtxt       "彼女ニハ　従ワナイ方ガ"
-dialogtxt       "良イト思ワ[NAME 8]マス"
+dialogtxt       "This Murno Is Most Likely A Fake."
+dialogtxt       "She Would Never Think That"
+dialogtxt       "Rulebreakers Are In The Right."
 goto            @Cond_08b0
 
 @Cond_08b0:
 jumpz           @Cond_1092, ($b003 == 1)
-dialogtxt       "じゃがヤツらはなぜ急に"
-dialogtxt       "ミューノを処刑だなどと"
-dialogtxt       "言い出したのかのう？"
+dialogtxt       "But why did they suddenly"
+dialogtxt       "bring up execution?"
 code047b        
 code0309        
 call            @Func_2698
@@ -199,15 +197,15 @@ code0334
 code0331        39, 256
 code0479        1, 2, 14
 call            @Func_26ce
-dialogtxt       "なぜって..."
-dialogtxt       "あなたも私が本物かどうか"
-dialogtxt       "ためしているの？"
+dialogtxt       "Why, you say…"
+dialogtxt       "Are you trying to test"
+dialogtxt       "my authenticity too?"
 code0309        
 call            @Func_2704
 code0479        0, 5, 14
 call            @Func_2662
-dialogtxt       "ためす？"
-dialogtxt       "それは一体どういうことじゃ？"
+dialogtxt       "Authenticity?"
+dialogtxt       "What do you mean?"
 code0309        
 call            @Func_279e
 call            @Func_2680
@@ -220,17 +218,16 @@ code047d        0, 0
 code0479        1, 2, 16
 call            @Func_2748
 call            @Func_26b0
-dialogtxt       "気をつけて、δ"
-dialogtxt       "γこそニセモノかも"
-dialogtxt       "しれないわ..."
+dialogtxt       "Be careful, [NAME 2]…"
+dialogtxt       "[NAME 1] may be"
+dialogtxt       "an imposter…"
 code047b        
 code0309        
 call            @Func_2704
 code043c        0, 4
 code0479        0, 5, 16
 call            @Func_2662
-dialogtxt       "そんな！？"
-dialogtxt       "まさか..."
+dialogtxt       "What!?"
 code0309        
 call            @Func_2772
 call            @Func_2698
@@ -240,45 +237,44 @@ code0479        0, 5, 15
 code047d        0, 2
 call            @Func_271c
 call            @Func_2662
-dialogtxt       "何を言っておるのじゃ"
-dialogtxt       "ミューノ？"
+dialogtxt       "What do you mean!?"
 code047b        
 code0309        
 call            @Func_2698
 code043c        0, 3
 code0479        1, 2, 14
 call            @Func_26ce
-dialogtxt       "だって本物ならわかるはずよ"
-dialogtxt       "どうしてあの人たちが"
-dialogtxt       "私を処刑したいのか"
+dialogtxt       "Then you should know."
+dialogtxt       "The reason those people"
+dialogtxt       "want to get rid of me."
 code0309        
 call            @Func_2704
 code0479        0, 2, 14
 call            @Func_2662
-dialogtxt       "なんじゃ？"
-dialogtxt       "ゴヴァンの魔石か？"
+dialogtxt       "Hm?"
+dialogtxt       "Govan's Demon Stone, isn't it?"
 code0309        
 call            @Func_2698
 code0479        1, 4, 16
 call            @Func_26ce
-dialogtxt       "本物だったらカンタンにわかる"
-dialogtxt       "ことなのに"
-dialogtxt       "しかたないわね..."
+dialogtxt       "The real [NAME 1]"
+dialogtxt       "would have known…"
+dialogtxt       "Fine, I'll tell you…"
 code0309        
 code0479        1, 2, 14
-dialogtxt       "バ[NAME 8]たのよ..."
+dialogtxt       "They found out…"
 code0309        
 call            @Func_2704
 code0479        0, 2, 16
 call            @Func_2662
-dialogtxt       "ばれた...？"
+dialogtxt       "Found out…?"
 code0309        
 call            @Func_2698
 code0479        1, 2, 15
 call            @Func_26ce
-dialogtxt       "私がこの村をメチャクチャにした"
-dialogtxt       "ヴォイジンの仲間だったことが"
-dialogtxt       "バ[NAME 8]たのよ！"
+dialogtxt       "They found out that I'm"
+dialogtxt       "the one who destroyed the village!"
+dialogtxt       "That I'm Voijin's accomplice!"
 code0309        
 call            @Func_279e
 call            @Func_26ec
@@ -295,15 +291,15 @@ code047d        0, 0
 call            @Func_2748
 call            @Func_2662
 jumpz           @Cond_0dd8, ($b002 == 0)
-dialogtxt       "ミューノが、ヴォイジンの"
-dialogtxt       "仲間...？"
-dialogtxt       "な...、なに言ってるんだ..."
+dialogtxt       "Murno…"
+dialogtxt       "You're Voijin's accomplice…?"
+dialogtxt       "Wha… What are you saying…?"
 goto            @Label_0e20
 
 @Cond_0dd8:
-dialogtxt       "ミューノが、ヴォイジンの"
-dialogtxt       "仲間...？"
-dialogtxt       "な...、なに言ってるの...？"
+dialogtxt       "Murno…"
+dialogtxt       "You're Voijin's accomplice…?"
+dialogtxt       "Wha… What are you saying…?"
 goto            @Label_0e20
 
 @Label_0e20:
@@ -312,26 +308,26 @@ code0309
 call            @Func_2698
 code0479        1, 4, 16
 call            @Func_26ce
-dialogtxt       "だまっててごめんなさい"
-dialogtxt       "でも、本当のことなの"
-dialogtxt       "私はヴォイジンの仲間だったわ"
+dialogtxt       "I'm sorry I couldn't tell you."
+dialogtxt       "But it's the truth."
+dialogtxt       "I was cooperating with him."
 code0309        
 code0479        1, 4, 12
-dialogtxt       "だけどお宝を横流ししてたのがバ[NAME 8]て"
-dialogtxt       "うらぎり者としてアニスたちに"
-dialogtxt       "追われていたのよ..."
+dialogtxt       "After we were exposed selling"
+dialogtxt       "contraband on the black market,"
+dialogtxt       "Anise came after me…"
 code0309        
 call            @Func_2704
 code0479        0, 2, 16
 call            @Func_2662
-dialogtxt       "そんな...、ミューノが..."
-dialogtxt       "あいつらの仲間だったなんて..."
+dialogtxt       "No… Murno, you were…"
+dialogtxt       "Working with them…?"
 code0309        
 call            @Func_2698
 code0479        1, 2, 15
 call            @Func_26ce
-dialogtxt       "これでわかったでしょう"
-dialogtxt       "はやく逃げましょう！"
+dialogtxt       "Now that you understand,"
+dialogtxt       "let's hurry and get out of here!"
 code0309        
 call            @Func_2788
 call            @Func_2704
@@ -342,20 +338,21 @@ code0479        1, 3, 15
 code047d        1, 2
 call            @Func_2732
 call            @Func_26ce
-dialogtxt       "だまされるな、δ"
-dialogtxt       "あやつはニセモノだ！"
+dialogtxt       "Don't be fooled, [NAME 2]!"
+dialogtxt       "It's a fake!"
 code047b        
 code0309        
 code0479        1, 2, 15
-dialogtxt       "このマゲにかけて誓う"
-dialogtxt       "ミューノはあの連中の仲間などでは"
-dialogtxt       "断じてない！"
+dialogtxt       "I swear on my topknot,"
+dialogtxt       "Murno would not cooperate with"
+dialogtxt       "the likes of them!"
 goto            @Cond_1092
 
 @Cond_1092:
 jumpz           @Cond_1890, ($b003 == 2)
-dialogtxt       "突然処刑だとは"
-dialogtxt       "何があった？"
+dialogtxt       "Those guys…"
+dialogtxt       "Suddenly bringing up execution,"
+dialogtxt       "what's with that?"
 code047b        
 code0309        
 call            @Func_2698
@@ -363,15 +360,15 @@ code0334
 code0331        39, 256
 code0479        1, 2, 14
 call            @Func_26ce
-dialogtxt       "何って..."
-dialogtxt       "あなたも私が本物かどうか"
-dialogtxt       "ためしているの？"
+dialogtxt       "Why, you say…"
+dialogtxt       "Are you trying to test"
+dialogtxt       "my authenticity too?"
 code0309        
 call            @Func_2704
 code0479        0, 2, 14
 call            @Func_2662
-dialogtxt       "ためす？"
-dialogtxt       "どういうことだ"
+dialogtxt       "Authenticity?"
+dialogtxt       "What do you mean?"
 code0309        
 call            @Func_279e
 call            @Func_2680
@@ -384,17 +381,16 @@ code047d        0, 0
 code0479        1, 2, 16
 call            @Func_2748
 call            @Func_26b0
-dialogtxt       "気をつけて、δ"
-dialogtxt       "γこそニセモノかも"
-dialogtxt       "しれないわ..."
+dialogtxt       "Be careful, [NAME 2]…"
+dialogtxt       "[NAME 1] may be"
+dialogtxt       "an imposter…"
 code047b        
 code0309        
 call            @Func_2704
 code043c        0, 4
 code0479        0, 5, 16
 call            @Func_2662
-dialogtxt       "そんな！？"
-dialogtxt       "まさか..."
+dialogtxt       "What!?"
 code047b        
 code0309        
 call            @Func_2772
@@ -405,46 +401,44 @@ code0479        0, 3, 14
 code047d        0, 2
 call            @Func_271c
 call            @Func_2662
-dialogtxt       "この私がニセモノだと..."
-dialogtxt       "ふざけたことを言うと"
-dialogtxt       "いくらお前でも許さんぞ"
+dialogtxt       "Me, a fake…?"
+dialogtxt       "Even if it is you, Murno,"
+dialogtxt       "I will not let you insult me."
 code047b        
 code0309        
 call            @Func_2698
 code043c        0, 3
 code0479        1, 2, 14
 call            @Func_26ce
-dialogtxt       "あなたが本物ならわかるはずよ"
-dialogtxt       "どうしてあの人たちが"
-dialogtxt       "私を処刑したいのか"
+dialogtxt       "Then you should know."
+dialogtxt       "The reason those people"
+dialogtxt       "want to get rid of me."
 code0309        
 call            @Func_2704
 code0479        0, 5, 16
 call            @Func_2662
-dialogtxt       "なに..."
-dialogtxt       "どういうことだ？"
+dialogtxt       "What…?"
 code0309        
 call            @Func_2698
 code0479        1, 4, 16
 call            @Func_26ce
-dialogtxt       "しかたないわね..."
-dialogtxt       "わからないようだから"
-dialogtxt       "教えてあげるわ"
+dialogtxt       "So you don't know…"
+dialogtxt       "Fine then, I'll tell you…"
 code0309        
 code0479        1, 2, 14
-dialogtxt       "バ[NAME 8]たのよ..."
+dialogtxt       "They found out…"
 code0309        
 call            @Func_2704
 code0479        0, 3, 14
 call            @Func_2662
-dialogtxt       "バ[NAME 8]た...？"
+dialogtxt       "Found out…?"
 code0309        
 call            @Func_2698
 code0479        1, 2, 15
 call            @Func_26ce
-dialogtxt       "私がこの村をメチャクチャにした"
-dialogtxt       "ヴォイジンの仲間だったことが"
-dialogtxt       "バ[NAME 8]たのよ！"
+dialogtxt       "They found out that I'm"
+dialogtxt       "the one who destroyed the village!"
+dialogtxt       "That I'm Voijin's accomplice!"
 code0309        
 call            @Func_279e
 call            @Func_26ec
@@ -462,15 +456,15 @@ code0479        1, 2, 14
 call            @Func_2748
 call            @Func_2644
 jumpz           @Cond_15b4, ($b002 == 0)
-dialogtxt       "ミューノが、ヴォイジンの"
-dialogtxt       "仲間...？"
-dialogtxt       "な...、なに言ってるんだ..."
+dialogtxt       "Murno…"
+dialogtxt       "You're Voijin's accomplice…?"
+dialogtxt       "Wha… What are you saying…?"
 goto            @Label_15fc
 
 @Cond_15b4:
-dialogtxt       "ミューノが、ヴォイジンの"
-dialogtxt       "仲間...？"
-dialogtxt       "な...、なに言ってるの...？"
+dialogtxt       "Murno…"
+dialogtxt       "You're Voijin's accomplice…?"
+dialogtxt       "Wha… What are you saying…?"
 goto            @Label_15fc
 
 @Label_15fc:
@@ -479,26 +473,26 @@ code0309
 call            @Func_2698
 code0479        1, 4, 16
 call            @Func_26ce
-dialogtxt       "だまっててごめんなさい"
-dialogtxt       "でも、本当のことなの"
-dialogtxt       "私はヴォイジンの仲間だったわ"
+dialogtxt       "I'm sorry I couldn't tell you."
+dialogtxt       "But it's the truth."
+dialogtxt       "I was cooperating with him."
 code0309        
 code0479        1, 4, 12
-dialogtxt       "だけどお宝を横流ししてたのがバ[NAME 8]て"
-dialogtxt       "うらぎり者としてアニスたちに"
-dialogtxt       "追われていたのよ..."
+dialogtxt       "After we were exposed selling"
+dialogtxt       "contraband on the black market,"
+dialogtxt       "Anise came after me…"
 code0309        
 call            @Func_2704
 code0479        0, 2, 16
 call            @Func_2662
-dialogtxt       "そんな...、ミューノが..."
-dialogtxt       "あいつらの仲間だったなんて..."
+dialogtxt       "No… Murno, you were…"
+dialogtxt       "Working with them…?"
 code0309        
 call            @Func_2698
 code0479        1, 2, 15
 call            @Func_26ce
-dialogtxt       "これでわかったでしょう"
-dialogtxt       "はやく逃げましょう！"
+dialogtxt       "Now that you understand,"
+dialogtxt       "let's hurry and get out of here!"
 code0309        
 call            @Func_2788
 call            @Func_2704
@@ -509,22 +503,21 @@ code0479        1, 2, 13
 code047d        1, 2
 call            @Func_2732
 call            @Func_26ce
-dialogtxt       "自分でボロを出すとはな"
-dialogtxt       "そいつはニセモノだ"
+dialogtxt       "There. It exposed itself."
+dialogtxt       "This Murno's a fake."
 code047b        
 code0309        
 code043c        1, 3
 code0479        1, 2, 15
-dialogtxt       "ミューノがあいつらの仲間だと..."
-dialogtxt       "そんなふざけたことクチに出して"
-dialogtxt       "無事にすむと思うな！"
+dialogtxt       "Murno being their accomplice…"
+dialogtxt       "Don't think you'll get away"
+dialogtxt       "with spouting such bullshit!"
 goto            @Cond_1890
 
 @Cond_1890:
 jumpz           @Cond_20b2, ($b003 == 3)
-dialogtxt       "でも急に処刑って..."
-dialogtxt       "ミューノ様、一体なにが"
-dialogtxt       "あったんですか？"
+dialogtxt       "But execution…"
+dialogtxt       "Lady Murno, what happened?"
 code047b        
 code0309        
 call            @Func_2698
@@ -532,15 +525,15 @@ code0334
 code0331        39, 256
 code0479        1, 2, 14
 call            @Func_26ce
-dialogtxt       "何って..."
-dialogtxt       "あなたも私が本物かどうか"
-dialogtxt       "ためしているの？"
+dialogtxt       "Why, you say…"
+dialogtxt       "Are you trying to test"
+dialogtxt       "my authenticity too?"
 code0309        
 call            @Func_2704
 code0479        0, 0, 16
 call            @Func_2662
-dialogtxt       "ためす？"
-dialogtxt       "どういうことですか？"
+dialogtxt       "Authenticity?"
+dialogtxt       "What do you mean?"
 code0309        
 call            @Func_279e
 call            @Func_2680
@@ -553,17 +546,16 @@ code047d        0, 0
 code0479        1, 2, 16
 call            @Func_2748
 call            @Func_26b0
-dialogtxt       "気をつけて、δ"
-dialogtxt       "γこそニセモノかも"
-dialogtxt       "しれないわ..."
+dialogtxt       "Be careful, [NAME 2]…"
+dialogtxt       "[NAME 1] may be"
+dialogtxt       "an imposter…"
 code047b        
 code0309        
 call            @Func_2704
 code043c        0, 4
 code0479        0, 5, 16
 call            @Func_2662
-dialogtxt       "そんな！？"
-dialogtxt       "まさか..."
+dialogtxt       "What!?"
 code047b        
 code0309        
 call            @Func_2772
@@ -574,46 +566,45 @@ code0479        0, 2, 15
 code047d        0, 2
 call            @Func_271c
 call            @Func_2662
-dialogtxt       "なにを言っているんですか"
-dialogtxt       "ミューノ様"
-dialogtxt       "私は本物ですわ！"
+dialogtxt       "How could you say that…?"
+dialogtxt       "I am the real thing!"
 code047b        
 code0309        
 call            @Func_2698
 code043c        0, 3
 code0479        1, 2, 14
 call            @Func_26ce
-dialogtxt       "それならわかるはずでしょ"
-dialogtxt       "どうしてあの人たちが"
-dialogtxt       "私を処刑したいのか"
+dialogtxt       "Then you should know."
+dialogtxt       "The reason those people"
+dialogtxt       "want to get rid of me."
 code0309        
 call            @Func_2704
 code0479        0, 5, 16
 call            @Func_2662
-dialogtxt       "え...？"
-dialogtxt       "どうしてですか？"
+dialogtxt       "Eh…?"
+dialogtxt       "Why they want to…?"
 code0309        
 call            @Func_2698
 code0479        1, 4, 16
 call            @Func_26ce
-dialogtxt       "本物だったらカンタンにわかる"
-dialogtxt       "ことなのに"
-dialogtxt       "しかたないわね..."
+dialogtxt       "The real [NAME 1]"
+dialogtxt       "would have known…"
+dialogtxt       "Fine, I'll tell you…"
 code0309        
 code0479        1, 0, 12
-dialogtxt       "バ[NAME 8]たのよ..."
+dialogtxt       "They found out…"
 code0309        
 call            @Func_2704
 code0479        1, 2, 14
 call            @Func_2662
-dialogtxt       "バ[NAME 8]た...？"
+dialogtxt       "Found out…?"
 code0309        
 call            @Func_2698
 code0479        1, 2, 15
 call            @Func_26ce
-dialogtxt       "私がこの村をメチャクチャにした"
-dialogtxt       "ヴォイジンの仲間だったことが"
-dialogtxt       "バ[NAME 8]たのよ！"
+dialogtxt       "They found out that I'm"
+dialogtxt       "the one who destroyed the village!"
+dialogtxt       "That I'm Voijin's accomplice!"
 code0309        
 call            @Func_279e
 call            @Func_26ec
@@ -631,15 +622,15 @@ code0479        1, 2, 14
 call            @Func_2748
 call            @Func_2644
 jumpz           @Cond_1dcc, ($b002 == 0)
-dialogtxt       "ミューノが、ヴォイジンの"
-dialogtxt       "仲間...？"
-dialogtxt       "な...、なに言ってるんだ..."
+dialogtxt       "Murno…"
+dialogtxt       "You're Voijin's accomplice…?"
+dialogtxt       "Wha… What are you saying…?"
 goto            @Label_1e14
 
 @Cond_1dcc:
-dialogtxt       "ミューノが、ヴォイジンの"
-dialogtxt       "仲間...？"
-dialogtxt       "な...、なに言ってるの...？"
+dialogtxt       "Murno…"
+dialogtxt       "You're Voijin's accomplice…?"
+dialogtxt       "Wha… What are you saying…?"
 goto            @Label_1e14
 
 @Label_1e14:
@@ -648,26 +639,26 @@ code0309
 call            @Func_2698
 code0479        1, 4, 16
 call            @Func_26ce
-dialogtxt       "だまっててごめんなさい"
-dialogtxt       "でも、本当のことなの"
-dialogtxt       "私はヴォイジンの仲間だったわ"
+dialogtxt       "I'm sorry I couldn't tell you."
+dialogtxt       "But it's the truth."
+dialogtxt       "I was cooperating with him."
 code0309        
 code0479        1, 4, 12
-dialogtxt       "だけどお宝を横流ししてたのがバ[NAME 8]て"
-dialogtxt       "うらぎり者としてアニスたちに"
-dialogtxt       "追われていたのよ..."
+dialogtxt       "After we were exposed selling"
+dialogtxt       "contraband on the black market,"
+dialogtxt       "Anise came after me…"
 code0309        
 call            @Func_2704
 code0479        0, 2, 16
 call            @Func_2662
-dialogtxt       "そんな...、ミューノが..."
-dialogtxt       "あいつらの仲間だったなんて..."
+dialogtxt       "No… Murno, you were…"
+dialogtxt       "Working with them…?"
 code0309        
 call            @Func_2698
 code0479        1, 2, 15
 call            @Func_26ce
-dialogtxt       "これでわかったでしょう"
-dialogtxt       "はやく逃げましょう！"
+dialogtxt       "Now that you understand,"
+dialogtxt       "let's hurry and get out of here!"
 code0309        
 call            @Func_2788
 call            @Func_2704
@@ -677,15 +668,15 @@ code0479        1, 2, 14
 code047d        1, 2
 call            @Func_2732
 call            @Func_26ce
-dialogtxt       "ダマされないでください！"
-dialogtxt       "その人はミューノ様じゃありません！"
-dialogtxt       "ニセモノですわ！"
+dialogtxt       "Do not be deceived!"
+dialogtxt       "This person is not Lady Murno!"
+dialogtxt       "It's a fake!"
 code047b        
 code0309        
 code0479        1, 2, 15
-dialogtxt       "ミューノ様があの人たちの仲間だなんて"
-dialogtxt       "そんなヒドイウ[NAME 5]をつく人は"
-dialogtxt       "絶対に許しません！"
+dialogtxt       "I will not forgive telling"
+dialogtxt       "such a cruel lie about Lady Murno!"
+dialogtxt       "This wil not stand!"
 goto            @Cond_20b2
 
 @Cond_20b2:

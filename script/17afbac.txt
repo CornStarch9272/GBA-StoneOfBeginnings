@@ -10,7 +10,7 @@ code0412        4, 1
 code0418        2
 setvar          $b075, 1
 setvar          $b072, 0
-placetxt        "Mayor's house　second-hand shop"
+placetxt        "Mayor's House　Second-hand Shop"
 code040c        1, @Label_04de
 code040c        2, @Label_04d4
 code0438        2, 367, 632, 1
@@ -80,7 +80,7 @@ code0412        4, 1
 code0418        2
 setvar          $b075, 1
 setvar          $b072, 0
-placetxt        "Mayor's house　second-hand shop"
+placetxt        "Mayor's House　Second-Hand Shop"
 code040c        1, @Label_04de
 code040c        2, @Label_04d4
 code0438        2, 367, 632, 1
@@ -326,13 +326,13 @@ ret
 code0301        8, 7
 code047d        0, 122
 code047e        0, 1
-dialogtxt       "お前さんみたいな若者の時代が"
-dialogtxt       "来たんじゃな"
-dialogtxt       "ワシもいよいよ..."
+dialogtxt       "You youngsters bring about a"
+dialogtxt       "promising new era, indeed."
+dialogtxt       "The years are getting to me…"
 code0309        
-dialogtxt       "いや、まだまだなっとらん"
-dialogtxt       "あ〜〜なっとらん"
-dialogtxt       "と言ったらなっとらん"
+dialogtxt       "No, that's not it!"
+dialogtxt       "Argh, no matter what I say,"
+dialogtxt       "they they wouldn't listen!"
 code0309        
 code047e        0, 0
 code0302        7
@@ -342,21 +342,22 @@ code040b
 code0301        8, 7
 code047d        0, 148
 code047e        0, 1
-dialogtxt       "あなたってとっても、すごい"
-dialogtxt       "鍛冶師だったのね〜"
-dialogtxt       "人は見かけじゃわからないものね"
+dialogtxt       "You're so amazing! I never would've"
+dialogtxt       "thought you're a Craftknight!"
+dialogtxt       "You didn't seem like one to me."
 code0309        
 jumpz           @Cond_1a80, ($f1267 == 0)
-dialogtxt       "でも、何か得意な事を極めてないと"
-dialogtxt       "話にならないからね"
+dialogtxt       "Though I can see why you wouldn't"
+dialogtxt       "brag about being one when you're"
+dialogtxt       "busy honing your skills, and all."
 code0309        
-dialogtxt       "どう？"
-dialogtxt       "あなたの鍛冶師としての"
-dialogtxt       "すごいトコ教えてくれるかな？"
+dialogtxt       "Speaking of! Since"
+dialogtxt       "you're a skilled Craftknight, care"
+dialogtxt       "to show me your Crafting Rank?"
 code0309        
 code047e        0, 0
-choicetxt       @Choice_0f5c, "教える"
-choicetxt       @Choice_1a88, "教えない"
+choicetxt       @Choice_0f5c, "Tell her."
+choicetxt       @Choice_1a88, "Don't tell her."
 choicewait      
 
 @Choice_0f5c:
@@ -368,12 +369,12 @@ jumpz           @Cond_110c, ($h135 == 9 && $f1260 == 0)
 setvar          $f1260, 1
 code0301        8, 7
 code047e        0, 1
-dialogtxt       "すご〜い、[NAME 5]ード鍛冶ランクが"
-dialogtxt       "最高じゃないの！！"
+dialogtxt       "Wow! Your sword crafting rank"
+dialogtxt       "is at the highest possible tier!!"
 code0309        
-dialogtxt       "じゃ、これを受け取って"
-dialogtxt       "「[NAME 5]ードの極意書」なんだけど"
-dialogtxt       "これを見てもっと鍛錬してね"
+dialogtxt       "Here! This is for you, the"
+dialogtxt       "Ultimate Sword Manual!"
+dialogtxt       "Please put it to good use!"
 code0309        
 code047e        0, 0
 code0302        7
@@ -381,9 +382,9 @@ code0366        526, 1
 code0367        
 code0301        0, 7
 code0305        1
-dialogtxt       "「[NAME 5]ードの極意書」を持った状態で"
-dialogtxt       "セーブを行うことで、おまけ条件に"
-dialogtxt       "「[NAME 8]ミィ」が追加されます"
+dialogtxt       "Having the Ultimate Sword Manual"
+dialogtxt       "in your inventory while saving lets"
+dialogtxt       "you unlock Lemmy in Bonus Mode!"
 code0309        
 code0302        7
 goto            @Cond_110c
@@ -394,12 +395,12 @@ jumpz           @Cond_129e, ($h135 == 9 && $f1261 == 0)
 setvar          $f1261, 1
 code0301        8, 7
 code047e        0, 1
-dialogtxt       "うっそ〜、アクス鍛冶ランクが"
-dialogtxt       "最高じゃないの！！"
+dialogtxt       "Wow! Your axe crafting rank"
+dialogtxt       "is at the highest possible tier!!"
 code0309        
-dialogtxt       "じゃ、これを受け取って"
-dialogtxt       "「アクスの極意書」なんだけど"
-dialogtxt       "これを見てもっと鍛錬してね"
+dialogtxt       "Here! This is for you, the"
+dialogtxt       "Ultimate Axe Manual!"
+dialogtxt       "Please put it to good use!"
 code0309        
 code047e        0, 0
 code0302        7
@@ -407,9 +408,9 @@ code0366        524, 1
 code0367        
 code0301        0, 7
 code0305        1
-dialogtxt       "「アクスの極意書」を持った状態で"
-dialogtxt       "セーブを行うことで、おまけ条件に"
-dialogtxt       "「ヴィー」が追加されます"
+dialogtxt       "Having the Ultimate Axe Manual"
+dialogtxt       "in your inventory while saving lets"
+dialogtxt       "you unlock V.E in Bonus Mode!"
 code0309        
 code0302        7
 goto            @Cond_129e
@@ -420,12 +421,12 @@ jumpz           @Cond_1432, ($h135 == 9 && $f1262 == 0)
 setvar          $f1262, 1
 code0301        8, 7
 code047e        0, 1
-dialogtxt       "おどろいた、スピア鍛冶ランクが"
-dialogtxt       "最高じゃないの！！"
+dialogtxt       "Wow! Your spear crafting rank"
+dialogtxt       "is at the highest possible tier!!"
 code0309        
-dialogtxt       "じゃ、これを受け取って"
-dialogtxt       "「スピアの極意書」なんだけど"
-dialogtxt       "これを見てもっと鍛錬してね"
+dialogtxt       "Here! This is for you, the"
+dialogtxt       "Ultimate Spear Manual!"
+dialogtxt       "Please put it to good use!"
 code0309        
 code047e        0, 0
 code0302        7
@@ -433,9 +434,9 @@ code0366        528, 1
 code0367        
 code0301        0, 7
 code0305        1
-dialogtxt       "「スピアの極意書」を持った状態で"
-dialogtxt       "セーブを行うことで、おまけ条件に"
-dialogtxt       "「アニス」が追加されます"
+dialogtxt       "Having the Ultimate Spear Manual"
+dialogtxt       "in your inventory while saving lets"
+dialogtxt       "you unlock Anise in Bonus Mode!"
 code0309        
 code0302        7
 goto            @Cond_1432
@@ -446,12 +447,12 @@ jumpz           @Cond_15ca, ($h135 == 9 && $f1263 == 0)
 setvar          $f1263, 1
 code0301        8, 7
 code047e        0, 1
-dialogtxt       "まぁっ、ナックル鍛冶ランクが"
-dialogtxt       "最高じゃないの！！"
+dialogtxt       "Wow! Your knuckle crafting rank"
+dialogtxt       "is at the highest possible tier!!"
 code0309        
-dialogtxt       "じゃ、これを受け取って"
-dialogtxt       "「ナックルの極意書」なんだけど"
-dialogtxt       "これを見てもっと鍛錬してね"
+dialogtxt       "Here! This is for you, the"
+dialogtxt       "Ultimate Knuckle Manual!"
+dialogtxt       "Please put it to good use!"
 code0309        
 code047e        0, 0
 code0302        7
@@ -459,9 +460,9 @@ code0366        525, 1
 code0367        
 code0301        0, 7
 code0305        1
-dialogtxt       "「ナックルの極意書」を持った状態で"
-dialogtxt       "セーブを行うことで、おまけ条件に"
-dialogtxt       "「ジェイド」が追加されます"
+dialogtxt       "Having the Ultimate Knuckle Manual"
+dialogtxt       "in your inventory while saving lets"
+dialogtxt       "you unlock Jade in Bonus Mode!"
 code0309        
 code0302        7
 goto            @Cond_15ca
@@ -472,12 +473,12 @@ jumpz           @Cond_1760, ($h135 == 9 && $f1264 == 0)
 setvar          $f1264, 1
 code0301        8, 7
 code047e        0, 1
-dialogtxt       "まっさか〜、ドリル鍛冶ランクが"
-dialogtxt       "最高じゃないの！！"
+dialogtxt       "Wow! Your drill crafting rank"
+dialogtxt       "is at the highest possible tier!!"
 code0309        
-dialogtxt       "じゃ、これを受け取って"
-dialogtxt       "「ドリルの極意書」なんだけど"
-dialogtxt       "これを見てもっと鍛錬してね"
+dialogtxt       "Here! This is for you, the"
+dialogtxt       "Ultimate Drill Manual!"
+dialogtxt       "Please put it to good use!"
 code0309        
 code047e        0, 0
 code0302        7
@@ -485,9 +486,9 @@ code0366        530, 1
 code0367        
 code0301        0, 7
 code0305        1
-dialogtxt       "「ドリルの極意書」を持った状態で"
-dialogtxt       "セーブを行うことで、おまけ条件に"
-dialogtxt       "「ボスタフ」が追加されます"
+dialogtxt       "Having the Ultimate Drill Manual"
+dialogtxt       "in your inventory while saving lets"
+dialogtxt       "you unlock Bostaph in Bonus Mode!"
 code0309        
 code0302        7
 goto            @Cond_1760
@@ -498,12 +499,12 @@ jumpz           @Cond_18ec, ($h135 == 9 && $f1265 == 0)
 setvar          $f1265, 1
 code0301        8, 7
 code047e        0, 1
-dialogtxt       "えええっ、ボウ鍛冶ランクが"
-dialogtxt       "最高じゃないの！！"
+dialogtxt       "Wow! Your bow crafting rank"
+dialogtxt       "is at the highest possible tier!!"
 code0309        
-dialogtxt       "じゃ、これを受け取って"
-dialogtxt       "「ボウの極意書」なんだけど"
-dialogtxt       "これを見てもっと鍛錬してね"
+dialogtxt       "Here! This is for you, the"
+dialogtxt       "Ultimate Bow Manual!"
+dialogtxt       "Please put it to good use!"
 code0309        
 code047e        0, 0
 code0302        7
@@ -511,9 +512,9 @@ code0366        527, 1
 code0367        
 code0301        0, 7
 code0305        1
-dialogtxt       "「ボウの極意書」を持った状態で"
-dialogtxt       "セーブを行うことで、おまけ条件に"
-dialogtxt       "「ティエ」が追加されます"
+dialogtxt       "Having the Ultimate Bow Manual"
+dialogtxt       "in your inventory while saving lets"
+dialogtxt       "you unlock Tier in Bonus Mode!"
 code0309        
 code0302        7
 goto            @Cond_18ec
@@ -529,9 +530,9 @@ goto            @Label_1a7c
 jumpz           @Cond_1a16, ($f1260 == 0 && $f1261 == 0 && $f1262 == 0 && $f1263 == 0 && $f1264 == 0 && $f1265 == 0)
 code0301        8, 7
 code047e        0, 1
-dialogtxt       "あららっ、何も極めてないのね"
-dialogtxt       "だめよ、ちゃんと鍛錬しないと"
-dialogtxt       "これからガンバってね"
+dialogtxt       "Goodness, you haven't mastered any"
+dialogtxt       "weapon yet, have you? That won't"
+dialogtxt       "do! You need to work harder!"
 code0309        
 goto            @Label_1ac4
 
@@ -540,9 +541,9 @@ goto            @Label_1a7c
 @Cond_1a16:
 code0301        8, 7
 code047e        0, 1
-dialogtxt       "あなたはもっと良い鍛冶師に"
-dialogtxt       "なれるはずだわ"
-dialogtxt       "ガンバってね"
+dialogtxt       "You could at least pass as a"
+dialogtxt       "decent Craftknight, I think…"
+dialogtxt       "Make sure to keep improving!"
 code0309        
 goto            @Label_1ac4
 
@@ -558,8 +559,9 @@ goto            @Choice_1a88
 
 @Choice_1a88:
 code047e        0, 1
-dialogtxt       "そう、残念ね"
-dialogtxt       "また気が向いたら教えてね"
+dialogtxt       "…Oh, that's too bad…"
+dialogtxt       "Well, you could always give it"
+dialogtxt       "another shot next time!"
 code0309        
 @Label_1ac4:
 code047e        0, 0

@@ -28,31 +28,29 @@ code0479        1, 0, 12
 code047d        1, 135
 call            @Func_13a0
 call            @Func_1308
-dialogtxt       "なんとかたどりつけたようですね"
-dialogtxt       "ここが裁きの間ですよ"
+dialogtxt       "You managed to make it."
+dialogtxt       "This is the Room of Judgment."
 code047b        
 code0309        
 call            @Func_135c
 code0479        0, 0, 16
 call            @Func_12ba
 jumpz           @Cond_0294, ($b002 == 0)
-dialogtxt       "ここが...？"
-dialogtxt       "ただ広いだけじゃないか？"
+dialogtxt       "This is…?"
+dialogtxt       "It doesn't seem all that special."
 code0309        
 code0479        0, 2, 16
-dialogtxt       "なんで勝負するのにわざわざ"
-dialogtxt       "こんなとこまで来なくちゃ"
-dialogtxt       "ならないんだ？"
+dialogtxt       "Why did we have to come all"
+dialogtxt       "the way here to have our match?"
 goto            @Label_0320
 
 @Cond_0294:
-dialogtxt       "ここが...？"
-dialogtxt       "ただ広いだけじゃない？"
+dialogtxt       "This is…?"
+dialogtxt       "It doesn't seem all that special."
 code0309        
 code0479        0, 0, 12
-dialogtxt       "なんで勝負するのにわざわざ"
-dialogtxt       "こんなとこまで来なくちゃ"
-dialogtxt       "ならないの？"
+dialogtxt       "Why did we have to come all"
+dialogtxt       "the way here to have our match?"
 goto            @Label_0320
 
 @Label_0320:
@@ -60,13 +58,13 @@ code0309
 call            @Func_12f0
 code0479        1, 2, 12
 call            @Func_1326
-dialogtxt       "この間で行われる勝負は"
-dialogtxt       "正しき者のみ勝利する"
-dialogtxt       "...っていう言い伝えがありましてね"
+dialogtxt       "Only one who is worthy"
+dialogtxt       "can win a match held here."
+dialogtxt       "…or so the legend says."
 code0309        
 code0479        1, 0, 12
-dialogtxt       "ここでの勝負でいろいろなことが"
-dialogtxt       "決められてきたのです"
+dialogtxt       "Many things were decided by"
+dialogtxt       "the outcome of matches here."
 code0309        
 call            @Func_13ca
 call            @Func_135c
@@ -95,24 +93,24 @@ code047d        0, 2
 call            @Func_1374
 call            @Func_12ba
 jumpz           @Cond_04ea, ($b003 == 0)
-dialogtxt       "特殊ナ　チカラガ"
-dialogtxt       "作用シテイルノデショウカ？"
+dialogtxt       "Is There A Special"
+dialogtxt       "Power At Work?"
 goto            @Cond_04ea
 
 @Cond_04ea:
 jumpz           @Cond_052a, ($b003 == 1)
-dialogtxt       "神聖なる勝負の場"
-dialogtxt       "...と言うところじゃな"
+dialogtxt       "In other words…"
+dialogtxt       "A place for sacred bouts."
 goto            @Cond_052a
 
 @Cond_052a:
 jumpz           @Cond_0550, ($b003 == 2)
-dialogtxt       "下らない迷信だ"
+dialogtxt       "That's a worthless superstition."
 goto            @Cond_0550
 
 @Cond_0550:
 jumpz           @Cond_0582, ($b003 == 3)
-dialogtxt       "フシギなところなんですのね"
+dialogtxt       "What a mysterious place."
 goto            @Cond_0582
 
 @Cond_0582:
@@ -127,26 +125,26 @@ code047d        0, 0
 call            @Func_1374
 code0479        1, 2, 16
 call            @Func_1326
-dialogtxt       "侵入者の裁きもここで行われて"
-dialogtxt       "いましたから"
-dialogtxt       "君との勝負にはうってつけでしょう"
+dialogtxt       "All intruders are taken here"
+dialogtxt       "for punishment. So this is the best"
+dialogtxt       "place to hold a match with you."
 code0309        
 code0479        1, 2, 13
-dialogtxt       "君が負けたとしても、侵入者のように"
-dialogtxt       "溶岩に落としはしないから"
-dialogtxt       "安心していいですよ"
+dialogtxt       "Although, I won't push"
+dialogtxt       "you into the lava like we"
+dialogtxt       "would for a normal intruder."
 code0309        
 call            @Func_135c
 code0479        0, 5, 16
 call            @Func_12ba
 jumpz           @Cond_0702, ($b002 == 0)
-dialogtxt       "侵入者は負けたら"
-dialogtxt       "溶岩に落とされてたのか...？"
+dialogtxt       "Intruders get thrown"
+dialogtxt       "into the lava…?"
 goto            @Label_0738
 
 @Cond_0702:
-dialogtxt       "侵入者は負けたら"
-dialogtxt       "溶岩に落とされていたの...？"
+dialogtxt       "Intruders get thrown"
+dialogtxt       "into the lava…?"
 goto            @Label_0738
 
 @Label_0738:
@@ -160,9 +158,9 @@ code0479        1, 0, 16
 code047d        1, 136
 call            @Func_138a
 call            @Func_1308
-dialogtxt       "その辺にしときな、トラム"
-dialogtxt       "あんまり怖がらせたら"
-dialogtxt       "勝負にならなくなるだろう？"
+dialogtxt       "Let's leave it at that, Tram."
+dialogtxt       "They won't be able to put up"
+dialogtxt       "a fight if you scare them too much."
 code047b        
 code0309        
 call            @Func_135c
@@ -171,8 +169,8 @@ code0479        0, 0, 12
 code047d        0, 135
 call            @Func_1374
 call            @Func_12ba
-dialogtxt       "ああ、すみません"
-dialogtxt       "その通りですね"
+dialogtxt       "Right, sorry."
+dialogtxt       "That's enough of that."
 code0309        
 call            @Func_13f6
 call            @Func_12d8
@@ -185,13 +183,13 @@ code047d        0, 0
 call            @Func_1374
 call            @Func_129c
 jumpz           @Cond_08e2, ($b002 == 0)
-dialogtxt       "なんだと！？"
-dialogtxt       "オ[NAME 8]はコワがってなんかいない！"
+dialogtxt       "What!?"
+dialogtxt       "I'm not scared!"
 goto            @Label_091a
 
 @Cond_08e2:
-dialogtxt       "なによ！？"
-dialogtxt       "わたしはコワがってなんかないわよ！"
+dialogtxt       "What!?"
+dialogtxt       "I'm not scared!"
 goto            @Label_091a
 
 @Label_091a:
@@ -223,29 +221,29 @@ code047d        1, 2
 call            @Func_138a
 call            @Func_1326
 jumpz           @Cond_0a40, ($b003 == 0)
-dialogtxt       "落チツイテクダサイ"
-dialogtxt       "怒ッテイテハ　実力ヲ"
-dialogtxt       "出スコトハ　デ[NAME 4]マセン"
+dialogtxt       "Please Calm Down."
+dialogtxt       "Anger Will Only Prevent You"
+dialogtxt       "From Fighting At Full Strength."
 goto            @Cond_0a40
 
 @Cond_0a40:
 jumpz           @Cond_0a90, ($b003 == 1)
-dialogtxt       "落ちつくのじゃ、δ"
-dialogtxt       "熱くなりすぎると"
-dialogtxt       "ス[NAME 4]ができるぞ"
+dialogtxt       "Calm down, [NAME 2]."
+dialogtxt       "Anger will serve only "
+dialogtxt       "to dull your senses."
 goto            @Cond_0a90
 
 @Cond_0a90:
 jumpz           @Cond_0ad0, ($b003 == 2)
-dialogtxt       "落ちつけ"
-dialogtxt       "勝ちたいんじゃなかったのか？"
+dialogtxt       "Calm down."
+dialogtxt       "You want to win, right?"
 goto            @Cond_0ad0
 
 @Cond_0ad0:
 jumpz           @Cond_0b36, ($b003 == 3)
-dialogtxt       "落ちついてください"
-dialogtxt       "怒りにまかせてしまうと"
-dialogtxt       "動きにムダができてしまいますわ"
+dialogtxt       "Please, calm down."
+dialogtxt       "Don't give in to your anger."
+dialogtxt       "It will only end up hurting you."
 goto            @Cond_0b36
 
 @Cond_0b36:
@@ -256,19 +254,19 @@ code043c        0, 4
 code0479        0, 5, 14
 call            @Func_12ba
 jumpz           @Cond_0b8e, ($b002 == 0)
-dialogtxt       "そっか..."
-dialogtxt       "ごめん"
+dialogtxt       "You're right…"
+dialogtxt       "Sorry."
 goto            @Label_0bac
 
 @Cond_0b8e:
-dialogtxt       "そうだよね..."
-dialogtxt       "ごめん"
+dialogtxt       "You're right…"
+dialogtxt       "Sorry."
 goto            @Label_0bac
 
 @Label_0bac:
 code0309        
 code0479        0, 2, 14
-dialogtxt       "ありがとう、γ..."
+dialogtxt       "Thanks, [NAME 1]…"
 code0309        
 call            @Func_13e0
 call            @Func_12f0
@@ -281,13 +279,13 @@ code0479        1, 0, 13
 code047d        1, 136
 call            @Func_138a
 call            @Func_1326
-dialogtxt       "ほう..."
-dialogtxt       "いい目になったな"
+dialogtxt       "Hoh…"
+dialogtxt       "I like that look in your eyes."
 code047b        
 code0309        
 code0479        1, 2, 12
-dialogtxt       "では、双方共"
-dialogtxt       "勝負に使う武器をひとつ選びなさい"
+dialogtxt       "Now then, both of you,"
+dialogtxt       "choose a weapon to use."
 code0309        
 call            @Func_13f6
 call            @Func_1344

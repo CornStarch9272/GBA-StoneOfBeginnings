@@ -34,15 +34,15 @@ code0479        1, 0, 12
 code047d        1, 110
 call            @Func_1a86
 call            @Func_1982
-dialogtxt       "みんな...！"
-dialogtxt       "[NAME 8]ミィまで...！？"
+dialogtxt       "Everyone…!"
+dialogtxt       "Even Lemmy…!?"
 code047b        
 code0309        
 call            @Func_19d6
 code0479        1, 8, 16
 call            @Func_1a0c
-dialogtxt       "僕は別に心配なんてしてないから"
-dialogtxt       "ただ、ザックに..."
+dialogtxt       "I wasn't worried or anything."
+dialogtxt       "It's just that Zakk…"
 code0309        
 call            @Func_1ab0
 call            @Func_1a42
@@ -52,7 +52,7 @@ code0479        0, 0, 13
 code047d        0, 132
 call            @Func_1a5a
 call            @Func_19a0
-dialogtxt       "ま、細かいことは、おいといてよ"
+dialogtxt       "Well, never mind the details."
 code047b        
 code0309        
 call            @Func_1ac6
@@ -63,7 +63,7 @@ code0479        1, 7, 12
 code047d        1, 109
 call            @Func_1a70
 call            @Func_1a0c
-dialogtxt       "本当に、よかったわ！"
+dialogtxt       "This is really great!"
 code047b        
 code0309        
 call            @Func_1ab0
@@ -74,8 +74,8 @@ code0479        0, 1, 12
 code047d        0, 108
 call            @Func_1a5a
 call            @Func_19a0
-dialogtxt       "ありがとうよ"
-dialogtxt       "みんな..."
+dialogtxt       "Everyone…"
+dialogtxt       "Thank you…"
 code047b        
 code0309        
 call            @Func_1adc
@@ -88,8 +88,8 @@ code0479        0, 0, 13
 code047d        0, 0
 call            @Func_1a5a
 call            @Func_1982
-dialogtxt       "あの..."
-dialogtxt       "本当に、ありがとう"
+dialogtxt       "Um…"
+dialogtxt       "I'm really grateful too."
 code0309        
 call            @Func_1ab0
 call            @Func_19be
@@ -100,30 +100,30 @@ code0479        1, 2, 14
 code047d        1, 108
 call            @Func_1a70
 call            @Func_19ee
-dialogbig       96, 116, 1, 0, 0, "で、"
+dialogbig       96, 116, 1, 0, 0, "So,"
 code030c        
 call            @Func_1a42
 code0479        0, 5, 17
 call            @Func_1a5a
 call            @Func_19a0
-dialogbig       84, 116, 1, 0, 0, "はい！"
+dialogbig       84, 116, 1, 0, 0, "Yes!"
 code030c        
 call            @Func_19d6
 code046e        38, 256, 1
 code0479        1, 2, 12
 call            @Func_1a0c
-dialogtxt       "感動の再会はここまでだよ"
-dialogtxt       "今まで何をやっていたのか"
-dialogtxt       "説明してもらおうか"
+dialogtxt       "Our moving reunion ends here."
+dialogtxt       "You will explain to us exactly what"
+dialogtxt       "you've been up to until now."
 code0309        
 code0479        0, 2, 16
 code0479        1, 1, 12
-dialogtxt       "ジックリとね..."
+dialogtxt       "In complete detail…"
 code0309        
 call            @Func_1a42
 code0479        0, 4, 14
 call            @Func_19a0
-dialogtxt       "ひええ〜..."
+dialogtxt       "Hieeh~…"
 code0309        
 call            @Func_1adc
 call            @Func_19be
@@ -144,17 +144,17 @@ code048c
 code0479        0, 0, 12
 call            @Func_1a5a
 call            @Func_1982
-dialogtxt       "...とまあ"
-dialogtxt       "ここまで戻ってきたワケです"
+dialogtxt       "…and so we"
+dialogtxt       "decided to come back here."
 code047b        
 code0309        
 call            @Func_19d6
 code0479        1, 0, 16
 call            @Func_1a70
 call            @Func_1a0c
-dialogtxt       "アンタの説明はア[NAME 8]だったけど"
-dialogtxt       "だいたいのことはわかったよ"
-dialogtxt       "さて、どうしようかねぇ"
+dialogtxt       "That wasn't quite what I was"
+dialogtxt       "expecting, but I've got the"
+dialogtxt       "gist of it. So, what now?"
 code047b        
 code0309        
 call            @Func_1ab0
@@ -165,9 +165,9 @@ code0479        0, 0, 12
 code047d        0, 132
 call            @Func_1a5a
 call            @Func_19a0
-dialogtxt       "ゴヴァンの魔石を戻せばはぐれ召喚獣が"
-dialogtxt       "暴れているのは収まるかもしれんが"
-dialogtxt       "そいつをあの連中がねらってる、と..."
+dialogtxt       "If we return the Demon Stone,"
+dialogtxt       "the Summon Beasts might calm down."
+dialogtxt       "We still have to deal with Anise…"
 code047b        
 code0309        
 call            @Func_1ab0
@@ -178,9 +178,9 @@ code0479        0, 2, 15
 code047d        0, 109
 call            @Func_1a5a
 call            @Func_19a0
-dialogtxt       "どうせ何か悪いことに使うつもりだわ！"
-dialogtxt       "とにかくあの人たちを"
-dialogtxt       "つかまえなきゃ！"
+dialogtxt       "They're only going to use"
+dialogtxt       "it for something evil!"
+dialogtxt       "We have to stop them!"
 code047b        
 code0309        
 call            @Func_1adc
@@ -200,15 +200,13 @@ code047d        1, 110
 call            @Func_1a70
 call            @Func_19ee
 jumpz           @Cond_09b4, ($b002 == 0)
-dialogtxt       "もしかしてみなさん"
-dialogtxt       "この人たちの言ってること"
-dialogtxt       "信じてるんですか？"
+dialogtxt       "Do all of you seriously believe"
+dialogtxt       "what [NAME 2] just said?"
 goto            @Label_0a00
 
 @Cond_09b4:
-dialogtxt       "もしかしてみなさん"
-dialogtxt       "この人たちの言ってること"
-dialogtxt       "信じてるんですか？"
+dialogtxt       "Do all of you seriously believe"
+dialogtxt       "what [NAME 2] just said?"
 goto            @Label_0a00
 
 @Label_0a00:
@@ -223,15 +221,13 @@ code0479        0, 2, 15
 call            @Func_1a86
 call            @Func_1982
 jumpz           @Cond_0a90, ($b002 == 0)
-dialogtxt       "なんだと？"
-dialogtxt       "オ[NAME 8]たちがウ[NAME 5]ついてるって"
-dialogtxt       "言うのかよ！"
+dialogtxt       "What was that!?"
+dialogtxt       "Are you calling me a liar!?"
 goto            @Label_0acc
 
 @Cond_0a90:
-dialogtxt       "なによ？"
-dialogtxt       "わたしたちがウ[NAME 5]ついてるって"
-dialogtxt       "言うの！"
+dialogtxt       "What was that!?"
+dialogtxt       "Are you calling me a liar!?"
 goto            @Label_0acc
 
 @Label_0acc:
@@ -239,20 +235,20 @@ code0309
 call            @Func_19d6
 code0479        1, 2, 14
 call            @Func_1a0c
-dialogtxt       "あの人たちはちゃんと"
-dialogtxt       "ボスタフ親方と契約して"
-dialogtxt       "町のためにはぐれ退治をしているんだ"
+dialogtxt       "Those people have an established"
+dialogtxt       "contract with Master Bostaph and"
+dialogtxt       "are exterminating strays for us."
 code0309        
 code0479        0, 2, 14
 code0479        1, 2, 16
-dialogtxt       "魔石をさがしていたのだって"
-dialogtxt       "はぐれ召喚獣をおとなしくさせる"
-dialogtxt       "ためだって言ってたでしょ！？"
+dialogtxt       "They said they were looking for the"
+dialogtxt       "Stone in order to to calm "
+dialogtxt       "the Stray Summon Beasts, right!?"
 code0309        
 code0479        1, 2, 14
-dialogtxt       "それをウ[NAME 5]だって言うのか？"
-dialogtxt       "じゃあ、ボスタフ親方が"
-dialogtxt       "ウ[NAME 5]をついてるって言うのか！？"
+dialogtxt       "You're saying they lied?"
+dialogtxt       "You're saying Master Bostaph"
+dialogtxt       "lied to us too!?"
 code0309        
 call            @Func_1ab0
 call            @Func_1a42
@@ -281,48 +277,48 @@ code047d        0, 2
 call            @Func_1a5a
 call            @Func_19a0
 jumpz           @Cond_0d98, ($b003 == 0)
-dialogtxt       "現状デハ　[NAME 5]ウダト思ワ[NAME 8]マス"
+dialogtxt       "That Is Correct."
 code047b        
 code0309        
 code0479        0, 0, 12
-dialogtxt       "あにすタチト　イッショニ"
-dialogtxt       "魔石ノ　チカラヲ"
-dialogtxt       "手ニ入[NAME 8]タイノカモシ[NAME 8]マセン"
+dialogtxt       "He May Be Cooperating With"
+dialogtxt       "Anise To Obtain The Power"
+dialogtxt       "Of The Demon Stone."
 goto            @Cond_0d98
 
 @Cond_0d98:
 jumpz           @Cond_0e3c, ($b003 == 1)
-dialogtxt       "おぬしには悪いが"
-dialogtxt       "そういうことになるな"
+dialogtxt       "I apologize,"
+dialogtxt       "but it's true."
 code047b        
 code0309        
 code0479        0, 2, 16
-dialogtxt       "あの者たちと手を結んで"
-dialogtxt       "魔石の力を手に入れる"
-dialogtxt       "つもりなのかもしれん..."
+dialogtxt       "It's possible he's working with"
+dialogtxt       "Anise in order to obtain the"
+dialogtxt       "power of the Demon Stone."
 goto            @Cond_0e3c
 
 @Cond_0e3c:
 jumpz           @Cond_0ec4, ($b003 == 2)
-dialogtxt       "そうなるに決まっている"
+dialogtxt       "That should be obvious."
 code047b        
 code0309        
 code0479        0, 2, 16
-dialogtxt       "ヤツらとつるんで"
-dialogtxt       "魔石の力を手に"
-dialogtxt       "入れるつもりなのだろう？"
+dialogtxt       "He intends to work together with"
+dialogtxt       "Anise to gain the power of the"
+dialogtxt       "Demon Stone, right?"
 goto            @Cond_0ec4
 
 @Cond_0ec4:
 jumpz           @Cond_0f7a, ($b003 == 3)
-dialogtxt       "ザン[NAME 6]ンですけど"
-dialogtxt       "おそらく、そうですわ"
+dialogtxt       "It is unfortunate,"
+dialogtxt       "but that is most likely."
 code047b        
 code0309        
 code0479        0, 2, 16
-dialogtxt       "もしかして、あの人たちといっしょに"
-dialogtxt       "魔石の力を手に"
-dialogtxt       "入れるつもりなのかもしれませんわ？"
+dialogtxt       "You see, it is possible he is"
+dialogtxt       "working together with Anise"
+dialogtxt       "to obtain the power of the Stone."
 goto            @Cond_0f7a
 
 @Cond_0f7a:
@@ -342,8 +338,8 @@ code0331        37, 256
 code0479        1, 2, 15
 call            @Func_1a70
 call            @Func_19ee
-dialogtxt       "ボスタフ親方を"
-dialogtxt       "ブジョクするな！"
+dialogtxt       "Don't you dare"
+dialogtxt       "insult Master Bostaph!"
 code0309        
 call            @Func_1a42
 code0478        0, 0
@@ -352,15 +348,13 @@ code047d        0, 0
 call            @Func_1a5a
 call            @Func_19a0
 jumpz           @Cond_10dc, ($b002 == 0)
-dialogtxt       "でも...！"
-dialogtxt       "オ[NAME 8]たちは絶対"
-dialogtxt       "ウ[NAME 5]なんかついてない！"
+dialogtxt       "But…!"
+dialogtxt       "I'm not lying!"
 goto            @Label_111e
 
 @Cond_10dc:
-dialogtxt       "でも...！"
-dialogtxt       "わたしたちは絶対"
-dialogtxt       "ウ[NAME 5]なんかついてないわよ！"
+dialogtxt       "But…!"
+dialogtxt       "I'm not lying!"
 goto            @Label_111e
 
 @Label_111e:
@@ -380,8 +374,8 @@ code0479        1, 2, 17
 code047d        1, 132
 call            @Func_1a70
 call            @Func_19ee
-dialogtxt       "やめろ！"
-dialogtxt       "お前たち、落ちつけよ！"
+dialogtxt       "Stop!"
+dialogtxt       "Calm down!"
 code047b        
 code0309        
 call            @Func_1ac6
@@ -392,8 +386,8 @@ code0479        1, 4, 14
 code047d        1, 108
 call            @Func_1a70
 call            @Func_19ee
-dialogtxt       "アンタたちがケンカしたって"
-dialogtxt       "どうしようもないだろ？"
+dialogtxt       "Nothing good will come from"
+dialogtxt       "you guys fighting, you know?"
 code047b        
 code0309        
 call            @Func_1ac6
@@ -407,9 +401,9 @@ code0479        1, 2, 15
 code047d        1, 110
 call            @Func_1a86
 call            @Func_19ee
-dialogtxt       "うるさい！"
-dialogtxt       "口で言っても分からないなら"
-dialogtxt       "力ずくで黙らせてやる！"
+dialogtxt       "Shut up!"
+dialogtxt       "If you won't listen to my words,"
+dialogtxt       "I'll silence you by force!"
 code047b        
 code0309        
 call            @Func_1adc

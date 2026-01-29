@@ -307,12 +307,12 @@ ret
 code0301        8, 7
 code047d        0, 121
 code047e        0, 1
-dialogtxt       "鍛冶師って、刃物だけでなくて"
-dialogtxt       "弓矢やドリルもハンマーで"
-dialogtxt       "作るってホントかしら"
+dialogtxt       "I wonder, is a Craftknight really"
+dialogtxt       "able to craft bows and drills"
+dialogtxt       "using a hammer?"
 code0309        
-dialogtxt       "そんな面倒くさいことして"
-dialogtxt       "いったい何がおもしろいのかしら"
+dialogtxt       "What's so fun about doing"
+dialogtxt       "something so bothersome?"
 code0309        
 code047e        0, 0
 code0302        7

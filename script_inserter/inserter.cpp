@@ -1,6 +1,7 @@
 #include <cstdio>
 #include <cstring>
 #include <vector>
+#include <sstream>
 #include "inserter.h"
 #include "lz77.h"
 
@@ -113,12 +114,35 @@ InsertInfo detect_insert_info(const std::string &filename, uint32_t pos) {
 	return info;
 }
 
-std::vector<uint8_t> prepare_insert(const std::vector<uint8_t> &input, InsertInfo &info) {
+std::vector<uint8_t> prepare_insert(const std::vector<uint8_t> &input, InsertInfo &info, bool quiet) {
 	std::vector<uint8_t> data;
 	if (!info.valid) {
 		return data;
 	}
+    bool success;
+   
+    /* Output to file    
+    std::stringstream fname;
+    fname << "build/script/";
+    fname << std::hex << info.pos;
+    fname << ".psi3";
 
+    FILE *fp = fopen(fname.str().c_str(), "wb");
+	if (!fp) {
+		printf("Create file failed: %s\n", fname.str().c_str());
+	}
+    success = fwrite(&input[0], 1, input.size(), fp) == input.size();
+
+    if (success) {
+		if (!quiet) {
+        	printf(">>== Write %u bytes uncompressed data to: %s\n", (uint32_t)input.size(), fname.str().c_str());
+		}
+    } else {
+        printf("><== Failed to write: %s\n", fname.str().c_str());
+    }
+    fclose(fp);
+    */
+    
 	if (info.compressed) {
 		data = compress_gba_lz77(input, LZ77_NORMAL);
 		if (data.empty()) {
@@ -128,11 +152,29 @@ std::vector<uint8_t> prepare_insert(const std::vector<uint8_t> &input, InsertInf
 	} else {
 		data = input;
 	}
+    std::stringstream output;
+    output << "build/compiled_scripts/";
+    output << std::hex << info.pos;
+    output << ".psi3";
+
+    FILE *fout = fopen(output.str().c_str(), "wb");
+	if (!fout) {
+		printf("Create file failed: %s\n", output.str().c_str());
+	}
+    success = fwrite(&data[0], 1, data.size(), fout) == data.size();
+    if (success) {
+		if (!quiet){
+    	    printf("##=== Write %u bytes data to file: %s\n", (uint32_t)data.size(), output.str().c_str());
+		}
+    } else {
+        printf("XX  Failed to write: %s\n", output.str().c_str());
+    }
+    fclose(fout);
 
 	if (data.size() > (size_t)info.space_avail) {
 		info.valid = false;
 		info.error.resize(1024);
-		info.error.resize(snprintf(&info.error[0], info.error.size() - 1, "New script is too large, %u bytes out of %u bytes", (uint32_t)data.size(), info.space_avail));
+		info.error.resize(snprintf(&info.error[0], info.error.size() - 1, "----<<< New script is too large, %u bytes out of %u bytes >>>", (uint32_t)data.size(), info.space_avail));
 	}
 
 	return data;
@@ -154,6 +196,7 @@ bool insert_script_data(const std::string &filename, const std::vector<uint8_t> 
 	}
 
 	bool success = fwrite(&data[0], 1, data.size(), fp) == data.size();
+    printf("Fill %u bytes with zero. ", (uint32_t)(info.space_avail - data.size()));
 	for (size_t i = data.size(); success && i < info.space_avail; ++i) {
 		success = fputc(0, fp) != EOF;
 	}

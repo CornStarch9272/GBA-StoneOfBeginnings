@@ -18,13 +18,13 @@ code047d        1, 0
 call            @Func_1192
 call            @Func_1110
 jumpz           @Cond_0148, ($b002 == 0)
-dialogtxt       "あれ？"
-dialogtxt       "γ、ドコ行くんだよ"
+dialogtxt       "Huh?"
+dialogtxt       "[NAME 1], where are you going?"
 goto            @Label_016a
 
 @Cond_0148:
-dialogtxt       "あれ？"
-dialogtxt       "γ、ドコ行くの？"
+dialogtxt       "Huh?"
+dialogtxt       "[NAME 1], where are you going?"
 goto            @Label_016a
 
 @Label_016a:
@@ -55,29 +55,29 @@ code047d        0, 2
 call            @Func_117c
 call            @Func_10c2
 jumpz           @Cond_029c, ($b003 == 0)
-dialogtxt       "みゅーの様ト　今後ノ計画ニツイテ"
-dialogtxt       "打チ合ワセスル　必要ガアリマスノデ"
-dialogtxt       "シバラク　出カケマス"
+dialogtxt       "I Must Meet Lady Murno"
+dialogtxt       "To Discuss Our Plans From Hereon."
+dialogtxt       "I Will Be Away For Some Time."
 goto            @Cond_029c
 
 @Cond_029c:
 jumpz           @Cond_0300, ($b003 == 1)
-dialogtxt       "これからの事でミューノに話があっての"
-dialogtxt       "すまんが少し"
-dialogtxt       "勝手をさせてもらうぞ"
+dialogtxt       "I need to talk to Murno about"
+dialogtxt       "our plans from hereon."
+dialogtxt       "My apologies. I will be off."
 goto            @Cond_0300
 
 @Cond_0300:
 jumpz           @Cond_0346, ($b003 == 2)
-dialogtxt       "ミューノに話があるだけだ"
-dialogtxt       "[NAME 4]サマには関係ない"
+dialogtxt       "I have to talk to Murno."
+dialogtxt       "It has nothing to do with you."
 goto            @Cond_0346
 
 @Cond_0346:
 jumpz           @Cond_03a2, ($b003 == 3)
-dialogtxt       "ミューノ様とこれからのことを"
-dialogtxt       "お話ししたいので..."
-dialogtxt       "すみませんが..."
+dialogtxt       "I want to talk with Lady Murno"
+dialogtxt       "about what to do from hereon…"
+dialogtxt       "I'm sorry, but…"
 goto            @Cond_03a2
 
 @Cond_03a2:
@@ -87,15 +87,15 @@ call            @Func_10f8
 code0479        1, 0, 12
 call            @Func_112e
 jumpz           @Cond_03fe, ($b002 == 0)
-dialogtxt       "そっか..."
-dialogtxt       "そうだな..."
-dialogtxt       "わかったよ"
+dialogtxt       "Oh…"
+dialogtxt       "Okay…"
+dialogtxt       "Understood."
 goto            @Label_042a
 
 @Cond_03fe:
-dialogtxt       "そっか..."
-dialogtxt       "そうだね..."
-dialogtxt       "わかったよ"
+dialogtxt       "Oh…"
+dialogtxt       "Okay…"
+dialogtxt       "Understood."
 goto            @Label_042a
 
 @Label_042a:
@@ -123,8 +123,8 @@ code0479        0, 0, 16
 code047d        0, 108
 call            @Func_11a8
 call            @Func_10a4
-dialogtxt       "アンタひとりかい"
-dialogtxt       "ちょうどよかった"
+dialogtxt       "You're alone?"
+dialogtxt       "Perfect timing."
 code0309        
 call            @Func_11fe
 call            @Func_10e0
@@ -146,9 +146,9 @@ code047d        0, 0
 code0479        0, 0, 12
 call            @Func_11a8
 call            @Func_1110
-dialogtxt       "昨日、言ったとおり"
-dialogtxt       "アンタのウデを見てやるよ"
-dialogtxt       "ちょっとこの斧、直してみな"
+dialogtxt       "As I said yesterday, I want you"
+dialogtxt       "to show me your abilities."
+dialogtxt       "See if you can repair this axe."
 code0309        
 call            @Func_11fe
 call            @Func_114c
@@ -167,15 +167,15 @@ code0479        1, 1, 12
 call            @Func_11a8
 call            @Func_10a4
 jumpz           @Cond_0808, ($b002 == 0)
-dialogtxt       "...って、親方！"
-dialogtxt       "この武器、ロブ親方と作った"
-dialogtxt       "親方のお気に入りの斧じゃないか！"
+dialogtxt       "…Wait, Master!"
+dialogtxt       "Isn't this your favorite axe,"
+dialogtxt       "one you crafted with Master Rob!?"
 goto            @Label_0860
 
 @Cond_0808:
-dialogtxt       "...って、親方！"
-dialogtxt       "この武器、ロブ親方と作った"
-dialogtxt       "親方のお気に入りの斧じゃない！？"
+dialogtxt       "…Wait, Master!"
+dialogtxt       "Isn't this your favorite axe,"
+dialogtxt       "one you crafted with Master Rob!?"
 goto            @Label_0860
 
 @Label_0860:
@@ -184,21 +184,21 @@ code0309
 call            @Func_10f8
 code0479        1, 0, 12
 call            @Func_112e
-dialogtxt       "そうだよ"
-dialogtxt       "この間の戦闘で、アイツらに"
-dialogtxt       "やられちゃってね..."
+dialogtxt       "That's right."
+dialogtxt       "It broke while I was"
+dialogtxt       "fighting those goons…"
 code0309        
 call            @Func_1164
 code0479        0, 2, 16
 call            @Func_10c2
 jumpz           @Cond_091e, ($b002 == 0)
-dialogtxt       "でも、これ..."
-dialogtxt       "オ[NAME 8]が直してもいいの...？"
+dialogtxt       "But this…"
+dialogtxt       "Is it really okay for me to…?"
 goto            @Label_0950
 
 @Cond_091e:
-dialogtxt       "でも、これ..."
-dialogtxt       "わたしが直してもいいの...？"
+dialogtxt       "But this…"
+dialogtxt       "Is it really okay for me to…?"
 goto            @Label_0950
 
 @Label_0950:
@@ -207,23 +207,23 @@ code0309
 call            @Func_10f8
 code0479        1, 2, 12
 call            @Func_112e
-dialogtxt       "なんだい、アンタ"
-dialogtxt       "ひとりでそいつを直す自信が"
-dialogtxt       "ないのかい？"
+dialogtxt       "What's wrong?"
+dialogtxt       "Don't think you can"
+dialogtxt       "do it alone?"
 code0309        
 call            @Func_1164
 code0479        0, 2, 14
 call            @Func_10c2
 jumpz           @Cond_0a20, ($b002 == 0)
-dialogtxt       "そ、そんなことないよ"
-dialogtxt       "わかった...！"
-dialogtxt       "まかせといてよ！"
+dialogtxt       "O-of course I can!"
+dialogtxt       "Okay…!"
+dialogtxt       "Leave it to me!"
 goto            @Label_0a5e
 
 @Cond_0a20:
-dialogtxt       "そ、そんなことないよ"
-dialogtxt       "わかった...！"
-dialogtxt       "まかせといて！"
+dialogtxt       "O-of course I can!"
+dialogtxt       "Okay…!"
+dialogtxt       "Leave it to me!"
 goto            @Label_0a5e
 
 @Label_0a5e:
@@ -232,14 +232,14 @@ code0309
 call            @Func_10f8
 code0479        1, 2, 13
 call            @Func_112e
-dialogtxt       "くれぐれも"
-dialogtxt       "こわすんじゃないよ"
+dialogtxt       "Don't mess it up"
+dialogtxt       "even more, you hear?"
 code0309        
 call            @Func_1164
 code0479        0, 2, 12
 call            @Func_10c2
-dialogtxt       "う..."
-dialogtxt       "わかってるって！"
+dialogtxt       "Ugh…"
+dialogtxt       "I know that!"
 code0309        
 call            @Func_11fe
 call            @Func_10e0

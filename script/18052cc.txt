@@ -19,8 +19,8 @@ code0479        1, 0, 12
 code047d        1, 2
 call            @Func_0b9a
 call            @Func_0a96
-dialogtxt       "えと、金の派閥は"
-dialogtxt       "たしか..."
+dialogtxt       "Um, if I remember correctly,"
+dialogtxt       "the Gold Council is…"
 code047b        
 code0309        
 call            @Func_0aea
@@ -45,32 +45,32 @@ goto            @Label_01c8
 @Label_01c8:
 call            @Func_0b20
 jumpz           @Cond_0252, ($b003 == 0)
-dialogtxt       "先ホド　あにきサンハ"
-dialogtxt       "行[NAME 4]止マリヲ　曲ガッタ　奥ダ"
-dialogtxt       "...ト言イマシタ"
+dialogtxt       "Downtown, Past The"
+dialogtxt       "Turn At the Dead End."
+dialogtxt       "…Is What Jade Said."
 code0309        
-dialogtxt       "[NAME 5]ノタメ"
-dialogtxt       "コチラダト　思ワ[NAME 8]マス"
+dialogtxt       "Based On That,"
+dialogtxt       "I Believe It Is That Way."
 goto            @Cond_0252
 
 @Cond_0252:
 jumpz           @Cond_02b0, ($b003 == 1)
-dialogtxt       "行き止まりを曲がった奥じゃと"
-dialogtxt       "言っておったから..."
-dialogtxt       "こっちじゃろうて"
+dialogtxt       "Past the bend in the"
+dialogtxt       "street at the dead end…"
+dialogtxt       "That way."
 goto            @Cond_02b0
 
 @Cond_02b0:
 jumpz           @Cond_02f6, ($b003 == 2)
-dialogtxt       "ちっ...！"
-dialogtxt       "こっちだ"
-dialogtxt       "それぐらい覚えておけ..."
+dialogtxt       "Tch…!"
+dialogtxt       "Over there."
+dialogtxt       "You have terrible memory…"
 goto            @Cond_02f6
 
 @Cond_02f6:
 jumpz           @Cond_033e, ($b003 == 3)
-dialogtxt       "さっきアニ[NAME 4]さんが言ってましたわ"
-dialogtxt       "コッチです！"
+dialogtxt       "Bro told us earlier"
+dialogtxt       "it's that way!"
 goto            @Cond_033e
 
 @Cond_033e:
@@ -102,11 +102,11 @@ code047d        1, 0
 call            @Func_0b84
 call            @Func_0b02
 jumpz           @Cond_04c8, ($b002 == 0)
-dialogtxt       "そうそう、この奥か..."
+dialogtxt       "Right right…"
 goto            @Label_04e4
 
 @Cond_04c8:
-dialogtxt       "そうそう、この奥ね..."
+dialogtxt       "Right right…"
 goto            @Label_04e4
 
 @Label_04e4:

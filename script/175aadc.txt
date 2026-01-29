@@ -152,7 +152,7 @@ code040b
 @Event_075a:
 code043b        3
 code0439        3
-popuptxt        "荷物を取り戻した！"
+popuptxt        "Recovered your equipment!"
 code0318        
 setvar          $f0131, 1
 code0461        4
@@ -165,13 +165,11 @@ code0301        8, 7
 code047d        0, 0
 code047e        0, 1
 jumpz           @Cond_082e, ($b002 == 0)
-dialogtxt       "γを牢屋から"
-dialogtxt       "出してやらなくちゃ！"
+dialogtxt       "I have to free [NAME 1]!"
 goto            @Label_085a
 
 @Cond_082e:
-dialogtxt       "γを牢屋から"
-dialogtxt       "出してあげなくちゃ！"
+dialogtxt       "I have to free [NAME 1]!"
 goto            @Label_085a
 
 @Label_085a:
@@ -276,9 +274,9 @@ goto            @start
 code0301        8, 7
 code047d        0, 151
 code047e        0, 1
-dialogtxt       "ぐぅ..."
-dialogtxt       "むにゃむにゃ..."
-dialogtxt       "ぐぅ..."
+dialogtxt       "Zzz…"
+dialogtxt       "Mgmgmgmr…"
+dialogtxt       "Zzz…"
 code0309        
 code047e        0, 0
 code0302        7

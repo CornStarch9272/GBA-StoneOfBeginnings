@@ -11,8 +11,8 @@ code0479        0, 2, 17
 code047d        0, 0
 call            @Func_1068
 call            @Func_0f90
-dialogtxt       "あの〜！　番人さん！"
-dialogtxt       "番人さあ〜んっ！！！"
+dialogtxt       "Excuse me~! Mr. Guard!"
+dialogtxt       "Mr. Guard~!!!"
 code047b        
 code0309        
 call            @Func_10be
@@ -32,13 +32,13 @@ code0479        0, 2, 14
 call            @Func_1068
 call            @Func_0f90
 jumpz           @Cond_01c2, ($b002 == 0)
-dialogtxt       "まさか、いないのかよ！"
-dialogtxt       "こんな時にどこ行ったんだ！？"
+dialogtxt       "Seriously, are they not here?"
+dialogtxt       "Where'd he go!?"
 goto            @Label_0200
 
 @Cond_01c2:
-dialogtxt       "もしかして...いないの？"
-dialogtxt       "こんな時にどこ行ったのよ！？"
+dialogtxt       "Maybe…they're not here?"
+dialogtxt       "Where'd he go!?"
 goto            @Label_0200
 
 @Label_0200:
@@ -50,8 +50,8 @@ code047b
 code047d        1, 134
 code0301        8, 7
 code047e        1, 1
-dialogtxt       "あいつなら"
-dialogtxt       "逃げ出したみたいだぞ"
+dialogtxt       "Oh, those guys?"
+dialogtxt       "They ran away."
 code0309        
 code047e        1, 0
 code0302        7
@@ -74,13 +74,13 @@ code048c
 code0479        0, 5, 17
 call            @Func_1068
 call            @Func_0f90
-dialogtxt       "逃げたぁ！？"
+dialogtxt       "They ran away!?"
 jumpz           @Cond_03cc, ($b002 == 0)
-dialogtxt       "なんだよそれ！"
+dialogtxt       "How!?"
 goto            @Label_03e0
 
 @Cond_03cc:
-dialogtxt       "なによそれ！"
+dialogtxt       "How could they!?"
 goto            @Label_03e0
 
 @Label_03e0:
@@ -92,12 +92,12 @@ code047b
 code047d        1, 134
 code0301        8, 7
 code047e        1, 1
-dialogtxt       "あの声、マグドラドが"
-dialogtxt       "あばれてるんだろ？"
+dialogtxt       "I just heard a roar…Magdrad is"
+dialogtxt       "going berserk, isn't it?"
 code0309        
-dialogtxt       "それを教えたら"
-dialogtxt       "様子を見に行ってくると言って"
-dialogtxt       "それっきりだ"
+dialogtxt       "Once they figured that out,"
+dialogtxt       "they said they'd check it out"
+dialogtxt       "and disappeared."
 code0309        
 code047e        1, 0
 code0302        7
@@ -126,24 +126,24 @@ code0479        0, 2, 14
 call            @Func_107e
 call            @Func_101a
 jumpz           @Cond_059c, ($b003 == 0)
-dialogtxt       "タシカニ　逃ゲタヨウデス[NAME 6]"
+dialogtxt       "It Does Seem They Have Run Away."
 goto            @Cond_059c
 
 @Cond_059c:
 jumpz           @Cond_05c8, ($b003 == 1)
-dialogtxt       "なるほど"
-dialogtxt       "逃げたな"
+dialogtxt       "I see…"
+dialogtxt       "They ran away."
 goto            @Cond_05c8
 
 @Cond_05c8:
 jumpz           @Cond_05f6, ($b003 == 2)
-dialogtxt       "なるほど..."
-dialogtxt       "逃げたな"
+dialogtxt       "I see…"
+dialogtxt       "They ran away."
 goto            @Cond_05f6
 
 @Cond_05f6:
 jumpz           @Cond_0620, ($b003 == 3)
-dialogtxt       "絶対、逃げましたね"
+dialogtxt       "I'm sure they ran away."
 goto            @Cond_0620
 
 @Cond_0620:
@@ -155,8 +155,8 @@ code047b
 code047d        1, 134
 code0301        8, 7
 code047e        1, 1
-dialogtxt       "で、お前たち"
-dialogtxt       "マグドラドに何をしたんだ！"
+dialogtxt       "And then!? Just what did you"
+dialogtxt       "guys do to Magdrad!?"
 code0309        
 code047e        1, 0
 code0302        7
@@ -164,25 +164,25 @@ code0479        0, 2, 15
 call            @Func_1068
 call            @Func_0fae
 jumpz           @Cond_074c, ($b002 == 0)
-dialogtxt       "何もしてない！"
-dialogtxt       "突然暴れ出して..."
-dialogtxt       "言うこと聞かないんだ！"
+dialogtxt       "I didn't do anything!"
+dialogtxt       "It just went berserk and"
+dialogtxt       "stopped listening to me!"
 code047b        
 code0309        
 code0479        0, 2, 14
-dialogtxt       "だから、お前を"
-dialogtxt       "呼んでこいって..."
+dialogtxt       "So I was told"
+dialogtxt       "to come get you…"
 goto            @Label_07d2
 
 @Cond_074c:
-dialogtxt       "何もしてないわよ！"
-dialogtxt       "突然暴れ出して..."
-dialogtxt       "言うこと聞かないの！"
+dialogtxt       "I didn't do anything!"
+dialogtxt       "It just went berserk and"
+dialogtxt       "stopped listening to me!"
 code047b        
 code0309        
 code0479        0, 2, 14
-dialogtxt       "だから、あなたを"
-dialogtxt       "呼んでこいって..."
+dialogtxt       "So I was told"
+dialogtxt       "to come get you…"
 goto            @Label_07d2
 
 @Label_07d2:
@@ -193,21 +193,20 @@ code047b
 code047d        1, 134
 code0301        8, 7
 code047e        1, 1
-dialogtxt       "じゃあ早く"
-dialogtxt       "ここから出さないか！"
+dialogtxt       "Then hurry and get me out of here!"
 code0309        
 code047e        1, 0
 code0302        7
 code0479        0, 2, 16
 call            @Func_1068
 call            @Func_0fae
-dialogtxt       "出せって..."
+dialogtxt       "I'm trying to…"
 jumpz           @Cond_089a, ($b002 == 0)
-dialogtxt       "カギはどこだよ！？"
+dialogtxt       "But where's the key?"
 goto            @Label_08b8
 
 @Cond_089a:
-dialogtxt       "カギはどこにあるの！？"
+dialogtxt       "Is there a key!?"
 goto            @Label_08b8
 
 @Label_08b8:
@@ -219,9 +218,9 @@ code047b
 code047d        1, 134
 code0301        8, 7
 code047e        1, 1
-dialogtxt       "そんなこと私が知るか！"
-dialogtxt       "カギなんてお前のハンマーで"
-dialogtxt       "こわせばいいだろう！"
+dialogtxt       "Like I'd know!"
+dialogtxt       "Forget the key, just break"
+dialogtxt       "the lock with your hammer!"
 code0309        
 code047e        1, 0
 code0302        7
@@ -229,11 +228,11 @@ code0479        0, 2, 14
 call            @Func_1068
 call            @Func_0fae
 jumpz           @Cond_099a, ($b002 == 0)
-dialogtxt       "わかったよ...！"
+dialogtxt       "Okay!"
 goto            @Label_09b2
 
 @Cond_099a:
-dialogtxt       "わかったわよ...！"
+dialogtxt       "Okay!"
 goto            @Label_09b2
 
 @Label_09b2:

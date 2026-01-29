@@ -45,7 +45,7 @@ setvar          $h319, 50
 code0409        
 code046e        38, 256, 0
 code041d        
-placetxt        "Louise Village　Ruins Surroundings"
+placetxt        "Louise Village　Ruins Entrance"
 code040b        
 
 @Event_027c:
@@ -94,13 +94,13 @@ code0301        8, 7
 code047d        0, 0
 code047e        0, 1
 jumpz           @Cond_0440, ($b002 == 0)
-dialogtxt       "ミューノは地下にいるらしいから"
-dialogtxt       "きっと下のトビラだ！"
+dialogtxt       "Murno's being held underground."
+dialogtxt       "There must be a way in!"
 goto            @Label_0480
 
 @Cond_0440:
-dialogtxt       "ミューノは地下にいるらしいから"
-dialogtxt       "きっと下のトビラだよ！"
+dialogtxt       "Murno's being held underground."
+dialogtxt       "There must be a way in!"
 goto            @Label_0480
 
 @Label_0480:

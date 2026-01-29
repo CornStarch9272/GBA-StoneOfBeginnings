@@ -2,9 +2,9 @@
 code0300        
 code0312        
 menutxt         @Menu_0048, "Main Story"
-menutxt         @Menu_11b2, "Free Roam"
+menutxt         @Menu_11b2, "Free Time"
 menutxt         @Menu_1240, "Sound Test"
-menutxt         @Menu_124c, "Extras"
+menutxt         @Menu_124c, "Extra"
 menutxt         @Menu_1258, "Link"
 menuwait        
 
@@ -13,32 +13,32 @@ setvar          $b104, 0
 setvar          $f0944, 0
 setvar          $f0945, 0
 code0312        
-menutxt         @Menu_013a, "Day 0 Conversations"
-menutxt         @Menu_04dc, "Day 1 Conversations"
-menutxt         @Menu_0aa6, "Day 2 Conversations"
-menutxt         @Menu_0ad2, "Day 3 Conversations"
-menutxt         @Menu_0b0a, "Day 4 Conversations"
+menutxt         @Menu_013a, "Episode 0"
+menutxt         @Menu_04dc, "Episode 1"
+menutxt         @Menu_0aa6, "Episode 2"
+menutxt         @Menu_0ad2, "Episode 3"
+menutxt         @Menu_0b0a, "Episode 4"
 menutxt         @Menu_00ac, "Next"
 menuwait        
 
 @Menu_00ac:
 code0312        
-menutxt         @Menu_0b4a, "Day 5 Conversations"
-menutxt         @Menu_0b8a, "Day 6 Conversations"
-menutxt         @Menu_0bda, "Day 7 Conversations"
-menutxt         @Menu_0c38, "Day 8 Conversations"
-menutxt         @Menu_0c96, "Day 9 Conversations"
+menutxt         @Menu_0b4a, "Episode 5"
+menutxt         @Menu_0b8a, "Episode 6"
+menutxt         @Menu_0bda, "Episode 7"
+menutxt         @Menu_0c38, "Episode 8"
+menutxt         @Menu_0c96, "Episode 9"
 menutxt         @Menu_00ec, "Next"
 menuwait        
 
 @Menu_00ec:
 code0312        
-menutxt         @Menu_0cf4, "Day 10 Conversations"
-menutxt         @Menu_0dfe, "Day 11 Conversations"
-menutxt         @Menu_0e5c, "Day 12 Conversations"
-menutxt         @Menu_0f66, "Endings"
-menutxt         @Menu_1084, "Extras"
-menutxt         @Menu_0048, "Go Back"
+menutxt         @Menu_0cf4, "Episode 10"
+menutxt         @Menu_0dfe, "Episode 11"
+menutxt         @Menu_0e5c, "Episode 12"
+menutxt         @Menu_0f66, "Ending"
+menutxt         @Menu_1084, "EX"
+menutxt         @Menu_0048, "Back"
 menuwait        
 
 @Menu_013a:
@@ -87,7 +87,7 @@ menuwait
 @Menu_0276:
 code0312        
 menutxt         @Menu_04c0, "E 21"
-menutxt         @Menu_0048, "Go back"
+menutxt         @Menu_0048, "Back"
 menuwait        
 
 @Menu_0290:
@@ -244,7 +244,7 @@ menuwait
 @Menu_06dc:
 code0312        
 menutxt         @Menu_0a8a, "E 30"
-menutxt         @Menu_0048, "Go Back"
+menutxt         @Menu_0048, "Back"
 menuwait        
 
 @Menu_06f6:
@@ -460,7 +460,7 @@ setvar          $f1125, 1
 setvar          $f1126, 1
 code0312        
 menutxt         @Menu_0d9a, "Murno"
-menutxt         @Menu_0daa, "Partner"
+menutxt         @Menu_0daa, "Guardian Beast"
 menutxt         @Menu_0dba, "V.E"
 menutxt         @Menu_0dca, "Lemmy"
 menutxt         @Menu_0dda, "Jade"
@@ -514,7 +514,7 @@ setvar          $f1125, 1
 setvar          $f1126, 1
 code0312        
 menutxt         @Menu_0f02, "Murno"
-menutxt         @Menu_0f12, "Partner"
+menutxt         @Menu_0f12, "Guardian Beast"
 menutxt         @Menu_0f22, "V.E"
 menutxt         @Menu_0f32, "Lemmy"
 menutxt         @Menu_0f42, "Jade"
@@ -557,7 +557,7 @@ setvar          $f1125, 1
 setvar          $f1126, 1
 code0312        
 menutxt         @Menu_100c, "Murno"
-menutxt         @Menu_101c, "Partner"
+menutxt         @Menu_101c, "Guardian Beast"
 menutxt         @Menu_102c, "V.E"
 menutxt         @Menu_103c, "Lemmy"
 menutxt         @Menu_104c, "Jade"
@@ -604,7 +604,7 @@ setvar          $f1128, 1
 setvar          $f1129, 1
 code0312        
 menutxt         @Menu_114e, "Murno"
-menutxt         @Menu_115e, "Partner"
+menutxt         @Menu_115e, "Guardian Beast"
 menutxt         @Menu_116e, "V.E"
 menutxt         @Menu_117e, "Lemmy"
 menutxt         @Menu_118e, "Jade"

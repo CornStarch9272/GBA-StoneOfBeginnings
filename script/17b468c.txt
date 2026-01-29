@@ -338,8 +338,9 @@ ret
 code0301        8, 7
 code047d        0, 118
 code047e        0, 1
-dialogtxt       "平和なのはいいんだけど"
-dialogtxt       "退屈なんだよね〜"
+dialogtxt       "It's nice that today's"
+dialogtxt       "peaceful and all, but…"
+dialogtxt       "…Man, I'm so bored!"
 code0309        
 code047e        0, 0
 code0302        7
@@ -349,12 +350,12 @@ code040b
 code0301        8, 7
 code047d        0, 123
 code047e        0, 1
-dialogtxt       "ねぇ、でんせつのかじしごっこしようよ"
-dialogtxt       "ボクがでんせつのかじしで..."
-dialogtxt       "[NAME 4]ミは、おやかた"
+dialogtxt       "Hey, hey, let's play pretend!"
+dialogtxt       "I'll be the Craftknight hero…"
+dialogtxt       "And you'll be my Master!"
 code0309        
-dialogtxt       "もう、何もおしえることはないよって"
-dialogtxt       "ボクをほめて"
+dialogtxt       "\"There is nothing I can teach you!\""
+dialogtxt       "…Well!? How did I do!?"
 code0309        
 code047e        0, 0
 code0302        7
@@ -364,9 +365,9 @@ code040b
 code0301        8, 7
 code047d        0, 120
 code047e        0, 1
-dialogtxt       "今までずっと騙されてたみたいです"
-dialogtxt       "でもミョータロウだけは"
-dialogtxt       "ボクが面倒見ますよ"
+dialogtxt       "I think I got scammed… Still,"
+dialogtxt       "I'm shouldering responsibility for"
+dialogtxt       "poor old Myoutarou here."
 code0309        
 code047e        0, 0
 code0302        7
@@ -379,19 +380,19 @@ code040b
 
 @Event_0fd0:
 code0301        8, 7
-dialogtxt       "さぁそろそろマ[NAME 4]でも割らないかい？"
-dialogtxt       "　　　　　　　　マ[NAME 4]おやじの独り言"
+dialogtxt       "Want to chop some firewood together?"
+dialogtxt       "　　　　　　　　From Grandpa Maki"
 code0309        
 code0302        7
 code040b        
 
 @Event_1036:
 code0301        8, 7
-dialogtxt       "何をやってもツイてない日って"
-dialogtxt       "あるもんだ"
+dialogtxt       "It can't be helped that things"
+dialogtxt       "don't go your way on some days."
 code0309        
-dialogtxt       "エラい人も「日が悪い」って"
-dialogtxt       "いってたような気がするし"
+dialogtxt       "Even a certain upstanding guy would"
+dialogtxt       "agree that today is an unlucky day!"
 code0309        
 code0302        7
 code040b        
@@ -399,10 +400,11 @@ code040b
 @Event_10ba:
 code0301        8, 7
 dialogtxt       "　"
-dialogtxt       "　　●←のぞき穴"
 dialogtxt       "　"
+dialogtxt       "　● ← Peep hole"
 code0309        
-dialogtxt       "ゴメンもうかんべんして"
+dialogtxt       "…Sorry, can't you let"
+dialogtxt       "this slide just one time?"
 code0309        
 code0302        7
 code040b        

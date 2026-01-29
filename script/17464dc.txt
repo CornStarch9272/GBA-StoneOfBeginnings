@@ -112,12 +112,13 @@ code0301        8, 7
 code047d        0, 0
 code047e        0, 1
 jumpz           @Cond_05a8, ($b002 == 0)
-dialogtxt       "アニ[NAME 4]も金の派閥も"
-dialogtxt       "こっちじゃないって！"
+dialogtxt       "Wrong way!"
+dialogtxt       "I need to find Bro"
+dialogtxt       "at the Gold Council!"
 goto            @Label_05ca
 
 @Cond_05a8:
-dialogtxt       "アニ[NAME 4]を追いかけなくちゃ！"
+dialogtxt       "I have to follow Bro!"
 goto            @Label_05ca
 
 @Label_05ca:
@@ -440,38 +441,38 @@ ret
 code0301        8, 7
 code047d        0, 149
 code047e        0, 1
-dialogtxt       "私のお母様は、旅商人なの"
-dialogtxt       "今は２人で旅をして鍛冶師や職人に"
-dialogtxt       "顔を売っている段階なんだって"
+dialogtxt       "My mom and I are peddlers!"
+dialogtxt       "Currently we're acquainting with so"
+dialogtxt       "many Craftknights and artisans!"
 code0309        
-dialogtxt       "お母様は、私が遊びに行ってるって"
-dialogtxt       "思ってるみたいだけど、将来のために"
-dialogtxt       "商売をしているの"
+dialogtxt       "My mom thinks I'm out"
+dialogtxt       "playing around, but I'm"
+dialogtxt       "earning money for our future."
 code0309        
 jumpz           @Cond_15fc, ($f1247 == 0)
-dialogtxt       "ところであなたは、鍛冶師みたいだけど"
-dialogtxt       "強化の情報を聞いていかない？"
+dialogtxt       "You're a Craftknight, aren't you?"
+dialogtxt       "Wanna hear about enhancement tips?"
 code0309        
 code047e        0, 0
-choicetxt       @Choice_13a6, "聞いてみる"
-choicetxt       @Choice_1604, "特に聞かない"
+choicetxt       @Choice_13a6, "Sure thing!"
+choicetxt       @Choice_1604, "Nah, I'm fine."
 choicewait      
 
 @Choice_13a6:
 code047e        0, 1
-dialogtxt       "強化で「破滅スイッチ」を使うと"
-dialogtxt       "必殺技の「ＤＵＲアタック」"
-dialogtxt       "が武器に付加されるの"
+dialogtxt       "Enhancing with a Ruin Switch"
+dialogtxt       "will add DUR Attack"
+dialogtxt       "to your weapon."
 code0309        
-dialogtxt       "でもって、今回はなんと"
-dialogtxt       "「破滅スイッチ」を"
-dialogtxt       "８００バームで販売中なの〜"
+dialogtxt       "And would you look at that,"
+dialogtxt       "I have one such Ruin Switch"
+dialogtxt       "available for only…800 Boam!"
 code0309        
-dialogtxt       "買ってくれます？"
+dialogtxt       "How about it?"
 code0309        
 code047e        0, 0
-choicetxt       @Choice_149c, "買う"
-choicetxt       @Choice_15b2, "買わない"
+choicetxt       @Choice_149c, "Buy"
+choicetxt       @Choice_15b2, "Don't buy"
 choicewait      
 
 @Choice_149c:
@@ -486,7 +487,7 @@ code0445        16, 4
 code0446        16
 code0301        8, 7
 code047e        0, 1
-dialogtxt       "ありがと〜"
+dialogtxt       "Thank you for your patronage~"
 code0309        
 goto            @Label_1654
 
@@ -498,9 +499,9 @@ code0445        16, 5
 code0446        16
 code0301        8, 7
 code047e        0, 1
-dialogtxt       "ええぇ〜これじゃ〜"
-dialogtxt       "お金たりないの〜"
-dialogtxt       "商談不成立だよ〜"
+dialogtxt       "Whaaaaaat!? What do you mean"
+dialogtxt       "you don't have enough money!?"
+dialogtxt       "I'm calling this deal off!"
 code0309        
 goto            @Label_1654
 
@@ -508,8 +509,9 @@ goto            @Choice_15b2
 
 @Choice_15b2:
 code047e        0, 1
-dialogtxt       "え〜聞くだけ聞いて買ってくれないの〜"
-dialogtxt       "ケチ〜"
+dialogtxt       "Whaaat!? You make me talk a lot"
+dialogtxt       "but you don't want to buy from me?"
+dialogtxt       "Cheapskate!"
 code0309        
 goto            @Label_1654
 
@@ -522,8 +524,9 @@ goto            @Choice_1604
 
 @Choice_1604:
 code047e        0, 1
-dialogtxt       "え〜聞いてくれないの〜"
-dialogtxt       "せっかくのお客さんだと思ったのに〜"
+dialogtxt       "Whaaat? You're not interested?!"
+dialogtxt       "Just when I thought"
+dialogtxt       "I finally had a customer…"
 code0309        
 @Label_1654:
 code047e        0, 0
@@ -534,9 +537,9 @@ code040b
 code0301        8, 7
 code047d        0, 120
 code047e        0, 1
-dialogtxt       "結構溜まってきたな"
-dialogtxt       "そろそろ、福引き屋に"
-dialogtxt       "行かないと..."
+dialogtxt       "I've saved up quite a lot."
+dialogtxt       "I should got to the"
+dialogtxt       "lottery shop soon…"
 code0309        
 code047e        0, 0
 code0302        7
@@ -546,9 +549,9 @@ code040b
 code0301        8, 7
 code047d        0, 120
 code047e        0, 1
-dialogtxt       "おや、[NAME 4]ミも召喚獣をつれて居るんだね"
-dialogtxt       "紹介するよ"
-dialogtxt       "ボクの召喚獣、ミョータロウだよ"
+dialogtxt       "Oh, you have Summon Beast too."
+dialogtxt       "Nice to meet you. This is"
+dialogtxt       "my Summon Beast, Myoutarou."
 code0309        
 code047e        0, 0
 code0302        7
@@ -562,29 +565,29 @@ code040b
 @Event_17a2:
 code0301        8, 7
 dialogtxt       "　"
-dialogtxt       "　　　釣り仲間新聞　第１号"
+dialogtxt       "Fishing Friends Newspaper No. 1"
 code0309        
-dialogtxt       "ディックル村の釣り人の池には"
-dialogtxt       "かつてないほどのつぶらな目をした"
-dialogtxt       "ワン魚がいるらしいぞ"
+dialogtxt       "It's said the Deckell Village Pond"
+dialogtxt       "contains a fish who's cuteness"
+dialogtxt       "cannot be put into words."
 code0309        
 code0302        7
 code040b        
 
 @Event_183e:
 code0301        8, 7
-dialogtxt       "「福引き」であなたの運を"
-dialogtxt       "試してみませんか？"
-dialogtxt       "毎日抽選！空くじ無し！！"
+dialogtxt       "Care to try our Lucky Draw?"
+dialogtxt       "It's available all day, everyday!"
+dialogtxt       "Guaranteed no losing tickets!"
 code0309        
 code0302        7
 code040b        
 
 @Event_18a6:
 code0301        8, 7
-dialogtxt       "はぐれが出たことを知らせる警報が"
-dialogtxt       "聞こえたらすみやかに町の中に避難し"
-dialogtxt       "外出をひかえましょう"
+dialogtxt       "If you hear the alarm, that means"
+dialogtxt       "Strays have appeared nearby."
+dialogtxt       "Avoid leaving town."
 code0309        
 code0302        7
 code040b        

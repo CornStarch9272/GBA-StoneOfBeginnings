@@ -175,15 +175,15 @@ code0301        8, 7
 code047d        0, 0
 code047e        0, 1
 jumpz           @Cond_08b2, ($b002 == 0)
-dialogtxt       "トラムがオ[NAME 8]たちとの勝負を"
-dialogtxt       "待ってるんだ"
-dialogtxt       "グマグの炎遺跡に行かなくちゃ！"
+dialogtxt       "Tram is waiting for us."
+dialogtxt       "We have to go to the "
+dialogtxt       "Gumag Flame Ruins!"
 goto            @Label_0900
 
 @Cond_08b2:
-dialogtxt       "トラムがわたしたちとの勝負を"
-dialogtxt       "待ってるよ"
-dialogtxt       "グマグの炎遺跡に行こう！"
+dialogtxt       "Tram is waiting for us."
+dialogtxt       "Let's head to the"
+dialogtxt       "Gumag Flame Ruins!"
 goto            @Label_0900
 
 @Label_0900:
@@ -202,15 +202,15 @@ code0301        8, 7
 code047d        0, 0
 code047e        0, 1
 jumpz           @Cond_09e0, ($b002 == 0)
-dialogtxt       "ミューノがトラムといっしょに"
-dialogtxt       "炎遺跡に魔晶柱を調べに行ってるんだ"
-dialogtxt       "オ[NAME 8]たちも急ごう！"
+dialogtxt       "Murno and Tram went to see the"
+dialogtxt       "Pillar in Gumag Flame Ruins."
+dialogtxt       "Let's hurry after them!"
 goto            @Label_0a48
 
 @Cond_09e0:
-dialogtxt       "ミューノがトラムといっしょに"
-dialogtxt       "炎遺跡に魔晶柱を調べに行っちゃった"
-dialogtxt       "わたしたちも急がなくちゃ！"
+dialogtxt       "Murno and Tram went to see the"
+dialogtxt       "Pillar in Gumag Flame Ruins."
+dialogtxt       "Let's hurry after them!"
 goto            @Label_0a48
 
 @Label_0a48:
@@ -227,8 +227,8 @@ code043e        0, 3, 0
 code0301        8, 7
 code047d        0, 0
 code047e        0, 1
-dialogtxt       "とにかく今は"
-dialogtxt       "マグドラドを何とかしないと！"
+dialogtxt       "At any rate, right now we have to"
+dialogtxt       "to something about Magdrad!"
 code0309        
 code047e        0, 0
 code0302        7

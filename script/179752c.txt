@@ -10,7 +10,7 @@ code0412        4, 1
 code0418        2
 setvar          $b075, 1
 setvar          $b072, 0
-placetxt        "Bostaph's workshop　Main Office"
+placetxt        "Bostaph's Workshop　Headquarters"
 code040c        1, @Label_022e
 code040c        2, @Label_0224
 call            @Func_0ab6
@@ -59,18 +59,18 @@ goto            @start
 
 @Event_0242:
 code0301        8, 7
-dialogtxt       "強くない武器には価値がない"
-dialogtxt       "強い武器は強いマテルと"
-dialogtxt       "良い材料で出来るものだ"
+dialogtxt       "Weak weapons have no value!"
+dialogtxt       "Strong weapons made with quality"
+dialogtxt       "Shapestones and ores otherwise do!"
 code0309        
 code0302        7
 code040b        
 
 @Event_02ae:
 code0301        8, 7
-dialogtxt       "心が強くなければ強い武器は作れない"
-dialogtxt       "そのためには日々心の鍛錬も"
-dialogtxt       "鍛冶職人としての修行のひとつだ"
+dialogtxt       "Strong hearts forge strong weapons!"
+dialogtxt       "Therefore, tempering the heart is"
+dialogtxt       "essential to your training!"
 code0309        
 code0302        7
 code040b        
@@ -280,9 +280,9 @@ ret
 code0301        8, 7
 code047d        0, 120
 code047e        0, 1
-dialogtxt       "あんだよ"
-dialogtxt       "忙しいんだ"
-dialogtxt       "とっとと帰れよ"
+dialogtxt       "What do you want kid?"
+dialogtxt       "I'm busy."
+dialogtxt       "Scram!"
 code0309        
 code047e        0, 0
 code0302        7

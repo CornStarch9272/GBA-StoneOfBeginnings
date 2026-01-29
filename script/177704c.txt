@@ -10,7 +10,7 @@ code0412        4, 1
 code0418        2
 setvar          $b075, 1
 setvar          $b072, 0
-placetxt        "マー[NAME 6]イル宿場"
+placetxt        "Marnail Post Station"
 code040c        1, @Label_0836
 code040c        2, @Label_082c
 code0438        15, 409, 654, 4
@@ -101,7 +101,7 @@ setvar          $h319, 20
 code0409        
 code046e        14, 256, 0
 code041d        
-placetxt        "Marnail Station　Smile Inn Vicinity"
+placetxt        "Marnail Post Station　Smile Inn"
 jumpz           @Cond_058c, (($h309 & 0x00F0) == 16)
 code0006        22
 setvar          $h309, 0
@@ -445,11 +445,11 @@ ret
 code0301        8, 7
 code047d        0, 121
 code047e        0, 1
-dialogtxt       "あたし見たのよ！"
-dialogtxt       "弓矢で的を撃ったら"
-dialogtxt       "突然、女の子が飛び出してきたの！"
+dialogtxt       "I saw it!"
+dialogtxt       "If you shoot the target with a bow,"
+dialogtxt       "a girl will appear out of nowhere!"
 code0309        
-dialogtxt       "何だったのかしら？"
+dialogtxt       "I wonder why that is?"
 code0309        
 code047e        0, 0
 code0302        7

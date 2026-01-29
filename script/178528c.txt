@@ -10,7 +10,7 @@ code0412        4, 1
 code0418        2
 setvar          $b075, 1
 setvar          $b072, 0
-placetxt        "Mayor's house　second-hand shop"
+placetxt        "Mayor's House　second-hand shop"
 code040c        1, @Label_04ca
 code0438        2, 367, 632, 1
 code043a        2, 2, 0
@@ -79,7 +79,7 @@ code0412        4, 1
 code0418        2
 setvar          $b075, 1
 setvar          $b072, 0
-placetxt        "Mayor's house　second-hand shop"
+placetxt        "Mayor's House　Second-Hand Shop"
 code040c        1, @Label_04ca
 code0438        2, 367, 632, 1
 code043a        2, 2, 0
@@ -330,7 +330,7 @@ code040b
 
 @Talk_0d5c:
 code0301        8, 7
-dialogtxt       "ゴロゴロ..."
+dialogtxt       "Purr…"
 code0309        
 code0302        7
 code040b        

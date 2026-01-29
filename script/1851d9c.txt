@@ -16,8 +16,8 @@ code0479        0, 5, 16
 code047d        0, 0
 call            @Func_1190
 call            @Func_10b8
-dialogtxt       "あれ？"
-dialogtxt       "どうしたの？"
+dialogtxt       "Huh?"
+dialogtxt       "What's wrong?"
 code047b        
 code0309        
 call            @Func_110c
@@ -28,8 +28,8 @@ code0479        1, 2, 14
 code047d        1, 109
 call            @Func_11a6
 call            @Func_1142
-dialogtxt       "しーっ！"
-dialogtxt       "しずかに！"
+dialogtxt       "Shh!"
+dialogtxt       "Quiet!"
 code047b        
 code0309        
 call            @Func_11fc
@@ -40,7 +40,7 @@ code0479        1, 2, 14
 code047d        1, 108
 call            @Func_11a6
 call            @Func_1142
-dialogtxt       "アンタたちもかくれて！"
+dialogtxt       "Hey, hide!"
 code047b        
 code0309        
 call            @Func_1212
@@ -72,22 +72,22 @@ code047d        0, 2
 call            @Func_1190
 call            @Func_10b8
 jumpz           @Cond_02e0, ($b003 == 0)
-dialogtxt       "ア[NAME 8]ハ..."
+dialogtxt       "That Is…"
 goto            @Cond_02e0
 
 @Cond_02e0:
 jumpz           @Cond_0300, ($b003 == 1)
-dialogtxt       "あやつ..."
+dialogtxt       "That's…"
 goto            @Cond_0300
 
 @Cond_0300:
 jumpz           @Cond_0320, ($b003 == 2)
-dialogtxt       "ヤツは..."
+dialogtxt       "That's…"
 goto            @Cond_0320
 
 @Cond_0320:
 jumpz           @Cond_0340, ($b003 == 3)
-dialogtxt       "あの人..."
+dialogtxt       "That person…"
 goto            @Cond_0340
 
 @Cond_0340:
@@ -112,8 +112,8 @@ code0479        0, 2, 16
 code047d        0, 0
 call            @Func_1190
 call            @Func_10b8
-dialogtxt       "あそこは地震の後は"
-dialogtxt       "立ち入り禁止になってたって..."
+dialogtxt       "Since the earthquake,"
+dialogtxt       "it's forbidden to enter that place…"
 code047b        
 code0309        
 call            @Func_11e6
@@ -150,37 +150,37 @@ code0479        0, 2, 15
 code047d        0, 109
 call            @Func_1190
 call            @Func_10b8
-dialogtxt       "あ、中に入った"
-dialogtxt       "きっと仲間のところへ行くのよ"
-dialogtxt       "あとをつけて、全員捕まえちゃおう！"
+dialogtxt       "Ah, he went in!"
+dialogtxt       "I'm sure he's going to regroup."
+dialogtxt       "We'll follow him and get everyone!"
 code047b        
 code0309        
 call            @Func_110c
 code0479        1, 2, 14
 call            @Func_11a6
 call            @Func_1142
-dialogtxt       "そのアイディアには大賛成なんだが"
-dialogtxt       "悪いね、ティエ"
-dialogtxt       "アンタはここで見張りをたのむ"
+dialogtxt       "I like that idea,"
+dialogtxt       "but I'm sorry, Tier."
+dialogtxt       "You stay here and keep watch."
 code047b        
 code0309        
 call            @Func_1178
 code0479        0, 5, 17
 call            @Func_10d6
-dialogtxt       "え〜っ！？"
-dialogtxt       "そんな..."
+dialogtxt       "Eh~!?"
+dialogtxt       "No way…"
 code0309        
 call            @Func_110c
 code0479        1, 2, 16
 call            @Func_1142
-dialogtxt       "ヤツらの仲間が来るかもしれないし"
-dialogtxt       "たのむよ"
-dialogtxt       "アンタが一番適任なんだ"
+dialogtxt       "Their comrades might show up."
+dialogtxt       "Please."
+dialogtxt       "You're the most qualified."
 code0309        
 call            @Func_1178
 code0479        0, 2, 16
 call            @Func_10d6
-dialogtxt       "わたしが一番..."
+dialogtxt       "Most qualified…"
 code0309        
 call            @Func_1212
 call            @Func_10f4
@@ -192,38 +192,37 @@ code033b        396, 0, 0, 0, 1, 0
 code0479        0, 3, 12
 call            @Func_1190
 call            @Func_10b8
-dialogtxt       "もしかして、これって..."
-dialogtxt       "きてる...？"
+dialogtxt       "Maybe this is…"
+dialogtxt       "Could you…"
 code047b        
 code0309        
 call            @Func_110c
 code0479        1, 2, 14
 call            @Func_11a6
 call            @Func_1142
-dialogtxt       "見張り代を払えとか"
-dialogtxt       "ジョウダンでも言うんじゃないよ"
-dialogtxt       "空気を読みな"
+dialogtxt       "Don't joke around about"
+dialogtxt       "making us pay you."
+dialogtxt       "Read the mood."
 code047b        
 code0309        
 call            @Func_1178
 code043c        3, 4
 code0479        0, 5, 13
 call            @Func_10d6
-dialogtxt       "い、言うわけないじゃないですか"
-dialogtxt       "そんなこと！"
-dialogtxt       "わたしを甘くみないでください！"
+dialogtxt       "I-I wasn't going to!"
+dialogtxt       "Don't underestimate me!"
 code0309        
 code0479        0, 2, 12
-dialogtxt       "見張りますよ！"
-dialogtxt       "見張らせてもらいますよ！"
-dialogtxt       "もちろんタダで！"
+dialogtxt       "I'll do it!"
+dialogtxt       "Allow me to keep watch!"
+dialogtxt       "For free, of course!"
 code0309        
 call            @Func_110c
 code0479        1, 2, 12
 call            @Func_1142
-dialogtxt       "ありがとう、ティエ"
-dialogtxt       "じゃ、行くよ"
-dialogtxt       "ふたりとも"
+dialogtxt       "Thanks, Tier."
+dialogtxt       "Well then, let's go."
+dialogtxt       "Come on, you two."
 code0309        
 call            @Func_11e6
 call            @Func_1178
@@ -234,7 +233,7 @@ code0479        0, 2, 12
 code047d        0, 0
 call            @Func_1190
 call            @Func_10d6
-dialogtxt       "はい！"
+dialogtxt       "Yes!"
 code047b        
 code0309        
 call            @Func_1212

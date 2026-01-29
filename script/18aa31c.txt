@@ -11,7 +11,7 @@ code0418        2
 code046c        0
 setvar          $b075, 1
 setvar          $b072, 1
-placetxt        "ス[NAME 7]ート洞窟"
+placetxt        "Spoat Grotto"
 code040c        1, @Label_14c4
 code040c        2, @Label_14ba
 jumpz           @Cond_045c, ($f0047 == 1 && $f0049 == 0 && $h311 == 9)
@@ -270,7 +270,7 @@ goto            @Cond_1120
 goto            @Label_1124
 
 @Label_1124:
-placetxt        "ス[NAME 7]ート洞窟　エリア１０"
+placetxt        "Spoat Grotto　Area 10"
 jumpz           @Cond_11ce, ($f0049 == 1 && $f0050 == 0 && $h311 == 9)
 setvar          $f0050, 1
 code043e        0, 3, 0
@@ -361,7 +361,8 @@ code043e        0, 3, 0
 code0301        8, 7
 code047d        0, 0
 code047e        0, 1
-dialogtxt       "あまり奥に行かないほうがいいかな..."
+dialogtxt       "It's probably best to not go"
+dialogtxt       "too far in."
 code0309        
 code047e        0, 0
 code0302        7

@@ -117,7 +117,7 @@ code034f
 goto            @start
 
 code0301        8, 7
-dialogtxt       "何らかのメッセージ予定"
+dialogtxt       "Some kind of message planned."
 code0309        
 code0302        7
 code040b        
@@ -358,9 +358,9 @@ ret
 code0301        8, 7
 code047d        0, 118
 code047e        0, 1
-dialogtxt       "今日の当番がおそわれたらしくて"
-dialogtxt       "急に交代だよ"
-dialogtxt       "コワイなぁ..."
+dialogtxt       "The gateskeep for today's duty was"
+dialogtxt       "injured, so I took his shift."
+dialogtxt       "Man, it sure is scary out there…"
 code0309        
 code047e        0, 0
 code0302        7
@@ -370,41 +370,40 @@ code040b
 code0301        8, 7
 code047d        0, 149
 code047e        0, 1
-dialogtxt       "お母様は、ロブ親方とかって"
-dialogtxt       "鍛冶師をすっごくおしてるけど..."
-dialogtxt       "もういないのにね..."
+dialogtxt       "Mother really adores Master"
+dialogtxt       "Rob so wholeheartedly…"
+dialogtxt       "I mean, that's nice and all, but…"
 code0309        
-dialogtxt       "わたしとしては、ジェイド様なんて"
-dialogtxt       "いいと思うんだけどな〜"
-dialogtxt       "あっ、[NAME 8]ミィ様も捨てがたいよね〜"
+dialogtxt       "If it were me, I think"
+dialogtxt       "Mr. Jade is sooo dreamy~! Oh!"
+dialogtxt       "And Mr. Lemmy is lovely too~…!"
 code0309        
 jumpz           @Cond_133c, ($f1251 == 0)
-dialogtxt       "ところであなたは、鍛冶師みたいだけど"
-dialogtxt       "強化の情報を聞いていかない？"
+dialogtxt       "You're a Craftknight, aren't you?"
+dialogtxt       "Wanna hear about enhancement tips?"
 code0309        
 code047e        0, 0
-choicetxt       @Choice_1098, "聞いてみる"
-choicetxt       @Choice_1344, "特に聞かない"
+choicetxt       @Choice_1098, "Sure thing!"
+choicetxt       @Choice_1344, "Nah, I'm fine."
 choicewait      
 
 @Choice_1098:
 code047e        0, 1
-dialogtxt       "えっとね、強化で「肉体改造の書」を"
-dialogtxt       "２個使うと、必殺技の「カットバシ」が"
-dialogtxt       "武器に付加されるの"
+dialogtxt       "Well…If you use two Workout Guides"
+dialogtxt       "when enhancing, you get Uppercut."
 code0309        
-dialogtxt       "でもボウタイプには、付加出来ないから"
-dialogtxt       "注意してね〜"
+dialogtxt       "But you can't use it on bows."
+dialogtxt       "So be reeeaally careful, okay?"
 code0309        
-dialogtxt       "でもって、今回はなんと"
-dialogtxt       "「肉体改造の書」を２個で"
-dialogtxt       "２０００バームで販売中なの〜"
+dialogtxt       "But hey, get this, right now"
+dialogtxt       "I'm selling both materials for"
+dialogtxt       "an amazing…2000 Boam!"
 code0309        
-dialogtxt       "買ってくれます？"
+dialogtxt       "How about it?"
 code0309        
 code047e        0, 0
-choicetxt       @Choice_11dc, "買う"
-choicetxt       @Choice_12f2, "買わない"
+choicetxt       @Choice_11dc, "Buy"
+choicetxt       @Choice_12f2, "Don't buy"
 choicewait      
 
 @Choice_11dc:
@@ -419,7 +418,7 @@ code0445        17, 4
 code0446        17
 code0301        8, 7
 code047e        0, 1
-dialogtxt       "ありがと〜"
+dialogtxt       "Thank you for your patronage!"
 code0309        
 goto            @Label_1394
 
@@ -431,9 +430,9 @@ code0445        17, 5
 code0446        17
 code0301        8, 7
 code047e        0, 1
-dialogtxt       "ええぇ〜これじゃ〜"
-dialogtxt       "お金たりないの〜"
-dialogtxt       "商談不成立だよ〜"
+dialogtxt       "Whaaat!? You make me talk a lot"
+dialogtxt       "but you don't want to buy from me?"
+dialogtxt       "Cheapskate!"
 code0309        
 goto            @Label_1394
 
@@ -441,8 +440,9 @@ goto            @Choice_12f2
 
 @Choice_12f2:
 code047e        0, 1
-dialogtxt       "え〜聞くだけ聞いて買ってくれないの〜"
-dialogtxt       "ケチ〜"
+dialogtxt       "Whaaat!? You make me talk a lot"
+dialogtxt       "but you don't want to buy from me?"
+dialogtxt       "Cheapskate!"
 code0309        
 goto            @Label_1394
 
@@ -455,8 +455,9 @@ goto            @Choice_1344
 
 @Choice_1344:
 code047e        0, 1
-dialogtxt       "え〜聞いてくれないの〜"
-dialogtxt       "せっかくのお客さんだと思ったのに〜"
+dialogtxt       "Whaaat? You're not interested?!"
+dialogtxt       "Just when I thought"
+dialogtxt       "I finally had a customer…"
 code0309        
 @Label_1394:
 code047e        0, 0
@@ -474,7 +475,7 @@ code040b
 
 @Talk_13ce:
 code0301        8, 7
-dialogtxt       "クゥ〜ン"
+dialogtxt       "*Sniffle*"
 code0309        
 code0302        7
 code040b        
@@ -482,26 +483,28 @@ code040b
 @Event_13f4:
 code0301        8, 7
 dialogtxt       "　"
-dialogtxt       "　　　　　〜困ってます〜"
+dialogtxt       "　　　　　Looking for help!"
 code0309        
-dialogtxt       "スパイスが手に入らなくて困ってます"
-dialogtxt       "どこかに売っていないだろうか？"
+dialogtxt       "I'm having a hard time trying to"
+dialogtxt       "stock up on spices…"
+dialogtxt       "Do you know where I can get them?"
 code0309        
 code0302        7
 code040b        
 
 @Event_147a:
 code0301        8, 7
-dialogtxt       "町は[NAME 4][NAME 8]イに！"
-dialogtxt       "ゴミの[NAME 7]イ捨てはやめましょう！"
+dialogtxt       "Make our town beautiful!"
+dialogtxt       "Please stop littering!"
 code0309        
 code0302        7
 code040b        
 
 @Event_14c8:
 code0301        8, 7
-dialogtxt       "弓乙女ちゃんおうえん団"
-dialogtxt       "ついに結成！　団員募集中！"
+dialogtxt       "The Lady of the Bow Support Squad"
+dialogtxt       "has been officially formed!"
+dialogtxt       "We're looking for members!"
 code0309        
 code0302        7
 code040b        

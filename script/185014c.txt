@@ -25,15 +25,15 @@ code047d        1, 2
 call            @Func_1558
 call            @Func_1454
 jumpz           @Cond_0138, ($b002 == 0)
-dialogtxt       "よっしゃ！"
-dialogtxt       "今日こそアニスたちを"
-dialogtxt       "とっつかまえてやるぜ！"
+dialogtxt       "Alright!"
+dialogtxt       "Today is the day"
+dialogtxt       "we catch Anise!"
 goto            @Label_017a
 
 @Cond_0138:
-dialogtxt       "よーし！"
-dialogtxt       "今日こそアニスたちを"
-dialogtxt       "捕まえてやるんだから！"
+dialogtxt       "Alright!"
+dialogtxt       "Today is the day"
+dialogtxt       "we catch Anise!"
 goto            @Label_017a
 
 @Label_017a:
@@ -61,36 +61,36 @@ goto            @Label_0212
 @Label_0212:
 call            @Func_14de
 jumpz           @Cond_04a6, ($b003 == 0)
-dialogtxt       "[NAME 5]ウデス[NAME 6]"
-dialogtxt       "今回ハ　絶対　逃ガシマセン"
-dialogtxt       "必ズ　シトメマス"
+dialogtxt       "Yes. This Time,"
+dialogtxt       "They Will Not Escape."
+dialogtxt       "We Will Bring Them Down."
 code0309        
 call            @Func_1514
 code0479        0, 5, 17
 call            @Func_1472
-dialogtxt       "しとめるって、ダメだって！"
-dialogtxt       "捕まえるんだよ"
-dialogtxt       "自警団の人に引き渡さないと"
+dialogtxt       "Hey, we can't do that!"
+dialogtxt       "We still need to hand"
+dialogtxt       "them over to the Vigilante Corps."
 code0309        
 call            @Func_14a8
 code0479        1, 4, 12
 call            @Func_14de
-dialogtxt       "..."
-dialogtxt       "[NAME 5]ウデス[NAME 6]"
+dialogtxt       "…"
+dialogtxt       "Yes."
 code0309        
 call            @Func_1514
 code0479        0, 0, 16
 call            @Func_1472
 jumpz           @Cond_0376, ($b002 == 0)
-dialogtxt       "なんだよ"
-dialogtxt       "アニスたちに捕まったときのこと"
-dialogtxt       "怒ってるのか？"
+dialogtxt       "What?"
+dialogtxt       "Are you still angry about"
+dialogtxt       "the time we were captured?"
 goto            @Label_03b6
 
 @Cond_0376:
-dialogtxt       "なによ"
-dialogtxt       "アニスたちに捕まったときのこと"
-dialogtxt       "怒ってるの？"
+dialogtxt       "What?"
+dialogtxt       "Are you still angry about"
+dialogtxt       "the time we were captured?"
 goto            @Label_03b6
 
 @Label_03b6:
@@ -98,23 +98,22 @@ code0309
 call            @Func_14a8
 code0479        1, 5, 12
 call            @Func_14de
-dialogtxt       "怒ル？"
-dialogtxt       "私ニ[NAME 5]ノヨウナ感情ハ"
-dialogtxt       "アリマセン"
+dialogtxt       "Angry?"
+dialogtxt       "I Do Not Possess Such Emotions."
 code0309        
 call            @Func_1514
 code0479        0, 0, 14
 call            @Func_1472
 jumpz           @Cond_046c, ($b002 == 0)
-dialogtxt       "そうなのか？"
-dialogtxt       "ま、とにかく落ちついて"
-dialogtxt       "行こうぜ"
+dialogtxt       "Really?"
+dialogtxt       "Well, either way, calm down."
+dialogtxt       "Let's go."
 goto            @Label_04a2
 
 @Cond_046c:
-dialogtxt       "そうなの？"
-dialogtxt       "ま、とにかく落ちついて"
-dialogtxt       "行こう"
+dialogtxt       "Really?"
+dialogtxt       "Well, either way, calm down."
+dialogtxt       "Let's go."
 goto            @Label_04a2
 
 @Label_04a2:
@@ -122,21 +121,21 @@ goto            @Cond_04a6
 
 @Cond_04a6:
 jumpz           @Cond_079a, ($b003 == 1)
-dialogtxt       "この間のウラミもあるからの..."
-dialogtxt       "このマゲにかけて"
-dialogtxt       "ただではすまさんぞ！"
+dialogtxt       "I still have a grudge against them…"
+dialogtxt       "I swear upon this topknot,"
+dialogtxt       "I will have my revenge!"
 code0309        
 call            @Func_1514
 code0479        0, 4, 14
 call            @Func_1472
 jumpz           @Cond_0572, ($b002 == 0)
-dialogtxt       "ハラが立つのはわかるけどさ"
-dialogtxt       "あんまりムチャなことするなよ"
+dialogtxt       "I know you're angry,"
+dialogtxt       "but don't go too crazy."
 goto            @Label_05b6
 
 @Cond_0572:
-dialogtxt       "ハラが立つのはわかるけどさ"
-dialogtxt       "あんまりムチャなことしないでよ"
+dialogtxt       "I know you're angry,"
+dialogtxt       "but don't go too crazy."
 goto            @Label_05b6
 
 @Label_05b6:
@@ -144,36 +143,37 @@ code0309
 call            @Func_14a8
 code0479        1, 2, 16
 call            @Func_14de
-dialogtxt       "むむ...、そうじゃの"
-dialogtxt       "ヤツらと同じになるところじゃった"
-dialogtxt       "とりあえず生かしておかねばの"
+dialogtxt       "Mm… You're right."
+dialogtxt       "I am not a savage like them."
+dialogtxt       "Anyway, I shall let them live."
 code0309        
 call            @Func_1514
 code0479        0, 5, 17
 call            @Func_1472
-dialogtxt       "当たり前だって！"
-dialogtxt       "自警団の人に引き渡さないと"
+dialogtxt       "Of course you will!"
+dialogtxt       "We still need to hand them over"
+dialogtxt       "to the Vigilante Corps."
 code0309        
 call            @Func_14a8
 code0479        1, 2, 14
 call            @Func_14de
-dialogtxt       "むむ...、そうじゃの"
-dialogtxt       "では何か手を考えんとな..."
-dialogtxt       "むむ〜..."
+dialogtxt       "Mm… Right again."
+dialogtxt       "Then I must think of something…"
+dialogtxt       "Mmmm…"
 code0309        
 call            @Func_1514
 code0479        0, 0, 14
 call            @Func_1472
 jumpz           @Cond_074e, ($b002 == 0)
-dialogtxt       "ホント、たのむから"
-dialogtxt       "ムチャはするなよな"
-dialogtxt       "落ちついて行こうぜ"
+dialogtxt       "Please, I'm begging you."
+dialogtxt       "Don't take this too far."
+dialogtxt       "Let's all calm down."
 goto            @Label_0796
 
 @Cond_074e:
-dialogtxt       "ホント、おねがいだから"
-dialogtxt       "ムチャはしないでよ"
-dialogtxt       "落ちついて行こう"
+dialogtxt       "Please, I'm begging you."
+dialogtxt       "Don't take this too far."
+dialogtxt       "Let's all calm down."
 goto            @Label_0796
 
 @Label_0796:
@@ -181,21 +181,21 @@ goto            @Cond_079a
 
 @Cond_079a:
 jumpz           @Cond_0bc6, ($b003 == 2)
-dialogtxt       "あいつら、今度会ったら絶対に"
-dialogtxt       "生きているのが辛いような目に"
-dialogtxt       "あわせてやる..."
+dialogtxt       "Next time we meet, I will show"
+dialogtxt       "them that to live means to"
+dialogtxt       "experience pain…"
 code0309        
 call            @Func_1514
 code0479        0, 4, 14
 call            @Func_1472
 jumpz           @Cond_086c, ($b002 == 0)
-dialogtxt       "ハラが立つのはわかるけどさ"
-dialogtxt       "あんまりムチャなことするなよ"
+dialogtxt       "I know you're angry,"
+dialogtxt       "but don't go too crazy."
 goto            @Label_08b0
 
 @Cond_086c:
-dialogtxt       "ハラが立つのはわかるけどさ"
-dialogtxt       "あんまりムチャなことしないでよ"
+dialogtxt       "I know you're angry,"
+dialogtxt       "but don't go too crazy."
 goto            @Label_08b0
 
 @Label_08b0:
@@ -203,21 +203,21 @@ code0309
 call            @Func_14a8
 code0479        1, 3, 13
 call            @Func_14de
-dialogtxt       "心配するな"
-dialogtxt       "証拠すら残らんように"
-dialogtxt       "跡形もなく消してやる"
+dialogtxt       "Don't worry."
+dialogtxt       "Once I'm done with them,"
+dialogtxt       "there won't be anything left."
 code0309        
 call            @Func_1514
 code0479        0, 5, 17
 call            @Func_1472
 jumpz           @Cond_0978, ($b002 == 0)
-dialogtxt       "だからムチャすんなって！"
-dialogtxt       "自警団の人もいるんだからさ"
+dialogtxt       "That's why I'm telling you!"
+dialogtxt       "The Vigilante Corps will be there."
 goto            @Label_09b8
 
 @Cond_0978:
-dialogtxt       "だからムチャしないでって！"
-dialogtxt       "自警団の人もいるんだからさ"
+dialogtxt       "That's why I'm telling you!"
+dialogtxt       "The Vigilante Corps will be there."
 goto            @Label_09b8
 
 @Label_09b8:
@@ -225,22 +225,21 @@ code0309
 call            @Func_14a8
 code0479        1, 2, 14
 call            @Func_14de
-dialogtxt       "自警団のヤツらといっしょに"
-dialogtxt       "さがすのか..."
+dialogtxt       "So we'll be working with them…"
 code0309        
 call            @Func_1514
 code0479        0, 2, 14
 call            @Func_1472
 jumpz           @Cond_0a7e, ($b002 == 0)
-dialogtxt       "なんだよ、イヤなのか？"
-dialogtxt       "人手が多い方がいいんだから"
-dialogtxt       "ガマンしろよ"
+dialogtxt       "What, you don't want to?"
+dialogtxt       "The more people helping, the better."
+dialogtxt       "Deal with it."
 goto            @Label_0ac6
 
 @Cond_0a7e:
-dialogtxt       "なによ、イヤなの？"
-dialogtxt       "人手が多い方がいいんだから"
-dialogtxt       "ガマンしてよ"
+dialogtxt       "What, you don't want to?"
+dialogtxt       "The more people helping, the better."
+dialogtxt       "Deal with it."
 goto            @Label_0ac6
 
 @Label_0ac6:
@@ -248,22 +247,22 @@ code0309
 call            @Func_14a8
 code0479        1, 4, 12
 call            @Func_14de
-dialogtxt       "しかたない"
-dialogtxt       "別の手を考えるか"
+dialogtxt       "Fine."
+dialogtxt       "I'll think of something else."
 code0309        
 call            @Func_1514
 code0479        0, 0, 16
 call            @Func_1472
 jumpz           @Cond_0b7a, ($b002 == 0)
-dialogtxt       "ホント、たのむから"
-dialogtxt       "ムチャはするなよな"
-dialogtxt       "落ちついて行こうぜ"
+dialogtxt       "Please, I'm begging you."
+dialogtxt       "Don't take this too far."
+dialogtxt       "Let's all calm down."
 goto            @Label_0bc2
 
 @Cond_0b7a:
-dialogtxt       "ホント、おねがいだから"
-dialogtxt       "ムチャはしないでよ"
-dialogtxt       "落ちついて行こう"
+dialogtxt       "Please, I'm begging you."
+dialogtxt       "Don't take this too far."
+dialogtxt       "Let's all calm down."
 goto            @Label_0bc2
 
 @Label_0bc2:
@@ -271,21 +270,21 @@ goto            @Cond_0bc6
 
 @Cond_0bc6:
 jumpz           @Cond_0e94, ($b003 == 3)
-dialogtxt       "そうですわ！"
-dialogtxt       "あの人たち今度会ったら"
-dialogtxt       "絶対に許しませんわ！"
+dialogtxt       "That's right!"
+dialogtxt       "I will not let them get"
+dialogtxt       "off easy this time!"
 code0309        
 call            @Func_1514
 code0479        0, 4, 14
 call            @Func_1472
 jumpz           @Cond_0c88, ($b002 == 0)
-dialogtxt       "ハラが立つのはわかるけどさ"
-dialogtxt       "あんまりムチャなことするなよ"
+dialogtxt       "I know you're angry,"
+dialogtxt       "but don't go too crazy."
 goto            @Label_0ccc
 
 @Cond_0c88:
-dialogtxt       "ハラが立つのはわかるけどさ"
-dialogtxt       "あんまりムチャなことしないでよ"
+dialogtxt       "I know you're angry,"
+dialogtxt       "but don't go too crazy."
 goto            @Label_0ccc
 
 @Label_0ccc:
@@ -293,35 +292,35 @@ code0309
 call            @Func_14a8
 code0479        1, 2, 12
 call            @Func_14de
-dialogtxt       "安心してください"
-dialogtxt       "命まで取る気はありませんわ"
+dialogtxt       "Rest assured,"
+dialogtxt       "I wasn't planning on killing them."
 code0309        
 call            @Func_1514
 code0479        0, 5, 17
 call            @Func_1472
-dialogtxt       "当たり前だって！"
-dialogtxt       "捕まえて自警団の人に"
-dialogtxt       "引き渡さないと"
+dialogtxt       "Of course not!"
+dialogtxt       "We have to be able to hand them"
+dialogtxt       "over to the Vigilante Corps."
 code0309        
 call            @Func_14a8
 code0479        1, 4, 14
 call            @Func_14de
-dialogtxt       "あらら、そうでしたわ"
-dialogtxt       "何か良い手を考えないといけませんわ"
+dialogtxt       "Oh my, I almost forgot."
+dialogtxt       "I must think of something else then."
 code0309        
 call            @Func_1514
 code0479        0, 0, 14
 call            @Func_1472
 jumpz           @Cond_0e48, ($b002 == 0)
-dialogtxt       "ホント、たのむから"
-dialogtxt       "ムチャはするなよな"
-dialogtxt       "落ちついて行こうぜ"
+dialogtxt       "Please, I'm begging you."
+dialogtxt       "Don't take this too far."
+dialogtxt       "Let's all calm down."
 goto            @Label_0e90
 
 @Cond_0e48:
-dialogtxt       "ホント、おねがいだから"
-dialogtxt       "ムチャはしないでよ"
-dialogtxt       "落ちついて行こう"
+dialogtxt       "Please, I'm begging you."
+dialogtxt       "Don't take this too far."
+dialogtxt       "Let's all calm down."
 goto            @Label_0e90
 
 @Label_0e90:

@@ -27,7 +27,7 @@ goto            @Cond_0132
 code046c        0
 setvar          $b075, 1
 setvar          $b072, 0
-placetxt        "Mishus Ruins"
+placetxt        "Mishus Abandoned Site"
 code040c        1, @Label_0a3a
 code040c        2, @Label_0a30
 jumpz           @Cond_02d2, ($f0043 == 1 && $f0044 == 0 && $h311 == 11)
@@ -147,7 +147,7 @@ gotomap         2800 ; map 187618c
 goto            @Cond_0872
 
 @Cond_0872:
-placetxt        "Mishus Ruins　Gate Chamber"
+placetxt        "Mishus Abandoned Site　Gateway"
 code040b        
 
 @Event_0890:
@@ -199,7 +199,7 @@ setvar          $h137, 30
 call            @Func_0bdc
 code0421        0
 code0368        
-popuptxt        "元気になった！"
+popuptxt        "You feel refreshed!"
 code0318        
 code0461        3
 code040b        

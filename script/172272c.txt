@@ -3,7 +3,7 @@ code038e        284, 0
 jumpz           @Cond_0076, ($h220 == 0)
 code0301        0, 7
 code0305        1
-dialogtxt       "ウリ[NAME 4][NAME 8]チュウ..."
+dialogtxt       "It'll be sold out…"
 code0309        
 code0302        7
 setvar          $h309, 0
@@ -19,7 +19,7 @@ jumpz           @Cond_0146, ($h319 == 46)
 jumpz           @Cond_00e0, ($h311 < 8)
 code0301        0, 7
 code0305        1
-dialogtxt       "近日稼動予定！"
+dialogtxt       "Coming Soon!"
 code0309        
 code0302        7
 setvar          $h309, 0
@@ -32,7 +32,7 @@ code038e        285, 1
 jumpz           @Cond_0142, ($h221 == 0)
 code0301        0, 7
 code0305        1
-dialogtxt       "おしまいッ！"
+dialogtxt       "That's a wrap!"
 code0309        
 code0302        7
 setvar          $h309, 0
@@ -50,11 +50,13 @@ code0301        8, 7
 code047d        0, 0
 code047e        0, 1
 jumpz           @Cond_01c0, ($b002 == 0)
-dialogtxt       "福引き券が足りない..."
+dialogtxt       "Aww man, I don't have any"
+dialogtxt       "more lottery tickets…"
 goto            @Label_01e0
 
 @Cond_01c0:
-dialogtxt       "福引き券が足りないよぉ..."
+dialogtxt       "Phooey, I don't have any"
+dialogtxt       "more lottery tickets…"
 goto            @Label_01e0
 
 @Label_01e0:
@@ -72,11 +74,13 @@ code0301        8, 7
 code047d        0, 0
 code047e        0, 1
 jumpz           @Cond_0272, ($b002 == 0)
-dialogtxt       "福引き券持ってない..."
+dialogtxt       "Aww man, I don't have any"
+dialogtxt       "more lottery tickets…"
 goto            @Label_028e
 
 @Cond_0272:
-dialogtxt       "福引き券がないよぉ..."
+dialogtxt       "Phooey, I don't have any"
+dialogtxt       "more lottery tickets…"
 goto            @Label_028e
 
 @Label_028e:

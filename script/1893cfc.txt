@@ -264,7 +264,7 @@ goto            @Cond_0e4c
 goto            @Label_0e50
 
 @Label_0e50:
-placetxt        "ピュビックの森　エリア５"
+placetxt        "Pubick Forest　Area 5"
 jumpz           @Cond_0f00, ($f0036 == 1 && $f0037 == 0 && $h311 == 4)
 code046c        0
 setvar          $f0037, 1

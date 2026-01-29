@@ -10,7 +10,7 @@ code0412        4, 1
 code0418        2
 setvar          $b075, 1
 setvar          $b072, 0
-placetxt        "Rob's Workshop　1st floor"
+placetxt        "Rob's Workshop　1st Floor"
 code040c        1, @Label_0430
 code040c        2, @Label_0426
 code041c        0, 128, 247, 1
@@ -55,7 +55,12 @@ code043e        0, 3, 0
 code0301        8, 7
 code047d        0, 0
 code047e        0, 1
-dialogtxt       "I have to wake up Murno."
+jumpz           @Cond_02e0, ($b002 == 0)
+dialogtxt       "I have to wake Murno up."
+goto            @Label_0304
+
+@Cond_02e0:
+dialogtxt       "I need to wake up Murno."
 goto            @Label_0304
 
 @Label_0304:
@@ -111,11 +116,11 @@ goto            @start
 
 done            
 
-;code031a        7
-;code031b        7, -1, -1, $h136, $h137
-;code031c        7, 1
-;code031f        7
-;ret             
+code031a        7
+code031b        7, -1, -1, $h136, $h137
+code031c        7, 1
+code031f        7
+ret             
 
 code031b        7, -1, -1, $h136, $h137
 code031c        7, 2

@@ -229,7 +229,8 @@ goto            @start
 code047d        0, 120
 code0301        8, 7
 code047e        0, 1
-dialogtxt       "ザックならいないぜ"
+dialogtxt       "If you're looking for Zakk,"
+dialogtxt       "he isn't here."
 code0309        
 code047e        0, 0
 code0302        7
@@ -481,8 +482,9 @@ ret
 code0301        8, 7
 code047d        0, 118
 code047e        0, 1
-dialogtxt       "アカバ[NAME 6]が倒されても"
-dialogtxt       "はぐれの被害は減ってないんだ"
+dialogtxt       "Even with Red Wing gone,"
+dialogtxt       "the damage caused by Strays"
+dialogtxt       "isn't going down."
 code0309        
 code047e        0, 0
 code0302        7
@@ -492,13 +494,12 @@ code040b
 code0301        8, 7
 code047d        0, 120
 code047e        0, 1
-dialogtxt       "プロスバンの東にリュート岩窟が"
-dialogtxt       "あるけど、そこからス[NAME 7]ート洞窟に"
-dialogtxt       "つながっているんだ"
+dialogtxt       "East of Prosban is Lute Grotto,"
+dialogtxt       "which is connected to Spoat Grotto."
 code0309        
-dialogtxt       "最近までは、危険な状態で入れない"
-dialogtxt       "ようになっていたんだけどね"
-dialogtxt       "扉のカギがあいてたみたいだな"
+dialogtxt       "Recently, it's been so dangerous"
+dialogtxt       "that they've sealed off the door."
+dialogtxt       "It wasn't locked before."
 code0309        
 code047e        0, 0
 code0302        7
@@ -506,19 +507,19 @@ code040b
 
 @Talk_1556:
 code0301        8, 7
-dialogtxt       "わぅん？"
+dialogtxt       "Woof?"
 code0309        
 code0302        7
 code040b        
 
 @Event_157c:
 code0301        8, 7
-dialogtxt       "良質な武器の完成には"
-dialogtxt       "パートナーも大きく影響していると"
-dialogtxt       "ベン[NAME 5]ンさんはにらんでいるらしい..."
+dialogtxt       "Mr. Benson was scowling, seemingly"
+dialogtxt       "saying that your partner has a huge"
+dialogtxt       "effect on the quality of a weapon."
 code0309        
-dialogtxt       "しかし、彼は一言も語らないので"
-dialogtxt       "真意は定かではない..."
+dialogtxt       "He doesn't actually talk though,"
+dialogtxt       "so I'm not completely sure…"
 code0309        
 code0302        7
 code040b        

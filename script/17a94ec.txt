@@ -11,7 +11,7 @@ code0418        2
 setvar          $b075, 1
 setvar          $b072, 0
 code046c        0
-placetxt        "Louise Village　Prison"
+placetxt        "Louise Village　Jail"
 code040c        1, @Label_0446
 code040c        2, @Label_042c
 call            @Func_0be2
@@ -307,9 +307,9 @@ ret
 code0301        8, 7
 code047d        0, 151
 code047e        0, 1
-dialogtxt       "牢屋なんて"
-dialogtxt       "使わないのが一番ですよね"
-dialogtxt       "でも、ボクの仕事なくなっちゃうの？"
+dialogtxt       "It's for the best if no one"
+dialogtxt       "get sent to prison, yeah? But won't"
+dialogtxt       "that mean I'll lose my job though?"
 code0309        
 code047e        0, 0
 code0302        7

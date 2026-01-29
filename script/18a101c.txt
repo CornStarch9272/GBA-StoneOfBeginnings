@@ -12,7 +12,7 @@ code0420        0, 614, 13
 code0422        0, 0
 setvar          $b075, 1
 setvar          $b072, 1
-placetxt        "グマグの炎遺跡"
+placetxt        "Ghumag Flame Ruins"
 code040c        1, @Label_08ba
 code040c        2, @Label_08b0
 jumpz           @Cond_0230, ($f0036 == 1 && $f0038 == 0 && $h311 == 7)
@@ -135,7 +135,7 @@ code0361        $b003
 goto            @Cond_068a
 
 @Cond_068a:
-placetxt        "Ghumag Flame Ruins　Area 5"
+placetxt        "Gumag Fire Ruins Area 5"
 code040b        
 
 @Event_06a8:
@@ -190,8 +190,8 @@ code043c        3, 3
 code0301        8, 7
 code047d        0, 135
 code047e        0, 1
-dialogtxt       "私に勝つまで"
-dialogtxt       "そこは通しませんよ"
+dialogtxt       "I won't let you through"
+dialogtxt       "unless you can beat me."
 code0309        
 code047e        0, 0
 code0302        7
@@ -221,7 +221,7 @@ goto            @start
 code0301        8, 7
 code047d        0, 107
 code047e        0, 1
-dialogtxt       "気をつけてね、δ..."
+dialogtxt       "Be careful, [NAME 2]…"
 code0309        
 code047e        0, 0
 code0302        7
@@ -231,9 +231,9 @@ code040b
 code0301        8, 7
 code047d        0, 135
 code047e        0, 1
-dialogtxt       "どんな武器を使って"
-dialogtxt       "私に挑んでくるつもりか知りませんが"
-dialogtxt       "まあ、がんばってくださいね"
+dialogtxt       "I don't know what kind of weapon"
+dialogtxt       "you intend to challenge me with,"
+dialogtxt       "but well, good luck to you."
 code0309        
 code047e        0, 0
 code0302        7

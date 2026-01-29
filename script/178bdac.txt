@@ -10,7 +10,7 @@ code0412        4, 1
 code0418        2
 setvar          $b075, 1
 setvar          $b072, 0
-placetxt        "Prosban　second-hand shop"
+placetxt        "Prosban　Second-hand Shop"
 code040c        1, @Label_0476
 code0438        2, 397, 645, 1
 code043a        2, 2, 0
@@ -67,7 +67,7 @@ code0412        4, 1
 code0418        2
 setvar          $b075, 1
 setvar          $b072, 0
-placetxt        "Prosban　second-hand shop"
+placetxt        "Prosban　Second-Hand Shop"
 code040c        1, @Label_0476
 code0438        2, 397, 645, 1
 code043a        2, 2, 0
@@ -102,9 +102,9 @@ goto            @start
 
 @Event_048a:
 code0301        8, 7
-dialogtxt       "旅先でケガをした経験はありませんか？"
-dialogtxt       "そんな時にはＦエイド、何でもそろう"
-dialogtxt       "便利な道具屋"
+dialogtxt       "Have you ever been injured"
+dialogtxt       "with no inn in sight?"
+dialogtxt       "When that happens, think of F-Aid!"
 code0309        
 code0302        7
 code040b        
@@ -314,16 +314,16 @@ ret
 code0301        8, 7
 code047d        0, 148
 code047e        0, 1
-dialogtxt       "すごい鍛冶職人を発見したのよ"
-dialogtxt       "この町にボスタフ親方って"
-dialogtxt       "鍛冶職人がいたんだけど..."
+dialogtxt       "So I found this great Craftknight!"
+dialogtxt       "There's a Master Craftknight"
+dialogtxt       "in town named Bostaph, although…"
 code0309        
-dialogtxt       "それが、とっても怖い人で"
-dialogtxt       "話すら出来なかったのよね"
-dialogtxt       "でも、昔はいい人だったって..."
+dialogtxt       "It's hard to approach him because"
+dialogtxt       "he's really scary, and all…"
+dialogtxt       "But I heard he used to be so nice!"
 code0309        
-dialogtxt       "どうやら、奥さんがいなくなってから"
-dialogtxt       "人が変わってしまったみたいね"
+dialogtxt       "…Though, I think he changed ever"
+dialogtxt       "since his wife passed away…"
 code0309        
 code047e        0, 0
 code0302        7

@@ -2,31 +2,31 @@ code040d        60
 code0301        8, 3
 jumpz           @Cond_00c2, ($f0262 == 1)
 jumpz           @Cond_0066, ($b003 == 0)
-dialogtxt       "........."
-dialogtxt       "......ぱーとなー"
-dialogtxt       "...ぱーとなー"
+dialogtxt       "………"
+dialogtxt       "……Partner"
+dialogtxt       "…Partner"
 goto            @Label_00be
 
 @Cond_0066:
 jumpz           @Cond_009e, ($b003 == 3)
-dialogtxt       "........."
-dialogtxt       "......δさん"
-dialogtxt       "...δさん"
+dialogtxt       "………"
+dialogtxt       "……[NAME 2]"
+dialogtxt       "…[NAME 2]"
 goto            @Label_00be
 
 @Cond_009e:
-dialogtxt       "........."
-dialogtxt       "......δ"
-dialogtxt       "...δ"
+dialogtxt       "………"
+dialogtxt       "……[NAME 2]"
+dialogtxt       "…[NAME 2]"
 goto            @Label_00be
 
 @Label_00be:
 goto            @Label_00e2
 
 @Cond_00c2:
-dialogtxt       "........."
-dialogtxt       "......δ"
-dialogtxt       "...δ"
+dialogtxt       "………"
+dialogtxt       "……[NAME 2]"
+dialogtxt       "…[NAME 2]"
 goto            @Label_00e2
 
 @Label_00e2:
@@ -36,37 +36,37 @@ code047d        0, 0
 code0301        8, 1
 code047e        0, 1
 jumpz           @Cond_0142, ($f0261 == 1)
-dialogtxt       "あ..."
-dialogtxt       "ミューノ...？"
+dialogtxt       "Ah…"
+dialogtxt       "Murno…?"
 goto            @Label_01fe
 
 @Cond_0142:
 jumpz           @Cond_0168, ($f0262 == 1)
-dialogtxt       "あ..."
-dialogtxt       "γ...？"
+dialogtxt       "Ah…"
+dialogtxt       "[NAME 1]…?"
 goto            @Label_01fe
 
 @Cond_0168:
 jumpz           @Cond_0190, ($f0263 == 1)
-dialogtxt       "あ..."
-dialogtxt       "親方...？"
+dialogtxt       "Ah…"
+dialogtxt       "Master…?"
 goto            @Label_01fe
 
 @Cond_0190:
 jumpz           @Cond_01ba, ($f0264 == 1)
-dialogtxt       "あ..."
-dialogtxt       "[NAME 8]ミィ...？"
+dialogtxt       "Ah…"
+dialogtxt       "Lemmy…?"
 goto            @Label_01fe
 
 @Cond_01ba:
 jumpz           @Cond_01e4, ($f0265 == 1)
-dialogtxt       "あ..."
-dialogtxt       "アニ[NAME 4]...？"
+dialogtxt       "Ah…"
+dialogtxt       "Bro…?"
 goto            @Label_01fe
 
 @Cond_01e4:
-dialogtxt       "あ..."
-dialogtxt       "ティエ...？"
+dialogtxt       "Ah…"
+dialogtxt       "Tier…?"
 goto            @Label_01fe
 
 @Label_01fe:
@@ -122,8 +122,8 @@ code0479        1, 11, 13
 code047d        1, 107
 call            @Func_1b22
 call            @Func_1aa0
-dialogtxt       "よかった"
-dialogtxt       "気が付いた、δ"
+dialogtxt       "Thank goodness."
+dialogtxt       "You came to, [NAME 2]."
 code047b        
 code0309        
 call            @Func_1af4
@@ -155,27 +155,27 @@ code047d        1, 2
 call            @Func_1b22
 call            @Func_1aa0
 jumpz           @Cond_05da, ($b003 == 0)
-dialogtxt       "気ガ付[NAME 4]マシタカ"
-dialogtxt       "ぱーとなー"
+dialogtxt       "Have You Recovered,"
+dialogtxt       "Partner?"
 goto            @Cond_05da
 
 @Cond_05da:
 jumpz           @Cond_0618, ($b003 == 1)
-dialogtxt       "おお、気が付いたようじゃ"
-dialogtxt       "良かったの"
+dialogtxt       "Oh, you're awake."
+dialogtxt       "That's good."
 goto            @Cond_0618
 
 @Cond_0618:
 jumpz           @Cond_0660, ($b003 == 2)
-dialogtxt       "ちっ..."
-dialogtxt       "無事ならばもう少し早く"
-dialogtxt       "目を覚ませ..."
+dialogtxt       "Tch…"
+dialogtxt       "If you're okay,"
+dialogtxt       "you should've woken up faster…"
 goto            @Cond_0660
 
 @Cond_0660:
 jumpz           @Cond_069a, ($b003 == 3)
-dialogtxt       "よかったですわ"
-dialogtxt       "気が付きました！"
+dialogtxt       "Thank goodness,"
+dialogtxt       "you're awake!"
 goto            @Cond_069a
 
 @Cond_069a:
@@ -189,9 +189,9 @@ jumpz           @Cond_0722, ($f0263 == 1)
 code047d        0, 108
 code0301        8, 1
 code047e        0, 1
-dialogtxt       "おーい！"
-dialogtxt       "δ〜！"
-dialogtxt       "無事か〜い！"
+dialogtxt       "Heeey!"
+dialogtxt       "[NAME 2]~!"
+dialogtxt       "You okaaayy?"
 code0309        
 code047e        0, 0
 code0302        1
@@ -202,8 +202,8 @@ jumpz           @Cond_0794, ($f0264 == 1)
 code047d        0, 110
 code0301        8, 1
 code047e        0, 1
-dialogtxt       "おーい！"
-dialogtxt       "返事しろ〜！"
+dialogtxt       "Heeey!"
+dialogtxt       "Anyone there~!"
 code0309        
 code047e        0, 0
 code0302        1
@@ -214,9 +214,9 @@ jumpz           @Cond_080e, ($f0265 == 1)
 code047d        0, 132
 code0301        8, 1
 code047e        0, 1
-dialogtxt       "おーい！"
-dialogtxt       "δ〜！"
-dialogtxt       "無事か〜！"
+dialogtxt       "Heeey!"
+dialogtxt       "[NAME 2]~!"
+dialogtxt       "You okaaayy?"
 code0309        
 code047e        0, 0
 code0302        1
@@ -226,9 +226,9 @@ goto            @Label_087a
 code047d        0, 109
 code0301        8, 1
 code047e        0, 1
-dialogtxt       "おーい！"
-dialogtxt       "δ〜！"
-dialogtxt       "無事なの〜！"
+dialogtxt       "Heeey!"
+dialogtxt       "[NAME 2]~!"
+dialogtxt       "Are you okaaayy?"
 code0309        
 code047e        0, 0
 code0302        1
@@ -250,13 +250,13 @@ goto            @Label_08e8
 
 @Label_08e8:
 jumpz           @Cond_0918, ($b002 == 0)
-dialogtxt       "あ、ああ..."
-dialogtxt       "オ[NAME 8]は...？"
+dialogtxt       "Ah, huh…"
+dialogtxt       "I…?"
 goto            @Label_0938
 
 @Cond_0918:
-dialogtxt       "あ、あれ..."
-dialogtxt       "わたし...？"
+dialogtxt       "Ah, huh…"
+dialogtxt       "I…?"
 goto            @Label_0938
 
 @Label_0938:
@@ -271,8 +271,8 @@ code0479        1, 0, 16
 code047d        1, 107
 call            @Func_1b22
 call            @Func_1abe
-dialogtxt       "さっきのしょうげきで"
-dialogtxt       "下に落ちてしまったみたい"
+dialogtxt       "It seems we fell down"
+dialogtxt       "due to that last shockwave."
 code047b        
 code0309        
 call            @Func_1af4
@@ -314,26 +314,26 @@ code047d        1, 2
 call            @Func_1b22
 call            @Func_1abe
 jumpz           @Cond_0afc, ($b003 == 0)
-dialogtxt       "サ[NAME 4]ホドノ　ショウゲ[NAME 4]デ"
-dialogtxt       "ふろあカラ　落チテシマッタノデス"
+dialogtxt       "We Fell From The Floor"
+dialogtxt       "Due To That Last Shockwave."
 goto            @Cond_0afc
 
 @Cond_0afc:
 jumpz           @Cond_0b4a, ($b003 == 1)
-dialogtxt       "さっきのしょうげきで"
-dialogtxt       "下の階に落ちてしまったようじゃ"
+dialogtxt       "It seems we fell down a floor"
+dialogtxt       "thanks to that last shockwave."
 goto            @Cond_0b4a
 
 @Cond_0b4a:
 jumpz           @Cond_0b8e, ($b003 == 2)
-dialogtxt       "さっきのしょうげきで"
-dialogtxt       "下の階に落ちただけだ"
+dialogtxt       "We just fell down a floor"
+dialogtxt       "thanks to that last shockwave."
 goto            @Cond_0b8e
 
 @Cond_0b8e:
 jumpz           @Cond_0bda, ($b003 == 3)
-dialogtxt       "さっきのしょうげきで"
-dialogtxt       "下の階に落ちてしまったんです"
+dialogtxt       "We've fallen to the floor below"
+dialogtxt       "thanks to that last shockwave."
 goto            @Cond_0bda
 
 @Cond_0bda:
@@ -345,9 +345,9 @@ goto            @Label_0be6
 @Label_0be6:
 code0479        0, 2, 16
 call            @Func_1a52
-dialogtxt       "そっか..."
-dialogtxt       "...って、大丈夫？"
-dialogtxt       "ケガとかないの？"
+dialogtxt       "I see…"
+dialogtxt       "… hey, you okay?"
+dialogtxt       "Are you hurt?"
 code0309        
 jumpz           @Cond_0c4c, ($f0262 == 1)
 call            @Func_1a88
@@ -366,21 +366,21 @@ goto            @Label_0c8e
 @Label_0c8e:
 code0479        1, 1, 12
 call            @Func_1abe
-dialogtxt       "ええ"
-dialogtxt       "γのおかげで"
+dialogtxt       "I'm fine,"
+dialogtxt       "thanks to [NAME 1]."
 code047b        
 code0309        
 call            @Func_1af4
 code0479        0, 5, 13
 call            @Func_1a52
 jumpz           @Cond_0d10, ($b002 == 0)
-dialogtxt       "すっげぇ"
-dialogtxt       "ありがとな、γ"
+dialogtxt       "Amazing."
+dialogtxt       "Thanks, [NAME 1]."
 goto            @Label_0d32
 
 @Cond_0d10:
-dialogtxt       "よかった..."
-dialogtxt       "ありがと、γ"
+dialogtxt       "I'm so glad…"
+dialogtxt       "Thanks, [NAME 1]."
 goto            @Label_0d32
 
 @Label_0d32:
@@ -412,22 +412,22 @@ code047d        1, 2
 call            @Func_1b22
 call            @Func_1abe
 jumpz           @Cond_0e18, ($b003 == 0)
-dialogtxt       "問題アリマセン"
+dialogtxt       "No problem."
 goto            @Cond_0e18
 
 @Cond_0e18:
 jumpz           @Cond_0e40, ($b003 == 1)
-dialogtxt       "いいってことじゃ"
+dialogtxt       "Don't mention it."
 goto            @Cond_0e40
 
 @Cond_0e40:
 jumpz           @Cond_0e70, ($b003 == 2)
-dialogtxt       "礼を言われることではない"
+dialogtxt       "No need to thank me."
 goto            @Cond_0e70
 
 @Cond_0e70:
 jumpz           @Cond_0e9c, ($b003 == 3)
-dialogtxt       "いいんですよ、δさん"
+dialogtxt       "It's nothing, [NAME 2]."
 goto            @Cond_0e9c
 
 @Cond_0e9c:
@@ -440,8 +440,8 @@ jumpz           @Cond_0f84, ($f0261 == 1 || $f0262 == 1)
 code047d        0, 108
 code0301        8, 1
 code047e        0, 1
-dialogtxt       "おーい、δ..."
-dialogtxt       "無事か〜？"
+dialogtxt       "Heeey, [NAME 2]…"
+dialogtxt       "You okay~?"
 code0309        
 code047e        0, 0
 code0302        1
@@ -450,8 +450,8 @@ code0479        0, 0, 17
 code047d        0, 0
 call            @Func_1b0c
 call            @Func_1a34
-dialogtxt       "あ、大丈夫だよ〜！"
-dialogtxt       "親方〜！"
+dialogtxt       "Ah, I'm fine~!"
+dialogtxt       "Master~!"
 goto            @Label_12e6
 
 @Cond_0f84:
@@ -459,8 +459,8 @@ jumpz           @Cond_1050, ($f0263 == 1)
 code047d        0, 108
 code0301        8, 1
 code047e        0, 1
-dialogtxt       "お〜い！"
-dialogtxt       "返事しろ〜！"
+dialogtxt       "Hey~!"
+dialogtxt       "Say something~!"
 code0309        
 code047e        0, 0
 code0302        1
@@ -469,8 +469,8 @@ code0479        0, 0, 17
 code047d        0, 0
 call            @Func_1b0c
 call            @Func_1a34
-dialogtxt       "あ、大丈夫だよ〜！"
-dialogtxt       "親方〜！"
+dialogtxt       "Ah, I'm fine~!"
+dialogtxt       "Master~!"
 goto            @Label_12e6
 
 @Cond_1050:
@@ -478,8 +478,8 @@ jumpz           @Cond_1158, ($f0264 == 1)
 code047d        0, 110
 code0301        8, 1
 code047e        0, 1
-dialogtxt       "お〜い！"
-dialogtxt       "無事なのか〜？"
+dialogtxt       "Hey~!"
+dialogtxt       "Are you okay~?"
 code0309        
 code047e        0, 0
 code0302        1
@@ -489,13 +489,13 @@ code047d        0, 0
 call            @Func_1b0c
 call            @Func_1a34
 jumpz           @Cond_112e, ($b002 == 0)
-dialogtxt       "あ、大丈夫だぜ〜！"
-dialogtxt       "[NAME 8]ミィ！"
+dialogtxt       "Ah, I'm fine~!"
+dialogtxt       "Lemmy~!"
 goto            @Label_1154
 
 @Cond_112e:
-dialogtxt       "あ、大丈夫だよ〜！"
-dialogtxt       "[NAME 8]ミィ！"
+dialogtxt       "Ah, I'm fine~!"
+dialogtxt       "Lemmy~!"
 goto            @Label_1154
 
 @Label_1154:
@@ -506,8 +506,8 @@ jumpz           @Cond_1226, ($f0265 == 1)
 code047d        0, 132
 code0301        8, 1
 code047e        0, 1
-dialogtxt       "お〜い！"
-dialogtxt       "返事しろ〜！"
+dialogtxt       "Hey~!"
+dialogtxt       "Say something~!"
 code0309        
 code047e        0, 0
 code0302        1
@@ -516,16 +516,16 @@ code0479        0, 0, 17
 code047d        0, 0
 call            @Func_1b0c
 call            @Func_1a34
-dialogtxt       "あ、大丈夫だよ〜！"
-dialogtxt       "アニ[NAME 4]〜！"
+dialogtxt       "Ah, I'm fine~!"
+dialogtxt       "Brooo~!"
 goto            @Label_12e6
 
 @Cond_1226:
 code047d        0, 109
 code0301        8, 1
 code047e        0, 1
-dialogtxt       "お〜い！"
-dialogtxt       "返事してよ〜！"
+dialogtxt       "Hey~!"
+dialogtxt       "Say something~!"
 code0309        
 code047e        0, 0
 code0302        1
@@ -534,8 +534,8 @@ code0479        0, 0, 17
 code047d        0, 0
 call            @Func_1b0c
 call            @Func_1a34
-dialogtxt       "あ、大丈夫だよ〜！"
-dialogtxt       "ティエ〜！"
+dialogtxt       "Ah, I'm fine~!"
+dialogtxt       "Tier~!"
 goto            @Label_12e6
 
 @Label_12e6:
@@ -547,9 +547,9 @@ code0479        1, 0, 12
 code047d        1, 107
 call            @Func_1b22
 call            @Func_1abe
-dialogtxt       "みんな心配してるみたいね"
-dialogtxt       "あっちに階段があるわ"
-dialogtxt       "早く戻りましょう"
+dialogtxt       "Everyone's worried about us."
+dialogtxt       "Let's hurry back up."
+dialogtxt       "There's stairs over there."
 code047b        
 code0309        
 call            @Func_1b8e
@@ -563,7 +563,7 @@ code048c
 code0479        0, 0, 12
 call            @Func_1b0c
 call            @Func_1a34
-dialogtxt       "うん！"
+dialogtxt       "Yeah!"
 code047b        
 code0309        
 call            @Func_1b62

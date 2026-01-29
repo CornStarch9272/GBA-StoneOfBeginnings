@@ -15,69 +15,68 @@ call            @Func_29fa
 jumpz           @Cond_04c8, !($bv045 & 0x0001)
 code0479        1, 5, 16
 call            @Func_2962
-dialogtxt       "あら、あなたたちは..."
-dialogtxt       "そうだわ..."
-dialogtxt       "この子たち、使えるかも..."
+dialogtxt       "My, you are…"
+dialogtxt       "That's right…"
+dialogtxt       "I may be able to use them…"
 code047b        
 code0309        
 call            @Func_29b6
 code0479        0, 0, 16
 call            @Func_2914
-dialogtxt       "はい？"
-dialogtxt       "なんのことです？"
+dialogtxt       "Yes?"
+dialogtxt       "What is it?"
 code0309        
 call            @Func_294a
 code0479        1, 0, 12
 call            @Func_2980
-dialogtxt       "あなたは知らないかもしれないけれど"
-dialogtxt       "私たち金の派閥は、この辺り一帯の"
-dialogtxt       "召喚術に関する管理を行っています"
+dialogtxt       "You may not know this, but"
+dialogtxt       "we, the Gold Council, control all"
+dialogtxt       "Summoning affairs in this area."
 code0309        
 code0479        1, 2, 12
-dialogtxt       "召喚術を悪用したり"
-dialogtxt       "人々に危害を与える召喚師を"
-dialogtxt       "処罰したり..."
+dialogtxt       "We punish Summoners"
+dialogtxt       "who abuse their powers"
+dialogtxt       "and endanger others…"
 code0309        
 code0479        1, 2, 16
-dialogtxt       "その召喚師が呼び出して"
-dialogtxt       "はぐれとなった召喚獣の退治を"
-dialogtxt       "することもあります"
+dialogtxt       "We also hunt any resulting"
+dialogtxt       "Summons that become Strays."
 code0309        
 call            @Func_29b6
 code0479        0, 2, 14
 call            @Func_2914
-dialogtxt       "はあ..."
+dialogtxt       "Okay…?"
 code0309        
 call            @Func_294a
 code0479        1, 2, 12
 call            @Func_2980
-dialogtxt       "話によると、あなたたちは"
-dialogtxt       "かなりウデが立つそうじゃ"
-dialogtxt       "ありませんか"
+dialogtxt       "There are rumors you"
+dialogtxt       "have considerable skill."
 code0309        
 code0479        1, 2, 13
-dialogtxt       "そのウデをいかして"
-dialogtxt       "はぐれ退治のお仕事を"
-dialogtxt       "する気はありませんか？"
+dialogtxt       "Will you put that skill"
+dialogtxt       "to use, and help us "
+dialogtxt       "exterminate Strays?"
 code0309        
 code0479        1, 0, 12
-dialogtxt       "見事退治していただけた時は"
-dialogtxt       "あなたの武器を強化できる"
-dialogtxt       "すばらしい材料をさしあげます"
+dialogtxt       "As compensation, we can"
+dialogtxt       "provide you with high quality"
+dialogtxt       "materials for crafting."
 code0309        
 code0479        1, 1, 13
-dialogtxt       "あなたにはお金以上の価値でしょう？"
+dialogtxt       "To a Craftknight,"
+dialogtxt       "that's better than money, correct?"
 code0309        
 call            @Func_29b6
 code0479        0, 2, 16
 call            @Func_2914
-dialogtxt       "はあ..."
+dialogtxt       "Okay…?"
 code0309        
 call            @Func_294a
 code0479        1, 0, 16
 call            @Func_2980
-dialogtxt       "仕事を受ける気になったのなら"
-dialogtxt       "知らせてください"
+dialogtxt       "Let me know if you want to"
+dialogtxt       "take the job."
 code0309        
 call            @Func_2a50
 call            @Func_299e
@@ -90,9 +89,9 @@ jumpz           @Cond_0574, ($bv044 == 1)
 code0479        0, 0, 12
 code0479        1, 0, 12
 call            @Func_2962
-dialogtxt       "はぐれ退治の件なら、ごめんなさい"
-dialogtxt       "今、あなたにまわせる仕事は"
-dialogtxt       "ありません"
+dialogtxt       "If you're here about the Strays,"
+dialogtxt       "I'm sorry. I have no work for"
+dialogtxt       "you at the moment."
 code047b        
 code0309        
 call            @Func_2a50
@@ -103,9 +102,9 @@ goto            @Label_0604
 code0479        0, 0, 12
 code0479        1, 0, 12
 call            @Func_2962
-dialogtxt       "はぐれ退治の仕事なら"
-dialogtxt       "今、紹介できるものがあります"
-dialogtxt       "やってみますか？"
+dialogtxt       "If you're here about the Strays,"
+dialogtxt       "I have something you can help with."
+dialogtxt       "Want to give it a try?"
 code047b        
 code0309        
 call            @Func_17ee
@@ -124,9 +123,9 @@ code0479        0, 0, 12
 code0479        1, 0, 12
 call            @Func_2962
 code0476        -14973, $w014, 0
-dialogtxt       "θがη体"
+dialogtxt       "About [NAME 5] [NAME 6]s left…"
 call            @Func_1d26
-dialogtxt       "がんばって退治してきてください"
+dialogtxt       "Good luck!"
 code047b        
 code0309        
 call            @Func_2a50
@@ -137,9 +136,8 @@ goto            @Label_073c
 code0479        0, 0, 12
 code0479        1, 0, 13
 call            @Func_2962
-dialogtxt       "はぐれを退治してくれたんですね"
-dialogtxt       "ご苦労様でした"
-dialogtxt       "では、コ[NAME 8]が報酬になります"
+dialogtxt       "Thanks for hunting those strays."
+dialogtxt       "Here's you reward."
 code047b        
 code0309        
 call            @Func_2a50
@@ -155,9 +153,9 @@ jumpz           @Cond_07dc, ($bv043 == 3)
 code0479        0, 0, 12
 code0479        1, 0, 12
 call            @Func_2962
-dialogtxt       "はぐれ退治の件なら、ごめんなさい"
-dialogtxt       "今、あなたにまわせる仕事は"
-dialogtxt       "ありません"
+dialogtxt       "If you're here about the Strays,"
+dialogtxt       "I'm sorry. I have no work for"
+dialogtxt       "you at the moment."
 code047b        
 code0309        
 call            @Func_2a50
@@ -169,9 +167,9 @@ jumpz           @Label_0880, ($bv043 == 4)
 code0479        0, 0, 16
 code0479        1, 2, 14
 call            @Func_2962
-dialogtxt       "はぐれ退治の件なら、ごめんなさい"
-dialogtxt       "今日は、特にあなたにまわせる"
-dialogtxt       "仕事はありません"
+dialogtxt       "If you're here about Strays, sorry."
+dialogtxt       "There's not enough to go around"
+dialogtxt       "right now."
 code047b        
 code0309        
 call            @Func_2a50
@@ -195,71 +193,72 @@ code047d        1, 112
 call            @Func_29fa
 jumpz           @Cond_0d00, !($bv045 & 0x0002)
 call            @Func_2962
-dialogtxt       "ああ、君たち..."
-dialogtxt       "もしかして、ヒマじゃない？"
+dialogtxt       "Oh, you all…"
+dialogtxt       "Are you free right now?"
 code047b        
 code0309        
 call            @Func_29b6
 code0479        0, 0, 16
 call            @Func_2914
-dialogtxt       "え？"
-dialogtxt       "別にそんなことは..."
+dialogtxt       "I mean…"
+dialogtxt       "I guess so…?"
 code0309        
 call            @Func_294a
 code0479        1, 0, 14
 call            @Func_2980
-dialogtxt       "僕、金の派閥にきた"
-dialogtxt       "はぐれ召喚獣退治の依頼の処理を"
-dialogtxt       "イアナさんからたのまれてるんだ"
+dialogtxt       "Well, Lady Ianna asked me to"
+dialogtxt       "hunt some Strays."
 code0309        
 code0479        1, 0, 16
-dialogtxt       "でも今、強そうな人はみんな"
-dialogtxt       "何かといそがしいみたいなのと"
-dialogtxt       "イアナさんが予算をくれないから"
+dialogtxt       "But right now, all the strong"
+dialogtxt       "people seem to be busy…"
 code0309        
+dialogtxt       "And Lady Ianna won't give me"
+dialogtxt       "much in the way of a budget…"
+code0309  
 code0479        1, 4, 14
-dialogtxt       "処理しきれそうもない依頼もあって"
-dialogtxt       "ちょっと困ってたんだ"
+dialogtxt       "And some of the targets seem a"
+dialogtxt       "little too strong for me…"
 code0309        
 call            @Func_29b6
 code0479        0, 0, 14
 call            @Func_2914
-dialogtxt       "はあ..."
+dialogtxt       "Okay…?"
 code0309        
 call            @Func_294a
 code0479        1, 0, 12
 call            @Func_2980
-dialogtxt       "だから、君たちも人助けだと思って"
-dialogtxt       "はぐれ召喚獣退治の仕事を"
-dialogtxt       "引き受けてくれないかな？"
+dialogtxt       "So I thought maybe you kind souls"
+dialogtxt       "could lend this poor man"
+dialogtxt       "a helping hand?"
 code0309        
 call            @Func_29b6
 code0479        0, 2, 16
 call            @Func_2914
-dialogtxt       "人助け、ですか..."
+dialogtxt       "A helping hand…"
 code0309        
 call            @Func_294a
 code0479        1, 0, 13
 call            @Func_2980
-dialogtxt       "ちゃんと仕事をこなしてくれたら"
-dialogtxt       "君の武器を強化できる"
-dialogtxt       "材料をあげるよ！"
+dialogtxt       "If you could accept this request"
+dialogtxt       "of mine, I'll give you an item"
+dialogtxt       "that can enchance your weapons!"
 code0309        
 code0479        1, 1, 12
-dialogtxt       "鍛冶職人ならお金より欲しがるハズ"
-dialogtxt       "だから大丈夫だって"
-dialogtxt       "イアナさんも言ってたし"
+dialogtxt       "Lady Ianna told me this item"
+dialogtxt       "is worth it's weight in gold"
+dialogtxt       "to any Craftnight!"
 code0309        
 call            @Func_29b6
 code0479        0, 4, 12
 call            @Func_2914
-dialogtxt       "はあ..."
+dialogtxt       "Okay…?"
 code0309        
 call            @Func_294a
 code0479        1, 0, 12
 call            @Func_2980
-dialogtxt       "じゃあ、仕事を受ける気になったら"
-dialogtxt       "教えてよ"
+dialogtxt       "Great!"
+dialogtxt       "Just let me know when you're ready."
 code0309        
 call            @Func_2a50
 call            @Func_299e
@@ -270,9 +269,8 @@ goto            @Label_1036
 jumpz           @Cond_0dea, ($bv043 == 0)
 jumpz           @Cond_0d76, ($bv044 == 1)
 call            @Func_2962
-dialogtxt       "あ、はぐれ退治の話なら"
-dialogtxt       "今、君にやってほしい仕事は"
-dialogtxt       "ないよ"
+dialogtxt       "Sorry. We don't have any requests"
+dialogtxt       "to hunt strays right now."
 code047b        
 code0309        
 call            @Func_2a50
@@ -281,9 +279,9 @@ goto            @Label_0de6
 
 @Cond_0d76:
 call            @Func_2962
-dialogtxt       "あ、はぐれ召喚獣退治の仕事"
-dialogtxt       "あたらしいのがあるんだけど"
-dialogtxt       "やってくれないかな？"
+dialogtxt       "Yes, we had a new Stray hunting"
+dialogtxt       "request come in."
+dialogtxt       "Care to help?"
 code047b        
 code0309        
 call            @Func_17ee
@@ -300,9 +298,9 @@ jumpz           @Cond_0ec0, ($bv043 == 1)
 jumpz           @Cond_0e5e, ($bv029 == 0)
 call            @Func_2962
 code0476        -14973, $w014, 0
-dialogtxt       "θがη体"
+dialogtxt       "About [NAME 5] [NAME 6]s left…"
 call            @Func_1d26
-dialogtxt       "がんばって退治してきてね"
+dialogtxt       "Good luck!"
 code047b        
 code0309        
 call            @Func_2a50
@@ -311,9 +309,9 @@ goto            @Label_0ebc
 
 @Cond_0e5e:
 call            @Func_2962
-dialogtxt       "はぐれを退治してくれたんだね"
-dialogtxt       "ありがとう"
-dialogtxt       "じゃあこれ、報酬だよ"
+dialogtxt       "I see you've been hunting strays."
+dialogtxt       "I thank you."
+dialogtxt       "Take this as your reward."
 code047b        
 code0309        
 call            @Func_2a50
@@ -327,9 +325,8 @@ goto            @Label_1032
 @Cond_0ec0:
 jumpz           @Cond_0f26, ($bv043 == 3)
 call            @Func_2962
-dialogtxt       "あ、はぐれ退治の話なら"
-dialogtxt       "今、君にやってほしい仕事は"
-dialogtxt       "ないよ"
+dialogtxt       "Sorry. We don't have any requests"
+dialogtxt       "to hunt strays right now."
 code047b        
 code0309        
 call            @Func_2a50
@@ -341,15 +338,17 @@ jumpz           @Label_1032, ($bv043 == 4)
 code0479        0, 0, 16
 code0479        1, 4, 14
 call            @Func_2962
-dialogtxt       "ああ、君たち..."
-dialogtxt       "君たちにたのんだはぐれ退治の仕事"
-dialogtxt       "忘れてるでしょ...？"
+dialogtxt       "Oh…"
+dialogtxt       "Did you forget your current"
+dialogtxt       "objective…？"
 code047b        
 code0309        
 code0479        1, 4, 16
-dialogtxt       "困るんだよね、そういうの..."
-dialogtxt       "もう、いろいろメンドウだし"
-dialogtxt       "依頼はなかったことにするからね"
+dialogtxt       "How troublesome…"
+code0309
+dialogtxt       "Alright."
+dialogtxt       "We'll act like you never accepted"
+dialogtxt       "the request."
 code0309        
 call            @Func_2a50
 call            @Func_299e
@@ -367,20 +366,24 @@ code047d        0, 127
 code0301        8, 7
 code047e        0, 1
 jumpz           @Cond_11f2, !($bv045 & 0x0004)
-dialogtxt       "ん、君はずいぶん若いが..."
-dialogtxt       "仕事をさがしにきたのかい？"
+dialogtxt       "You're looking for work?"
+dialogtxt       "At such a young age…"
 code0309        
-dialogtxt       "ああ...、ここでは"
-dialogtxt       "小物だが数が増えすぎた召喚獣に"
-dialogtxt       "対応する仕事をあっせんしてるんだ"
+dialogtxt       "Well…, at this establishment"
+dialogtxt       "we help combat the growing"
+dialogtxt       "number of Stray Summons."
 code0309        
-dialogtxt       "地味だし、実入りも少ない仕事だ"
-dialogtxt       "とはいえ、平穏とは、そんな"
-dialogtxt       "地道な努力の元で護られているんだぞ"
+dialogtxt       "Just the weaker ones, though."
 code0309        
-dialogtxt       "どうだい？"
-dialogtxt       "やる気があるのなら"
-dialogtxt       "エンリョなく言ってくれ"
+dialogtxt       "It can be dull, and we don't"
+dialogtxt       "get paid much…"
+code0309        
+dialogtxt       "But our dull efforts are what"
+dialogtxt       "maintain the peace around here!"
+code0309        
+dialogtxt       "Well, how about it?"
+dialogtxt       "Think you can see yourself"
+dialogtxt       "working here?"
 code0309        
 code047e        0, 0
 code0302        7
@@ -390,18 +393,18 @@ goto            @Label_1504
 @Cond_11f2:
 jumpz           @Cond_12e8, ($bv044 == 0)
 jumpz           @Cond_1278, ($bv043 == 1)
-dialogtxt       "ん、今は、君にまわせる"
-dialogtxt       "仕事は無さそうだ"
-dialogtxt       "また、次の機会にたのむぞ"
+dialogtxt       "Hmm… Doesn't look like we have"
+dialogtxt       "anything for you right now."
+dialogtxt       "Maybe next time…"
 code0309        
 code047e        0, 0
 code0302        7
 goto            @Label_12e4
 
 @Cond_1278:
-dialogtxt       "ん、仕事が欲しいのかい？"
-dialogtxt       "今日の仕事も厳しいが"
-dialogtxt       "やっていくかい？"
+dialogtxt       "Lookin' for some work?"
+dialogtxt       "Today's work'll be a bit rough…"
+dialogtxt       "Feeling up to the challenge?"
 code0309        
 call            @Func_17ee
 code047e        0, 0
@@ -416,19 +419,19 @@ goto            @Label_1500
 jumpz           @Cond_13d2, ($bv044 == 1)
 jumpz           @Cond_136c, ($bv029 == 0)
 code0476        -14973, $w014, 0
-dialogtxt       "θ　あとη体"
+dialogtxt       "About [NAME 5] [NAME 6]s left…"
 call            @Func_1d26
 code0309        
-dialogtxt       "がんばって仕事をこなすんだ"
+dialogtxt       "Good luck, kid."
 code0309        
 code047e        0, 0
 code0302        7
 goto            @Label_13ce
 
 @Cond_136c:
-dialogtxt       "ん、仕事がすんだようだな"
-dialogtxt       "ごくろうさん"
-dialogtxt       "じゃあコ[NAME 8]が報酬だ"
+dialogtxt       "Looks like you're all finished."
+dialogtxt       "Good work out there!"
+dialogtxt       "Here's your pay."
 code0309        
 code047e        0, 0
 code0302        7
@@ -440,9 +443,9 @@ goto            @Label_1500
 
 @Cond_13d2:
 jumpz           @Cond_144c, ($bv044 == 3)
-dialogtxt       "ん、今は、君たちにまわせる"
-dialogtxt       "仕事は無さそうだ"
-dialogtxt       "また、次の機会にたのむぞ"
+dialogtxt       "Hmm… Doesn't look like we have"
+dialogtxt       "anything for you right now."
+dialogtxt       "Maybe next time…"
 code0309        
 code047e        0, 0
 code0302        7
@@ -450,13 +453,14 @@ goto            @Label_1500
 
 @Cond_144c:
 jumpz           @Label_1500, ($bv044 == 4)
-dialogtxt       "ん、お前は...前回...、"
-dialogtxt       "仕事を完了していないな..."
+dialogtxt       "Again?"
+dialogtxt       "Looks like you haven't finished yet…"
 code0309        
-dialogtxt       "無責任なヤツに、この仕事は"
-dialogtxt       "つとまらない"
+dialogtxt       "I can't let someone so"
+dialogtxt       "irresponsible keep working here."
 code0309        
-dialogtxt       "しばらく、仕事は、まわせないぞ"
+dialogtxt       "You won't be getting any work"
+dialogtxt       "for a while…"
 code0309        
 code047e        0, 0
 code0302        7
@@ -478,37 +482,39 @@ code0479        1, 0, 12
 code047d        1, 131
 call            @Func_29fa
 jumpz           @Cond_15d2, (($h311 - ($bv041 + $bv042)) == 0)
-dialogtxt       "おまえ、実はスゲーヤツなの？"
-dialogtxt       "ちょっと尊敬してる"
+dialogtxt       "You…"
+dialogtxt       "Are you some kind of genius!?"
 goto            @Label_1742
 
 @Cond_15d2:
 jumpz           @Cond_1626, (($h311 - ($bv041 + $bv042)) <= 2)
-dialogtxt       "良い仕事してるみたいだな"
-dialogtxt       "その調子でがんばれよ"
+dialogtxt       "Looks like some hard work has"
+dialogtxt       "been happening here."
+dialogtxt       "Keep it up!"
 goto            @Label_1742
 
 @Cond_1626:
 jumpz           @Cond_169a, (($h311 - ($bv041 + $bv042)) <= 4)
-dialogtxt       "良い仕事をまわして欲しいなら、"
-dialogtxt       "まずは実績をつまないとな"
-dialogtxt       "せいぜいがんばれよ"
+dialogtxt       "We only give our juicier jobs to"
+dialogtxt       "those who earn it."
+dialogtxt       "Good luck, you might need it…"
 goto            @Label_1742
 
 @Cond_169a:
 jumpz           @Cond_16ca, (($h311 - ($bv041 + $bv042)) <= 6)
-dialogtxt       "さぼりぎみ？"
+dialogtxt       "Were you sleeping on the job?"
 goto            @Label_1742
 
 @Cond_16ca:
 jumpz           @Cond_1714, (($h311 - ($bv041 + $bv042)) <= 8)
-dialogtxt       "やる気ある？"
-dialogtxt       "むいてないんじゃないの"
+dialogtxt       "Are you even trying?"
+dialogtxt       "Maybe you're not cut out for this…"
 goto            @Label_1742
 
 @Cond_1714:
-dialogtxt       "やる気ないなら、"
-dialogtxt       "邪魔だから帰ってよ"
+dialogtxt       "If you don't wanna work,"
+dialogtxt       "just go home."
+dialogtxt       "You're in the way."
 goto            @Label_1742
 
 @Label_1742:
@@ -548,35 +554,35 @@ jumpz           @Cond_194c, ($bv031 == 3)
 jumpz           @Cond_1842, ($bv042 == 0)
 setvar          $h232, 150
 setvar          $h233, 10
-setname         0xC683, "ハンドスライム"
+setname         0xC683, "Mud Boxer"
 goto            @Label_1948
 
 @Cond_1842:
 jumpz           @Cond_1886, ($bv042 == 1)
 setvar          $h232, 171
 setvar          $h233, 20
-setname         0xC683, "ラストマペット"
+setname         0xC683, "Last Muppet"
 goto            @Label_1948
 
 @Cond_1886:
 jumpz           @Cond_18ca, ($bv042 == 2)
 setvar          $h232, 182
 setvar          $h233, 30
-setname         0xC683, "ウインド[NAME 8]オン"
+setname         0xC683, "Windleon"
 goto            @Label_1948
 
 @Cond_18ca:
 jumpz           @Cond_190a, ($bv042 == 3)
 setvar          $h232, 181
 setvar          $h233, 50
-setname         0xC683, "グ[NAME 8]ムリン"
+setname         0xC683, "Gremlin"
 goto            @Label_1948
 
 @Cond_190a:
 jumpz           @Label_1948, ($bv042 == 4)
 setvar          $h232, 187
 setvar          $h233, 99
-setname         0xC683, "タケシー"
+setname         0xC683, "Spirit"
 goto            @Label_1948
 
 @Label_1948:
@@ -586,35 +592,35 @@ goto            @Label_1a86
 jumpz           @Cond_1986, ($bv041 == 0)
 setvar          $h232, 145
 setvar          $h233, 1
-setname         0xC683, "重鬼"
+setname         0xC683, "Brute Monk"
 goto            @Label_1a82
 
 @Cond_1986:
 jumpz           @Cond_19c6, ($bv041 == 1)
 setvar          $h232, 177
 setvar          $h233, 1
-setname         0xC683, "イワハダー"
+setname         0xC683, "Boulderhide"
 goto            @Label_1a82
 
 @Cond_19c6:
 jumpz           @Cond_1a06, ($bv041 == 2)
 setvar          $h232, 183
 setvar          $h233, 1
-setname         0xC683, "リザディオ"
+setname         0xC683, "Lizardio"
 goto            @Label_1a82
 
 @Cond_1a06:
 jumpz           @Cond_1a44, ($bv041 == 3)
 setvar          $h232, 185
 setvar          $h233, 1
-setname         0xC683, "ツチグモ"
+setname         0xC683, "Tsuchigumo"
 goto            @Label_1a82
 
 @Cond_1a44:
 jumpz           @Label_1a82, ($bv041 == 4)
 setvar          $h232, 193
 setvar          $h233, 1
-setname         0xC683, "デンブル"
+setname         0xC683, "Tumbler"
 goto            @Label_1a82
 
 @Label_1a82:
@@ -622,15 +628,15 @@ goto            @Label_1a86
 
 @Label_1a86:
 code0476        -14973, $h233, 0
-dialogtxt       "θ　η体"
+dialogtxt       "[NAME 6] and　[NAME 5]"
 call            @Func_1d26
 code0309        
 ret             
 
 @Func_1aae:
-menutitle       "仕事を受ける"
-menutxt         @Menu_1ad6, "はい"
-menutxt         @Menu_1b5e, "いいえ"
+menutitle       "Accept request?"
+menutxt         @Menu_1ad6, "Yes"
+menutxt         @Menu_1b5e, "No"
 menuwait        
 
 @Menu_1ad6:
@@ -723,32 +729,32 @@ ret
 @Func_1d26:
 jumpz           @Cond_1ebc, ($bv031 == 3)
 jumpz           @Cond_1d82, ($bv042 == 0)
-dialogtxt       "フラード洞窟で目撃されているな"
-dialogtxt       "退治してくれるか？"
+dialogtxt       "can be found in Flard Grotto."
+dialogtxt       "Will you eliminate them?"
 goto            @Label_1eb8
 
 @Cond_1d82:
 jumpz           @Cond_1dd0, ($bv042 == 1)
-dialogtxt       "ス[NAME 8]ンジ採掘場で目撃されているな"
-dialogtxt       "退治してくれるか？"
+dialogtxt       "can be found in Surange Mine."
+dialogtxt       "Will you eliminate them?"
 goto            @Label_1eb8
 
 @Cond_1dd0:
 jumpz           @Cond_1e1c, ($bv042 == 2)
-dialogtxt       "ス[NAME 7]ート洞窟で目撃されているな"
-dialogtxt       "退治してくれるか？"
+dialogtxt       "can be found in Spoat Grotto."
+dialogtxt       "Will you eliminate them?"
 goto            @Label_1eb8
 
 @Cond_1e1c:
 jumpz           @Cond_1e68, ($bv042 == 3)
-dialogtxt       "ス[NAME 7]ート洞窟で目撃されているな"
-dialogtxt       "退治してくれるか？"
+dialogtxt       "can be found in Spoat Grotto."
+dialogtxt       "Will you eliminate them?"
 goto            @Label_1eb8
 
 @Cond_1e68:
 jumpz           @Label_1eb8, ($bv042 == 4)
-dialogtxt       "ミシュースの廃墟で目撃されているな"
-dialogtxt       "退治してくれるか？"
+dialogtxt       "can be found in Mishus Ruins."
+dialogtxt       "Will you eliminate them?"
 goto            @Label_1eb8
 
 @Label_1eb8:
@@ -757,11 +763,12 @@ goto            @Label_20f2
 @Cond_1ebc:
 jumpz           @Cond_1f2a, ($bv041 == 0)
 jumpz           @Cond_1f00, ($bv031 == 1)
-dialogtxt       "ベリートの森で確認されてるわ"
+dialogtxt       "have been found in Beleet Forest."
 goto            @Label_1f26
 
 @Cond_1f00:
-dialogtxt       "ベリートの森で暴れてるらしいよ"
+dialogtxt       "are out of control in"
+dialogtxt       "Beleet Forest."
 goto            @Label_1f26
 
 @Label_1f26:
@@ -770,11 +777,12 @@ goto            @Label_20ee
 @Cond_1f2a:
 jumpz           @Cond_1f9c, ($bv041 == 1)
 jumpz           @Cond_1f70, ($bv031 == 1)
-dialogtxt       "ス[NAME 8]ンジ採掘場で確認されてるわ"
+dialogtxt       "have been found in Surange Mine."
 goto            @Label_1f98
 
 @Cond_1f70:
-dialogtxt       "ス[NAME 8]ンジ採掘場で暴れてるらしいよ"
+dialogtxt       "are out of control in"
+dialogtxt       "Surange Mine."
 goto            @Label_1f98
 
 @Label_1f98:
@@ -783,11 +791,12 @@ goto            @Label_20ee
 @Cond_1f9c:
 jumpz           @Cond_200a, ($bv041 == 2)
 jumpz           @Cond_1fe0, ($bv031 == 1)
-dialogtxt       "ス[NAME 7]ート洞窟で確認されてるわ"
+dialogtxt       "have been found in Spoat Grotto."
 goto            @Label_2006
 
 @Cond_1fe0:
-dialogtxt       "ス[NAME 7]ート洞窟で暴れてるらしいよ"
+dialogtxt       "are out of control in"
+dialogtxt       "Spoat Grotto."
 goto            @Label_2006
 
 @Label_2006:
@@ -796,11 +805,12 @@ goto            @Label_20ee
 @Cond_200a:
 jumpz           @Cond_2078, ($bv041 == 3)
 jumpz           @Cond_204e, ($bv031 == 1)
-dialogtxt       "ス[NAME 7]ート洞窟で確認されてるわ"
+dialogtxt       "have been found in Spoat Grotto."
 goto            @Label_2074
 
 @Cond_204e:
-dialogtxt       "ス[NAME 7]ート洞窟で暴れてるらしいよ"
+dialogtxt       "are out of control in"
+dialogtxt       "Spoat Grotto."
 goto            @Label_2074
 
 @Label_2074:
@@ -809,11 +819,12 @@ goto            @Label_20ee
 @Cond_2078:
 jumpz           @Label_20ee, ($bv041 == 4)
 jumpz           @Cond_20c0, ($bv031 == 1)
-dialogtxt       "ミシュースの廃墟で確認されてるわ"
+dialogtxt       "have been found in Mishus Ruins."
 goto            @Label_20ea
 
 @Cond_20c0:
-dialogtxt       "ミシュースの廃墟で暴れてるらしいよ"
+dialogtxt       "are out of control in"
+dialogtxt       "Mishus Ruins."
 goto            @Label_20ea
 
 @Label_20ea:
@@ -828,41 +839,40 @@ ret
 call            @Func_2962
 jumpz           @Cond_214e, (($h311 - ($bv041 + $bv042)) == 2)
 code0479        1, 1, 13
-dialogtxt       "あなたには、本当に感謝してます"
+dialogtxt       "We are truly grateful."
 goto            @Label_2364
 
 @Cond_214e:
 jumpz           @Cond_21c0, (($h311 - ($bv041 + $bv042)) <= 4)
 code0479        1, 0, 13
-dialogtxt       "良い仕事してるみたいですね"
-dialogtxt       "その調子でがんばってください"
+dialogtxt       "You've done well."
+dialogtxt       "Keep up the good work."
 goto            @Label_2364
 
 @Cond_21c0:
 jumpz           @Cond_2238, (($h311 - ($bv041 + $bv042)) <= 6)
 code0479        1, 0, 12
-dialogtxt       "良い仕事をまわして欲しいなら、"
-dialogtxt       "まずは実績を積むことが大切です"
+dialogtxt       "If you want better jobs,"
+dialogtxt       "you must first gain our trust."
 goto            @Label_2364
 
 @Cond_2238:
 jumpz           @Cond_22ac, (($h311 - ($bv041 + $bv042)) <= 8)
 code0479        1, 0, 14
-dialogtxt       "もう少し、こまめに来て頂けると"
-dialogtxt       "イイお仕事を回せるのですが"
+dialogtxt       "I'd be able to get you better"
+dialogtxt       "jobs if you came by more often,"
 goto            @Label_2364
 
 @Cond_22ac:
 jumpz           @Cond_2316, (($h311 - ($bv041 + $bv042)) <= 10)
 code0479        1, 4, 14
-dialogtxt       "お忙しいようですね"
-dialogtxt       "無理なさらなくてもイイですよ"
+dialogtxt       "But you seem quite busy."
+dialogtxt       "Don't push yourself too hard."
 goto            @Label_2364
 
 @Cond_2316:
 code0479        1, 2, 14
-dialogtxt       "あなたには、ここのお仕事は、"
-dialogtxt       "向いてないのかしら"
+dialogtxt       "Maybe you aren't fit for this job."
 goto            @Label_2364
 
 @Label_2364:

@@ -344,11 +344,11 @@ code040b
 code0301        8, 7
 code047d        0, 123
 code047e        0, 1
-dialogtxt       "ねぇ、しゅらばごっこしようよ"
-dialogtxt       "ボクがばかにしないで〜って"
-dialogtxt       "まわしげりするから"
+dialogtxt       "Hey, let's pretend we're fighting."
+dialogtxt       "Don't treat me like an idiot~"
+dialogtxt       "I'll roundhouse kick you."
 code0309        
-dialogtxt       "[NAME 4]ミはひたすらあやまるの"
+dialogtxt       "Apologize!"
 code0309        
 code047e        0, 0
 code0302        7
@@ -358,12 +358,12 @@ code040b
 code0301        8, 7
 code047d        0, 120
 code047e        0, 1
-dialogtxt       "なんとかならない？"
-dialogtxt       "この前なんて"
-dialogtxt       "なぐられた、いや蹴られたよ"
+dialogtxt       "Can you do something about this?"
+dialogtxt       "Earlier that kid hit,"
+dialogtxt       "er no, kicked me."
 code0309        
-dialogtxt       "ナックル装備はフェイントで"
-dialogtxt       "回し蹴りだったよ"
+dialogtxt       "He feinted me with his knuckles"
+dialogtxt       "before roundhouse kicking me."
 code0309        
 code047e        0, 0
 code0302        7
@@ -371,18 +371,18 @@ code040b
 
 @Event_0fa6:
 code0301        8, 7
-dialogtxt       "プロスバンの町を守るのは君だ！"
-dialogtxt       "プロスバン自警団では新たな仲間を"
-dialogtxt       "募集しています"
+dialogtxt       "You too can protect Prosban!"
+dialogtxt       "The Prosban Vigilante Corps"
+dialogtxt       "is now accepting applications."
 code0309        
 code0302        7
 code040b        
 
 @Event_1018:
 code0301        8, 7
-dialogtxt       "マ[NAME 4]割りアルバイト募集中"
-dialogtxt       "詳細はマー[NAME 6]イル宿場"
-dialogtxt       "ほほえみ亭横　マ[NAME 4]おやじまで"
+dialogtxt       "Part time position available."
+dialogtxt       "Involves chopping firewood."
+dialogtxt       "Inquire at Marneil Station."
 code0309        
 code0302        7
 code040b        
@@ -390,19 +390,19 @@ code040b
 @Event_1086:
 code0301        8, 7
 dialogtxt       "　"
-dialogtxt       "　　　　　〜困ってます〜"
+dialogtxt       "　　　　　Looking for help!"
 code0309        
-dialogtxt       "私、すぐへいにぶつかっちゃうんです"
-dialogtxt       "ぶつからない方法、ないかしら？"
+dialogtxt       "I always seem to run into fences."
+dialogtxt       "Is there a way to avoid that?"
 code0309        
 code0302        7
 code040b        
 
 @Event_110c:
 code0301        8, 7
-dialogtxt       "ここは鉱石と鍛冶の町"
-dialogtxt       "鍛冶職人なら客の望む武器を"
-dialogtxt       "鍛えよ！"
+dialogtxt       "This is the city of smithies."
+dialogtxt       "All of us here live to"
+dialogtxt       "forge weapons!"
 code0309        
 code0302        7
 code040b        

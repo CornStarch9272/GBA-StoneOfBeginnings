@@ -32,7 +32,7 @@ goto            @Label_0236
 code046c        0
 setvar          $b075, 1
 setvar          $b072, 0
-placetxt        "ゴヴァンの遺跡"
+placetxt        "Govan Ruins"
 code040c        1, @Label_09e0
 code040c        2, @Label_09d6
 jumpz           @Cond_043e, ($f0033 == 1 && $f0034 == 0 && $h311 == 12)
@@ -154,7 +154,7 @@ code0439        4
 goto            @Cond_0870
 
 @Cond_0870:
-placetxt        "Govan Ruins　Water Chamber"
+placetxt        "Govan Ruins　Waterway"
 code040b        
 
 @Event_088c:

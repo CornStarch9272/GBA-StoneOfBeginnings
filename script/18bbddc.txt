@@ -11,7 +11,7 @@ code0418        2
 code046c        1
 setvar          $b075, 1
 setvar          $b072, 1
-placetxt        "ゴヴァンの遺跡"
+placetxt        "Govan Ruins"
 code040c        1, @Label_050a
 code040c        2, @Label_0500
 jumpz           @Cond_0132, ($f1213 == 0)

@@ -106,8 +106,7 @@ code043e        0, 3, 0
 code0301        8, 7
 code047d        0, 0
 code047e        0, 1
-dialogtxt       "アニ[NAME 4]にたのまれた荷物を"
-dialogtxt       "とどけなきゃ..."
+dialogtxt       "I have to deliver these goods…"
 code0309        
 code047e        0, 0
 code0302        7
@@ -122,7 +121,8 @@ code043e        0, 3, 0
 code0301        8, 7
 code047d        0, 0
 code047e        0, 1
-dialogtxt       "外に行く必要は特にないか..."
+dialogtxt       "I don't need to do"
+dialogtxt       "anything outside…"
 code0309        
 code047e        0, 0
 code0302        7
@@ -172,7 +172,8 @@ code040b
 code0301        8, 7
 code047d        0, 118
 code047e        0, 1
-dialogtxt       "あの像もみあきたなぁ..."
+dialogtxt       "I'm tired of staring"
+dialogtxt       "at that statue…"
 code0309        
 code047e        0, 0
 code0302        7
@@ -384,15 +385,15 @@ ret
 
 @Talk_0ef0:
 code0301        8, 7
-dialogtxt       "クンクン"
+dialogtxt       "Sniff, sniff."
 code0309        
 code0302        7
 code040b        
 
 @Event_0f16:
 code0301        8, 7
-dialogtxt       "　　　プロスバンの町の創設者"
-dialogtxt       "　　　勇者プロスバンの石像"
+dialogtxt       "　　　The Founder Of This City,"
+dialogtxt       "　　　Our Hero Prosban"
 code0309        
 code0302        7
 code040b        

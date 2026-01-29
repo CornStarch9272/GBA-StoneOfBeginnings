@@ -10,7 +10,7 @@ code0412        4, 1
 code0418        2
 setvar          $b075, 1
 setvar          $b072, 0
-placetxt        "Prosban　Villager's House B"
+placetxt        "Prosban Town　Private House B"
 code040c        1, @Label_01a6
 code040c        2, @Label_019c
 call            @Func_0942
@@ -263,7 +263,7 @@ code040b
 
 @Talk_0a38:
 code0301        8, 7
-dialogtxt       "ゴロゴロ..."
+dialogtxt       "Purr…"
 code0309        
 code0302        7
 code040b        

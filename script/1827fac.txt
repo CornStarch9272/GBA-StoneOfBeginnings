@@ -30,15 +30,15 @@ code047d        1, 2
 call            @Func_0ec6
 call            @Func_0dee
 jumpz           @Cond_0162, ($b002 == 0)
-dialogtxt       "あれ？"
-dialogtxt       "オ[NAME 8]、何してたんだっけ...？"
-dialogtxt       "え〜っと..."
+dialogtxt       "Huh?"
+dialogtxt       "What was I doing again…?"
+dialogtxt       "Umm…"
 goto            @Label_019e
 
 @Cond_0162:
-dialogtxt       "あれ？"
-dialogtxt       "わたし、何してたんだっけ...？"
-dialogtxt       "え〜っと..."
+dialogtxt       "Huh?"
+dialogtxt       "What was I doing again…?"
+dialogtxt       "Umm…"
 goto            @Label_019e
 
 @Label_019e:
@@ -69,21 +69,21 @@ goto            @Label_0252
 call            @Func_0edc
 call            @Func_0e78
 jumpz           @Cond_03a4, ($b003 == 0)
-dialogtxt       "不正ナ処理ガ発生シマシタ"
-dialogtxt       "記録でーたノ一部ガ　コワ[NAME 8]テイマスガ"
-dialogtxt       "他ノ処理ニ　問題ハアリマセン"
+dialogtxt       "Irregularity Has Occurred."
+dialogtxt       "Portions Of Memory Inaccessible."
+dialogtxt       "No Other Abnormalities."
 code047b        
 code0309        
 call            @Func_0eae
 code0479        0, 2, 14
 call            @Func_0e0c
-dialogtxt       "よくわかんないけど"
+dialogtxt       "Idont really get it,"
 jumpz           @Cond_032e, ($b002 == 0)
-dialogtxt       "大丈夫か？　おい..."
+dialogtxt       "but you're okay, right…?"
 goto            @Label_0346
 
 @Cond_032e:
-dialogtxt       "大丈夫？　ねぇ..."
+dialogtxt       "but you're okay, right…?"
 goto            @Label_0346
 
 @Label_0346:
@@ -91,33 +91,30 @@ code0309
 call            @Func_0e42
 code0479        1, 0, 12
 call            @Func_0e78
-dialogtxt       "問題アリマセン"
-dialogtxt       "[NAME 5][NAME 8]ヨリ　みゅーの様ハ"
-dialogtxt       "ドコデスカ？"
+dialogtxt       "No Problems."
+dialogtxt       "Where Is Lady Murno?"
 goto            @Cond_03a4
 
 @Cond_03a4:
 jumpz           @Cond_04d4, ($b003 == 1)
-dialogtxt       "何を言っておるのじゃ"
-dialogtxt       "いいか、ワガハイたちはな"
-dialogtxt       "ええと..."
+dialogtxt       "Are you serious?"
+dialogtxt       "Listen up, we were…"
+dialogtxt       "Um…"
 code047b        
 code0309        
 code0479        1, 2, 14
-dialogtxt       "むむ...？"
-dialogtxt       "なんじゃったかの..."
+dialogtxt       "Hmm…?"
+dialogtxt       "What was it…"
 code0309        
 call            @Func_0eae
 code0479        0, 2, 14
 call            @Func_0e0c
 jumpz           @Cond_047a, ($b002 == 0)
-dialogtxt       "なんだよ"
-dialogtxt       "γだって..."
+dialogtxt       "You forgot too…?"
 goto            @Label_0496
 
 @Cond_047a:
-dialogtxt       "なによ"
-dialogtxt       "γだって..."
+dialogtxt       "You forgot too…?"
 goto            @Label_0496
 
 @Label_0496:
@@ -125,33 +122,29 @@ code0309
 call            @Func_0e42
 code0479        1, 5, 16
 call            @Func_0e78
-dialogtxt       "そうじゃ"
-dialogtxt       "ミューノは..."
+dialogtxt       "That's it."
+dialogtxt       "Where's Murno…"
 goto            @Cond_04d4
 
 @Cond_04d4:
 jumpz           @Cond_0624, ($b003 == 2)
-dialogtxt       "ちっ..."
-dialogtxt       "なにをやってるんだ"
-dialogtxt       "[NAME 4]サマは..."
+dialogtxt       "Tch…"
+dialogtxt       "Get it together."
+dialogtxt       "We were…"
 code047b        
 code0309        
 code0479        1, 2, 16
-dialogtxt       "[NAME 4]サマは...？"
+dialogtxt       "We were…?"
 code0309        
 call            @Func_0eae
 code0479        0, 2, 12
 call            @Func_0e0c
 jumpz           @Cond_05a4, ($b002 == 0)
-dialogtxt       "なんだよ"
-dialogtxt       "γだって、わかんないんじゃ"
-dialogtxt       "ないのか？"
+dialogtxt       "So you don't know either?"
 goto            @Label_05d8
 
 @Cond_05a4:
-dialogtxt       "なによ"
-dialogtxt       "γも、わかんないんじゃ"
-dialogtxt       "ないの？"
+dialogtxt       "So you don't know either?"
 goto            @Label_05d8
 
 @Label_05d8:
@@ -159,31 +152,27 @@ code0309
 call            @Func_0e42
 code0479        1, 2, 14
 call            @Func_0e78
-dialogtxt       "ふざけるな！"
-dialogtxt       "あいつだ"
-dialogtxt       "ミューノだ"
+dialogtxt       "Don't mock me!"
+dialogtxt       "Her."
+dialogtxt       "You know, Murno."
 goto            @Cond_0624
 
 @Cond_0624:
 jumpz           @Cond_0790, ($b003 == 3)
-dialogtxt       "しっかりしてくださいな"
-dialogtxt       "私たちはですね..."
-dialogtxt       "ええと..."
+dialogtxt       "Please pay attention."
+dialogtxt       "We were…"
+dialogtxt       "Umm…"
 code047b        
 code0309        
 call            @Func_0eae
 code0479        0, 2, 12
 call            @Func_0e0c
 jumpz           @Cond_06da, ($b002 == 0)
-dialogtxt       "なんだよ"
-dialogtxt       "γだって、わかんないんじゃ"
-dialogtxt       "ないのか？"
+dialogtxt       "So you don't know either?"
 goto            @Label_070e
 
 @Cond_06da:
-dialogtxt       "なによ"
-dialogtxt       "γも、わかんないんじゃ"
-dialogtxt       "ないの？"
+dialogtxt       "So you don't know either?"
 goto            @Label_070e
 
 @Label_070e:
@@ -191,11 +180,11 @@ code0309
 call            @Func_0e42
 code0479        1, 2, 16
 call            @Func_0e78
-dialogtxt       "そ、そんなことないですわ"
-dialogtxt       "あのですね..."
+dialogtxt       "O-of course I do."
+dialogtxt       "One moment…"
 code0309        
 code0479        1, 5, 14
-dialogtxt       "そういえば、ミューノ様は？"
+dialogtxt       "Actually, where is Lady Murno?"
 goto            @Cond_0790
 
 @Cond_0790:
@@ -203,12 +192,12 @@ code0309
 call            @Func_0eae
 code0479        0, 5, 16
 call            @Func_0e0c
-dialogtxt       "ミューノ...？"
+dialogtxt       "Murno…?"
 code0309        
 code0479        0, 2, 15
-dialogtxt       "そうだ！"
-dialogtxt       "この遺跡の奥にいるんだ！"
-dialogtxt       "助けに行かなきゃ！"
+dialogtxt       "Oh, right!"
+dialogtxt       "She's deep in the ruins!"
+dialogtxt       "We have to save her!"
 code0309        
 call            @Func_0f48
 call            @Func_0e2a

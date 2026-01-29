@@ -259,9 +259,9 @@ ret
 
 @Event_09fc:
 code0301        8, 7
-dialogtxt       "魔法で攻撃してもダメージが"
-dialogtxt       "１の場合には、魔法が効かない"
-dialogtxt       "恐ろしい相手の可能性があります"
+dialogtxt       "If you can only muster one speck of"
+dialogtxt       "magic damage, it's useless against"
+dialogtxt       "opponents immune to it."
 code0309        
 code0302        7
 code040b        

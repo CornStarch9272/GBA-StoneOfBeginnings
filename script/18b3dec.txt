@@ -13,7 +13,7 @@ code0422        0, 0
 code046c        1
 setvar          $b075, 1
 setvar          $b072, 0
-placetxt        "ゴヴァンの遺跡"
+placetxt        "Govan Ruins"
 code040c        1, @Label_096e
 code040c        2, @Label_0964
 code041c        0, 168, 248, 1
@@ -165,7 +165,7 @@ goto            @Cond_06bc
 goto            @Label_06c0
 
 @Label_06c0:
-placetxt        "Govan Ruins　Teleportation Chamber"
+placetxt        "Govan Ruins　Transfer Room"
 code040b        
 
 setvar          $h096, 47

@@ -9,8 +9,8 @@ code0479        1, 0, 12
 code047d        1, 107
 call            @Func_0d82
 call            @Func_0cea
-dialogtxt       "やっぱりまだまだ私なんかじゃ"
-dialogtxt       "δにかなわないわ"
+dialogtxt       "Of course, I'm still no"
+dialogtxt       "match for [NAME 2]."
 goto            @Label_015c
 
 @Cond_00cc:
@@ -22,8 +22,8 @@ code0479        1, 1, 13
 code047d        1, 107
 call            @Func_0d82
 call            @Func_0cea
-dialogtxt       "どう？"
-dialogtxt       "私も強くなったでしょ？"
+dialogtxt       "Well?"
+dialogtxt       "Even I've gotten stronger, right?"
 goto            @Label_015c
 
 @Label_015c:
@@ -47,15 +47,17 @@ code0479        1, 1, 12
 code047d        1, 107
 call            @Func_0d82
 call            @Func_0cea
-dialogtxt       "来てくれたのね"
-dialogtxt       "うれしいわ..."
-dialogtxt       "私も会いたかったの..."
+dialogtxt       "You came to see me."
+dialogtxt       "I'm so happy…"
+dialogtxt       "I wanted to see you too…"
 code047b        
 code0309        
 code0479        1, 0, 13
-dialogtxt       "昔みたいな[NAME 4][NAME 8]イな村に戻すには"
-dialogtxt       "まだまだ時間がかかりそうだけど"
-dialogtxt       "私、がんばるから"
+dialogtxt       "It'll be some time until"
+dialogtxt       "we can restore the village"
+dialogtxt       "to its former beauty,"
+code0309        
+dialogtxt       "but I'll continue to work hard."
 code0309        
 call            @Func_0dd8
 call            @Func_0d26
@@ -71,9 +73,9 @@ code0479        1, 0, 13
 code047d        1, 107
 call            @Func_0d82
 call            @Func_0cea
-dialogtxt       "修行がんばってるみたいね"
-dialogtxt       "私もがんばってこの村を"
-dialogtxt       "元の[NAME 4][NAME 8]イな村に戻してみせるわ"
+dialogtxt       "Your training seems to be going well."
+dialogtxt       "I have to work hard too, to return"
+dialogtxt       "this village to its former beauty."
 code047b        
 code0309        
 call            @Func_0dd8
@@ -92,9 +94,9 @@ code0479        1, 0, 13
 code047d        1, 107
 call            @Func_0d82
 call            @Func_0cea
-dialogtxt       "修行がんばってるみたいね"
-dialogtxt       "δに負けないように"
-dialogtxt       "私もがんばるわ"
+dialogtxt       "Your training seems to be going well."
+dialogtxt       "I have to work hard too,"
+dialogtxt       "so I don't lose to you, [NAME 2]."
 code047b        
 code0309        
 call            @Func_0dd8
@@ -111,19 +113,19 @@ code0479        1, 0, 13
 code047d        1, 107
 call            @Func_0d82
 call            @Func_0cea
-dialogtxt       "修行がんばってるみたいね"
-dialogtxt       "δに負けないように"
-dialogtxt       "私もがんばらなきゃ"
+dialogtxt       "Your training seems to be going well."
+dialogtxt       "I have to work hard too,"
+dialogtxt       "so I don't lose to you, [NAME 2]."
 code047b        
 code0309        
 code0479        1, 0, 12
-dialogtxt       "そう言えば、私"
-dialogtxt       "お父さんに剣術を習ってるのよ"
-dialogtxt       "だから..."
+dialogtxt       "You know [NAME 2], I've been"
+dialogtxt       "learning swordplay from Father."
+dialogtxt       "So…"
 code0309        
 code0479        0, 0, 16
 code0479        1, 6, 13
-dialogtxt       "δとも練習したいなって..."
+dialogtxt       "I'd like to practice with you…"
 code0309        
 goto            @Label_064c
 
@@ -133,15 +135,15 @@ code0479        1, 0, 13
 code047d        1, 107
 call            @Func_0d82
 call            @Func_0cea
-dialogtxt       "修行がんばってるみたいね"
-dialogtxt       "δに負けないように"
-dialogtxt       "私もがんばらなきゃ"
+dialogtxt       "Your training seems to be going well."
+dialogtxt       "I have to work hard too,"
+dialogtxt       "so I don't lose to you, [NAME 2]."
 code047b        
 code0309        
 code0479        1, 0, 12
-dialogtxt       "そう言えば、私"
-dialogtxt       "お父さんに剣術を習ってるのよ"
-dialogtxt       "δにも見てもらいたいな"
+dialogtxt       "You know [NAME 2], I've been"
+dialogtxt       "learning swordplay from Father."
+dialogtxt       "I'll show you what I've learned."
 code0309        
 goto            @Label_064c
 
@@ -149,8 +151,8 @@ goto            @Label_064c
 call            @Func_0d3e
 code0479        0, 0, 16
 call            @Func_0c9c
-choicetxt       @Choice_0688, "勝負する"
-choicetxt       @Choice_06a2, "勝負しない"
+choicetxt       @Choice_0688, "Fight"
+choicetxt       @Choice_06a2, "Don't fight"
 choicewait      
 
 @Choice_0688:
@@ -165,7 +167,7 @@ call            @Func_0cd2
 code0479        0, 4, 12
 code0479        1, 0, 16
 call            @Func_0d08
-dialogtxt       "そう...、残念ね"
+dialogtxt       "I see… That's too bad."
 code0309        
 call            @Func_0dd8
 call            @Func_0d26

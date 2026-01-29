@@ -1,5 +1,5 @@
 code040d        15
-popuptxt        "親方の武器を修理した"
+popuptxt        "Repaired Master's weapon."
 code0318        
 code0366        523, -1
 code0333        2, 30
@@ -15,39 +15,39 @@ code0479        1, 2, 14
 code047d        1, 108
 call            @Func_0e6c
 call            @Func_0dd4
-dialogtxt       "ふ〜ん..."
-dialogtxt       "なるほどね"
+dialogtxt       "Hmmm…"
+dialogtxt       "I see."
 code047b        
 code0309        
 call            @Func_0e28
 code0479        0, 2, 16
 call            @Func_0d86
-dialogtxt       "あの..."
-dialogtxt       "どうなの？"
+dialogtxt       "Um…"
+dialogtxt       "How is it?"
 code0309        
 call            @Func_0dbc
 code0479        1, 2, 13
 call            @Func_0df2
-dialogtxt       "よし、問題ないよ"
-dialogtxt       "合格だ！"
-dialogtxt       "これならロブも満足だろう"
+dialogtxt       "Alright, looks good."
+dialogtxt       "You pass!"
+dialogtxt       "Rob would be proud of you too."
 code0309        
 call            @Func_0e28
 code0333        2, 30
 code0479        0, 11, 12
 call            @Func_0d86
-dialogtxt       "ロブ、親方、も..."
+dialogtxt       "Master Rob…"
 code0309        
 code0334        
 code0331        32, 256
 code0479        0, 7, 13
 code0479        1, 1, 13
 jumpz           @Cond_0238, ($b002 == 0)
-dialogbig       24, 116, 1, 0, 0, "ぃよっしゃー！！"
+dialogbig       24, 116, 1, 0, 0, "…Woohoo!"
 goto            @Label_026e
 
 @Cond_0238:
-dialogbig       24, 116, 1, 0, 0, "ぃやったーっ！！"
+dialogbig       24, 116, 1, 0, 0, "…Yippie!"
 goto            @Label_026e
 
 @Label_026e:
@@ -55,21 +55,21 @@ code030c
 call            @Func_0dbc
 code0479        1, 2, 16
 call            @Func_0df2
-dialogtxt       "だけど、よろこぶのはまだ早いよ"
-dialogtxt       "とりあえず見た目は問題ないけど"
-dialogtxt       "本当に合格かどうかは..."
+dialogtxt       "It's still too early to celebrate."
+dialogtxt       "It may look fine, but we don't"
+dialogtxt       "know if it's truly up to snuff…"
 code0309        
 call            @Func_0e28
 code0479        0, 2, 12
 call            @Func_0d86
 jumpz           @Cond_034a, ($b002 == 0)
-dialogtxt       "使ってみなくちゃわからない"
-dialogtxt       "...ってことか"
+dialogtxt       "Until we test it."
+dialogtxt       "…Right?"
 goto            @Label_0376
 
 @Cond_034a:
-dialogtxt       "使ってみなくちゃわからない"
-dialogtxt       "...だね"
+dialogtxt       "Until we test it."
+dialogtxt       "…Right?"
 goto            @Label_0376
 
 @Label_0376:
@@ -77,59 +77,59 @@ code0309
 call            @Func_0dbc
 code0479        1, 2, 12
 call            @Func_0df2
-dialogtxt       "どうだい、δ"
-dialogtxt       "ひさしぶりにふたりで"
-dialogtxt       "勝負しようじゃないか？"
+dialogtxt       "It's been a while since we've"
+dialogtxt       "had a match, hasn't it?"
+dialogtxt       "How about it, [NAME 2]?"
 code0309        
 call            @Func_0e28
 code0479        0, 5, 16
 call            @Func_0d86
-dialogtxt       "勝負？"
+dialogtxt       "A match?"
 code0309        
 call            @Func_0dbc
 code0479        1, 0, 12
 call            @Func_0df2
-dialogtxt       "アタシはさっき直してもらった"
-dialogtxt       "この斧を使うよ"
-dialogtxt       "アンタも好きな武器を持ってきな"
+dialogtxt       "I'll use the axe you"
+dialogtxt       "just repaired."
+dialogtxt       "You can use whatever you want."
 code0309        
 code0479        1, 2, 14
 code0479        0, 0, 16
-dialogtxt       "ただし、ひとつだけ、だ"
+dialogtxt       "But only one."
 code0309        
 call            @Func_0e28
 code0479        0, 2, 14
 call            @Func_0d86
-dialogtxt       "ひとつだけ...？"
+dialogtxt       "Only one…?"
 code0309        
 call            @Func_0dbc
 code0479        1, 2, 16
 call            @Func_0df2
-dialogtxt       "そうだよ...、今までアンタが"
-dialogtxt       "γとふたりでしてきた修行の"
-dialogtxt       "すべてをかけてもいいと思える..."
+dialogtxt       "Right…, think of it as"
+dialogtxt       "putting your all of your training"
+dialogtxt       "with [NAME 1] to the test…"
 code0309        
 code0479        1, 2, 12
-dialogtxt       "イカシた武器をひとつ選ぶんだ"
+dialogtxt       "Bring me the best you've got."
 code0309        
 call            @Func_0e28
 code0479        0, 2, 16
 call            @Func_0d86
-dialogtxt       "γとの修行の"
-dialogtxt       "すべてを..."
+dialogtxt       "All of my training"
+dialogtxt       "with [NAME 1]…"
 code0309        
 call            @Func_0dbc
 code0479        1, 1, 13
 call            @Func_0df2
-dialogtxt       "ふふ...、よく考えるんだね"
-dialogtxt       "アタシは工房の前で待ってるから"
-dialogtxt       "準備が出来たらきな"
+dialogtxt       "Heheh… I see you're taking"
+dialogtxt       "this seriously. I'll wait outside,"
+dialogtxt       "come out whenever you're ready."
 code0309        
 call            @Func_0e28
 code0479        0, 0, 14
 call            @Func_0d86
-dialogtxt       "工房の前だね"
-dialogtxt       "わかった..."
+dialogtxt       "Outside."
+dialogtxt       "Got it…"
 code0309        
 call            @Func_0ec2
 call            @Func_0da4
@@ -148,13 +148,13 @@ code0479        0, 0, 12
 call            @Func_0e40
 call            @Func_0d68
 jumpz           @Cond_0794, ($b002 == 0)
-dialogtxt       "オ[NAME 8]たちのすべてをかけた武器、か..."
-dialogtxt       "どれにしようかな"
+dialogtxt       "The best one I've got, huh…"
+dialogtxt       "I wonder which one to choose."
 goto            @Label_07d4
 
 @Cond_0794:
-dialogtxt       "わたしたちのすべてをかけた武器、ね..."
-dialogtxt       "どれにしようかな"
+dialogtxt       "The best one I've got, huh…"
+dialogtxt       "I wonder which one to choose."
 goto            @Label_07d4
 
 @Label_07d4:

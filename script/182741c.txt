@@ -28,13 +28,13 @@ code047d        1, 2
 call            @Func_0ff6
 call            @Func_0f1e
 jumpz           @Cond_0146, ($b002 == 0)
-dialogtxt       "なんだ...？"
-dialogtxt       "ふたりとも、感じが全然ちがう..."
+dialogtxt       "What's with them…?"
+dialogtxt       "They were acting so different…"
 goto            @Label_017c
 
 @Cond_0146:
-dialogtxt       "なにこれ...？"
-dialogtxt       "ふたりとも、感じが全然ちがう..."
+dialogtxt       "What's with them…?"
+dialogtxt       "They were acting so different…"
 goto            @Label_017c
 
 @Label_017c:
@@ -83,13 +83,13 @@ code0479        0, 2, 15
 call            @Func_0ff6
 call            @Func_0f1e
 jumpz           @Cond_03de, ($b002 == 0)
-dialogtxt       "おい！？"
-dialogtxt       "またかよ..."
+dialogtxt       "Huh!?"
+dialogtxt       "Gone again…?"
 goto            @Label_03fe
 
 @Cond_03de:
-dialogtxt       "あれ！？"
-dialogtxt       "またなの...？"
+dialogtxt       "Huh!?"
+dialogtxt       "Gone again…?"
 goto            @Label_03fe
 
 @Label_03fe:
@@ -101,28 +101,26 @@ code043c        1, 1
 call            @Func_100c
 call            @Func_0fa8
 jumpz           @Cond_05c0, ($b003 == 0)
-dialogtxt       "消エル瞬間ニ　えねるぎーノ乱[NAME 8]ヲ"
-dialogtxt       "確認シマシタ"
+dialogtxt       "Confirmed Disturbance In"
+dialogtxt       "Energy Upon Disappearance."
 code047b        
 code0309        
 code0479        1, 0, 12
-dialogtxt       "ヤハリ　コノ遺跡内ニ　満チテイル"
-dialogtxt       "えねるぎーガ　関係シテイルモノト"
-dialogtxt       "思ワ[NAME 8]マスガ..."
+dialogtxt       "As I Thought, It Is Connected"
+dialogtxt       "To The Energy That Fills"
+dialogtxt       "These Ruins…"
 code0309        
 call            @Func_0fde
 code0479        0, 2, 14
 call            @Func_0f3c
 jumpz           @Cond_0566, ($b002 == 0)
-dialogtxt       "なんだかわかんないけど"
-dialogtxt       "ここで悩んでてもしかたないな"
-dialogtxt       "とにかく前に進もうぜ！"
+dialogtxt       "Well, no point worrying about it."
+dialogtxt       "Let's just keep going!"
 goto            @Label_05bc
 
 @Cond_0566:
-dialogtxt       "なんだかわかんないけど"
-dialogtxt       "ここで悩んでてもしかたないよ"
-dialogtxt       "とにかく前に進もう！"
+dialogtxt       "Well, no point worrying about it."
+dialogtxt       "Let's just keep going!"
 goto            @Label_05bc
 
 @Label_05bc:
@@ -130,24 +128,22 @@ goto            @Cond_05c0
 
 @Cond_05c0:
 jumpz           @Cond_06fe, ($b003 == 1)
-dialogtxt       "やはり、遺跡内にあふれる"
-dialogtxt       "イヤな気に関係あるようじゃの"
-dialogtxt       "あなどれんの"
+dialogtxt       "It seems to be related"
+dialogtxt       "to the unpleasant presence here."
+dialogtxt       "Don't let your guard down."
 code047b        
 code0309        
 call            @Func_0fde
 code0479        0, 2, 14
 call            @Func_0f3c
 jumpz           @Cond_06a4, ($b002 == 0)
-dialogtxt       "なんだかわかんないけど"
-dialogtxt       "ここで悩んでてもしかたないな"
-dialogtxt       "とにかく前に進もうぜ！"
+dialogtxt       "Well, no point worrying about it."
+dialogtxt       "Let's just keep going!"
 goto            @Label_06fa
 
 @Cond_06a4:
-dialogtxt       "なんだかわかんないけど"
-dialogtxt       "ここで悩んでてもしかたないよ"
-dialogtxt       "とにかく前に進もう！"
+dialogtxt       "Well, no point worrying about it."
+dialogtxt       "Let's just keep going!"
 goto            @Label_06fa
 
 @Label_06fa:
@@ -155,24 +151,22 @@ goto            @Cond_06fe
 
 @Cond_06fe:
 jumpz           @Cond_083a, ($b003 == 2)
-dialogtxt       "やはり、この中にあふれる"
-dialogtxt       "イヤな波動のせいだな"
-dialogtxt       "幻覚を見せるのか？"
+dialogtxt       "As I thought, it must be related"
+dialogtxt       "to the energy filling these ruins."
+dialogtxt       "Is it showing us a mirage?"
 code047b        
 code0309        
 call            @Func_0fde
 code0479        0, 2, 14
 call            @Func_0f3c
 jumpz           @Cond_07e0, ($b002 == 0)
-dialogtxt       "なんだかわかんないけど"
-dialogtxt       "ここで悩んでてもしかたないな"
-dialogtxt       "とにかく前に進もうぜ！"
+dialogtxt       "Well, no point worrying about it."
+dialogtxt       "Let's just keep going!"
 goto            @Label_0836
 
 @Cond_07e0:
-dialogtxt       "なんだかわかんないけど"
-dialogtxt       "ここで悩んでてもしかたないよ"
-dialogtxt       "とにかく前に進もう！"
+dialogtxt       "Well, no point worrying about it."
+dialogtxt       "Let's just keep going!"
 goto            @Label_0836
 
 @Label_0836:
@@ -180,24 +174,24 @@ goto            @Cond_083a
 
 @Cond_083a:
 jumpz           @Cond_093a, ($b003 == 3)
-dialogtxt       "ワ、ワケがわかりませんけど"
-dialogtxt       "２回目ですもの"
-dialogtxt       "全然コワくなんかありませんわ"
+dialogtxt       "Th-this is the second time."
+dialogtxt       "I have no idea what is going on."
+dialogtxt       "But I'm not scared. Not at all."
 code047b        
 code0309        
 call            @Func_0fde
 code0479        0, 2, 12
 call            @Func_0f3c
 jumpz           @Cond_08fe, ($b002 == 0)
-dialogtxt       "そうだな"
-dialogtxt       "考えててもしかたない"
-dialogtxt       "行くぜ！"
+dialogtxt       "I see."
+dialogtxt       "Well, no point worrying about it."
+dialogtxt       "Let's just keep going!"
 goto            @Label_0936
 
 @Cond_08fe:
-dialogtxt       "そうだね"
-dialogtxt       "考えててもしかたないから"
-dialogtxt       "行こう！"
+dialogtxt       "I see."
+dialogtxt       "Well, no point worrying about it."
+dialogtxt       "Let's just keep going!"
 goto            @Label_0936
 
 @Label_0936:

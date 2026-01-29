@@ -5,58 +5,58 @@ code031c        8, 1
 code0321        8, 60
 code040d        60
 code0304        1
-dialogtxt       "　　　ミシュース村で起きたことは　　"
-dialogtxt       "　　　金の派閥のエライ人たちと　　　"
-dialogtxt       "　　　さっきまで話していたけど　　　"
+dialogtxt       "We spoke with the Gold Council"
+dialogtxt       "about the events that occurred"
+dialogtxt       "in Mishus Village, but"
 code030a        6, 1
 jumpz           @Cond_030e, ($b002 == 0)
-dialogtxt       "　ベルヴォ[NAME 8]ンさんのリングヴァル家　"
-dialogtxt       "　　というところが、今回のコトを　　"
-dialogtxt       "　　大げさにはしたくないみたいだ　　"
+dialogtxt       "Velvoren's family, the Ringvalds,"
+dialogtxt       "don't want to make a big"
+dialogtxt       "deal of whats happened."
 code030a        6, 1
-dialogtxt       "　　おかげで、ミューノたちのことも　"
-dialogtxt       "　　　　なんだかウヤムヤのまま　　　"
-dialogtxt       "　　　　　ほったらかしだった　　　　"
+dialogtxt       "Thanks to that, they put the "
+dialogtxt       "issue of Murno and the others"
+dialogtxt       "on indefinite hiatus."
 code030a        6, 1
-dialogtxt       "　　　　　金の派閥の人たちは　　　　"
-dialogtxt       "　　　ミシュース村を何度も調べに　　"
-dialogtxt       "　　　　行っていたみたいだけど　　　"
+dialogtxt       "The folks at the Gold Council"
+dialogtxt       "visited Mishus Village"
+dialogtxt       "many times, but"
 code030a        6, 1
-dialogtxt       "　　　　魔石も剣もなくなって　　　　"
-dialogtxt       "　遺跡も動かなくなってしまったので　"
-dialogtxt       "　　　もうどうでもいいみたいだ　　　"
+dialogtxt       "The Demon Stone and the sword were"
+dialogtxt       "no longer there, and the ruins non"
+dialogtxt       "functional, so they left it alone."
 code030a        6, 1
 goto            @Label_052a
 
 @Cond_030e:
-dialogtxt       "　ベルヴォ[NAME 8]ンさんのリングヴァル家　"
-dialogtxt       "　　というところが、今回のコトを　　"
-dialogtxt       "　　大げさにはしたくないみたい　　　"
+dialogtxt       "Velvoren's family, the Ringvalds,"
+dialogtxt       "don't want to make a big"
+dialogtxt       "deal of whats happened."
 code030a        6, 1
-dialogtxt       "　おかげで、ミューノたちのことも　　"
-dialogtxt       "　　　なんだかウヤムヤのまま　　　　"
-dialogtxt       "　　ほったらかしっぽい感じだった　　"
+dialogtxt       "Thanks to that, they put the "
+dialogtxt       "issue of Murno and the others"
+dialogtxt       "on indefinite hiatus."
 code030a        6, 1
-dialogtxt       "　　　　金の派閥の人たちは　　　　　"
-dialogtxt       "　　ミシュース村を何度も調べに　　　"
-dialogtxt       "　　　行っていたみたいだけど　　　　"
+dialogtxt       "The folks at the Gold Council"
+dialogtxt       "visited Mishus Village"
+dialogtxt       "many times, but"
 code030a        6, 1
-dialogtxt       "　　　　魔石も剣もなくなって　　　　"
-dialogtxt       "　遺跡も動かなくなってしまったので　"
-dialogtxt       "　　　　もうどうでもいいみたい　　　"
+dialogtxt       "The Demon Stone and the sword were"
+dialogtxt       "no longer there, and the ruins non"
+dialogtxt       "functional, so they left it alone."
 code030a        6, 1
 goto            @Label_052a
 
 @Label_052a:
 code031d        8, 0
-dialogtxt       "　　　　まあ、ミューノたちが　　　　"
-dialogtxt       "　　　　落ちついてくらせるから　　　"
-dialogtxt       "　　　　　　それでいいけど　　　　　"
+dialogtxt       "Well, this way Murno"
+dialogtxt       "is able to live in peace,"
+dialogtxt       "so it's fine."
 code030a        6, 1
 code031f        8
-dialogtxt       "　　　　　　そんなワケで　　　　　　"
-dialogtxt       "　　ゴヴァンの魔石をめぐる冒険も　　"
-dialogtxt       "　　これでおしまいみたいだった...　　"
+dialogtxt       "And so,"
+dialogtxt       "this concludes the chain of events"
+dialogtxt       "involving Govan's Demon Stone…"
 code030a        6, 1
 code0304        0
 done            

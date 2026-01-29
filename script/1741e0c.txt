@@ -366,9 +366,9 @@ ret
 code0301        8, 7
 code047d        0, 122
 code047e        0, 1
-dialogtxt       "近頃の若いヤツはなっとらん"
-dialogtxt       "あ〜〜なっとらん"
-dialogtxt       "と言ったらなっとらん"
+dialogtxt       "Young'uns these days are too lax!"
+dialogtxt       "Sigh, nothing I say goes"
+dialogtxt       "past their ears…"
 code0309        
 code047e        0, 0
 code0302        7
@@ -378,11 +378,11 @@ code040b
 code0301        8, 7
 code047d        0, 123
 code047e        0, 1
-dialogtxt       "おおきくなったら"
-dialogtxt       "ゆうしゃになるんだ"
-dialogtxt       "ゆうしゃはけんしより"
+dialogtxt       "When I grow up, I'm gonna"
+dialogtxt       "be a hero! Heroes are a way"
+dialogtxt       "lot better than warriors!"
 code0309        
-dialogtxt       "つよいんだよ"
+dialogtxt       "Because heroes are stronger!"
 code0309        
 code047e        0, 0
 code0302        7
@@ -392,8 +392,8 @@ code040b
 code0301        8, 7
 code047d        0, 120
 code047e        0, 1
-dialogtxt       "この村も悪くないんだけど"
-dialogtxt       "シゲ[NAME 4]がないんだよね"
+dialogtxt       "This village isn't bad,"
+dialogtxt       "but nothing happens here."
 code0309        
 code047e        0, 0
 code0302        7

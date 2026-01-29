@@ -24,7 +24,7 @@ code0479        0, 2, 15
 code047d        0, 0
 call            @Func_0d84
 call            @Func_0cac
-dialogtxt       "見つけたっ！"
+dialogtxt       "There they are!"
 code047b        
 code0309        
 call            @Func_0dda
@@ -54,22 +54,22 @@ code047d        0, 2
 call            @Func_0d84
 call            @Func_0cac
 jumpz           @Cond_023a, ($b003 == 0)
-dialogtxt       "みゅーの様！"
+dialogtxt       "Lady Murno!"
 goto            @Cond_023a
 
 @Cond_023a:
 jumpz           @Cond_025c, ($b003 == 1)
-dialogtxt       "ミューノ！"
+dialogtxt       "Murno!"
 goto            @Cond_025c
 
 @Cond_025c:
 jumpz           @Cond_027e, ($b003 == 2)
-dialogtxt       "ミューノ！"
+dialogtxt       "Murno!"
 goto            @Cond_027e
 
 @Cond_027e:
 jumpz           @Cond_02a2, ($b003 == 3)
-dialogtxt       "ミューノ様！"
+dialogtxt       "Lady Murno!"
 goto            @Cond_02a2
 
 @Cond_02a2:
@@ -81,9 +81,9 @@ code0479        1, 4, 17
 code047d        1, 107
 call            @Func_0d9a
 call            @Func_0d36
-dialogtxt       "δ！"
-dialogtxt       "γ！"
-dialogtxt       "よかった、無事で..."
+dialogtxt       "[NAME 2]!"
+dialogtxt       "[NAME 1]!"
+dialogtxt       "I'm so glad you're okay…"
 code047b        
 code0309        
 call            @Func_0df0
@@ -113,7 +113,7 @@ goto            @Label_03da
 
 @Label_03da:
 call            @Func_0d36
-dialogtxt       "あいつら、何やってるんだ！？"
+dialogtxt       "What are you doing here!?"
 code047b        
 code0309        
 call            @Func_0dda
@@ -125,15 +125,15 @@ code047d        0, 0
 call            @Func_0d84
 call            @Func_0cca
 jumpz           @Cond_0498, ($b002 == 0)
-dialogtxt       "いいからとにかく"
-dialogtxt       "ミューノを放せ！"
-dialogtxt       "話はそれからだ！！！"
+dialogtxt       "Enough already,"
+dialogtxt       "just let Murno go!"
+dialogtxt       "We can talk after that!"
 goto            @Label_04de
 
 @Cond_0498:
-dialogtxt       "いいからとにかく"
-dialogtxt       "ミューノを放して"
-dialogtxt       "話はそれからだよ！！！"
+dialogtxt       "Enough already,"
+dialogtxt       "just let Murno go!"
+dialogtxt       "We can talk after that!"
 goto            @Label_04de
 
 @Label_04de:
@@ -167,9 +167,9 @@ code0479        1, 5, 15
 code047d        1, 120
 call            @Func_0d9a
 call            @Func_0d18
-dialogtxt       "あ、いたぞっ！"
-dialogtxt       "逃がすか！"
-dialogtxt       "[NAME 4]サマら！"
+dialogtxt       "Ah, found them!"
+dialogtxt       "You won't get away!"
+dialogtxt       "Get over here!"
 code047b        
 code0309        
 call            @Func_0df0

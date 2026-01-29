@@ -11,7 +11,7 @@ code0418        2
 setvar          $b075, 1
 setvar          $b072, 0
 code046c        0
-placetxt        "Louise Village　Mayor's House"
+placetxt        "Louise Village　Chief's House"
 code040c        1, @Label_0216
 code040c        2, @Label_01fc
 code0438        2, 210, 556, 1
@@ -57,9 +57,9 @@ goto            @start
 code0301        8, 7
 code047d        0, 135
 code047e        0, 1
-dialogtxt       "すみません..."
-dialogtxt       "やはり、僕はどこかで"
-dialogtxt       "アニスを信じたいのです..."
+dialogtxt       "Pardon me…"
+dialogtxt       "Deep down, I really wanted"
+dialogtxt       "to believe in Anise…"
 code0309        
 code047e        0, 0
 code0302        7

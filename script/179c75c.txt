@@ -12,7 +12,7 @@ code0422        0, 0
 code0418        2
 setvar          $b075, 1
 setvar          $b072, 0
-placetxt        "Mishus Ruins"
+placetxt        "Mishus Abandoned Site"
 code040c        1, @Label_0986
 code040c        2, @Label_097c
 jumpz           @Cond_01fa, ($f0042 == 1 && $f0043 == 0 && $h311 == 11)
@@ -142,7 +142,7 @@ code046c        1
 goto            @Cond_073e
 
 @Cond_073e:
-placetxt        "Mishus Ruins　Square"
+placetxt        "Mishus Abandoned Site　Plaza"
 code040b        
 
 @Event_075a:
@@ -241,7 +241,8 @@ goto            @start
 code0301        8, 7
 code047d        0, 109
 code047e        0, 1
-dialogtxt       "δのはくじょうもの..."
+dialogtxt       "[NAME 2]…"
+dialogtxt       "you're so mean…"
 code0309        
 code047e        0, 0
 code0302        7
@@ -251,7 +252,7 @@ code040b
 code0301        8, 7
 code047d        0, 112
 code047e        0, 1
-dialogtxt       "早く町に帰りたい..."
+dialogtxt       "I want to go home…"
 code0309        
 code047e        0, 0
 code0302        7

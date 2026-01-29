@@ -4,24 +4,24 @@ code047d        0, 0
 call            @Func_08fc
 call            @Func_0824
 jumpz           @Cond_00ec, ($b002 == 0)
-dialogtxt       "オ[NAME 8]たちがルイーズ村にいる間"
-dialogtxt       "アニスの仲間は町に近づかなかったって"
-dialogtxt       "親方が言ってたけど"
+dialogtxt       "Master said Anise's gang"
+dialogtxt       "hasn't shown up since we left"
+dialogtxt       "for Louise Village."
 code047b        
 code0309        
 code0479        0, 2, 16
-dialogtxt       "あいつらドコにかくれているんだろう..."
+dialogtxt       "They must be hiding somewhere…"
 code0309        
 goto            @Label_018e
 
 @Cond_00ec:
-dialogtxt       "わたしたちがルイーズ村にいる間"
-dialogtxt       "アニスの仲間は町に近づかなかったって"
-dialogtxt       "親方が言ってたけど"
+dialogtxt       "Master said Anise's gang"
+dialogtxt       "hasn't shown up since we left"
+dialogtxt       "for Louise Village."
 code047b        
 code0309        
 code0479        0, 2, 16
-dialogtxt       "一体ドコにかくれているんだろう..."
+dialogtxt       "They must be hiding somewhere…"
 code0309        
 goto            @Label_018e
 
@@ -35,20 +35,20 @@ code0446        0
 code0479        0, 0, 14
 call            @Func_08fc
 call            @Func_0824
-dialogtxt       "あれ？"
-dialogtxt       "誰か来たみたいだ"
-dialogtxt       "あれは..."
+dialogtxt       "Huh?"
+dialogtxt       "Someone's coming."
+dialogtxt       "It looks like…"
 code0309        
 call            @Func_0952
 call            @Func_0860
 code047b        
 code0312        
-menutxt         @Menu_025a, "ミューノ"
-menutxt         @Menu_0266, "γ"
-menutxt         @Menu_0272, "ヴィー"
-menutxt         @Menu_027e, "[NAME 8]ミィ"
-menutxt         @Menu_028a, "ジェイド"
-menutxt         @Menu_0296, "ティエ"
+menutxt         @Menu_025a, "Murno"
+menutxt         @Menu_0266, "[NAME 1]"
+menutxt         @Menu_0272, "V.E"
+menutxt         @Menu_027e, "Lemmy"
+menutxt         @Menu_028a, "Jade"
+menutxt         @Menu_0296, "Tier"
 menuwait        
 
 @Menu_025a:

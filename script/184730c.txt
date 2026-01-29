@@ -36,20 +36,20 @@ code047d        1, 2
 call            @Func_0f3e
 call            @Func_0ea6
 jumpz           @Cond_02c2, ($b003 == 0)
-dialogtxt       "...！？"
+dialogtxt       "…!?"
 code047b        
 code0309        
 call            @Func_0efa
 code0479        0, 0, 16
 call            @Func_0e58
 jumpz           @Cond_01d0, ($b002 == 0)
-dialogtxt       "どうしたんだ、γ？"
-dialogtxt       "なんかあったのか？"
+dialogtxt       "What is it, [NAME 1]?"
+dialogtxt       "Is something there?"
 goto            @Label_01fc
 
 @Cond_01d0:
-dialogtxt       "どうしたの、γ？"
-dialogtxt       "なんかあったの？"
+dialogtxt       "What is it, [NAME 1]?"
+dialogtxt       "Is something there?"
 goto            @Label_01fc
 
 @Label_01fc:
@@ -57,37 +57,36 @@ code0309
 call            @Func_0e8e
 code0479        1, 0, 12
 call            @Func_0ec4
-dialogtxt       "せんさーニ　反応ガアッタノデスガ"
-dialogtxt       "移動シタヨウデス"
+dialogtxt       "Sensors Detecting Movement."
 code0309        
 call            @Func_0efa
 code043c        0, 4
 code0479        0, 2, 14
 call            @Func_0e58
-dialogtxt       "何だろう？"
+dialogtxt       "What is it?"
 code0309        
 call            @Func_0e8e
 code0479        1, 0, 12
 call            @Func_0ec4
-dialogtxt       "注意シテクダサイ"
+dialogtxt       "Please Be careful."
 goto            @Cond_02c2
 
 @Cond_02c2:
 jumpz           @Cond_04aa, ($b003 == 1)
-dialogtxt       "なにやつ！？"
+dialogtxt       "Who's there!?"
 code0309        
 code047b        
 call            @Func_0efa
 code0479        0, 5, 16
 call            @Func_0e58
 jumpz           @Cond_0342, ($b002 == 0)
-dialogtxt       "どうしたんだ、γ？"
-dialogtxt       "なんかあったのか？"
+dialogtxt       "What is it, [NAME 1]?"
+dialogtxt       "Is something there?"
 goto            @Label_036e
 
 @Cond_0342:
-dialogtxt       "どうしたの、γ？"
-dialogtxt       "なんかあったの？"
+dialogtxt       "What is it, [NAME 1]?"
+dialogtxt       "Is something there?"
 goto            @Label_036e
 
 @Label_036e:
@@ -95,22 +94,22 @@ code0309
 call            @Func_0e8e
 code0479        1, 2, 16
 call            @Func_0ec4
-dialogtxt       "うむ..."
-dialogtxt       "たしかに何者かの"
-dialogtxt       "気配がしたんじゃがの..."
+dialogtxt       "Mmm…"
+dialogtxt       "I'm sure I felt"
+dialogtxt       "someone's presence…"
 code0309        
 call            @Func_0efa
 code043c        0, 4
 code0479        0, 0, 14
 call            @Func_0e58
 jumpz           @Cond_042c, ($b002 == 0)
-dialogtxt       "誰もいないぞ"
-dialogtxt       "気のせいじゃないか？"
+dialogtxt       "There's no one there."
+dialogtxt       "Isn't it just your imagination?"
 goto            @Label_0456
 
 @Cond_042c:
-dialogtxt       "誰もいないよ"
-dialogtxt       "気のせいじゃない？"
+dialogtxt       "There's no one there."
+dialogtxt       "Isn't it just your imagination?"
 goto            @Label_0456
 
 @Label_0456:
@@ -118,26 +117,26 @@ code0309
 call            @Func_0e8e
 code0479        1, 2, 14
 call            @Func_0ec4
-dialogtxt       "そんなハズはないぞ"
-dialogtxt       "おぬしも気をつけるのじゃ"
+dialogtxt       "I do not think so."
+dialogtxt       "Be on your guard."
 goto            @Cond_04aa
 
 @Cond_04aa:
 jumpz           @Cond_0676, ($b003 == 2)
-dialogtxt       "そこか！？"
+dialogtxt       "There!?"
 code047b        
 code0309        
 call            @Func_0efa
 code0479        0, 5, 16
 call            @Func_0e58
 jumpz           @Cond_0528, ($b002 == 0)
-dialogtxt       "どうしたんだ、γ？"
-dialogtxt       "なんかあったのか？"
+dialogtxt       "What is it, [NAME 1]?"
+dialogtxt       "Is something there?"
 goto            @Label_0554
 
 @Cond_0528:
-dialogtxt       "どうしたの、γ？"
-dialogtxt       "なんかあったの？"
+dialogtxt       "What is it, [NAME 1]?"
+dialogtxt       "Is something there?"
 goto            @Label_0554
 
 @Label_0554:
@@ -145,21 +144,21 @@ code0309
 call            @Func_0e8e
 code0479        1, 2, 16
 call            @Func_0ec4
-dialogtxt       "ちっ..."
-dialogtxt       "逃げられた"
+dialogtxt       "Tch…"
+dialogtxt       "Got away."
 code0309        
 call            @Func_0efa
 code043c        0, 4
 code0479        0, 0, 14
 call            @Func_0e58
 jumpz           @Cond_05f2, ($b002 == 0)
-dialogtxt       "誰もいないぞ"
-dialogtxt       "気のせいじゃないか？"
+dialogtxt       "There's no one there."
+dialogtxt       "Isn't it just your imagination?"
 goto            @Label_061c
 
 @Cond_05f2:
-dialogtxt       "誰もいないよ"
-dialogtxt       "気のせいじゃない？"
+dialogtxt       "There's no one there."
+dialogtxt       "Isn't it just your imagination?"
 goto            @Label_061c
 
 @Label_061c:
@@ -167,27 +166,27 @@ code0309
 call            @Func_0e8e
 code0479        1, 2, 14
 call            @Func_0ec4
-dialogtxt       "ちっ"
-dialogtxt       "ニブイやつめ"
-dialogtxt       "だったらそう思っていればいい"
+dialogtxt       "Tch."
+dialogtxt       "You're so slow."
+dialogtxt       "Keep thinkng that."
 goto            @Cond_0676
 
 @Cond_0676:
 jumpz           @Cond_087a, ($b003 == 3)
-dialogtxt       "誰ですか！？"
+dialogtxt       "Who's there!?"
 code047b        
 code0309        
 call            @Func_0efa
 code0479        0, 5, 16
 call            @Func_0e58
 jumpz           @Cond_06f6, ($b002 == 0)
-dialogtxt       "どうしたんだ、γ？"
-dialogtxt       "なんかあったのか？"
+dialogtxt       "What is it, [NAME 1]?"
+dialogtxt       "Is something there?"
 goto            @Label_0722
 
 @Cond_06f6:
-dialogtxt       "どうしたの、γ？"
-dialogtxt       "なんかあったの？"
+dialogtxt       "What is it, [NAME 1]?"
+dialogtxt       "Is something there?"
 goto            @Label_0722
 
 @Label_0722:
@@ -195,22 +194,21 @@ code0309
 call            @Func_0e8e
 code0479        1, 0, 16
 call            @Func_0ec4
-dialogtxt       "あら...？"
-dialogtxt       "たしかに何かいたような"
-dialogtxt       "気がしたんですが..."
+dialogtxt       "Huh…?"
+dialogtxt       "I'm sure something was there…"
 code0309        
 call            @Func_0efa
 code043c        0, 4
 code0479        0, 0, 14
 call            @Func_0e58
 jumpz           @Cond_07e4, ($b002 == 0)
-dialogtxt       "誰もいないぞ"
-dialogtxt       "気のせいじゃないか？"
+dialogtxt       "There's no one there."
+dialogtxt       "Isn't it just your imagination?"
 goto            @Label_080e
 
 @Cond_07e4:
-dialogtxt       "誰もいないよ"
-dialogtxt       "気のせいじゃない？"
+dialogtxt       "There's no one there."
+dialogtxt       "Isn't it just your imagination?"
 goto            @Label_080e
 
 @Label_080e:
@@ -218,9 +216,9 @@ code0309
 call            @Func_0e8e
 code0479        1, 2, 14
 call            @Func_0ec4
-dialogtxt       "そんなことありませんわ"
-dialogtxt       "たしかにいたんです！"
-dialogtxt       "気をつけてくださいね"
+dialogtxt       "That's not true,"
+dialogtxt       "someone was there!"
+dialogtxt       "Please be careful."
 goto            @Cond_087a
 
 @Cond_087a:

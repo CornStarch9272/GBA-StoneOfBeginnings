@@ -146,10 +146,10 @@ goto            @start
 code0301        8, 7
 code047d        0, 114
 code047e        0, 1
-dialogtxt       "ウワサのアカバ[NAME 6]をたおしたそうね"
-dialogtxt       "すごいわ"
+dialogtxt       "You defeated Red Wing!"
+dialogtxt       "That's amazing!"
 code0309        
-dialogtxt       "わたしも好きになっちゃいそう"
+dialogtxt       "I might be falling for you too."
 code0309        
 code047e        0, 0
 code0302        7
@@ -159,10 +159,11 @@ code040b
 code0301        8, 7
 code047d        0, 113
 code047e        0, 1
-dialogtxt       "ウワサのアカバ[NAME 6]をたおしたんだって"
-dialogtxt       "すごいなぁ"
+dialogtxt       "So you defeated Red Wing…"
+dialogtxt       "Impressive!"
 code0309        
-dialogtxt       "それは娘もホれるわけだ..."
+dialogtxt       "That must be why my daughter"
+dialogtxt       "fell for you…"
 code0309        
 code047e        0, 0
 code0302        7
@@ -170,9 +171,9 @@ code040b
 
 @Event_0788:
 code0301        8, 7
-dialogtxt       "ここから先は乙女の秘密◎"
-dialogtxt       "立ち入り禁止！！"
-dialogtxt       "　　　　　　　　　　　ティエ"
+dialogtxt       "A lady's secret lies beyond here◎"
+dialogtxt       "NO TRESPASSING!!!"
+dialogtxt       "　　　　　　　　　　　-Tier<end_line>"
 code0309        
 code0302        7
 code040b        
@@ -382,7 +383,7 @@ ret
 code0301        8, 7
 code047d        0, 122
 code047e        0, 1
-dialogtxt       "ここの娘はしっかり者じゃ..."
+dialogtxt       "The girl here isn't reliable…"
 code0309        
 code047e        0, 0
 code0302        7

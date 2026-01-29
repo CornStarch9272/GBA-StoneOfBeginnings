@@ -132,7 +132,8 @@ gotomap         1245 ; map 178b5ac
 code0301        0, 7
 code0305        1
 dialogtxt       "　"
-dialogtxt       "　　お休みです　ごめんなさいね"
+dialogtxt       "　　We're closed for the day!"
+dialogtxt       "　　Sorry for the inconvenience!"
 code0309        
 code0302        7
 code040b        
@@ -412,13 +413,13 @@ ret
 code0301        8, 7
 code047d        0, 149
 code047e        0, 1
-dialogtxt       "あ、鍛冶師の人だね"
-dialogtxt       "商売したかったけど"
-dialogtxt       "今日は売り物が無いの"
+dialogtxt       "Oh! You're a Craftknight, right?"
+dialogtxt       "I wanted to talk business with you,"
+dialogtxt       "but I'm sold out at the moment…"
 code0309        
-dialogtxt       "残念..."
-dialogtxt       "また今度会ったら"
-dialogtxt       "何か買ってね"
+dialogtxt       "I'm so, so sorry!…"
+dialogtxt       "I'll be stocked up next time, so"
+dialogtxt       "please buy my wares soon!"
 code0309        
 code047e        0, 0
 code0302        7
@@ -428,8 +429,8 @@ code040b
 code0301        8, 7
 code047d        0, 120
 code047e        0, 1
-dialogtxt       "何か最近忙しくて..."
-dialogtxt       "ふぁ〜"
+dialogtxt       "I have so much to do recently…"
+dialogtxt       "Sigh…"
 code0309        
 code047e        0, 0
 code0302        7
@@ -443,28 +444,29 @@ code040b
 @Event_12b0:
 code0301        8, 7
 dialogtxt       "　"
-dialogtxt       "　　　　　∞探しています∞"
+dialogtxt       "　　　　　∞Searching∞"
 code0309        
-dialogtxt       "茶色の子[NAME 6]コを探しています"
-dialogtxt       "にぼしが好物です"
-dialogtxt       "見つけた方は連絡ください"
+dialogtxt       "I'm looking for a brown kitten."
+dialogtxt       "I think it likes dried sardines?"
+dialogtxt       "Let me know if you find it."
 code0309        
 code0302        7
 code040b        
 
 @Event_133e:
 code0301        8, 7
-dialogtxt       "「福引き」であなたの運を"
-dialogtxt       "試してみませんか？"
-dialogtxt       "毎日抽選！空くじ無し！！"
+dialogtxt       "Care to try our Lucky Draw?"
+dialogtxt       "It's available all day, everyday!"
+dialogtxt       "Guaranteed no losing tickets!"
 code0309        
 code0302        7
 code040b        
 
 @Event_13a6:
 code0301        8, 7
-dialogtxt       "ジェイド様◎を見守る会"
-dialogtxt       "ついに結成！　会員募集中！"
+dialogtxt       "The Almighty Jade◎Support Squad"
+dialogtxt       "has been officially formed!"
+dialogtxt       "Currently recruiting members!"
 code0309        
 code0302        7
 code040b        

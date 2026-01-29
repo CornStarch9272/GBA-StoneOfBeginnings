@@ -7,14 +7,14 @@ code047d        0, 0
 call            @Func_0cc8
 call            @Func_0bf0
 jumpz           @Cond_0168, ($b002 == 0)
-dialogtxt       "あれ...？"
-dialogtxt       "トビラが開かない！？"
-dialogtxt       "出られないぞ！"
+dialogtxt       "Huh…?"
+dialogtxt       "It won't open!?"
+dialogtxt       "I'm stuck!"
 code0309        
 code0479        0, 2, 15
-dialogtxt       "くっそ！"
-dialogtxt       "どういうことだよ！？"
-dialogtxt       "お〜い！　誰か！"
+dialogtxt       "Dammit!"
+dialogtxt       "What's going on!?"
+dialogtxt       "Heeey! Anyone!"
 code0309        
 call            @Func_0d1e
 call            @Func_0c2c
@@ -24,20 +24,20 @@ code0446        0
 code0479        0, 2, 15
 call            @Func_0cc8
 call            @Func_0bf0
-dialogtxt       "開けろよ！"
-dialogtxt       "おい！！"
-dialogtxt       "みんなはどこだーっ！！！"
+dialogtxt       "Open up!"
+dialogtxt       "Hey!!"
+dialogtxt       "Where is everyooone!!!"
 goto            @Label_0274
 
 @Cond_0168:
-dialogtxt       "あれ...？"
-dialogtxt       "トビラが開かない！？"
-dialogtxt       "そんな、出られないの！？"
+dialogtxt       "Huh…?"
+dialogtxt       "It won't open!?"
+dialogtxt       "I can't get out!?"
 code0309        
 code0479        0, 2, 15
-dialogtxt       "ちょっと！"
-dialogtxt       "どういうこと！？"
-dialogtxt       "ねぇ！！　誰かー！！！"
+dialogtxt       "Hey!"
+dialogtxt       "What's going on!?"
+dialogtxt       "Heeey! Anyone!"
 code0309        
 call            @Func_0d1e
 call            @Func_0c2c
@@ -47,9 +47,9 @@ code0446        0
 code0479        0, 2, 15
 call            @Func_0cc8
 call            @Func_0bf0
-dialogtxt       "開けてよ！"
-dialogtxt       "ねぇ！！"
-dialogtxt       "みんなはどこなのーっ！！！"
+dialogtxt       "Open up!"
+dialogtxt       "Hey!!"
+dialogtxt       "Where is everyooone!!!"
 goto            @Label_0274
 
 @Label_0274:
@@ -61,7 +61,7 @@ code047b
 code047d        1, 106
 code0301        8, 7
 code047e        1, 1
-dialogbig       60, 116, 1, 0, 0, "うるさい！"
+dialogbig       60, 116, 1, 0, 0, "Shut up!"
 code030c        
 code047e        1, 0
 code0302        7
@@ -71,13 +71,13 @@ code0479        0, 5, 16
 call            @Func_0cc8
 call            @Func_0c0e
 jumpz           @Cond_035a, ($b002 == 0)
-dialogtxt       "う、え...？"
-dialogtxt       "あんた、ダ[NAME 8]だよ？"
+dialogtxt       "Wha…?"
+dialogtxt       "Who's there?"
 goto            @Label_037e
 
 @Cond_035a:
-dialogtxt       "ふ、え...？"
-dialogtxt       "あの...、ダ[NAME 8]？"
+dialogtxt       "Wha…?"
+dialogtxt       "Um… Who's there?"
 goto            @Label_037e
 
 @Label_037e:
@@ -88,13 +88,13 @@ call            @Func_0c44
 code047b        
 code0301        8, 7
 code047e        1, 1
-dialogtxt       "まったく..."
-dialogtxt       "となりの娘がおとなしくなったと"
-dialogtxt       "思ったばかりなのに..."
+dialogtxt       "Jeez…"
+dialogtxt       "And just when the other"
+dialogtxt       "girl had quieted down…"
 code0309        
-dialogtxt       "いいか！　何度も言わすなよ！"
-dialogtxt       "お前たちの取り調べは明日行う"
-dialogtxt       "今日はおとなしくねてろ！"
+dialogtxt       "I'm only saying this once!"
+dialogtxt       "Your investigation is tomorrow."
+dialogtxt       "Now be quiet!"
 code0309        
 code047e        1, 0
 code0302        7
@@ -102,15 +102,15 @@ code0479        0, 2, 15
 call            @Func_0cc8
 call            @Func_0c0e
 jumpz           @Cond_04de, ($b002 == 0)
-dialogtxt       "となりの娘...！？"
-dialogtxt       "おい！　ちょっと！"
-dialogtxt       "それって、もしかして...！？"
+dialogtxt       "Other girl…!?"
+dialogtxt       "Hey! Wait!"
+dialogtxt       "Do you mean…!?"
 goto            @Label_0528
 
 @Cond_04de:
-dialogtxt       "え？　となりの娘って...！？"
-dialogtxt       "ねえ！　ちょっと！"
-dialogtxt       "それって...！？"
+dialogtxt       "Eh? Other girl…!?"
+dialogtxt       "Hey! Wait!"
+dialogtxt       "Do you mean…!?"
 goto            @Label_0528
 
 @Label_0528:
@@ -121,23 +121,24 @@ call            @Func_0c44
 code047b        
 code0301        8, 7
 code047e        1, 1
-dialogtxt       "だまれっ！"
-dialogtxt       "何度も言わすなと言ったろ！"
+dialogtxt       "Quiet!"
+dialogtxt       "I just said not to"
+dialogtxt       "make me repeat myself!"
 code0309        
 code047e        1, 0
 code0302        7
 code0479        0, 2, 14
 call            @Func_0cc8
 call            @Func_0c0e
-dialogtxt       "..."
+dialogtxt       "…"
 jumpz           @Cond_05ee, ($b002 == 0)
-dialogtxt       "くっそ..."
-dialogtxt       "なんだってんだよ..."
+dialogtxt       "Dammit…"
+dialogtxt       "What's going on…"
 goto            @Label_0610
 
 @Cond_05ee:
-dialogtxt       "ちょっと..."
-dialogtxt       "なんなのよ..."
+dialogtxt       "Seriously…"
+dialogtxt       "What is going on…"
 goto            @Label_0610
 
 @Label_0610:

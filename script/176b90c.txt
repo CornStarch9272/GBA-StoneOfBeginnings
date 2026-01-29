@@ -65,15 +65,15 @@ code0301        8, 7
 code047d        0, 0
 code047e        0, 1
 jumpz           @Cond_035e, ($b002 == 0)
-dialogtxt       "ねらわれてるミューノをつれて"
-dialogtxt       "あまりウロウロしない方がいいな..."
-dialogtxt       "とにかく工房に行こう"
+dialogtxt       "I shouldn't wander around while"
+dialogtxt       "Murno is still in danger…"
+dialogtxt       "Let's head to the workshop."
 goto            @Label_03c0
 
 @Cond_035e:
-dialogtxt       "ねらわれてるミューノをつれて"
-dialogtxt       "あまりウロウロしない方がいいよね..."
-dialogtxt       "とにかく工房に行こう"
+dialogtxt       "I shouldn't wander around while"
+dialogtxt       "Murno is still in danger…"
+dialogtxt       "Let's head to the workshop."
 goto            @Label_03c0
 
 @Label_03c0:
@@ -337,8 +337,8 @@ ret
 code0301        8, 7
 code047d        0, 118
 code047e        0, 1
-dialogtxt       "このあたりも最近"
-dialogtxt       "ブッ[NAME 5]ウになってきたなぁ..."
+dialogtxt       "Recently, this place"
+dialogtxt       "has become dangerous too…"
 code0309        
 code047e        0, 0
 code0302        7
@@ -348,11 +348,11 @@ code040b
 code0301        8, 7
 code047d        0, 120
 code047e        0, 1
-dialogtxt       "召喚獣はやっぱり攻撃重視だよな"
-dialogtxt       "ただひたすら攻撃のために召喚する"
-dialogtxt       "これに限るね"
+dialogtxt       "I think offensive strength is"
+dialogtxt       "all a Summon Beast needs."
+dialogtxt       "Just hit it until you win."
 code0309        
-dialogtxt       "オマエも、そう思うだろ"
+dialogtxt       "Don't you agree?"
 code0309        
 code047e        0, 0
 code0302        7
@@ -365,8 +365,8 @@ code040b
 
 @Event_0ec0:
 code0301        8, 7
-dialogtxt       "　　　プロスバンの町の創設者"
-dialogtxt       "　　　勇者プロスバンの石像"
+dialogtxt       "　　　The Founder Of This City,"
+dialogtxt       "　　　Our Hero Prosban"
 code0309        
 code0302        7
 code040b        

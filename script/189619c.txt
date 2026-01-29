@@ -131,7 +131,7 @@ goto            @Cond_070e
 goto            @Label_0712
 
 @Label_0712:
-placetxt        "リュート岩窟　エリア４"
+placetxt        "Lute Cave　Area 4"
 code040b        
 
 @Event_072e:

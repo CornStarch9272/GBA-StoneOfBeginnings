@@ -89,11 +89,11 @@ code0301        8, 7
 code047d        0, 0
 code047e        0, 1
 jumpz           @Cond_042e, ($b002 == 0)
-dialogtxt       "こっちに用はないな..."
+dialogtxt       "Nothing to do here…"
 goto            @Label_0454
 
 @Cond_042e:
-dialogtxt       "あちこち行くと迷子になるかも..."
+dialogtxt       "I shouldn't wander off…"
 goto            @Label_0454
 
 @Label_0454:
@@ -133,9 +133,9 @@ code040b
 code0301        8, 7
 code047d        0, 118
 code047e        0, 1
-dialogtxt       "ここから先は行かない方がいい"
-dialogtxt       "アカバ[NAME 6]ってコワイはぐれがいて"
-dialogtxt       "あぶないからね"
+dialogtxt       "You'd best not go any further."
+dialogtxt       "Theres a Stray called Red Wing"
+dialogtxt       "that lives in there."
 code0309        
 code047e        0, 0
 code0302        7
@@ -389,12 +389,12 @@ ret
 code0301        8, 7
 code047d        0, 120
 code047e        0, 1
-dialogtxt       "プロスバンの南には"
-dialogtxt       "ベリートの森があってね、その先には"
-dialogtxt       "フラード洞窟があるんだ"
+dialogtxt       "South of Prosban is"
+dialogtxt       "Flaad Cave, and past"
+dialogtxt       "that is Beleet Forest."
 code0309        
-dialogtxt       "フラード洞窟は、地下に大きな川が"
-dialogtxt       "流れているって話だ"
+dialogtxt       "I heard there's an underground"
+dialogtxt       "river flowing in Flaad Cave."
 code0309        
 code047e        0, 0
 code0302        7
@@ -404,14 +404,14 @@ code040b
 code0301        8, 7
 code047d        0, 120
 code047e        0, 1
-dialogtxt       "まったく、誰のおかげで"
-dialogtxt       "この町が平和だと思ってるんだ"
+dialogtxt       "Jeez, we're the ones"
+dialogtxt       "keeping the town safe."
 code0309        
-dialogtxt       "少しくらい、おまけしてくれたって"
-dialogtxt       "良いじゃないか"
+dialogtxt       "You'd think we'd at least"
+dialogtxt       "get a bonus sometimes."
 code0309        
-dialogtxt       "ボクは金の派閥の一員だぞ"
-dialogtxt       "聞いてる？オマエ？"
+dialogtxt       "I'm a member of the Gold Council."
+dialogtxt       "Hey, are you listening?"
 code0309        
 code047e        0, 0
 code0302        7
@@ -419,7 +419,7 @@ code040b
 
 @Talk_1220:
 code0301        8, 7
-dialogtxt       "...にゃ？"
+dialogtxt       "…Meow?"
 code0309        
 code0302        7
 code040b        
@@ -427,20 +427,20 @@ code040b
 @Event_1246:
 code0301        8, 7
 dialogtxt       "　"
-dialogtxt       "　　　　　∞探しています∞"
+dialogtxt       "　　　　∞Searching∞"
 code0309        
-dialogtxt       "白と黒の模様を持った[NAME 6]コを"
-dialogtxt       "探しています"
-dialogtxt       "見つけた方は連絡ください"
+dialogtxt       "I'm looking for a"
+dialogtxt       "black and white cat."
+dialogtxt       "Let me know if you find it."
 code0309        
 code0302        7
 code040b        
 
 @Event_12d0:
 code0301        8, 7
-dialogtxt       "下を見ろ↓"
+dialogtxt       "Look down"
 code0309        
-dialogtxt       "って言われて見るのか"
+dialogtxt       "…And you actually did it."
 code0309        
 code0302        7
 code040b        

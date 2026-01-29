@@ -40,7 +40,7 @@ setvar          $h319, 50
 code0409        
 code046e        16, 256, 0
 code041d        
-placetxt        "Louise Village　Ruins Surroundings"
+placetxt        "Louise Village　Ruins Entrance"
 code040b        
 
 @Event_0230:
@@ -356,8 +356,8 @@ ret
 code0301        8, 7
 code047d        0, 120
 code047e        0, 1
-dialogtxt       "この村を守るためには"
-dialogtxt       "強力な武器が必要だと思うんだ"
+dialogtxt       "We need powerful weapons if"
+dialogtxt       "we are to protect this village."
 code0309        
 code047e        0, 0
 code0302        7
@@ -367,45 +367,47 @@ code040b
 code0301        8, 7
 code047d        0, 149
 code047e        0, 1
-dialogtxt       "私のお母様は、旅商人なの"
-dialogtxt       "今は２人で旅をして鍛冶師や職人に"
-dialogtxt       "顔を売っている段階なんだって"
+dialogtxt       "My mom and I are peddlers!"
+dialogtxt       "Currently we're acquainting with so"
+dialogtxt       "many Craftknights and artisans!"
 code0309        
-dialogtxt       "お母様は、私が遊びに行ってるって"
-dialogtxt       "思ってるみたいだけど、将来のために"
-dialogtxt       "商売をしているの"
+dialogtxt       "My mom thinks I'm just playing"
+dialogtxt       "around, but I'm working really,"
+dialogtxt       "really hard to ensure our future!"
 code0309        
 jumpz           @Cond_1376, ($f1249 == 0)
-dialogtxt       "ところであなたは、鍛冶師みたいだけど"
-dialogtxt       "強化の情報を聞いていかない？"
+dialogtxt       "You're a Craftknight, aren't you?"
+dialogtxt       "Wanna hear about enhancement tips?"
 code0309        
 code047e        0, 0
-choicetxt       @Choice_105c, "聞いてみる"
-choicetxt       @Choice_137e, "特に聞かない"
+choicetxt       @Choice_105c, "Sure thing!"
+choicetxt       @Choice_137e, "Nah, I'm fine."
 choicewait      
 
 @Choice_105c:
 code047e        0, 1
-dialogtxt       "えっとね、強化で「気合い鉢巻」と"
-dialogtxt       "「達人の証」を使うと、必殺技の"
-dialogtxt       "「百烈拳」が武器に付加されるの"
+dialogtxt       "Um, let's see. If you use"
+dialogtxt       "Fighting Spirit Headband"
+dialogtxt       "and Proof of the Master"
 code0309        
-dialogtxt       "ただし、ナックルタイプに使った"
-dialogtxt       "場合だけ「百烈拳」が出来るから"
-dialogtxt       "他の武器タイプで何が出来るかは..."
+dialogtxt       "while enhancing, your weapon will"
+dialogtxt       "gain the ability 100 Fists."
 code0309        
-dialogtxt       "買ってもらってからの"
-dialogtxt       "おったのしみ〜"
+dialogtxt       "But this will only work with"
+dialogtxt       "Knuckle type weapons. As for what"
+dialogtxt       "you get with other weapon types…"
 code0309        
-dialogtxt       "でもって、今回はなんと"
-dialogtxt       "「気合い鉢巻」と「達人の証」を"
-dialogtxt       "１２００バームで販売中なの〜"
+dialogtxt       "Buy the materials, and try it out~"
 code0309        
-dialogtxt       "買ってくれます？"
+dialogtxt       "But hey, get this, right now"
+dialogtxt       "I'm selling both materials for"
+dialogtxt       "an amazing…1200 Boam!"
+code0309        
+dialogtxt       "How about it?"
 code0309        
 code047e        0, 0
-choicetxt       @Choice_1206, "買う"
-choicetxt       @Choice_132c, "買わない"
+choicetxt       @Choice_1206, "Buy"
+choicetxt       @Choice_132c, "Don't buy"
 choicewait      
 
 @Choice_1206:
@@ -422,7 +424,7 @@ code0445        17, 4
 code0446        17
 code0301        8, 7
 code047e        0, 1
-dialogtxt       "ありがと〜"
+dialogtxt       "Thanks~"
 code0309        
 goto            @Label_13ce
 
@@ -434,9 +436,9 @@ code0445        17, 5
 code0446        17
 code0301        8, 7
 code047e        0, 1
-dialogtxt       "ええぇ〜これじゃ〜"
-dialogtxt       "お金たりないの〜"
-dialogtxt       "商談不成立だよ〜"
+dialogtxt       "Whaaaaaat!? What do you mean"
+dialogtxt       "you don't have enough money!?"
+dialogtxt       "I'm calling this deal off!"
 code0309        
 goto            @Label_13ce
 
@@ -444,8 +446,9 @@ goto            @Choice_132c
 
 @Choice_132c:
 code047e        0, 1
-dialogtxt       "え〜聞くだけ聞いて買ってくれないの〜"
-dialogtxt       "ケチ〜"
+dialogtxt       "Whaaat!? You make me talk a lot"
+dialogtxt       "but you don't want to buy from me?"
+dialogtxt       "Cheapskate!"
 code0309        
 goto            @Label_13ce
 
@@ -458,8 +461,9 @@ goto            @Choice_137e
 
 @Choice_137e:
 code047e        0, 1
-dialogtxt       "え〜聞いてくれないの〜"
-dialogtxt       "せっかくのお客さんだと思ったのに〜"
+dialogtxt       "Whaaat? You're not interested?!"
+dialogtxt       "Just when I thought"
+dialogtxt       "I finally had a customer…"
 code0309        
 @Label_13ce:
 code047e        0, 0
@@ -468,7 +472,7 @@ code040b
 
 @Talk_13e6:
 code0301        8, 7
-dialogtxt       "みー"
+dialogtxt       "Miiii…"
 code0309        
 code0302        7
 code040b        

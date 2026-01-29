@@ -14,7 +14,7 @@ code0482
 code047d        0, 109
 code0301        16, 3
 code047e        0, 1
-dialogtxt       "あ、δ！"
+dialogtxt       "Ah, [NAME 2]!"
 code0309        
 code047e        0, 0
 code0302        3
@@ -44,38 +44,38 @@ code0479        1, 0, 17
 code047d        1, 109
 call            @Func_0dea
 call            @Func_0d52
-dialogtxt       "ここにいたんだ？"
-dialogtxt       "さがしたんだよ〜！"
+dialogtxt       "There you are!"
+dialogtxt       "I was looking for you!"
 code047b        
 code0309        
 call            @Func_0da6
 code0479        0, 4, 16
 call            @Func_0d04
-dialogtxt       "ああ、うん、ごめん..."
-dialogtxt       "歩いてたら、なんとなく"
-dialogtxt       "ここに来ちゃってて..."
+dialogtxt       "Oh, uh, sorry…"
+dialogtxt       "I took a walk, and somehow"
+dialogtxt       "ended up coming here…"
 code0309        
 call            @Func_0d3a
 code0479        1, 0, 16
 call            @Func_0d70
-dialogtxt       "元気ないのね"
-dialogtxt       "工房に戻ってからずーっと悩んでる"
-dialogtxt       "それってやっぱり..."
+dialogtxt       "You look down."
+dialogtxt       "You've been zoned out"
+dialogtxt       "ever since you got back."
 code0309        
 call            @Func_0da6
 code0479        0, 4, 14
 call            @Func_0d04
-dialogtxt       "それは..."
+dialogtxt       "Well…"
 code0309        
 call            @Func_0d3a
 code0479        1, 4, 16
 call            @Func_0d70
 jumpz           @Cond_03ce, ($b002 == 0)
-dialogtxt       "浮気なのね？"
+dialogtxt       "Are you cheating on me?"
 goto            @Label_03e6
 
 @Cond_03ce:
-dialogtxt       "うらぎりなのね？"
+dialogtxt       "Are you betraying me?"
 goto            @Label_03e6
 
 @Label_03e6:
@@ -83,43 +83,42 @@ code0309
 call            @Func_0da6
 code0479        0, 5, 15
 call            @Func_0d04
-dialogtxt       "はぁ？"
+dialogtxt       "Huh?"
 code0309        
 call            @Func_0d3a
 code0479        1, 2, 17
 call            @Func_0d70
-dialogtxt       "とぼけたってダメなんだから！"
-dialogtxt       "エリエちゃんでしょ？"
+dialogtxt       "Don't play dumb!"
+dialogtxt       "It's Elieze, isn't it?"
 code0309        
 call            @Func_0da6
 code0479        0, 11, 17
 call            @Func_0d04
-dialogtxt       "えぇ！？"
+dialogtxt       "Ehhh!?"
 code0309        
 call            @Func_0d3a
 code0479        1, 2, 15
 call            @Func_0d70
-dialogtxt       "δはわたしといっしょに"
-dialogtxt       "ほほえみ亭で働くのよ"
-dialogtxt       "エリエちゃんとじゃないんだよ！"
+dialogtxt       "[NAME 2], you're going to"
+dialogtxt       "work with ME at the Inn."
+dialogtxt       "Not Eleize!"
 code0309        
 code0479        1, 2, 14
-dialogtxt       "あの日の誓いをわすれたなんて"
-dialogtxt       "言わせないんだから！"
+dialogtxt       "I won't let you say you've"
+dialogtxt       "forgotten our promise!"
 code0309        
 call            @Func_0da6
 code0479        1, 2, 14
 code0479        0, 7, 15
 call            @Func_0d04
 jumpz           @Cond_05c6, ($b002 == 0)
-dialogtxt       "忘れたも何も"
-dialogtxt       "言ってることがメチャクチャだ！"
+dialogtxt       "Forgot what?"
+dialogtxt       "You're not making any sense!"
 goto            @Label_0602
 
 @Cond_05c6:
-dialogtxt       "忘れたも何も"
-dialogtxt       "言ってることが"
-dialogtxt       "メチャクチャだよ！"
+dialogtxt       "Forgot what?"
+dialogtxt       "You're not making any sense!"
 goto            @Label_0602
 
 @Label_0602:
@@ -127,28 +126,28 @@ code0309
 call            @Func_0d3a
 code0479        1, 0, 13
 call            @Func_0d70
-dialogtxt       "ふふ..."
-dialogtxt       "そうよ、δは"
-dialogtxt       "そうでなきゃ！"
+dialogtxt       "Fufu…"
+dialogtxt       "That's it, [NAME 2],"
+dialogtxt       "that's how you should be!"
 code0309        
 call            @Func_0da6
 code0479        0, 5, 16
 call            @Func_0d04
-dialogtxt       "え？"
+dialogtxt       "Huh?"
 code0309        
 call            @Func_0d3a
 code0479        1, 1, 12
 call            @Func_0d70
-dialogtxt       "今みたいな時の方が、ずっと"
-dialogtxt       "δらしいってこと！"
-dialogtxt       "わすれないでよ！"
+dialogtxt       "Your reaction just now fits you"
+dialogtxt       "much better than moping around!"
+dialogtxt       "Don't forget that!"
 code0309        
 call            @Func_0da6
 code0479        0, 0, 12
 call            @Func_0d04
-dialogtxt       "なんかよくわからないけど"
-dialogtxt       "気分は軽くなった気がするよ"
-dialogtxt       "ありがとう、ティエ"
+dialogtxt       "I don't really get it,"
+dialogtxt       "but I do feel better."
+dialogtxt       "Thanks, Tier."
 code0309        
 call            @Func_0e40
 call            @Func_0d22

@@ -28,9 +28,9 @@ goto            @Label_00f4
 code047d        1, 2
 call            @Func_150c
 call            @Func_1434
-dialogtxt       "まったく！"
-dialogtxt       "突然かかってくるなんて"
-dialogtxt       "一体どういうつもり..."
+dialogtxt       "Geez!"
+dialogtxt       "What were you thinking,"
+dialogtxt       "going in there alone…"
 code047b        
 code0309        
 call            @Func_1562
@@ -68,9 +68,9 @@ code0331        36, 256
 code0479        0, 5, 17
 call            @Func_150c
 call            @Func_1434
-dialogtxt       "え！？"
-dialogtxt       "これ..."
-dialogtxt       "どういうこと！？"
+dialogtxt       "Huh!?"
+dialogtxt       "Wait…"
+dialogtxt       "What do you mean!?"
 code047b        
 code0309        
 call            @Func_1488
@@ -96,9 +96,9 @@ goto            @Label_03c4
 call            @Func_1522
 call            @Func_14be
 jumpz           @Cond_05f0, ($b003 == 0)
-dialogtxt       "現在　てぃえサンノ存在ヲ"
-dialogtxt       "カクニンデ[NAME 4]マセン"
-dialogtxt       "彼女ハ　消エマシタ"
+dialogtxt       "Presently, I Cannot Confirm"
+dialogtxt       "Miss Tier's Presence."
+dialogtxt       "She Has Disappeared."
 code047b        
 code0309        
 call            @Func_14f4
@@ -106,13 +106,13 @@ code043c        0, 4
 code043c        1, 2
 code0479        0, 2, 16
 call            @Func_1452
-dialogtxt       "消えたって..."
+dialogtxt       "She disappeared…"
 jumpz           @Cond_049a, ($b002 == 0)
-dialogtxt       "どういうことだよ？"
+dialogtxt       "Just what do you mean by that!?"
 goto            @Label_04b0
 
 @Cond_049a:
-dialogtxt       "どういうこと？"
+dialogtxt       "Meaning!?"
 goto            @Label_04b0
 
 @Label_04b0:
@@ -120,19 +120,19 @@ code0309
 call            @Func_1488
 code0479        1, 0, 12
 call            @Func_14be
-dialogtxt       "コノ場カラ　イナクナッタ"
-dialogtxt       "トイウコトデス"
+dialogtxt       "Disappear. Meaning:"
+dialogtxt       "To Cease To Be Visible."
 code0309        
 call            @Func_14f4
 code0479        0, 1, 15
 call            @Func_1452
-dialogtxt       "じゃなくて！"
+dialogtxt       "I don't want a definition!"
 jumpz           @Cond_055a, ($b002 == 0)
-dialogtxt       "どうやって消えたんだよ？"
+dialogtxt       "HOW did she disappear?"
 goto            @Label_0576
 
 @Cond_055a:
-dialogtxt       "どうやって消えたの？"
+dialogtxt       "HOW did she disappear?"
 goto            @Label_0576
 
 @Label_0576:
@@ -140,18 +140,18 @@ code0309
 call            @Func_1488
 code0479        1, 0, 12
 call            @Func_14be
-dialogtxt       "不明デス"
+dialogtxt       "Cause: Unknown."
 code0309        
 code0479        1, 0, 12
-dialogtxt       "[NAME 5][NAME 8]ヨリモ　急ギマショウ"
-dialogtxt       "みゅーの様ガ　心配デス"
+dialogtxt       "I Am Concerned About Lady Murno."
+dialogtxt       "We Must Hurry."
 goto            @Cond_05f0
 
 @Cond_05f0:
 jumpz           @Cond_08be, ($b003 == 1)
-dialogtxt       "消えた..."
-dialogtxt       "すでにあの娘の気配は"
-dialogtxt       "どこにもないの..."
+dialogtxt       "She's gone…"
+dialogtxt       "I can no longer feel"
+dialogtxt       "her presence…"
 code047b        
 code0309        
 call            @Func_14f4
@@ -160,13 +160,13 @@ code043c        1, 2
 code0479        0, 2, 16
 call            @Func_1452
 jumpz           @Cond_06c0, ($b002 == 0)
-dialogtxt       "...って、なんだよそれ！？"
-dialogtxt       "人が消えるわけないだろ？"
+dialogtxt       "…What!?"
+dialogtxt       "People don't just disappear, right?"
 goto            @Label_06fc
 
 @Cond_06c0:
-dialogtxt       "...って、なによそれ！？"
-dialogtxt       "人が消えるわけないでしょ？"
+dialogtxt       "…What!?"
+dialogtxt       "People don't just disappear, right?"
 goto            @Label_06fc
 
 @Label_06fc:
@@ -174,42 +174,42 @@ code0309
 call            @Func_1488
 code0479        1, 2, 16
 call            @Func_14be
-dialogtxt       "そうじゃの"
-dialogtxt       "消えるわけはない"
-dialogtxt       "人ならば、の"
+dialogtxt       "That's right."
+dialogtxt       "She couldn't."
+dialogtxt       "If she was human, that is."
 code0309        
 call            @Func_14f4
 code0479        0, 2, 14
 call            @Func_1452
 jumpz           @Cond_07c0, ($b002 == 0)
-dialogtxt       "なんだよ、もしかして..."
-dialogtxt       "さっきのティエは"
-dialogtxt       "人じゃないって..."
+dialogtxt       "Wait, so does that mean…"
+dialogtxt       "The Tier we saw just"
+dialogtxt       "now isn't human…?"
 goto            @Label_080c
 
 @Cond_07c0:
-dialogtxt       "なによ、じゃあ、もしかして..."
-dialogtxt       "さっきのティエは"
-dialogtxt       "人じゃないって..."
+dialogtxt       "Wait, so does that mean…"
+dialogtxt       "The Tier we saw just"
+dialogtxt       "now isn't human…?"
 goto            @Label_080c
 
 @Label_080c:
 code0309        
 code0479        0, 5, 17
-dialogbig       60, 116, 1, 0, 0, "うそっ！？"
+dialogbig       60, 116, 1, 0, 0, "No way!"
 code030c        
 call            @Func_1488
 code0479        1, 2, 15
 call            @Func_14be
-dialogtxt       "今はワガハイにもわからんの"
-dialogtxt       "とにかく今は先へ進むぞ"
-dialogtxt       "ミューノが心配じゃ"
+dialogtxt       "I don't understand either."
+dialogtxt       "However, we must continue onward."
+dialogtxt       "I'm worried about Murno."
 goto            @Cond_08be
 
 @Cond_08be:
 jumpz           @Cond_0b58, ($b003 == 2)
-dialogtxt       "消えた"
-dialogtxt       "あとかたもなく"
+dialogtxt       "She's gone."
+dialogtxt       "Disappeared, without a trace."
 code047b        
 code0309        
 call            @Func_14f4
@@ -218,13 +218,13 @@ code043c        1, 2
 code0479        0, 2, 16
 call            @Func_1452
 jumpz           @Cond_0972, ($b002 == 0)
-dialogtxt       "...って、なんだよそれ！？"
-dialogtxt       "人が消えるわけないだろ？"
+dialogtxt       "…What!?"
+dialogtxt       "People don't just disappear, right?"
 goto            @Label_09ae
 
 @Cond_0972:
-dialogtxt       "...って、なによそれ！？"
-dialogtxt       "人が消えるわけないでしょ？"
+dialogtxt       "…What!?"
+dialogtxt       "People don't just disappear, right?"
 goto            @Label_09ae
 
 @Label_09ae:
@@ -232,41 +232,41 @@ code0309
 call            @Func_1488
 code0479        1, 3, 13
 call            @Func_14be
-dialogtxt       "そうだ"
-dialogtxt       "人ならば、消えない"
+dialogtxt       "You're right."
+dialogtxt       "Humans can't do that."
 code0309        
 call            @Func_14f4
 code0479        0, 2, 14
 call            @Func_1452
 jumpz           @Cond_0a60, ($b002 == 0)
-dialogtxt       "なんだよ、もしかして..."
-dialogtxt       "さっきのティエは"
-dialogtxt       "人じゃないって..."
+dialogtxt       "Wait, so does that mean…"
+dialogtxt       "The Tier we saw just"
+dialogtxt       "now isn't human…?"
 goto            @Label_0aac
 
 @Cond_0a60:
-dialogtxt       "なによ、じゃあ、もしかして..."
-dialogtxt       "さっきのティエは"
-dialogtxt       "人じゃないって..."
+dialogtxt       "Wait, so does that mean…"
+dialogtxt       "The Tier we saw just"
+dialogtxt       "now isn't human…?"
 goto            @Label_0aac
 
 @Label_0aac:
 code0309        
 code0479        0, 5, 17
-dialogbig       60, 116, 1, 0, 0, "うそっ！？"
+dialogbig       60, 116, 1, 0, 0, "No way!"
 code030c        
 call            @Func_1488
 code0479        1, 2, 16
 call            @Func_14be
-dialogtxt       "今はそんなこと考えている場合か"
-dialogtxt       "ミューノをさがす方が"
-dialogtxt       "重要だろう"
+dialogtxt       "Now isn't the time."
+dialogtxt       "Finding Murno is"
+dialogtxt       "more important."
 goto            @Cond_0b58
 
 @Cond_0b58:
 jumpz           @Cond_0de8, ($b003 == 3)
-dialogtxt       "きっ、消えちゃいましたわ！？"
-dialogtxt       "どういうことですの！？"
+dialogtxt       "S-she disappeared!?"
+dialogtxt       "How is that possible!?"
 code047b        
 code0309        
 call            @Func_14f4
@@ -275,13 +275,13 @@ code043c        1, 2
 code0479        0, 1, 17
 call            @Func_1452
 jumpz           @Cond_0c2a, ($b002 == 0)
-dialogtxt       "オ[NAME 8]が聞いてるんだって！"
-dialogtxt       "魔法とかじゃないのかよ？"
+dialogtxt       "Don't ask me!"
+dialogtxt       "Was it magic or something?"
 goto            @Label_0c64
 
 @Cond_0c2a:
-dialogtxt       "わたしが聞いてるんだけど..."
-dialogtxt       "魔法とかじゃないの？"
+dialogtxt       "Don't ask me!"
+dialogtxt       "Was it magic or something?"
 goto            @Label_0c64
 
 @Label_0c64:
@@ -289,21 +289,21 @@ code0309
 call            @Func_1488
 code0479        1, 2, 15
 call            @Func_14be
-dialogtxt       "魔法！？"
-dialogtxt       "き、きっとそうですわ！"
-dialogtxt       "オバケとかじゃないですわ！"
+dialogtxt       "Magic!?"
+dialogtxt       "T-that must be it!"
+dialogtxt       "It's not a ghost or anything!"
 code0309        
 call            @Func_14f4
 code0479        0, 2, 16
 call            @Func_1452
 jumpz           @Cond_0d1c, ($b002 == 0)
-dialogtxt       "だといいけどな..."
-dialogtxt       "もしかして..."
+dialogtxt       "That'd be nice…"
+dialogtxt       "But maybe…"
 goto            @Label_0d44
 
 @Cond_0d1c:
-dialogtxt       "だといいけど..."
-dialogtxt       "もしかすると..."
+dialogtxt       "That'd be nice…"
+dialogtxt       "But maybe…"
 goto            @Label_0d44
 
 @Label_0d44:
@@ -311,12 +311,12 @@ code0309
 call            @Func_1488
 code0479        1, 1, 15
 call            @Func_14be
-dialogtxt       "こここ、コワがらせようとしても"
-dialogtxt       "そうはいきませんよ！"
+dialogtxt       "E-e-e-even if you try to scare"
+dialogtxt       "me, you'll have to try harder!"
 code0309        
 code0479        1, 2, 14
-dialogtxt       "それより今はミューノ様です"
-dialogtxt       "早くさがさないと"
+dialogtxt       "Anyway, Lady Murno is more"
+dialogtxt       "important. We must find her."
 goto            @Cond_0de8
 
 @Cond_0de8:
@@ -325,15 +325,15 @@ call            @Func_14f4
 code0479        0, 2, 12
 call            @Func_1452
 jumpz           @Cond_0e2e, ($b002 == 0)
-dialogtxt       "そ、そうだった！"
+dialogtxt       "R-right!"
 goto            @Label_0e44
 
 @Cond_0e2e:
-dialogtxt       "そ、そうだね！"
+dialogtxt       "R-right!"
 goto            @Label_0e44
 
 @Label_0e44:
-dialogtxt       "急ごう！"
+dialogtxt       "Let's go!"
 code0309        
 call            @Func_158e
 call            @Func_1470

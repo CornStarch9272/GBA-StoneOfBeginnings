@@ -10,7 +10,7 @@ code0412        4, 1
 code0418        2
 setvar          $b075, 1
 setvar          $b072, 0
-placetxt        "Prosban　Weaponry"
+placetxt        "Prosban　Weapon Shop"
 code040c        1, @Label_0476
 code0438        2, 397, 645, 1
 code043a        2, 2, 0
@@ -67,7 +67,7 @@ code0412        4, 1
 code0418        2
 setvar          $b075, 1
 setvar          $b072, 0
-placetxt        "Prosban　Weaponry"
+placetxt        "Prosban　Weapon Shop"
 code040c        1, @Label_0476
 code0438        2, 397, 645, 1
 code043a        2, 2, 0
@@ -102,9 +102,9 @@ goto            @start
 
 @Event_048a:
 code0301        8, 7
-dialogtxt       "マテルも取り扱っています"
-dialogtxt       "もちろん鍛冶に最適なアイテムも"
-dialogtxt       "多数取り扱っております"
+dialogtxt       "We sell Shapestones!"
+dialogtxt       "Of course, we also have ores"
+dialogtxt       "and stuff for smithing in stock!"
 code0309        
 code0302        7
 code040b        

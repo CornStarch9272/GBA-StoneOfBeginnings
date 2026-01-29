@@ -138,7 +138,7 @@ gotomap         869 ; map 175bb2c
 goto            @Cond_074a
 
 @Cond_074a:
-placetxt        "Rekui Water Ruins Area 1０"
+placetxt        "Rekui Water Ruins　Area 10"
 code040b        
 
 @Event_076a:

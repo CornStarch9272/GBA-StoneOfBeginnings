@@ -10,7 +10,7 @@ code0412        4, 1
 code0418        2
 setvar          $b075, 1
 setvar          $b072, 0
-placetxt        "Auric Collective　Entrance"
+placetxt        "Gold Council　Entrance"
 code040c        1, @Label_01a6
 code040c        2, @Label_019c
 call            @Func_0942
@@ -282,9 +282,9 @@ code040b
 code0301        8, 7
 code047d        0, 120
 code047e        0, 1
-dialogtxt       "ベルヴォ[NAME 8]ン派"
-dialogtxt       "抜けちゃいました"
-dialogtxt       "これからは無派閥時代ですよね"
+dialogtxt       "I've left the Velvoren party."
+dialogtxt       "From now on, I'm no longer"
+dialogtxt       "taking any sides."
 code0309        
 code047e        0, 0
 code0302        7

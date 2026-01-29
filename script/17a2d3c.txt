@@ -10,7 +10,7 @@ code0412        4, 1
 code0418        2
 setvar          $b075, 1
 setvar          $b072, 0
-placetxt        "Prosban　Shopping Street"
+placetxt        "Prosban Town　Market Street"
 code040c        1, @Label_0658
 code040c        2, @Label_064e
 call            @Func_0df4
@@ -380,11 +380,12 @@ ret
 code0301        8, 7
 code047d        0, 123
 code047e        0, 1
-dialogtxt       "ねぇ、でんせつのせんしごっこしようよ"
+dialogtxt       "Hey, let's play. I'll be the"
+dialogtxt       "legendary warrior."
 code0309        
-dialogtxt       "ボクがでんせつのせんしで"
-dialogtxt       "[NAME 4]ミは、せかいせいふくを"
-dialogtxt       "もくろむアクのテイオウ"
+dialogtxt       "I am the legendary warrior."
+dialogtxt       "You are the emperor of evil"
+dialogtxt       "plotting world domination."
 code0309        
 code047e        0, 0
 code0302        7
@@ -394,13 +395,13 @@ code040b
 code0301        8, 7
 code047d        0, 120
 code047e        0, 1
-dialogtxt       "今日のミョータロウは"
-dialogtxt       "ちょっと変です"
-dialogtxt       "今日だけで何回、噛みつかれたことか"
+dialogtxt       "Myotaro has been a bit strange"
+dialogtxt       "today. How many times has he"
+dialogtxt       "bitten me today?"
 code0309        
-dialogtxt       "でも、ボクはミョータロウを"
-dialogtxt       "信じてますから"
-dialogtxt       "このくらいで手放したりしません"
+dialogtxt       "But, I believe in Myotaro."
+dialogtxt       "I won't leave him just because"
+dialogtxt       "of this."
 code0309        
 code047e        0, 0
 code0302        7
@@ -414,29 +415,29 @@ code040b
 @Event_117e:
 code0301        8, 7
 dialogtxt       "　"
-dialogtxt       "　　　　　　〜ねぇねぇ〜"
+dialogtxt       "　　　　 Hey… Hey you…"
 code0309        
-dialogtxt       "最近、うしろの机から変な声がするの"
-dialogtxt       "何だか気味が悪くて..."
-dialogtxt       "誰かどうにかしてくれないかしら？"
+dialogtxt       "I've been hearing a creepy voice"
+dialogtxt       "from the desk behind me. Can't"
+dialogtxt       "someone do something about it?"
 code0309        
 code0302        7
 code040b        
 
 @Event_121e:
 code0301        8, 7
-dialogtxt       "「福引き」であなたの運を"
-dialogtxt       "試してみませんか？"
-dialogtxt       "毎日抽選！空くじ無し！！"
+dialogtxt       "Care to try our Lucky Draw?"
+dialogtxt       "It's available all day, everyday!"
+dialogtxt       "Guaranteed no losing tickets!"
 code0309        
 code0302        7
 code040b        
 
 @Event_1286:
 code0301        8, 7
-dialogtxt       "はぐれ召喚獣の被害が"
-dialogtxt       "さらに増えています"
-dialogtxt       "ご注意ください！"
+dialogtxt       "The damage done by stray"
+dialogtxt       "Summon Beasts only rises."
+dialogtxt       "Please be careful!"
 code0309        
 code0302        7
 code040b        

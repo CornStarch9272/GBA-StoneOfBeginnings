@@ -122,9 +122,9 @@ code040b
 
 @Event_0576:
 code0301        8, 7
-dialogtxt       "マテルも取り扱っています"
-dialogtxt       "もちろん鍛冶に最適なアイテムも"
-dialogtxt       "多数取り扱っております"
+dialogtxt       "We sell Shapestones!"
+dialogtxt       "Of course, we also have ores"
+dialogtxt       "and stuff for smithing in stock!"
 code0309        
 code0302        7
 code040b        
@@ -334,57 +334,57 @@ ret
 code0301        8, 7
 code047d        0, 148
 code047e        0, 1
-dialogtxt       "あら、そのハンマーは鍛冶師ね"
-dialogtxt       "私は鍛冶師や鍛冶職人を相手に会う"
-dialogtxt       "旅をしているの"
+dialogtxt       "Oh, that hammer…"
+dialogtxt       "You must be a Craftknight. I've"
+dialogtxt       "been looking for people like you."
 code0309        
-dialogtxt       "一人娘と一緒に旅をしてるけど"
-dialogtxt       "今は、娘は何処かに遊びに出ていて"
-dialogtxt       "いないけどね"
+dialogtxt       "I'm traveling with my daughter."
+dialogtxt       "She's not here now though;"
+dialogtxt       "probably out playing somewhere."
 code0309        
-dialogtxt       "鍛冶の事には詳しいから何か"
-dialogtxt       "知りたいことがあったら聞いてね"
+dialogtxt       "I know a lot about smithing,"
+dialogtxt       "so feel free to ask anything."
 code0309        
 code047e        0, 0
-choicetxt       @Choice_0f52, "強化について教えてほしい"
-choicetxt       @Choice_1098, "強刃について教えてほしい"
-choicetxt       @Choice_11a4, "今は特にない"
+choicetxt       @Choice_0f52, "About enhancing…"
+choicetxt       @Choice_1098, "About quenching…"
+choicetxt       @Choice_11a4, "Nothing"
 choicewait      
 
 @Choice_0f52:
 code047e        0, 1
-dialogtxt       "これは、かなり重要な情報だけど"
-dialogtxt       "強化で、必殺技や特殊効果が付加される"
-dialogtxt       "アイテムの見分け方があるの"
+dialogtxt       "Pay attention, this is important."
+dialogtxt       "Enhancing can add special"
+dialogtxt       "moves and effects to your weapon."
 code0309        
-dialogtxt       "アイテムの種類で強化ってアイテムが"
-dialogtxt       "あると思うけど、強化でこれを"
-dialogtxt       "使用することがカギになるの"
+dialogtxt       "Some items are categorized"
+dialogtxt       "specifically as enhancement"
+dialogtxt       "materials."
 code0309        
-dialogtxt       "でもいくら強化アイテムを使っても"
-dialogtxt       "組み合わせが違っていると何も"
-dialogtxt       "付加されないから注意してね"
+dialogtxt       "But if it isn't compatible,"
+dialogtxt       "nothing will happen,"
+dialogtxt       "so be careful."
 code0309        
 goto            @Label_11ce
 
 @Choice_1098:
 code047e        0, 1
-dialogtxt       "強刃についてね、"
-dialogtxt       "あ、そうそうこれは「きょうじん」って"
-dialogtxt       "読むから注意してね"
+dialogtxt       "About quenching then."
+dialogtxt       "You might know it as Toughening,"
+dialogtxt       "so pay attention to that."
 code0309        
-dialogtxt       "強刃では、熟練度が最大の武器を"
-dialogtxt       "使うと、武器のパラメータを"
-dialogtxt       "振り分けることが出来るのよ"
+dialogtxt       "You're able to quench any"
+dialogtxt       "weapon with max TEC and"
+dialogtxt       "increase its effectiveness."
 code0309        
-dialogtxt       "でもね、強刃をしてしまうと熟練度が"
-dialogtxt       "消えてしまうから注意してね"
+dialogtxt       "Note that doing so will"
+dialogtxt       "reset it's TEC to zero."
 code0309        
 goto            @Label_11ce
 
 @Choice_11a4:
 code047e        0, 1
-dialogtxt       "気が向いたらまた来てね"
+dialogtxt       "Come see me anytime."
 code0309        
 @Label_11ce:
 code047e        0, 0

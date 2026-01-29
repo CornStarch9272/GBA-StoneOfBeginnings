@@ -56,9 +56,9 @@ code0479        0, 5, 13
 code047d        0, 0
 call            @Func_437a
 call            @Func_42a2
-dialogtxt       "よかった...！"
-dialogtxt       "みんな..."
-dialogtxt       "無事だったんだ！"
+dialogtxt       "I'm so glad…!"
+dialogtxt       "Everyone…"
+dialogtxt       "You're all okay!"
 code047b        
 code0309        
 call            @Func_42f6
@@ -67,9 +67,9 @@ code0479        1, 2, 15
 code047d        1, 109
 call            @Func_4390
 call            @Func_432c
-dialogtxt       "ノン[NAME 4]なこと言って！"
-dialogtxt       "心配してたのはコッチなんだからね！"
-dialogtxt       "罰金よ、バッ[NAME 4]ン！"
+dialogtxt       "Don't act so carefree!"
+dialogtxt       "We were the ones worried about you!"
+dialogtxt       "You deserve a fine, pay up!"
 code047b        
 code0309        
 call            @Func_43e6
@@ -81,9 +81,9 @@ code047d        1, 132
 code0479        0, 4, 12
 call            @Func_4390
 call            @Func_432c
-dialogtxt       "まったくだ"
-dialogtxt       "だが、お前たち..."
-dialogtxt       "ホント無事でなによりだった"
+dialogtxt       "Tier…"
+dialogtxt       "But, really…"
+dialogtxt       "I'm glad you're safe."
 code047b        
 code0309        
 call            @Func_43e6
@@ -95,16 +95,16 @@ code047d        1, 108
 code0479        0, 0, 16
 call            @Func_4390
 call            @Func_432c
-dialogtxt       "本当に大丈夫かい？"
-dialogtxt       "なんかあったらアンタのご両親に"
-dialogtxt       "申し訳ないからね"
+dialogtxt       "You sure you're okay?"
+dialogtxt       "I don't know what I'd say to your"
+dialogtxt       "parents if you got injured."
 code047b        
 code0309        
 call            @Func_4362
 code0479        0, 1, 14
 call            @Func_42c0
-dialogtxt       "えへへ..."
-dialogtxt       "すみません..."
+dialogtxt       "Ehehe…"
+dialogtxt       "Sorry…"
 code0309        
 call            @Func_43fc
 call            @Func_42de
@@ -123,8 +123,8 @@ code0479        0, 11, 12
 code047d        0, 107
 call            @Func_43a6
 call            @Func_42a2
-dialogtxt       "あ..."
-dialogtxt       "お父さん！"
+dialogtxt       "Ah…"
+dialogtxt       "Father!"
 code0309        
 call            @Func_43fc
 call            @Func_42de
@@ -141,22 +141,22 @@ code040d        15
 code0479        1, 4, 16
 call            @Func_43a6
 call            @Func_430e
-dialogtxt       "すまなかった、ミューノ..."
-dialogtxt       "お父さんが捕まったばかりに..."
+dialogtxt       "I'm sorry, Murno…"
+dialogtxt       "All I've done is get captured…"
 code047b        
 code0309        
 call            @Func_4362
 code0479        0, 10, 13
 call            @Func_42c0
-dialogtxt       "ううん...、いいの..."
-dialogtxt       "お父さん..."
-dialogtxt       "もう大丈夫なのね？"
+dialogtxt       "No…, it's fine…"
+dialogtxt       "Father…"
+dialogtxt       "Are you okay now?"
 code0309        
 call            @Func_42f6
 code0479        1, 1, 12
 call            @Func_432c
-dialogtxt       "ああ..."
-dialogtxt       "ベルヴォ[NAME 8]ンさんのおかげだ"
+dialogtxt       "Yeah…"
+dialogtxt       "Thanks to Velvoren."
 code0309        
 call            @Func_43fc
 call            @Func_434a
@@ -192,7 +192,7 @@ call            @Func_43a6
 code0301        6, 7
 code047e        1, 1
 code047e        0, 1
-dialogbig       24, 116, 1, 0, 0, "ええ〜〜っ！！！"
+dialogbig       24, 116, 1, 0, 0, "Ehhh!!!"
 code047b        
 code030c        
 code047e        1, 0
@@ -213,8 +213,8 @@ code0479        0, 0, 17
 code047d        0, 112
 call            @Func_437a
 call            @Func_42a2
-dialogtxt       "どうしてそんなに"
-dialogtxt       "おどろくかな..."
+dialogtxt       "Why are you"
+dialogtxt       "so surprised…"
 code047b        
 code0309        
 call            @Func_43d0
@@ -230,9 +230,9 @@ code0479        0, 0, 16
 code047d        0, 0
 call            @Func_43a6
 call            @Func_430e
-dialogtxt       "本当にアイツのおかげなんだ"
-dialogtxt       "金の派閥の召喚師なだけのことはあるよ"
-dialogtxt       "役に立つことがあってよかった"
+dialogtxt       "It really is thanks to him."
+dialogtxt       "There are things only Summoners"
+dialogtxt       "can do. He's finally useful."
 code047b        
 code0309        
 call            @Func_43fc
@@ -245,16 +245,15 @@ code0479        0, 4, 16
 code047d        0, 112
 call            @Func_437a
 call            @Func_42a2
-dialogtxt       "そんな言い方ないでしょう"
-dialogtxt       "ちゃんと村までの道案内も"
-dialogtxt       "したのに..."
+dialogtxt       "Don't say that."
+dialogtxt       "I guided you here too…"
 code047b        
 code0309        
 code043c        8, 4
 code0479        0, 0, 13
-dialogtxt       "ま、いいですけど"
-dialogtxt       "おかげでこんなスゴイもの"
-dialogtxt       "見ることができたんだから"
+dialogtxt       "Well, that's fine."
+dialogtxt       "In return, I got to see"
+dialogtxt       "something amazing."
 code0309        
 call            @Func_43d0
 call            @Func_42de
@@ -276,7 +275,7 @@ code0479        0, 0, 16
 code047d        0, 0
 call            @Func_437a
 call            @Func_42a2
-dialogtxt       "何やってるの？"
+dialogtxt       "What're you up to?"
 code047b        
 code0309        
 call            @Func_42f6
@@ -285,18 +284,18 @@ code0479        1, 0, 14
 code047d        1, 109
 call            @Func_4390
 call            @Func_432c
-dialogtxt       "調査だって"
-dialogtxt       "なんかあの剣にものすごく"
-dialogtxt       "[NAME 4]ョウミがあるみたいだよ"
+dialogtxt       "Investigating."
+dialogtxt       "That sword is somehow"
+dialogtxt       "incredibly peculiar."
 code047b        
 code0309        
 call            @Func_4362
 code0333        2, 30
 code0479        0, 2, 14
 call            @Func_42c0
-dialogtxt       "あ...！"
-dialogtxt       "そういえば"
-dialogtxt       "ボスタフさんとアニスは？"
+dialogtxt       "Ah…!"
+dialogtxt       "That reminds me…"
+dialogtxt       "Where are Anise and Bostaph?"
 code0309        
 call            @Func_43e6
 call            @Func_42f6
@@ -306,8 +305,8 @@ code0479        1, 2, 12
 code047d        1, 132
 call            @Func_4390
 call            @Func_432c
-dialogtxt       "それが..."
-dialogtxt       "どこにもいないんだ..."
+dialogtxt       "Well…"
+dialogtxt       "We don't know…"
 code047b        
 code0309        
 call            @Func_43e6
@@ -320,23 +319,23 @@ code0479        1, 4, 14
 code047d        1, 110
 call            @Func_4390
 call            @Func_432c
-dialogtxt       "きっと、さっきの爆発に"
-dialogtxt       "巻き込まれたんだ..."
+dialogtxt       "I'm sure they were caught up"
+dialogtxt       "in that explosion…"
 code047b        
 code0309        
 call            @Func_4362
 code0479        0, 4, 16
 call            @Func_42c0
 jumpz           @Cond_109c, ($b002 == 0)
-dialogtxt       "あ...、あのさ..."
-dialogtxt       "オ[NAME 8]たちだって大丈夫だったんだ"
-dialogtxt       "だから、きっと..."
+dialogtxt       "Ah…, um…"
+dialogtxt       "We got out of it fine,"
+dialogtxt       "so I'm sure…"
 goto            @Label_10ec
 
 @Cond_109c:
-dialogtxt       "あ...、あのさ..."
-dialogtxt       "わたしたちだって大丈夫だったんだよ"
-dialogtxt       "だから、きっと..."
+dialogtxt       "Ah…, um…"
+dialogtxt       "We got out of it fine,"
+dialogtxt       "so I'm sure…"
 goto            @Label_10ec
 
 @Label_10ec:
@@ -344,13 +343,13 @@ code0309
 call            @Func_42f6
 code0479        1, 2, 12
 call            @Func_432c
-dialogtxt       "そんなことより今は"
-dialogtxt       "剣の封印が先でしょ？"
+dialogtxt       "That aside, shouldn't we deal"
+dialogtxt       "with the sword's seal first?"
 code0309        
 call            @Func_4362
 code0479        0, 0, 14
 call            @Func_42c0
-dialogtxt       "封印？"
+dialogtxt       "Seal?"
 code0309        
 call            @Func_43e6
 call            @Func_42f6
@@ -360,7 +359,7 @@ code0479        1, 2, 16
 code047d        1, 108
 call            @Func_4390
 call            @Func_432c
-dialogtxt       "あの剣は呪われた剣なんだそうだ..."
+dialogtxt       "It's said to be cursed…"
 code047b        
 code0309        
 call            @Func_43e6
@@ -371,25 +370,25 @@ code0479        1, 2, 16
 code047d        1, 129
 call            @Func_4390
 call            @Func_432c
-dialogtxt       "そうです"
-dialogtxt       "あの剣は召喚獣を材料として"
-dialogtxt       "作られただけでなく..."
+dialogtxt       "That is correct."
+dialogtxt       "Not only was it made using"
+dialogtxt       "Summon Beasts as materials…"
 code047b        
 code0309        
 code0479        1, 2, 14
-dialogtxt       "今までギセイになった召喚獣の"
-dialogtxt       "怨念が乗り移っている..."
-dialogtxt       "呪われた剣です..."
+dialogtxt       "It holds the grudges of all Summon"
+dialogtxt       "Beasts sacrificed to it until now…"
+dialogtxt       "A cursed sword…"
 code0309        
 call            @Func_4362
 code0479        0, 2, 16
 call            @Func_42c0
 jumpz           @Cond_12fc, ($b002 == 0)
-dialogtxt       "なんだよ、それ..."
+dialogtxt       "What the…"
 goto            @Label_1312
 
 @Cond_12fc:
-dialogtxt       "なによ、それ..."
+dialogtxt       "What the…"
 goto            @Label_1312
 
 @Label_1312:
@@ -397,14 +396,14 @@ code0309
 call            @Func_42f6
 code0479        1, 0, 16
 call            @Func_432c
-dialogtxt       "おそらく憑依召喚の応用でしょう"
-dialogtxt       "斬った相手の魂を操る剣..."
-dialogtxt       "それがこの剣の作られた目的です"
+dialogtxt       "Most likely used for posession."
+dialogtxt       "It controls its victims…"
+dialogtxt       "That's why the sword was made."
 code0309        
 code0479        1, 0, 14
-dialogtxt       "もちろん、斬った相手を操るには"
-dialogtxt       "剣の使い手にもそれなりの力が"
-dialogtxt       "必要ですけれど"
+dialogtxt       "Of course, the person who"
+dialogtxt       "wields such a sword must"
+dialogtxt       "have considerable power themselves."
 code0309        
 call            @Func_43e6
 call            @Func_4362
@@ -414,9 +413,9 @@ code0479        1, 2, 14
 code047d        1, 108
 call            @Func_4390
 call            @Func_432c
-dialogtxt       "おそらく剣の力を高めるために"
-dialogtxt       "斬った召喚獣の魂も"
-dialogtxt       "定着させてると思うよ..."
+dialogtxt       "I believe the sword gets"
+dialogtxt       "stronger with each cut…"
+dialogtxt       "Absorbing the souls of Beasts."
 code047b        
 code0309        
 call            @Func_43d0
@@ -430,16 +429,16 @@ code0479        0, 5, 16
 code047d        0, 109
 call            @Func_437a
 call            @Func_42c0
-dialogtxt       "召喚獣の魂を..."
-dialogtxt       "そんなことできるの？"
+dialogtxt       "A Summon Beast's soul…"
+dialogtxt       "Can it really do that?"
 code047b        
 code0309        
 call            @Func_42f6
 code0479        1, 2, 16
 call            @Func_432c
-dialogtxt       "かつては、そういう技術もあったって"
-dialogtxt       "ロブから聞いたことがある"
-dialogtxt       "技術というか、魔法だね..."
+dialogtxt       "In the past, that technique existed."
+dialogtxt       "I heard it from Rob."
+dialogtxt       "Though it's closer to magic…"
 code0309        
 call            @Func_43d0
 call            @Func_4362
@@ -468,30 +467,30 @@ code047d        0, 2
 call            @Func_437a
 call            @Func_42c0
 jumpz           @Cond_16c0, ($b003 == 0)
-dialogtxt       "タシカニ　アノ剣カラハ"
-dialogtxt       "同時ニ　複数ノ波動ガ"
-dialogtxt       "放出サ[NAME 8]テイマス"
+dialogtxt       "I Detect Many Different"
+dialogtxt       "Waves Of Energy Emitting"
+dialogtxt       "From The Sword."
 goto            @Cond_16c0
 
 @Cond_16c0:
 jumpz           @Cond_1722, ($b003 == 1)
-dialogtxt       "たしかにあの剣からは"
-dialogtxt       "複数の邪気を感じるの..."
-dialogtxt       "まがまがしい代物じゃな..."
+dialogtxt       "True, I can feel several kinds"
+dialogtxt       "of ill will from the sword…"
+dialogtxt       "A sinister object…"
 goto            @Cond_1722
 
 @Cond_1722:
 jumpz           @Cond_1780, ($b003 == 2)
-dialogtxt       "たしかにあの剣からは"
-dialogtxt       "複数の邪気を感じる..."
-dialogtxt       "ドス黒い怒りの輝きだ..."
+dialogtxt       "True, I can feel all sorts of"
+dialogtxt       "malice from the sword…"
+dialogtxt       "The aura of an anger stained black…"
 goto            @Cond_1780
 
 @Cond_1780:
 jumpz           @Cond_17ec, ($b003 == 3)
-dialogtxt       "たしかにあの剣からは"
-dialogtxt       "複数の邪気を感じますわ..."
-dialogtxt       "それに、とても悲しい気がします..."
+dialogtxt       "True, I can feel many kinds"
+dialogtxt       "of ill will from the sword…"
+dialogtxt       "Also, it feels very sorrowful…"
 goto            @Cond_17ec
 
 @Cond_17ec:
@@ -505,9 +504,9 @@ code0479        0, 2, 14
 code047d        0, 132
 call            @Func_437a
 call            @Func_42c0
-dialogtxt       "あの剣自体がもう"
-dialogtxt       "すごいバケモノってことか..."
-dialogtxt       "恐ろしいもんを作りやがるぜ..."
+dialogtxt       "The sword's nature has already"
+dialogtxt       "become that of a monster…"
+dialogtxt       "They've made something horrendous…"
 code047b        
 code0309        
 call            @Func_43e6
@@ -518,15 +517,15 @@ code0479        1, 2, 16
 code047d        1, 129
 call            @Func_4390
 call            @Func_432c
-dialogtxt       "その剣の召喚獣を操る能力を増幅して"
-dialogtxt       "魔晶柱を介して各地に飛ばすことで"
-dialogtxt       "影響下にある召喚獣を全て支配する..."
+dialogtxt       "Using the Demon Pillar to amplify"
+dialogtxt       "its power, one can bring every Beast"
+dialogtxt       "in the world under its influence…"
 code047b        
 code0309        
 code0479        1, 4, 14
-dialogtxt       "そんな、おそろしい目的のために"
-dialogtxt       "娘の祖先が作ったのが、この..."
-dialogtxt       "ゴヴァンの遺跡です"
+dialogtxt       "And so the girl's ancestors created"
+dialogtxt       "a catalyst to fulfill that goal…"
+dialogtxt       "The Govan Ruins."
 code0309        
 call            @Func_43d0
 call            @Func_4362
@@ -536,15 +535,15 @@ code0479        0, 5, 16
 code047d        0, 109
 call            @Func_437a
 call            @Func_42c0
-dialogtxt       "娘って、お父さんはちがうの？"
+dialogtxt       "Girl's? Not yours?"
 code047b        
 code0309        
 call            @Func_42f6
 code0479        1, 0, 16
 call            @Func_432c
-dialogtxt       "私は正統な後継者ではありません"
-dialogtxt       "私の妻、つまりこの子の母が"
-dialogtxt       "後継者でした..."
+dialogtxt       "I am not the legitimate successor."
+dialogtxt       "It was my wife,"
+dialogtxt       "the girls mother…"
 code0309        
 call            @Func_43d0
 call            @Func_4362
@@ -554,15 +553,15 @@ code0479        0, 2, 16
 code047d        0, 0
 call            @Func_437a
 call            @Func_42c0
-dialogtxt       "でした、って..."
+dialogtxt       "Was…?"
 code047b        
 code0309        
 call            @Func_42f6
 code0479        1, 4, 14
 call            @Func_432c
-dialogtxt       "はい...、妻は亡くなりました"
-dialogtxt       "今は娘がただひとりの"
-dialogtxt       "正統後継者です"
+dialogtxt       "Yes… she is gone now."
+dialogtxt       "At the moment, she is"
+dialogtxt       "the sole successor."
 code0309        
 call            @Func_43e6
 call            @Func_4362
@@ -573,7 +572,7 @@ code047d        1, 107
 code0479        0, 4, 16
 call            @Func_4390
 call            @Func_432c
-dialogtxt       "..."
+dialogtxt       "…"
 code047b        
 code0309        
 call            @Func_43e6
@@ -584,43 +583,43 @@ code0479        1, 2, 16
 code047d        1, 129
 call            @Func_4390
 call            @Func_432c
-dialogtxt       "かつて実験に失敗し"
-dialogtxt       "大勢のギセイを出したこの遺跡は"
-dialogtxt       "封印されることになりました"
+dialogtxt       "A failed experiment relased many"
+dialogtxt       "of the sacrifices. We were forced"
+dialogtxt       "to seal the ruins."
 code047b        
 code0309        
 code0479        1, 2, 14
 code0479        0, 0, 14
-dialogtxt       "魔力増幅装置だった魔石は"
-dialogtxt       "そのまま結界を張る力として"
-dialogtxt       "利用されたのです"
+dialogtxt       "We used the Demon Stone to"
+dialogtxt       "amplify our magical power"
+dialogtxt       "and create a barrier."
 code0309        
 call            @Func_4362
 code0479        0, 0, 16
 call            @Func_42c0
-dialogtxt       "だったらあの剣をこわせば..."
+dialogtxt       "Then if we destroy the sword…"
 code0309        
 call            @Func_42f6
 code0479        1, 0, 16
 call            @Func_432c
-dialogtxt       "さっきの爆発を見たでしょう"
-dialogtxt       "あの剣に封じ込められた力が"
-dialogtxt       "すべて解放された時..."
+dialogtxt       "You saw that explosion."
+dialogtxt       "If the energy within the sword"
+dialogtxt       "was released all at once…"
 code0309        
 code0479        1, 2, 14
-dialogtxt       "何が起きるか見当もつきません..."
+dialogtxt       "I cannot guess what may happen…"
 code0309        
 call            @Func_4362
 code0479        0, 2, 14
 call            @Func_42c0
-dialogtxt       "そっか..."
+dialogtxt       "I see…"
 code0309        
 call            @Func_42f6
 code0479        1, 2, 15
 call            @Func_432c
-dialogtxt       "こうしている間にも"
-dialogtxt       "あの剣からは邪気がもれています"
-dialogtxt       "娘も帰ってきましたし、早く封印を"
+dialogtxt       "As we speak, the sword continues"
+dialogtxt       "to radiate evil. With my daughter"
+dialogtxt       "freed, we should move to seal it."
 code0309        
 call            @Func_43e6
 call            @Func_4362
@@ -630,9 +629,9 @@ code0479        1, 2, 14
 code047d        1, 108
 call            @Func_4390
 call            @Func_432c
-dialogtxt       "そうだね"
-dialogtxt       "そんな危ないもんは"
-dialogtxt       "ちゃっちゃと片付けちまおう"
+dialogtxt       "Right."
+dialogtxt       "Something that dangerous should"
+dialogtxt       "be dealt with as soon as possible."
 code047b        
 code0309        
 call            @Func_43fc
@@ -644,9 +643,9 @@ code048c
 code0479        1, 2, 15
 call            @Func_4390
 call            @Func_430e
-dialogtxt       "おいアンタ"
-dialogtxt       "その剣を返しな"
-dialogtxt       "早く封印するよ"
+dialogtxt       "Hey, you."
+dialogtxt       "Put the sword back."
+dialogtxt       "We're gonna seal it."
 code047b        
 code0309        
 call            @Func_43e6
@@ -670,7 +669,7 @@ code0479        0, 4, 14
 code047d        0, 112
 call            @Func_437a
 call            @Func_42a2
-dialogtxt       "封印..."
+dialogtxt       "Seal it…"
 code047b        
 code0309        
 call            @Func_43d0
@@ -697,9 +696,9 @@ code0479        0, 5, 16
 code047d        0, 132
 call            @Func_437a
 call            @Func_42a2
-dialogtxt       "ちょっと...！"
-dialogtxt       "ドコ行くんスか？"
-dialogtxt       "早くその剣を封印しないと..."
+dialogtxt       "Hey…!"
+dialogtxt       "What are you doing?"
+dialogtxt       "If we don't do it soon…"
 code047b        
 code0309        
 call            @Func_43d0
@@ -715,9 +714,9 @@ code0479        1, 4, 12
 code047d        1, 112
 call            @Func_4390
 call            @Func_430e
-dialogtxt       "この剣で斬れば"
-dialogtxt       "どんな召喚獣でも"
-dialogtxt       "操ることができるんですよね？"
+dialogtxt       "This sword is"
+dialogtxt       "able to control"
+dialogtxt       "any Summon Beast, right?"
 code047b        
 code0309        
 call            @Func_4362
@@ -726,16 +725,16 @@ code0479        0, 5, 16
 code047d        0, 129
 call            @Func_437a
 call            @Func_42c0
-dialogtxt       "そう、言われていますが..."
-dialogtxt       "魔力のある者が扱えば、ですが..."
+dialogtxt       "Yes, but… Only those with"
+dialogtxt       "magical power can wield it…"
 code047b        
 code0309        
 call            @Func_42f6
 code0479        1, 5, 13
 call            @Func_432c
-dialogtxt       "じゃあ、この剣を使えば"
-dialogtxt       "どんなスゴイ召喚獣だって"
-dialogtxt       "僕の思いのままに..."
+dialogtxt       "Then, if I used this sword,"
+dialogtxt       "I can have any Summon I want"
+dialogtxt       "do my bidding…"
 code0309        
 call            @Func_43d0
 call            @Func_4362
@@ -745,15 +744,15 @@ code0479        0, 2, 14
 code047d        0, 108
 call            @Func_437a
 call            @Func_42c0
-dialogtxt       "ちょっとアンタ..."
-dialogtxt       "バカなことを考えてるんじゃないよ"
-dialogtxt       "ウェルマンさんも言ってただろう...？"
+dialogtxt       "Wait, you…"
+dialogtxt       "Don't be stupid."
+dialogtxt       "Wellman just told you…"
 code047b        
 code0309        
 code0479        0, 2, 16
-dialogtxt       "「魔力があれば」使える剣なんだよ"
-dialogtxt       "アンタ、まともに召喚術も"
-dialogtxt       "使えないんだろ？　だから..."
+dialogtxt       "Only those with magical power can"
+dialogtxt       "wield the sword. But you could never"
+dialogtxt       "use Summoning properly right? So…"
 code0309        
 call            @Func_43fc
 call            @Func_42de
@@ -793,7 +792,7 @@ code0479        0, 5, 17
 code047d        0, 107
 call            @Func_437a
 call            @Func_42a2
-dialogtxt       "あれは！"
+dialogtxt       "That's!"
 code047b        
 code0309        
 call            @Func_43d0
@@ -811,7 +810,8 @@ code0479        1, 2, 17
 code047d        1, 129
 call            @Func_4390
 call            @Func_430e
-dialogtxt       "いつの間に魔石を！"
+dialogtxt       "The Stone!"
+dialogtxt       "When did you…!?"
 code0309        
 call            @Func_43e6
 call            @Func_434a
@@ -821,15 +821,15 @@ code0479        1, 2, 16
 code047d        1, 112
 call            @Func_4390
 call            @Func_430e
-dialogtxt       "この魔石を使えば"
-dialogtxt       "すごい召喚獣を呼び出すことだって"
-dialogtxt       "できるはずだ！"
+dialogtxt       "If I use this stone,"
+dialogtxt       "I should be able to call out"
+dialogtxt       "a powerful Summon Beast!"
 code047b        
 code0309        
 code0479        1, 2, 14
-dialogtxt       "そして"
-dialogtxt       "制御できない召喚獣がでてきたって"
-dialogtxt       "この剣を使えば...！"
+dialogtxt       "And then, even if it's one"
+dialogtxt       "I can't normally control,"
+dialogtxt       "with this sword…!"
 code0309        
 call            @Func_4362
 code0478        0, 10
@@ -837,9 +837,9 @@ code0479        0, 3, 15
 code047d        0, 132
 call            @Func_437a
 call            @Func_42c0
-dialogtxt       "テメェ...！"
-dialogtxt       "ふざけるな！！"
-dialogtxt       "早くそいつを...！！！"
+dialogtxt       "Bastard…!"
+dialogtxt       "Stop messing around!!"
+dialogtxt       "Hand it over…!!!"
 code047b        
 code0309        
 call            @Func_42f6
@@ -847,7 +847,7 @@ code043e        8, 1, 0
 code043e        11, 1, 0
 code0479        1, 3, 17
 call            @Func_432c
-dialogbig       24, 116, 1, 0, 0, "うるさぁいっ！！"
+dialogbig       24, 116, 1, 0, 0, "Shut up!!"
 code047b        
 code030c        
 call            @Func_43fc
@@ -943,22 +943,22 @@ code047d        0, 2
 call            @Func_437a
 call            @Func_42a2
 jumpz           @Cond_2d5a, ($b003 == 0)
-dialogtxt       "...ッ！"
+dialogtxt       "…!"
 goto            @Cond_2d5a
 
 @Cond_2d5a:
 jumpz           @Cond_2d78, ($b003 == 1)
-dialogtxt       "...ッ！"
+dialogtxt       "…!"
 goto            @Cond_2d78
 
 @Cond_2d78:
 jumpz           @Cond_2d96, ($b003 == 2)
-dialogtxt       "...ッ！"
+dialogtxt       "…!"
 goto            @Cond_2d96
 
 @Cond_2d96:
 jumpz           @Cond_2db4, ($b003 == 3)
-dialogtxt       "...ッ！"
+dialogtxt       "…!"
 goto            @Cond_2db4
 
 @Cond_2db4:
@@ -973,8 +973,8 @@ code0479        1, 4, 17
 code047d        1, 108
 call            @Func_4390
 call            @Func_430e
-dialogtxt       "ちっ...！"
-dialogtxt       "また、このプ[NAME 8]ッシャーかっ...！"
+dialogtxt       "Tch…!"
+dialogtxt       "This pressure again…!"
 code047b        
 code0309        
 call            @Func_43e6
@@ -987,16 +987,16 @@ code0479        1, 2, 16
 code047d        1, 112
 call            @Func_4390
 call            @Func_430e
-dialogtxt       "これは僕の剣だ！"
-dialogtxt       "僕が今ここにいるのが"
-dialogtxt       "何よりの証拠なんだ！"
+dialogtxt       "The sword is mine!"
+dialogtxt       "The mere fact that"
+dialogtxt       "I'm here is proof!"
 code047b        
 code0309        
 code043c        5, 3
 code043c        3, 3
 code0479        1, 5, 15
-dialogtxt       "開けっ！"
-dialogtxt       "異界の門よっ！！！"
+dialogtxt       "Open!"
+dialogtxt       "Gate of the Underworld!!!"
 code0309        
 call            @Func_43e6
 call            @Func_434a
@@ -1046,7 +1046,7 @@ code0479        0, 5, 15
 code047d        0, 109
 call            @Func_437a
 call            @Func_42a2
-dialogtxt       "うわあっ？"
+dialogtxt       "Uwah?"
 code047b        
 code0309        
 call            @Func_43d0
@@ -1057,7 +1057,7 @@ code0479        0, 1, 15
 code047d        0, 107
 call            @Func_437a
 call            @Func_42a2
-dialogtxt       "お父さん！"
+dialogtxt       "Father!"
 code047b        
 code0309        
 call            @Func_42f6
@@ -1066,7 +1066,7 @@ code0479        1, 2, 15
 code047d        1, 129
 call            @Func_4390
 call            @Func_432c
-dialogtxt       "ミューノっ！"
+dialogtxt       "Murno!"
 code047b        
 code0309        
 call            @Func_43fc
@@ -1077,8 +1077,8 @@ code0479        0, 4, 14
 code047d        0, 110
 call            @Func_437a
 call            @Func_42a2
-dialogtxt       "す...すごい力だ...！"
-dialogtxt       "このままじゃ...！"
+dialogtxt       "S…such power…!"
+dialogtxt       "At this rate…!"
 code0309        
 call            @Func_43d0
 call            @Func_42de
@@ -1090,13 +1090,13 @@ code047d        1, 112
 code0479        1, 5, 15
 call            @Func_4390
 call            @Func_430e
-dialogtxt       "これがあればもう"
-dialogtxt       "ダメ召喚師なんて呼ばせない！"
-dialogtxt       "誰よりも強く、大きい召喚獣を..."
+dialogtxt       "With this, no one can call"
+dialogtxt       "me a useless Summoner anymore!"
+dialogtxt       "I will have my own Beast…"
 code047b        
 code0309        
 code0479        1, 3, 13
-dialogtxt       "僕のものにしてやる！"
+dialogtxt       "Bigger and stronger than all others!"
 code0309        
 call            @Func_4362
 code0478        0, 10
@@ -1104,7 +1104,7 @@ code0479        0, 3, 15
 code047d        0, 132
 call            @Func_437a
 call            @Func_42c0
-dialogtxt       "[NAME 4]サマっ！"
+dialogtxt       "Bastard!"
 code047b        
 code0309        
 call            @Func_43d0
@@ -1112,7 +1112,7 @@ call            @Func_42f6
 code047b        
 code0479        1, 5, 15
 call            @Func_432c
-dialogbig       24, 116, 1, 0, 0, "召っ喚！！！！！"
+dialogbig       24, 116, 1, 0, 0, "Sum, mon!!!!!"
 code030c        
 call            @Func_43e6
 call            @Func_434a
@@ -1148,7 +1148,7 @@ code0479        1, 3, 15
 code047d        0, 112
 call            @Func_4390
 call            @Func_430e
-dialogtxt       "きたきたきたきたきたきたきたきた！"
+dialogtxt       "Yesyesyesyesyesyesyesyesyesyes!"
 code047b        
 code0309        
 call            @Func_43e6
@@ -1160,13 +1160,13 @@ code047d        0, 0
 call            @Func_437a
 call            @Func_42a2
 jumpz           @Cond_36fe, ($b002 == 0)
-dialogtxt       "こ..."
-dialogtxt       "こんな、でかい..."
+dialogtxt       "It's…"
+dialogtxt       "It's huge…"
 goto            @Label_3720
 
 @Cond_36fe:
-dialogtxt       "こ..."
-dialogtxt       "こんな、おっきい..."
+dialogtxt       "It's…"
+dialogtxt       "It's huge…"
 goto            @Label_3720
 
 @Label_3720:
@@ -1180,7 +1180,7 @@ code0479        1, 3, 13
 code047d        1, 112
 call            @Func_4390
 call            @Func_430e
-dialogbig       24, 116, 1, 0, 0, "こいこいこいっ！"
+dialogbig       24, 116, 1, 0, 0, "Comecomecome!"
 code030c        
 call            @Func_43e6
 call            @Func_434a
@@ -1192,8 +1192,8 @@ code0479        1, 4, 17
 code047d        1, 107
 call            @Func_4390
 call            @Func_430e
-dialogtxt       "どうしよう..."
-dialogtxt       "どうしよう...！"
+dialogtxt       "What do I do…"
+dialogtxt       "What do I do…!"
 code047b        
 code0309        
 call            @Func_43e6
@@ -1208,13 +1208,13 @@ code047d        0, 0
 call            @Func_437a
 call            @Func_42a2
 jumpz           @Cond_38b0, ($b002 == 0)
-dialogtxt       "くっそお...！"
-dialogtxt       "させるか！"
+dialogtxt       "Dammit…!"
+dialogtxt       "Like I'll let you!"
 goto            @Label_38d2
 
 @Cond_38b0:
-dialogtxt       "くっ...！"
-dialogtxt       "させるもんか！"
+dialogtxt       "Ku…!"
+dialogtxt       "Like I'll let you do that!"
 goto            @Label_38d2
 
 @Label_38d2:
@@ -1259,22 +1259,22 @@ code047d        0, 2
 call            @Func_437a
 call            @Func_42a2
 jumpz           @Cond_3a7e, ($b003 == 0)
-dialogtxt       "ぱーとなー！"
+dialogtxt       "Partner!"
 goto            @Cond_3a7e
 
 @Cond_3a7e:
 jumpz           @Cond_3a9c, ($b003 == 1)
-dialogtxt       "δっ！"
+dialogtxt       "[NAME 2]!"
 goto            @Cond_3a9c
 
 @Cond_3a9c:
 jumpz           @Cond_3aba, ($b003 == 2)
-dialogtxt       "δっ！"
+dialogtxt       "[NAME 2]!"
 goto            @Cond_3aba
 
 @Cond_3aba:
 jumpz           @Cond_3adc, ($b003 == 3)
-dialogtxt       "δさんっ！"
+dialogtxt       "[NAME 2]!"
 goto            @Cond_3adc
 
 @Cond_3adc:

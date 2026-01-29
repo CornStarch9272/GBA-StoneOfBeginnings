@@ -35,22 +35,21 @@ code0479        1, 0, 12
 code047d        1, 108
 call            @Func_1136
 call            @Func_109e
-dialogtxt       "ほら"
-dialogtxt       "ここを抜ければもう"
-dialogtxt       "プロスバンの町だよ"
+dialogtxt       "See, go through here,"
+dialogtxt       "and you'll be at Prosban."
 code047b        
 code0309        
 call            @Func_10f2
 code0479        0, 4, 12
 call            @Func_1050
 jumpz           @Cond_02e2, ($b002 == 0)
-dialogtxt       "ふう..."
-dialogtxt       "やっとついたか..."
+dialogtxt       "Phew…"
+dialogtxt       "We're finally here…"
 goto            @Label_0302
 
 @Cond_02e2:
-dialogtxt       "ふう..."
-dialogtxt       "やっとついた..."
+dialogtxt       "Phew…"
+dialogtxt       "We're finally here…"
 goto            @Label_0302
 
 @Label_0302:
@@ -63,21 +62,19 @@ code0479        1, 0, 14
 code047d        1, 109
 call            @Func_1120
 call            @Func_10bc
-dialogtxt       "この程度でつかれたの？"
-dialogtxt       "なによ、だらしないわねぇ"
+dialogtxt       "You're already tired?"
+dialogtxt       "You're a mess."
 code047b        
 code0309        
 call            @Func_10f2
 code0479        0, 2, 14
 call            @Func_1050
 jumpz           @Cond_03de, ($b002 == 0)
-dialogtxt       "なんだと..."
-dialogtxt       "ダ[NAME 8]のせいだと思ってるんだ..."
+dialogtxt       "I wonder who's fault that is…?"
 goto            @Label_040c
 
 @Cond_03de:
-dialogtxt       "そんな..."
-dialogtxt       "ダ[NAME 8]のせいだと思ってるの..."
+dialogtxt       "I wonder who's fault that is…?"
 goto            @Label_040c
 
 @Label_040c:
@@ -163,7 +160,7 @@ code0479        0, 1, 17
 code047d        0, 107
 call            @Func_110a
 call            @Func_1032
-dialogtxt       "きゃあっ！"
+dialogtxt       "Kyah!"
 code047b        
 code0309        
 call            @Func_1160
@@ -193,25 +190,25 @@ code047d        1, 2
 call            @Func_1120
 call            @Func_109e
 jumpz           @Cond_098a, ($b003 == 0)
-dialogtxt       "囲マ[NAME 8]タ！？"
+dialogtxt       "We Are Surrounded!?"
 goto            @Cond_098a
 
 @Cond_098a:
 jumpz           @Cond_09bc, ($b003 == 1)
-dialogtxt       "しまった！"
-dialogtxt       "囲まれたか！"
+dialogtxt       "Confound it!"
+dialogtxt       "We're surrounded!"
 goto            @Cond_09bc
 
 @Cond_09bc:
 jumpz           @Cond_09e8, ($b003 == 2)
-dialogtxt       "ちっ！"
-dialogtxt       "油断した！"
+dialogtxt       "Tch!"
+dialogtxt       "I let my guard down!"
 goto            @Cond_09e8
 
 @Cond_09e8:
 jumpz           @Cond_0a1a, ($b003 == 3)
-dialogtxt       "うぅっ！"
-dialogtxt       "負けませんよ！"
+dialogtxt       "Hmph!"
+dialogtxt       "We won't lose!"
 goto            @Cond_0a1a
 
 @Cond_0a1a:
@@ -223,11 +220,11 @@ code047d        0, 0
 call            @Func_110a
 call            @Func_1050
 jumpz           @Cond_0a78, ($b002 == 0)
-dialogtxt       "いくぞ！"
+dialogtxt       "Let's go!"
 goto            @Label_0a88
 
 @Cond_0a78:
-dialogtxt       "いくよ！"
+dialogtxt       "Let's go!"
 goto            @Label_0a88
 
 @Label_0a88:

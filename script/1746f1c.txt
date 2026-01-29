@@ -262,11 +262,11 @@ ret
 @Event_0a06:
 code0301        8, 7
 dialogtxt       "　"
-dialogtxt       "　　　　　∞探しています∞"
+dialogtxt       "∞Searching∞"
 code0309        
-dialogtxt       "しましま模様のしっぽを"
-dialogtxt       "持った[NAME 6]コを探しています"
-dialogtxt       "見つけた方は連絡ください"
+dialogtxt       "I'm looking for a cat"
+dialogtxt       "with a striped tail."
+dialogtxt       "If you see it, please contact me."
 code0309        
 code0302        7
 code040b        

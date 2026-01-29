@@ -79,7 +79,7 @@ goto            @Cond_03c2
 goto            @Label_03c6
 
 @Label_03c6:
-placetxt        "Govan Ruins　- Area 2"
+placetxt        "Govan Ruins　Area 2"
 code040b        
 
 @Label_03e4:

@@ -11,7 +11,7 @@ code0418        2
 setvar          $b075, 1
 setvar          $b072, 0
 code046c        0
-placetxt        "Gallahan's Workshop　Tool Shop"
+placetxt        "Gallahan Workshop　Toolshop"
 code040c        1, @Label_0616
 code040c        2, @Label_05fc
 code0438        2, 384, 638, 1
@@ -88,7 +88,7 @@ code0412        4, 1
 code0418        2
 setvar          $b075, 1
 setvar          $b072, 0
-placetxt        "Gallahan's Workshop　Tool Shop"
+placetxt        "Gallahan Workshop　Toolshop"
 code040c        1, @Label_0616
 code040c        2, @Label_05fc
 code0438        2, 384, 638, 1
@@ -136,8 +136,9 @@ goto            @start
 code0301        8, 7
 code047d        0, 136
 code047e        0, 1
-dialogtxt       "何だか周りがさわがしいようだ"
-dialogtxt       "こういう時こそ、おちつかんとな"
+dialogtxt       "Looks like it's getting hectic"
+dialogtxt       "around here. At times like this,"
+dialogtxt       "it's best to stay calm."
 code0309        
 code047e        0, 0
 code0302        7
@@ -145,9 +146,9 @@ code040b
 
 @Event_06b0:
 code0301        8, 7
-dialogtxt       "ギャラハン工房からのお知らせ"
-dialogtxt       "カウンターに店員がいないときには"
-dialogtxt       "勝手に買い物してください"
+dialogtxt       "A notice From Gallahan's Workshop:"
+dialogtxt       "When a clerk is not at the counter,"
+dialogtxt       "please shop at your own convenience."
 code0309        
 code0302        7
 code040b        
@@ -357,8 +358,8 @@ ret
 code0301        8, 7
 code047d        0, 120
 code047e        0, 1
-dialogtxt       "この村を守るためには"
-dialogtxt       "強力な武器が必要だと思うんだ"
+dialogtxt       "We need powerful weapons if"
+dialogtxt       "we are to protect this village."
 code0309        
 code047e        0, 0
 code0302        7

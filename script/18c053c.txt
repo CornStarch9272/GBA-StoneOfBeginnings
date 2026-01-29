@@ -10,9 +10,9 @@ code0479        1, 0, 12
 code047d        1, 0
 call            @Func_0ef8
 call            @Func_0df4
-dialogtxt       "金の派閥のエライ人たち"
-dialogtxt       "もう私たちには会いたくないって"
-dialogtxt       "感じだったね..."
+dialogtxt       "It seems the higher-ups at the"
+dialogtxt       "Gold Council don't want to"
+dialogtxt       "meet with us anymore…"
 code047b        
 code0309        
 call            @Func_0e48
@@ -20,15 +20,15 @@ code043c        0, 2
 code0479        1, 2, 16
 call            @Func_0e7e
 jumpz           @Cond_0168, ($b002 == 0)
-dialogtxt       "ホント"
-dialogtxt       "オ[NAME 8]たちが悪いことしたワケじゃ"
-dialogtxt       "ないってのに..."
+dialogtxt       "Really."
+dialogtxt       "It's not like it's our fault"
+dialogtxt       "any of this happened…"
 goto            @Label_01ac
 
 @Cond_0168:
-dialogtxt       "ホント"
-dialogtxt       "わたしたちが悪いことしたワケじゃ"
-dialogtxt       "ないってのに..."
+dialogtxt       "Really."
+dialogtxt       "It's not like it's our fault"
+dialogtxt       "any of this happened…"
 goto            @Label_01ac
 
 @Label_01ac:
@@ -36,57 +36,57 @@ code0309
 call            @Func_0eb4
 code0479        0, 0, 12
 call            @Func_0e12
-dialogtxt       "これでこの町にくる用事も"
-dialogtxt       "なくなりそうだし"
-dialogtxt       "私も村の方をちゃんとしなくっちゃ"
+dialogtxt       "And I've finished everything"
+dialogtxt       "I needed to do here."
+dialogtxt       "I need to focus on the village next."
 code0309        
 code043c        2, 1
 code0479        1, 0, 16
 code0479        0, 4, 12
-dialogtxt       "まだ、全然なのよ"
-dialogtxt       "ホント、ヒドイありさまで..."
-dialogtxt       "全然..."
+dialogtxt       "We have a long way to go…"
+dialogtxt       "It's in a terrible state…"
+dialogtxt       "Sigh…"
 code0309        
 call            @Func_0e48
 code0479        1, 4, 14
 call            @Func_0e7e
-dialogtxt       "ミューノ..."
+dialogtxt       "Murno…"
 code0309        
 call            @Func_0eb4
 code0479        0, 4, 16
 call            @Func_0e12
-dialogtxt       "ゴヴァンの魔石のおかげで"
-dialogtxt       "村のみんなが..."
-dialogtxt       "私..."
+dialogtxt       "Thanks to the Demon Stone,"
+dialogtxt       "the villagers all…"
+dialogtxt       "I…"
 code0309        
 call            @Func_0e48
 code0479        1, 2, 15
 call            @Func_0e7e
-dialogtxt       "ちがう！"
-dialogtxt       "ミューノのせいじゃない..."
-dialogtxt       "それに魔石のせいでもないよ！"
+dialogtxt       "No!"
+dialogtxt       "It's not your fault…"
+dialogtxt       "Nor is it the Demon Stones!"
 code0309        
 code043c        2, 4
 code0479        1, 2, 16
-dialogtxt       "悪いのは、あの魔石を狙って"
-dialogtxt       "村をおそった連中で..."
+dialogtxt       "The real problem here is those"
+dialogtxt       "that attacked your village…"
 code0309        
 call            @Func_0eb4
 code0479        0, 4, 12
 call            @Func_0e12
-dialogtxt       "δ..."
+dialogtxt       "[NAME 2]…"
 code0309        
 call            @Func_0e48
 code0479        1, 0, 12
 call            @Func_0e7e
 jumpz           @Cond_0468, ($b002 == 0)
-dialogtxt       "それにあの魔石のおかげで"
-dialogtxt       "オ[NAME 8]はミューノに会えたんだし..."
+dialogtxt       "And its because of the"
+dialogtxt       "Demon Stone that I met you, Murno…"
 goto            @Label_04ac
 
 @Cond_0468:
-dialogtxt       "それにあの魔石のおかげで"
-dialogtxt       "わたしはミューノに会えたんだし..."
+dialogtxt       "And its because of the"
+dialogtxt       "Demon Stone that I met you, Murno…"
 goto            @Label_04ac
 
 @Label_04ac:
@@ -94,26 +94,26 @@ code0309
 call            @Func_0eb4
 code0479        0, 0, 16
 call            @Func_0e12
-dialogtxt       "........."
+dialogtxt       "[NAME 2]…"
 code0309        
 code0479        0, 2, 12
-dialogtxt       "そうね..."
-dialogtxt       "私、負けない..."
-dialogtxt       "δみたいに強くなる..."
+dialogtxt       "You're right…"
+dialogtxt       "I won't give up…"
+dialogtxt       "I have to be strong, like you…"
 code0309        
 call            @Func_0e48
 code0479        1, 2, 12
 call            @Func_0e7e
 jumpz           @Cond_059c, ($b002 == 0)
-dialogtxt       "うん、がんばろう"
-dialogtxt       "オ[NAME 8]ももっともっと強くなる"
-dialogtxt       "いっしょにがんばろう"
+dialogtxt       "Yeah, you can do it!"
+dialogtxt       "I'm still getting stronger too."
+dialogtxt       "Let's work at it together."
 goto            @Label_05ec
 
 @Cond_059c:
-dialogtxt       "うん、がんばろう"
-dialogtxt       "わたしももっともっと強くなる"
-dialogtxt       "いっしょにがんばろう"
+dialogtxt       "Yeah, you can do it!"
+dialogtxt       "I'm still getting stronger too."
+dialogtxt       "Let's work at it together."
 goto            @Label_05ec
 
 @Label_05ec:
@@ -121,23 +121,23 @@ code0309
 call            @Func_0eb4
 code0479        0, 2, 13
 call            @Func_0e12
-dialogtxt       "じゃあ私は、毎日がんばってる"
-dialogtxt       "δを思いだして"
-dialogtxt       "それ以上がんばる"
+dialogtxt       "I'll think of you"
+dialogtxt       "every day then,"
+dialogtxt       "and try even harder."
 code0309        
 call            @Func_0e48
 code0479        1, 2, 13
 call            @Func_0e7e
 jumpz           @Cond_06c8, ($b002 == 0)
-dialogtxt       "じゃあオ[NAME 8]だって"
-dialogtxt       "毎日ミューノを思いだして"
-dialogtxt       "それ以上がんばる！"
+dialogtxt       "Me too, I'll think about"
+dialogtxt       "you every day Murno,"
+dialogtxt       "and try even harder than that!"
 goto            @Label_0714
 
 @Cond_06c8:
-dialogtxt       "じゃあわたしだって"
-dialogtxt       "毎日ミューノを思いだして"
-dialogtxt       "それ以上がんばる！"
+dialogtxt       "Me too, I'll think about"
+dialogtxt       "you every day Murno,"
+dialogtxt       "and try even harder than that!"
 goto            @Label_0714
 
 @Label_0714:
@@ -145,20 +145,20 @@ code0309
 call            @Func_0eb4
 code0479        0, 1, 12
 call            @Func_0e12
-dialogtxt       "もう、δったら"
-dialogtxt       "負けずぎらいなんだから"
+dialogtxt       "Hehe. [NAME 2],"
+dialogtxt       "you really hate to lose."
 code0309        
 call            @Func_0e48
 code0479        1, 1, 12
 call            @Func_0e7e
 jumpz           @Cond_07ae, ($b002 == 0)
-dialogtxt       "なんだよ"
-dialogtxt       "ミューノだって"
+dialogtxt       "Hey,"
+dialogtxt       "aren't you the same?"
 goto            @Label_07ce
 
 @Cond_07ae:
-dialogtxt       "なによ"
-dialogtxt       "ミューノだって"
+dialogtxt       "Hey,"
+dialogtxt       "aren't you the same?"
 goto            @Label_07ce
 
 @Label_07ce:
@@ -174,9 +174,9 @@ code0479        1, 1, 12
 code0479        0, 6, 13
 call            @Func_0ef8
 call            @Func_0df4
-dialogtxt       "でもね、私..."
-dialogtxt       "そんなδが..."
-dialogtxt       "その..."
+dialogtxt       "But I…"
+dialogtxt       "Don't mind that [NAME 2]…"
+dialogtxt       "Actually I…"
 code047b        
 code0309        
 call            @Func_0f4e

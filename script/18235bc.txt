@@ -55,23 +55,23 @@ code047d        1, 2
 call            @Func_0a06
 call            @Func_096e
 jumpz           @Cond_0244, ($b003 == 0)
-dialogtxt       "人ガイマス"
+dialogtxt       "There Is Someone There."
 goto            @Cond_0244
 
 @Cond_0244:
 jumpz           @Cond_0266, ($b003 == 1)
-dialogtxt       "人がおるな"
+dialogtxt       "There's someone there."
 goto            @Cond_0266
 
 @Cond_0266:
 jumpz           @Cond_0298, ($b003 == 2)
-dialogtxt       "ちっ..."
-dialogtxt       "ニンゲンがいるぞ"
+dialogtxt       "Tch…"
+dialogtxt       "There's a human there."
 goto            @Cond_0298
 
 @Cond_0298:
 jumpz           @Cond_02bc, ($b003 == 3)
-dialogtxt       "人がいますわ"
+dialogtxt       "There's someone there."
 goto            @Cond_02bc
 
 @Cond_02bc:
@@ -81,15 +81,15 @@ call            @Func_09c2
 code0479        0, 2, 14
 call            @Func_0920
 jumpz           @Cond_032a, ($b002 == 0)
-dialogtxt       "こっちに行くと"
-dialogtxt       "見つかっちゃうか..."
-dialogtxt       "気をつけないと"
+dialogtxt       "We might get caught"
+dialogtxt       "if we head this way…"
+dialogtxt       "We'll have to be careful."
 goto            @Label_0366
 
 @Cond_032a:
-dialogtxt       "こっちに行くと"
-dialogtxt       "見つかっちゃうね..."
-dialogtxt       "気をつけよう"
+dialogtxt       "We might get caught"
+dialogtxt       "if we head this way…"
+dialogtxt       "We'll have to be careful."
 goto            @Label_0366
 
 @Label_0366:

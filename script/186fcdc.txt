@@ -4,8 +4,8 @@ code0479        0, 0, 14
 code047d        0, 120
 call            @Func_0af0
 call            @Func_0a18
-dialogtxt       "くそっ！"
-dialogtxt       "ひとまず退くぞ！"
+dialogtxt       "Damn!"
+dialogtxt       "Fall back!"
 code047b        
 code0309        
 call            @Func_0a6c
@@ -14,7 +14,7 @@ code0479        1, 0, 15
 code047d        1, 120
 call            @Func_0b06
 call            @Func_0aa2
-dialogtxt       "ひとまずな！"
+dialogtxt       "Tactical retreat!"
 code047b        
 code0309        
 call            @Func_0b72
@@ -67,22 +67,22 @@ code047d        1, 2
 call            @Func_0b06
 call            @Func_0a84
 jumpz           @Cond_0308, ($b003 == 0)
-dialogtxt       "みゅーの様ガ　イマセン！"
+dialogtxt       "Lady Murno Is Not Here!"
 goto            @Cond_0308
 
 @Cond_0308:
 jumpz           @Cond_0334, ($b003 == 1)
-dialogtxt       "ミューノはどこじゃ！"
+dialogtxt       "Where's Murno!?"
 goto            @Cond_0334
 
 @Cond_0334:
 jumpz           @Cond_0364, ($b003 == 2)
-dialogtxt       "ミューノはどこへ行った！"
+dialogtxt       "Where'd Murno go!?"
 goto            @Cond_0364
 
 @Cond_0364:
 jumpz           @Cond_0394, ($b003 == 3)
-dialogtxt       "ミューノ様がいませんわ！"
+dialogtxt       "Lady Murno isn't here!"
 goto            @Cond_0394
 
 @Cond_0394:
@@ -96,13 +96,13 @@ code047d        0, 0
 call            @Func_0af0
 call            @Func_0a36
 jumpz           @Cond_0426, ($b002 == 0)
-dialogtxt       "くっそぉ、アニスのヤツ...！"
-dialogtxt       "追いかけるぜ！"
+dialogtxt       "Dammit, Anise…!"
+dialogtxt       "After them!"
 goto            @Label_0456
 
 @Cond_0426:
-dialogtxt       "く...、アニスね...！"
-dialogtxt       "早く追いかけよう！"
+dialogtxt       "Ku… Anise…!"
+dialogtxt       "We have to hurry!"
 goto            @Label_0456
 
 @Label_0456:

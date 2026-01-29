@@ -275,15 +275,16 @@ ret
 code0301        8, 7
 code047d        0, 120
 code047e        0, 1
-dialogtxt       "ねぇ[NAME 4]ミはどっちかって言うと"
-dialogtxt       "攻撃系？回復系？"
+dialogtxt       "Hey, if you had to choose between"
+dialogtxt       "Attack-type or Heal-type,"
+dialogtxt       "which one would you pick?"
 code0309        
-dialogtxt       "ん？"
-dialogtxt       "ああ、召喚獣を呼ぶ戦略として"
-dialogtxt       "主にどちらを優先してるかって話"
+dialogtxt       "Hm?"
+dialogtxt       "Oh, I'm talking about what kind"
+dialogtxt       "of Summon Beasts you prefer."
 code0309        
-dialogtxt       "ボクの場合は、いやし系だね"
-dialogtxt       "ああ、いやされるよミョータロウ"
+dialogtxt       "In my case, it'd pick Heal-type."
+dialogtxt       "Ahh, that's so relaxing, Myoutarou."
 code0309        
 code047e        0, 0
 code0302        7
@@ -296,8 +297,9 @@ code040b
 
 @Event_0bf4:
 code0301        8, 7
-dialogtxt       "　"
-dialogtxt       "　　福引き券のご利用は計画的に！"
+dialogtxt       ""
+dialogtxt       "Use of the lottery should"
+dialogtxt       "follow procedure!"
 code0309        
 code0302        7
 code040b        

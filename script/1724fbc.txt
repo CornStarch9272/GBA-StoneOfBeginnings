@@ -9,8 +9,8 @@ code0114
 code0300        
 code0312        
 code0313        @Menu_007e
-menutxt         @Menu_0052, "Let me prepare!"
-menutxt         @Menu_007e, "Start battle"
+menutxt         @Menu_0052, "Let me get ready!"
+menutxt         @Menu_007e, "I'm ready to fight!"
 menuwait        
 
 @Menu_0052:

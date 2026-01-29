@@ -148,8 +148,8 @@ goto            @Cond_0034
 code0301        8, 7
 code047d        0, 132
 code047e        0, 1
-dialogtxt       "オ[NAME 8]はちょっと仕事があるけど"
-dialogtxt       "ま、楽にしててくれや"
+dialogtxt       "Well, I still have work to do."
+dialogtxt       "Take it easy."
 code0309        
 code047e        0, 0
 code0302        7
@@ -169,7 +169,7 @@ code040b
 code0301        8, 7
 code047d        0, 133
 code047e        0, 1
-dialogtxt       "ん..."
+dialogtxt       "Mm…"
 code0309        
 code047e        0, 0
 code0302        7
@@ -179,8 +179,9 @@ code040b
 code0301        8, 7
 code047d        0, 120
 code047e        0, 1
-dialogtxt       "僕はまだ見習いで"
-dialogtxt       "今日の仕事は階段掃除なんだ"
+dialogtxt       "I'm still an apprentice, so my"
+dialogtxt       "job today is sweeping the"
+dialogtxt       "stairs."
 code0309        
 code047e        0, 0
 code0302        7
@@ -188,17 +189,17 @@ code040b
 
 @Event_07a2:
 code0301        8, 7
-dialogtxt       "武器を鍛える前に"
-dialogtxt       "まずは己を鍛えるべし"
+dialogtxt       "Before you can forge weapons,"
+dialogtxt       "you must first forge yourself."
 code0309        
 code0302        7
 code040b        
 
 @Event_07e8:
 code0301        8, 7
-dialogtxt       "　＜エリエからのおねがい＞"
-dialogtxt       "つかったどうぐは、ちゃあんと"
-dialogtxt       "もとのばしょに　もどしてね！"
+dialogtxt       "　＜A Request From Elieze＞"
+dialogtxt       "Please make sure to put the tools"
+dialogtxt       "back where you found them!"
 code0309        
 code0302        7
 code040b        

@@ -119,9 +119,9 @@ code040b
 
 @Event_04f6:
 code0301        8, 7
-dialogtxt       "ギャラハン工房からのお知らせ"
-dialogtxt       "カウンターに店員がいないときには"
-dialogtxt       "勝手に買い物してください"
+dialogtxt       "A notice From Gallahan's Workshop:"
+dialogtxt       "When a clerk is not at the counter,"
+dialogtxt       "please shop at your own convenience."
 code0309        
 code0302        7
 code040b        

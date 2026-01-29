@@ -18,7 +18,7 @@ goto            @Cond_00e0
 @Cond_00e0:
 setvar          $b075, 1
 setvar          $b072, 0
-placetxt        "ゴヴァンの遺跡"
+placetxt        "Govan Ruins"
 code040c        1, @Label_06d6
 code040c        2, @Label_06cc
 jumpz           @Cond_01ec, ($f0046 == 1 && $f0047 == 0 && $h311 == 12)
@@ -118,7 +118,7 @@ code046c        1
 goto            @Cond_053e
 
 @Cond_053e:
-placetxt        "Govan Ruins　Magic Amplification Chamber"
+placetxt        "Govan Ruins　Magic Amplifier Area"
 code040b        
 
 setvar          $h096, 47
@@ -144,11 +144,11 @@ code0301        8, 7
 code047d        0, 0
 code047e        0, 1
 jumpz           @Cond_0652, ($b002 == 0)
-dialogtxt       "こっちからは上に戻れないみたいだ"
+dialogtxt       "Can't go up this way."
 goto            @Label_0678
 
 @Cond_0652:
-dialogtxt       "こっちからは上に戻れないみたい"
+dialogtxt       "Can't go up this way."
 goto            @Label_0678
 
 @Label_0678:

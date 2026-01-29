@@ -11,7 +11,7 @@ code0418        2
 setvar          $b075, 1
 setvar          $b072, 0
 code046c        0
-placetxt        "Louise Village　Mayor's House"
+placetxt        "Louise Village　Chief's House"
 code040c        1, @Label_0216
 code040c        2, @Label_01fc
 code0438        2, 210, 556, 1
@@ -57,8 +57,9 @@ goto            @start
 code0301        8, 7
 code047d        0, 135
 code047e        0, 1
-dialogtxt       "遺跡の召喚獣がさわぎだしています"
-dialogtxt       "何かが起きる前ぶれかも..."
+dialogtxt       "The Summon Beast is stirring."
+dialogtxt       "It may be a sign that something"
+dialogtxt       "will happen soon…"
 code0309        
 code047e        0, 0
 code0302        7

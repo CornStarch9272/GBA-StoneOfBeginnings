@@ -1,16 +1,16 @@
 code047d        0, 138
 code0301        8, 0
 code047e        0, 1
-dialogtxt       "おやかた、だいじょうぶかなぁ"
+dialogtxt       "Is the Master doing well?"
 code0309        
 code047e        0, 0
 code0302        0
 code0301        8, 0
-dialogtxt       "ヴィーさんは親方についてるよ"
+dialogtxt       "V.E is with Master."
 code0309        
 code0302        0
 code0301        8, 0
-dialogtxt       "ザックならいないぜ"
+dialogtxt       "Zakk isn't here."
 code0309        
 code0302        0
 done            

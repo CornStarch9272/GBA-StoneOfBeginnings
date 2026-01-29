@@ -42,7 +42,7 @@ goto            @Label_01ce
 code047d        1, 2
 call            @Func_0ed0
 call            @Func_0df8
-dialogtxt       "あ、この音..."
+dialogtxt       "Hm? Isn't that…"
 code047b        
 code0309        
 call            @Func_0e4c
@@ -51,30 +51,30 @@ code043c        1, 2
 call            @Func_0ee6
 call            @Func_0e82
 jumpz           @Cond_028c, ($b003 == 0)
-dialogtxt       "町ノ近クデ　何カアッタ様デス"
-dialogtxt       "マタ　凶暴ナハグ[NAME 8]召喚獣ガ"
-dialogtxt       "出現シタノデショウカ..."
+dialogtxt       "Something Must Have"
+dialogtxt       "Happened Near Town."
+dialogtxt       "Another Stray Summon…?"
 goto            @Cond_028c
 
 @Cond_028c:
 jumpz           @Cond_02f4, ($b003 == 1)
-dialogtxt       "近くで何かあった知らせじゃな"
-dialogtxt       "また凶暴なはぐれ召喚獣でも"
-dialogtxt       "出たんじゃろうか..."
+dialogtxt       "Something must have happened."
+dialogtxt       "Perhaps it is another"
+dialogtxt       "Stray Summon…?"
 goto            @Cond_02f4
 
 @Cond_02f4:
 jumpz           @Cond_034e, ($b003 == 2)
-dialogtxt       "ちっ..."
-dialogtxt       "近くで何かあった合図だな..."
-dialogtxt       "またタチの悪いはぐれか...？"
+dialogtxt       "Tch…"
+dialogtxt       "Something must have happened…"
+dialogtxt       "Another nasty Stray…?"
 goto            @Cond_034e
 
 @Cond_034e:
 jumpz           @Cond_03ac, ($b003 == 3)
-dialogtxt       "うぅ..."
-dialogtxt       "近くで何かあったのですわ..."
-dialogtxt       "またコワイはぐれでしょうか...？"
+dialogtxt       "Uu…"
+dialogtxt       "Something must have happened…"
+dialogtxt       "Another scary Stray…?"
 goto            @Cond_03ac
 
 @Cond_03ac:
@@ -84,11 +84,13 @@ call            @Func_0eb8
 code0479        0, 0, 14
 call            @Func_0e16
 jumpz           @Cond_03f6, ($b002 == 0)
-dialogtxt       "今度は南門の方か..."
+dialogtxt       "It's coming from the"
+dialogtxt       "southern gate this time…"
 goto            @Label_040e
 
 @Cond_03f6:
-dialogtxt       "今度は南門の方..."
+dialogtxt       "It's coming from the"
+dialogtxt       "southern gate this time…"
 goto            @Label_040e
 
 @Label_040e:
@@ -129,15 +131,15 @@ goto            @Label_053a
 @Label_053a:
 call            @Func_0efc
 call            @Func_0df8
-dialogtxt       "はぐれ召喚獣..."
+dialogtxt       "A stray summon…"
 jumpz           @Cond_05a0, ($b002 == 0)
-dialogtxt       "もしかしてまたあの連中が"
-dialogtxt       "出てくるかもしれないな..."
+dialogtxt       "Those guys might"
+dialogtxt       "show up again…"
 goto            @Label_05de
 
 @Cond_05a0:
-dialogtxt       "もしかしてまたあの人たちが"
-dialogtxt       "出てくるかもしれないね..."
+dialogtxt       "Those guys might"
+dialogtxt       "show up again…"
 goto            @Label_05de
 
 @Label_05de:
@@ -165,30 +167,30 @@ goto            @Label_0676
 @Label_0676:
 call            @Func_0e82
 jumpz           @Cond_06e4, ($b003 == 0)
-dialogtxt       "敵、デス[NAME 6]..."
-dialogtxt       "[NAME 5]ノ可能性ハ　高イト思ワ[NAME 8]マス"
-dialogtxt       "みゅーの様ノ元ニ　戻リマショウ！"
+dialogtxt       "Our Enemies…"
+dialogtxt       "The Possibility Is High."
+dialogtxt       "Let Us Return To Lady Murno!"
 goto            @Cond_06e4
 
 @Cond_06e4:
 jumpz           @Cond_073c, ($b003 == 1)
-dialogtxt       "敵、のことじゃな..."
-dialogtxt       "うむ、ミューノが心配じゃ"
-dialogtxt       "はやく戻るぞ！"
+dialogtxt       "Our enemies, yes…"
+dialogtxt       "Mm, I'm worried about Murno."
+dialogtxt       "Let's hurry back!"
 goto            @Cond_073c
 
 @Cond_073c:
 jumpz           @Cond_078a, ($b003 == 2)
-dialogtxt       "敵か..."
-dialogtxt       "たしかにイヤな気配だ"
-dialogtxt       "戻らなくていいのか？"
+dialogtxt       "Enemies…"
+dialogtxt       "I feel an unpleasant presence."
+dialogtxt       "Shouldn't we head back?"
 goto            @Cond_078a
 
 @Cond_078a:
 jumpz           @Cond_07e8, ($b003 == 3)
-dialogtxt       "て、敵のことですね..."
-dialogtxt       "ミューノ様が心配です！"
-dialogtxt       "はやく戻りましょう！"
+dialogtxt       "O-our enemies, yes…"
+dialogtxt       "I'm worried about Lady Murno!"
+dialogtxt       "Let's hurry back!"
 goto            @Cond_07e8
 
 @Cond_07e8:
@@ -196,7 +198,7 @@ code0309
 call            @Func_0eb8
 code0479        0, 2, 15
 call            @Func_0e16
-dialogtxt       "あ、うん！"
+dialogtxt       "Ah, right!"
 code0309        
 call            @Func_0f52
 call            @Func_0e34

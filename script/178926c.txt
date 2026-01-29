@@ -107,7 +107,7 @@ code034f
 goto            @start
 
 code0301        8, 7
-dialogtxt       "何らかのメッセージ予定"
+dialogtxt       "Some kind of message planned."
 code0309        
 code0302        7
 code040b        
@@ -342,8 +342,9 @@ ret
 code0301        8, 7
 code047d        0, 118
 code047e        0, 1
-dialogtxt       "門番って誰か立ってて"
-dialogtxt       "休み無しなんだよな"
+dialogtxt       "Someone always has to take"
+dialogtxt       "over post and guard the gates,"
+dialogtxt       "so we never take any breaks."
 code0309        
 code047e        0, 0
 code0302        7
@@ -353,7 +354,8 @@ code040b
 code0301        8, 7
 code047d        0, 125
 code047e        0, 1
-dialogtxt       "今日は休みをもらったんだ"
+dialogtxt       "I'm finally taking"
+dialogtxt       "the day off!"
 code0309        
 code047e        0, 0
 code0302        7
@@ -363,7 +365,8 @@ code040b
 code0301        8, 7
 code047d        0, 120
 code047e        0, 1
-dialogtxt       "今日は召喚獣連れてないんだな"
+dialogtxt       "Is your Summon Beast"
+dialogtxt       "not with you today?"
 code0309        
 code047e        0, 0
 code0302        7
@@ -376,17 +379,20 @@ code040b
 
 @Event_0f50:
 code0301        8, 7
-dialogtxt       "　　　●←のぞき穴"
+dialogtxt       "　"
+dialogtxt       "　"
+dialogtxt       "　●← Peep hole"
 code0309        
-dialogtxt       "こりない人だね"
+dialogtxt       "You're quite the stubborn"
+dialogtxt       "one, aren't you?"
 code0309        
 code0302        7
 code040b        
 
 @Event_0f94:
 code0301        8, 7
-dialogtxt       "町は[NAME 4][NAME 8]イに！"
-dialogtxt       "ゴミの[NAME 7]イ捨てはやめましょう！"
+dialogtxt       "Make our town beautiful!"
+dialogtxt       "Please stop littering!"
 code0309        
 code0302        7
 code040b        
@@ -394,11 +400,11 @@ code040b
 @Event_0fe2:
 code0301        8, 7
 dialogtxt       "　"
-dialogtxt       "　　　　〜教えてください〜"
+dialogtxt       "　　　　Please let me know!"
 code0309        
-dialogtxt       "カ[NAME 8]ーという食べ物について"
-dialogtxt       "調べています"
-dialogtxt       "どんなものなのか誰か教えて！"
+dialogtxt       "I'm trying to know more about this"
+dialogtxt       "food called \"curry\"! Can anyone"
+dialogtxt       "Tell me what does it taste like!?"
 code0309        
 code0302        7
 code040b        

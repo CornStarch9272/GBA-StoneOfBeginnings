@@ -141,7 +141,7 @@ code034f
 goto            @start
 
 code0301        8, 7
-dialogtxt       "何らかのメッセージ予定"
+dialogtxt       "Some kind of message planned."
 code0309        
 code0302        7
 code040b        
@@ -364,8 +364,8 @@ ret
 code0301        8, 7
 code047d        0, 118
 code047e        0, 1
-dialogtxt       "アカバ[NAME 6]をたおしたんだって？"
-dialogtxt       "すごいなぁ..."
+dialogtxt       "You beat Red Wing?"
+dialogtxt       "Amazing…"
 code0309        
 code047e        0, 0
 code0302        7
@@ -375,11 +375,10 @@ code040b
 code0301        8, 7
 code047d        0, 123
 code047e        0, 1
-dialogtxt       "この町って、ごみごみしてて"
-dialogtxt       "いやよね"
+dialogtxt       "This village is filthy."
+dialogtxt       "I hate it."
 code0309        
-dialogtxt       "どこかに、しずかなところ"
-dialogtxt       "ないかしら"
+dialogtxt       "Is there anywhere quiet around here?"
 code0309        
 code047e        0, 0
 code0302        7
@@ -387,32 +386,32 @@ code040b
 
 @Event_0f8c:
 code0301        8, 7
-dialogtxt       "この先のス[NAME 8]ンジ採掘場の"
-dialogtxt       "凶悪なはぐれ召喚獣アカバ[NAME 6]が"
-dialogtxt       "退治されました"
+dialogtxt       "Up ahead in Surange Mine was"
+dialogtxt       "a terrifying Stray, Red Wing."
+dialogtxt       "It was defeated just recently."
 code0309        
-dialogtxt       "しかし、その他のはぐれにも"
-dialogtxt       "[NAME 4]ケンなものがいるので"
-dialogtxt       "お出かけの時にはご注意ください∞"
+dialogtxt       "However, there are still other"
+dialogtxt       "dangerous Strays in the Mine."
+dialogtxt       "Be careful if you go out∞"
 code0309        
 code0302        7
 code040b        
 
 @Event_1052:
 code0301        8, 7
-dialogtxt       "何度武器で攻撃してもダメージが"
-dialogtxt       "１の場合には、魔法しか効かない"
-dialogtxt       "恐ろしい相手の可能性があります"
+dialogtxt       "If your weapon only deals 1 damage,"
+dialogtxt       "you may have encountered an"
+dialogtxt       "opponent you must face with magic."
 code0309        
 code0302        7
 code040b        
 
 @Event_10d2:
 code0301        8, 7
-dialogtxt       "下を見ろ↓"
+dialogtxt       "Look down ↓"
 code0309        
-dialogtxt       "↑上を見たい時は"
-dialogtxt       "ＳＴＡＲＴボタン"
+dialogtxt       "To look up ↑, press"
+dialogtxt       "START."
 code0309        
 code0302        7
 code040b        

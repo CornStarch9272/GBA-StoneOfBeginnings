@@ -10,7 +10,7 @@ code0412        4, 1
 code0418        2
 setvar          $b075, 1
 setvar          $b072, 0
-placetxt        "Mayor's house　Hall"
+placetxt        "Mayor's House　Hall"
 code040c        1, @Label_0194
 call            @Func_0930
 code041c        0, 48, 247, 1
@@ -248,7 +248,7 @@ ret
 code0301        8, 7
 code047d        0, 119
 code047e        0, 1
-dialogtxt       "どんな時も油断はするなよ"
+dialogtxt       "Always be prepeared for anything."
 code0309        
 code047e        0, 0
 code0302        7

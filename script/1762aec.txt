@@ -263,9 +263,9 @@ ret
 code0301        8, 7
 code047d        0, 122
 code047e        0, 1
-dialogtxt       "ギャラハンか..."
-dialogtxt       "ア[NAME 8]も辛いだろうに"
-dialogtxt       "よくやっておるのぅ"
+dialogtxt       "Gallahan, huh…"
+dialogtxt       "It's been very difficult for him."
+dialogtxt       "He's coping with it well."
 code0309        
 code047e        0, 0
 code0302        7
@@ -275,12 +275,12 @@ code040b
 code0301        8, 7
 code047d        0, 122
 code047e        0, 1
-dialogtxt       "わしら誰にも迷惑かけずに"
-dialogtxt       "静かに暮らしておるのに"
-dialogtxt       "あの日、多くの者が家族を失った"
+dialogtxt       "We here live peacefully,"
+dialogtxt       "without causing anyone problems."
+dialogtxt       "That day, many lost their family."
 code0309        
-dialogtxt       "トラムの両親もそうじゃ"
-dialogtxt       "若いのにしっかりしておる"
+dialogtxt       "Tram lost both his parents."
+dialogtxt       "Though young, he is very reliable."
 code0309        
 code047e        0, 0
 code0302        7

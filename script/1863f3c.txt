@@ -6,15 +6,15 @@ code0479        0, 0, 12
 code047d        0, 0
 call            @Func_0836
 call            @Func_079e
-dialogtxt       "どうだい、δ"
-dialogtxt       "イカス武器をひとつ"
-dialogtxt       "選ぶことはできたかい？"
+dialogtxt       "So, [NAME 2]."
+dialogtxt       "Have you chosen the weapon"
+dialogtxt       "you're going to use?"
 code0309        
 call            @Func_07f2
 code0479        0, 0, 16
 call            @Func_0750
-choicetxt       @Choice_0102, "ちゃんと選んできたよ"
-choicetxt       @Choice_01a2, "それがまだ決まってなくて..."
+choicetxt       @Choice_0102, "Yes, I have."
+choicetxt       @Choice_01a2, "Not yet…"
 choicewait      
 
 @Choice_0102:
@@ -33,7 +33,7 @@ goto            @Label_019e
 call            @Func_0786
 code0479        1, 2, 17
 call            @Func_07bc
-dialogtxt       "１本にしぼれって言っただろ！"
+dialogtxt       "I told you to only bring one!"
 code0309        
 call            @Func_088c
 call            @Func_07da

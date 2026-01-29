@@ -282,7 +282,8 @@ ret
 code0301        8, 7
 code047d        0, 121
 code047e        0, 1
-dialogtxt       "駅で待つ女って絵にならない？"
+dialogtxt       "Leaving a lady waiting isn't"
+dialogtxt       "a very good look."
 code0309        
 code047e        0, 0
 code0302        7

@@ -7,9 +7,9 @@ code0479        1, 0, 16
 code047d        1, 131
 call            @Func_07f6
 call            @Func_075e
-dialogtxt       "オイラが家に帰ってる間に"
-dialogtxt       "大変なことがあったみたいだな..."
-dialogtxt       "みんなブジでよかったよ"
+dialogtxt       "I heard something bad happened"
+dialogtxt       "while I was sent away…"
+dialogtxt       "I hope you guys were safe…"
 goto            @Label_015e
 
 @Cond_00d4:
@@ -18,9 +18,9 @@ code0479        1, 0, 12
 code047d        1, 131
 call            @Func_07f6
 call            @Func_075e
-dialogtxt       "親方がいなくなって大変だから"
-dialogtxt       "オイラも[NAME 8]ミィさんを"
-dialogtxt       "手助けしなきゃな！"
+dialogtxt       "Our Workshop is a mess now"
+dialogtxt       "that Master is gone…That means I"
+dialogtxt       "gotta help Lemmy as much as I can!"
 goto            @Label_015e
 
 @Label_015e:

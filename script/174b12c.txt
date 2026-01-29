@@ -10,7 +10,7 @@ code0412        4, 1
 code0418        2
 setvar          $b075, 1
 setvar          $b072, 0
-placetxt        "Prosban　second-hand shop"
+placetxt        "Prosban　Tool Shop"
 code040c        1, @Label_0248
 code040c        2, @Label_023e
 code0438        2, 397, 645, 1
@@ -78,7 +78,7 @@ code0412        4, 1
 code0418        2
 setvar          $b075, 1
 setvar          $b072, 0
-placetxt        "Prosban　second-hand shop"
+placetxt        "Prosban　Tool Shop"
 code040c        1, @Label_0248
 code040c        2, @Label_023e
 code0438        2, 397, 645, 1
@@ -105,9 +105,9 @@ code040b
 
 @Event_049e:
 code0301        8, 7
-dialogtxt       "旅先でケガをした経験はありませんか？"
-dialogtxt       "そんな時にはＦエイド、何でもそろう"
-dialogtxt       "便利な道具屋"
+dialogtxt       "Have you ever been injured"
+dialogtxt       "with no inn in sight?"
+dialogtxt       "When that happens, think of F-Aid!"
 code0309        
 code0302        7
 code040b        
@@ -317,53 +317,53 @@ ret
 code0301        8, 7
 code047d        0, 148
 code047e        0, 1
-dialogtxt       "あら、そのハンマーは鍛冶師ね"
-dialogtxt       "今、鍛冶師や鍛冶職人に会うために"
-dialogtxt       "旅をして面識を広げてるのよ"
+dialogtxt       "My, you must be a Craftknight."
+dialogtxt       "Right now I'm on a journey to meet"
+dialogtxt       "many Craftknights and blacksmiths."
 code0309        
-dialogtxt       "将来は大きな店をもって娘と２人で"
-dialogtxt       "暮らすためにお得意さんを"
-dialogtxt       "見つけるためにね"
+dialogtxt       "I only hope that some of them"
+dialogtxt       "will become regular customers"
+dialogtxt       "when my daughter and I open a shop."
 code0309        
-dialogtxt       "鍛冶の事には詳しいから何か"
-dialogtxt       "知りたいことがあったら聞いてね"
+dialogtxt       "I know quite a lot about smithing."
+dialogtxt       "Feel free to ask me anything."
 code0309        
 code047e        0, 0
-choicetxt       @Choice_0e8c, "強化について教えてほしい"
-choicetxt       @Choice_0f54, "解体について教えてほしい"
-choicetxt       @Choice_106c, "今は特にない"
+choicetxt       @Choice_0e8c, "Teach me about enhancement"
+choicetxt       @Choice_0f54, "Teach me about disassembly"
+choicetxt       @Choice_106c, "Nothing right now"
 choicewait      
 
 @Choice_0e8c:
 code047e        0, 1
-dialogtxt       "強化はね、一度作製した武器に"
-dialogtxt       "色々なアイテムを合成して"
-dialogtxt       "もっと武器を強くするのよ"
+dialogtxt       "Enhancement is when you"
+dialogtxt       "combine items with a weapon"
+dialogtxt       "to make it stronger."
 code0309        
-dialogtxt       "鍛冶ランクが高くないとダメだけど"
-dialogtxt       "最大３個までアイテムが使えるから"
-dialogtxt       "頑張ってみてね"
+dialogtxt       "You can do it up to three times,"
+dialogtxt       "depending on your smithing rank."
+dialogtxt       "So make sure to raise it."
 code0309        
 goto            @Label_1096
 
 @Choice_0f54:
 code047e        0, 1
-dialogtxt       "解体はね、一度作製した武器を"
-dialogtxt       "マテルの状態に戻すことが出来るの"
+dialogtxt       "Dissassembly lets you break"
+dialogtxt       "down a weapon into a Shapestone."
 code0309        
-dialogtxt       "でも、ただマテルに戻るだけじゃ"
-dialogtxt       "無くて、パラメータを少しだけ"
-dialogtxt       "残したままマテルに戻るの"
+dialogtxt       "But that's not all."
+dialogtxt       "The Shapestone will retain some"
+dialogtxt       "of the weapon's original strength."
 code0309        
-dialogtxt       "でも、熟練度が低い時や、鍛冶ランクが"
-dialogtxt       "高くないと、ほとんど無くなって"
-dialogtxt       "しまうから注意ね"
+dialogtxt       "How much depends on your skill,"
+dialogtxt       "and your smithing rank."
+dialogtxt       "The higher, the better."
 code0309        
 goto            @Label_1096
 
 @Choice_106c:
 code047e        0, 1
-dialogtxt       "気が向いたらまた来てね"
+dialogtxt       "I'll be here if you need me."
 code0309        
 @Label_1096:
 code047e        0, 0

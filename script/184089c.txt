@@ -14,7 +14,7 @@ code0482
 code047d        0, 109
 code0301        16, 3
 code047e        0, 1
-dialogtxt       "ここにいたのね〜！"
+dialogtxt       "Ah, there you are!"
 code0309        
 code047e        0, 0
 code0302        3
@@ -44,25 +44,25 @@ code0479        1, 0, 16
 code047d        1, 109
 call            @Func_0f40
 call            @Func_0ea8
-dialogtxt       "何してるのよ"
-dialogtxt       "今日は工房でおとなしくしてるんじゃ"
-dialogtxt       "なかったの？"
+dialogtxt       "What are you doing?"
+dialogtxt       "Weren't you going to stay at the"
+dialogtxt       "workshop like a good apprentice?"
 code0309        
 call            @Func_0efc
 code0479        0, 0, 16
 code0479        1, 0, 14
 call            @Func_0e5a
-dialogtxt       "そうだけど"
-dialogtxt       "アニスたちがまだどっかで"
-dialogtxt       "ミューノをねらってるはずだし"
+dialogtxt       "Yeah, but Anise and the others"
+dialogtxt       "are still out there somewhere,"
+dialogtxt       "trying to get at Murno."
 code0309        
 code0479        0, 2, 14
 jumpz           @Cond_0374, ($b002 == 0)
-dialogtxt       "じっとしてらんないよ"
+dialogtxt       "I can't just sit still."
 goto            @Label_0390
 
 @Cond_0374:
-dialogtxt       "じっとしてられないよ"
+dialogtxt       "I can't just sit still."
 goto            @Label_0390
 
 @Label_0390:
@@ -70,36 +70,36 @@ code0309
 call            @Func_0e90
 code0479        1, 4, 16
 call            @Func_0ec6
-dialogtxt       "今日くらいじっとしてなさいよ"
-dialogtxt       "あれだけみんなにメイワクかけて"
-dialogtxt       "反省する気もないわけ？"
+dialogtxt       "At least try for today."
+dialogtxt       "Are you aware of how much trouble"
+dialogtxt       "you've caused everyone?"
 code0309        
 call            @Func_0efc
 code0479        0, 4, 16
 call            @Func_0e5a
-dialogtxt       "そんなことはないけど..."
+dialogtxt       "I am, but…"
 code0309        
 call            @Func_0e90
 code0479        1, 0, 17
 call            @Func_0ec6
-dialogtxt       "ホントに！？"
-dialogtxt       "わたしがどれだけ心配してたか"
-dialogtxt       "ちゃんとわかってる！"
+dialogtxt       "Really!?"
+dialogtxt       "Do you really understand"
+dialogtxt       "just how worried I was!?"
 code0309        
 call            @Func_0efc
 code0479        1, 5, 14
 code0479        0, 0, 16
 call            @Func_0e5a
 jumpz           @Cond_0536, ($b002 == 0)
-dialogtxt       "そ、そりゃあ..."
-dialogtxt       "専属鍛冶師がいなくなると"
-dialogtxt       "ほほえみ亭が大変とか..."
+dialogtxt       "W-well…"
+dialogtxt       "I guess losing their Craftknight"
+dialogtxt       "would be tough for the inn…"
 goto            @Label_0582
 
 @Cond_0536:
-dialogtxt       "そ、そりゃあ..."
-dialogtxt       "カンバン娘がひとりへると"
-dialogtxt       "ほほえみ亭が大変とか..."
+dialogtxt       "W-well…"
+dialogtxt       "I guess losing a poster girl"
+dialogtxt       "would be tough for the inn…"
 goto            @Label_0582
 
 @Label_0582:
@@ -108,18 +108,18 @@ call            @Func_0e90
 code0479        0, 5, 14
 code0479        1, 1, 15
 call            @Func_0ec6
-dialogbig       24, 116, 1, 0, 0, "バカーーー！！！"
+dialogbig       24, 116, 1, 0, 0, "You idioooot!!!"
 code030c        
 call            @Func_0efc
 code0479        1, 2, 14
 code0479        0, 5, 15
 call            @Func_0e5a
 jumpz           @Cond_0640, ($b002 == 0)
-dialogtxt       "な、なんだよ！？"
+dialogtxt       "W-what!?"
 goto            @Label_0656
 
 @Cond_0640:
-dialogtxt       "な、なによ！？"
+dialogtxt       "W-what!?"
 goto            @Label_0656
 
 @Label_0656:
@@ -127,47 +127,47 @@ code0309
 call            @Func_0e90
 code0479        1, 2, 15
 call            @Func_0ec6
-dialogtxt       "ふざけないでよ！"
-dialogtxt       "わたし、本気であなたのこと"
-dialogtxt       "心配してたのよ！"
+dialogtxt       "Don't play dumb!"
+dialogtxt       "I was seriously"
+dialogtxt       "worried about you!"
 code0309        
 code0479        1, 4, 16
-dialogtxt       "だってあんな崖から落ちたんだよ..."
-dialogtxt       "もしかしたら..."
-dialogtxt       "δ..."
+dialogtxt       "I mean, you fell off a cliff…"
+dialogtxt       "What if you had…"
+dialogtxt       "[NAME 2]…"
 code0309        
 call            @Func_0efc
 code0479        0, 4, 16
 call            @Func_0e5a
-dialogtxt       "ご、ごめん..."
+dialogtxt       "S-sorry…"
 code0309        
 call            @Func_0e90
 code0479        1, 2, 14
 call            @Func_0ec6
-dialogtxt       "本当に反省してる？"
+dialogtxt       "Are you really?"
 code0309        
 call            @Func_0efc
 code0479        0, 1, 17
 call            @Func_0e5a
-dialogtxt       "してるよ！"
-dialogtxt       "ごめんなさい！"
+dialogtxt       "I am!"
+dialogtxt       "I'm sorry!"
 code0309        
 call            @Func_0e90
 code0479        1, 0, 13
 call            @Func_0ec6
-dialogtxt       "わかったわ"
-dialogtxt       "じゃあ、許してあげる"
+dialogtxt       "Okay then."
+dialogtxt       "I'll forgive you."
 code0309        
 code0479        0, 0, 16
 code0479        1, 6, 12
-dialogtxt       "これからは心をいれかえて"
-dialogtxt       "わたしたちの将来についても"
-dialogtxt       "もっと真剣に考えてね"
+dialogtxt       "Now, turn over a new leaf."
+dialogtxt       "Think more seriously"
+dialogtxt       "about our future together."
 code0309        
 call            @Func_0efc
 code0479        0, 4, 13
 call            @Func_0e5a
-dialogtxt       "あ、あはは..."
+dialogtxt       "A-ahaha…"
 code0309        
 call            @Func_0f96
 call            @Func_0e78

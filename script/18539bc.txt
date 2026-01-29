@@ -16,20 +16,18 @@ code0479        0, 0, 14
 code047d        0, 0
 call            @Func_0c0e
 call            @Func_0b76
-dialogtxt       "δ！"
+dialogtxt       "[NAME 2]!"
 code047b        
 code0309        
 call            @Func_0bca
 code0479        0, 0, 16
 call            @Func_0b28
 jumpz           @Cond_015a, ($b002 == 0)
-dialogtxt       "アイツらの手がかりが"
-dialogtxt       "見つかったのか？"
+dialogtxt       "Find any clues?"
 goto            @Label_0188
 
 @Cond_015a:
-dialogtxt       "アイツらの手がかりが"
-dialogtxt       "見つかったの？"
+dialogtxt       "Find any clues?"
 goto            @Label_0188
 
 @Label_0188:
@@ -37,20 +35,20 @@ code0309
 call            @Func_0b5e
 code0479        1, 2, 16
 call            @Func_0b94
-dialogtxt       "ザックがアニスたちのあとを"
-dialogtxt       "追っていったみたいなの"
+dialogtxt       "It seems Zakk is going after"
+dialogtxt       "Anise right now."
 code0309        
 call            @Func_0bca
 code0479        0, 2, 14
 call            @Func_0b28
 jumpz           @Cond_023c, ($b002 == 0)
-dialogtxt       "なんだって..."
-dialogtxt       "まさか、あいつひとりで？"
+dialogtxt       "Zakk…"
+dialogtxt       "You mean, alone?"
 goto            @Label_0268
 
 @Cond_023c:
-dialogtxt       "そんな..."
-dialogtxt       "まさか、ザックひとりで？"
+dialogtxt       "Zakk…"
+dialogtxt       "You mean, alone?"
 goto            @Label_0268
 
 @Label_0268:
@@ -82,25 +80,25 @@ code047d        0, 2
 call            @Func_0be2
 call            @Func_0b28
 jumpz           @Cond_036a, ($b003 == 0)
-dialogtxt       "彼ノ行為ハ　ムボウデアルト"
-dialogtxt       "判断シマス..."
+dialogtxt       "I Judge His Actions"
+dialogtxt       "To Be Reckless…"
 goto            @Cond_036a
 
 @Cond_036a:
 jumpz           @Cond_03bc, ($b003 == 1)
-dialogtxt       "あやつめ、ムチャしおって...！"
-dialogtxt       "飛んで火に入る夏の虫じゃ..."
+dialogtxt       "Being so reckless…!"
+dialogtxt       "Like a moth to the flame…"
 goto            @Cond_03bc
 
 @Cond_03bc:
 jumpz           @Cond_03ee, ($b003 == 2)
-dialogtxt       "ちっ..."
-dialogtxt       "身の程知らずが..."
+dialogtxt       "Tch…"
+dialogtxt       "He doesn't know his place…"
 goto            @Cond_03ee
 
 @Cond_03ee:
 jumpz           @Cond_041e, ($b003 == 3)
-dialogtxt       "そんな...、ムチャですわ！"
+dialogtxt       "No… Zakk!"
 goto            @Cond_041e
 
 @Cond_041e:
@@ -109,9 +107,9 @@ code0309
 call            @Func_0b5e
 code0479        1, 2, 14
 call            @Func_0b94
-dialogtxt       "それで、またス[NAME 8]ンジ採掘場の方へ"
-dialogtxt       "向かって行ったらしいのよ"
-dialogtxt       "早く行きましょう！"
+dialogtxt       "And they're heading to"
+dialogtxt       "Slenj Mine again."
+dialogtxt       "We need to move!"
 code0309        
 call            @Func_0c38
 call            @Func_0bca
@@ -122,13 +120,13 @@ code047d        0, 0
 call            @Func_0be2
 call            @Func_0b28
 jumpz           @Cond_0506, ($b002 == 0)
-dialogtxt       "わかった！"
-dialogtxt       "急ごう！"
+dialogtxt       "Yeah!"
+dialogtxt       "Let's hurry!"
 goto            @Label_0520
 
 @Cond_0506:
-dialogtxt       "うん！"
-dialogtxt       "急ごう！"
+dialogtxt       "Yeah!"
+dialogtxt       "Let's hurry!"
 goto            @Label_0520
 
 @Label_0520:

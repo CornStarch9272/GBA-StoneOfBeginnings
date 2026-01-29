@@ -35,8 +35,8 @@ goto            @Label_016c
 code047d        1, 2
 call            @Func_0a7c
 call            @Func_0978
-dialogtxt       "ギャラハンさんの工房か..."
-dialogtxt       "使えると助かるんだけどなぁ"
+dialogtxt       "Gallahan's workshop…"
+dialogtxt       "I wish we could use it."
 code047b        
 code0309        
 call            @Func_09cc
@@ -61,26 +61,26 @@ goto            @Label_0254
 @Label_0254:
 call            @Func_0a02
 jumpz           @Cond_029e, ($b003 == 0)
-dialogtxt       "ココカラデハ"
-dialogtxt       "中ノ様子ハ　カクニンデ[NAME 4]マセン"
+dialogtxt       "I Cannot Infer The State"
+dialogtxt       "Of The Interior From Here."
 goto            @Cond_029e
 
 @Cond_029e:
 jumpz           @Cond_02d8, ($b003 == 1)
-dialogtxt       "中に人の気配は"
-dialogtxt       "なさそうじゃが..."
+dialogtxt       "I can't sense any"
+dialogtxt       "presence inside…"
 goto            @Cond_02d8
 
 @Cond_02d8:
 jumpz           @Cond_031c, ($b003 == 2)
-dialogtxt       "家の中にニンゲンの気配は"
-dialogtxt       "しないようだが..."
+dialogtxt       "I can't sense"
+dialogtxt       "any humans inside…"
 goto            @Cond_031c
 
 @Cond_031c:
 jumpz           @Cond_035e, ($b003 == 3)
-dialogtxt       "中に人はいないと思いますよ"
-dialogtxt       "カンですけど"
+dialogtxt       "There's no one inside…"
+dialogtxt       "That's just my intuition though."
 goto            @Cond_035e
 
 @Cond_035e:
@@ -89,11 +89,11 @@ call            @Func_0a38
 code0479        0, 0, 14
 call            @Func_0996
 jumpz           @Cond_03a8, ($b002 == 0)
-dialogtxt       "少しのぞいてみるか？"
+dialogtxt       "Shall we have a look?"
 goto            @Label_03c6
 
 @Cond_03a8:
-dialogtxt       "少しのぞいてみよっか？"
+dialogtxt       "Shall we have a look?"
 goto            @Label_03c6
 
 @Label_03c6:

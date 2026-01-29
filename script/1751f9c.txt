@@ -466,13 +466,13 @@ ret
 code0301        8, 7
 code047d        0, 120
 code047e        0, 1
-dialogtxt       "は〜くたびれた〜"
-dialogtxt       "今日は召喚獣の散歩の当番というか"
-dialogtxt       "罰ゲームというか"
+dialogtxt       "Hah~ I'm so tired~"
+dialogtxt       "Walking the Summon Beasts"
+dialogtxt       "is so much work~"
 code0309        
-dialogtxt       "さすがに、この数つれてると"
-dialogtxt       "ホント、くたびれるね"
-dialogtxt       "へんなカケに乗るんじゃなかったよ"
+dialogtxt       "Of course when there's this"
+dialogtxt       "many it'd be a problem."
+dialogtxt       "I shouldn't have taken that bet."
 code0309        
 code047e        0, 0
 code0302        7
@@ -495,27 +495,27 @@ code040b
 
 @Event_140e:
 code0301        8, 7
-dialogtxt       "金の派閥では緊急のはぐれ被害を"
-dialogtxt       "解決していただける方を"
-dialogtxt       "お待ちしています"
+dialogtxt       "The Gold Council looks forward"
+dialogtxt       "to finding a resolution"
+dialogtxt       "to the rampaging Strays."
 code0309        
 code0302        7
 code040b        
 
 @Event_1478:
 code0301        8, 7
-dialogtxt       "「福引き」であなたの運を"
-dialogtxt       "試してみませんか？"
-dialogtxt       "毎日抽選！空くじ無し！！"
+dialogtxt       "Care to try our Lucky Draw?"
+dialogtxt       "It's available all day, everyday!"
+dialogtxt       "Guaranteed no losing tickets!"
 code0309        
 code0302        7
 code040b        
 
 @Event_14e0:
 code0301        8, 7
-dialogtxt       "はぐれが出たことを知らせる警報が"
-dialogtxt       "聞こえたらすみやかに町の中に避難し"
-dialogtxt       "外出をひかえましょう"
+dialogtxt       "If you hear the alarm,"
+dialogtxt       "please find shelter"
+dialogtxt       "and avoid going outside."
 code0309        
 code0302        7
 code040b        

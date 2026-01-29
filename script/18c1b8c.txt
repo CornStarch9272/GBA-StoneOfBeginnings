@@ -9,45 +9,45 @@ code0479        1, 0, 16
 code047d        1, 0
 call            @Func_0d7c
 call            @Func_0c78
-dialogtxt       "まったく何だろうね"
-dialogtxt       "アイツらのアノ態度"
-dialogtxt       "全然ロックじゃなかったよ..."
+dialogtxt       "I wonder what's up with them."
+dialogtxt       "That attitude of theirs was"
+dialogtxt       "not rockin' at all…"
 code047b        
 code0309        
 call            @Func_0ccc
 code043c        0, 2
 code0479        1, 0, 14
 call            @Func_0d02
-dialogtxt       "さっきの金の派閥の人たちのこと？"
-dialogtxt       "ああいうのはロックじゃないんだ..."
-dialogtxt       "カッコワルかったから？"
+dialogtxt       "Those Gold Council people?"
+dialogtxt       "Their attitude wasn't rocking…"
+dialogtxt       "Since they're really lame?"
 code0309        
 call            @Func_0d38
 code043c        2, 1
 code0479        0, 0, 16
 call            @Func_0c96
-dialogtxt       "ちょっとちがうね"
-dialogtxt       "アイツらは何つーか..."
-dialogtxt       "ただカッコワルかったからだよ"
+dialogtxt       "Not exactly."
+dialogtxt       "I'd say it's…"
+dialogtxt       "Not just because they're lame."
 code0309        
 code043c        2, 4
 code0479        0, 2, 13
-dialogtxt       "カッコワルくてもカッコイイのが"
-dialogtxt       "ロックなんだ"
+dialogtxt       "Rock means you're cool even"
+dialogtxt       "when you're not cool."
 code0309        
 call            @Func_0ccc
 code0479        1, 4, 12
 call            @Func_0d02
 jumpz           @Cond_02bc, ($b002 == 0)
-dialogtxt       "やっぱよくわかんないよ..."
-dialogtxt       "第一ロックって、名も無き世界の"
-dialogtxt       "音楽なんだろ？"
+dialogtxt       "I really don't get it…"
+dialogtxt       "First of all, rock is music from"
+dialogtxt       "the Nameless World, right?"
 goto            @Label_0312
 
 @Cond_02bc:
-dialogtxt       "やっぱよくわかんないよ..."
-dialogtxt       "第一ロックって、名も無き世界の"
-dialogtxt       "音楽なんでしょ？"
+dialogtxt       "I really don't get it…"
+dialogtxt       "First of all, rock is music from"
+dialogtxt       "the Nameless World, right?"
 goto            @Label_0312
 
 @Label_0312:
@@ -56,79 +56,78 @@ call            @Func_0d38
 code0479        0, 2, 15
 code0479        1, 5, 14
 call            @Func_0c96
-dialogtxt       "ロックはただの音楽じゃない"
-dialogtxt       "生き様だ！"
+dialogtxt       "Rock isn't just music."
+dialogtxt       "It's a way of life!"
 code0309        
 call            @Func_0ccc
 code0479        1, 5, 16
 call            @Func_0d02
-dialogtxt       "はあ..."
+dialogtxt       "Huh…"
 code0309        
 call            @Func_0d38
 code0479        1, 0, 16
 code0479        0, 2, 12
 call            @Func_0c96
-dialogtxt       "そういったイミで"
-dialogtxt       "ミューノのために戦っていたお前は"
-dialogtxt       "ロックだったよ、δ"
+dialogtxt       "And under that definition,"
+dialogtxt       "you're rockin' for fighting"
+dialogtxt       "for Murno, [NAME 2]."
 code0309        
 call            @Func_0ccc
 code0479        1, 2, 16
 call            @Func_0d02
-dialogtxt       "それって...？"
-dialogtxt       "結構カッコワルかったってこと？"
+dialogtxt       "That means…?"
+dialogtxt       "I'm pretty lame?"
 code0309        
 call            @Func_0d38
 code0479        0, 1, 12
 call            @Func_0c96
-dialogtxt       "いいや"
-dialogtxt       "すっごくカッコよかったってことさ"
+dialogtxt       "No,"
+dialogtxt       "I mean you're super cool."
 code0309        
 call            @Func_0ccc
 code0479        1, 11, 13
 call            @Func_0d02
-dialogtxt       "え？"
-dialogtxt       "ホントに..."
+dialogtxt       "Eh?"
+dialogtxt       "Really…?"
 code0309        
 call            @Func_0d38
 code0479        0, 8, 13
 call            @Func_0c96
-dialogtxt       "ああ..."
-dialogtxt       "カッコよかったぞ"
-dialogtxt       "このアタシがシビ[NAME 8]ちまうほどにな..."
+dialogtxt       "Yeah."
+dialogtxt       "You were awesome."
+dialogtxt       "Even I got excited…"
 code0309        
 call            @Func_0ccc
 code0479        1, 0, 12
 call            @Func_0d02
-dialogtxt       "親方..."
+dialogtxt       "Master…"
 code0309        
 call            @Func_0d38
 code0479        0, 0, 12
 call            @Func_0c96
-dialogtxt       "となると..."
-dialogtxt       "アンタにもそろそろ"
-dialogtxt       "マントが必要になるころかね"
+dialogtxt       "So then…"
+dialogtxt       "It's about time you"
+dialogtxt       "got your own cape."
 code0309        
 call            @Func_0ccc
 code0479        1, 0, 16
 call            @Func_0d02
-dialogtxt       "マントって、それ？"
+dialogtxt       "A cape?"
 code0309        
 call            @Func_0d38
 code0479        0, 0, 13
 call            @Func_0c96
-dialogtxt       "ああ、アタシと..."
-dialogtxt       "そしてロブとおそろいのマントさ"
-dialogtxt       "ロブ工房の鍛冶師としての印だよ"
+dialogtxt       "Yeah, you know…"
+dialogtxt       "Rob and I had matching capes."
+dialogtxt       "It's the trademark of our workshop."
 code0309        
 code0479        0, 0, 12
-dialogtxt       "どれ、ちょっとアタシのを"
-dialogtxt       "はおってみな"
+dialogtxt       "Here, try wearing mine."
 code0309        
 call            @Func_0ccc
 code0479        1, 5, 14
 call            @Func_0d02
-dialogtxt       "え...？"
+dialogtxt       "Eh…?"
 code0309        
 call            @Func_0dd2
 call            @Func_0d20

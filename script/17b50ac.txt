@@ -124,17 +124,17 @@ code040b
 
 @Event_0524:
 code0301        8, 7
-dialogtxt       "武器を鍛える前に"
-dialogtxt       "まずは己を鍛えるべし"
+dialogtxt       "Before you forge your weapon,"
+dialogtxt       "first you must forge yourself."
 code0309        
 code0302        7
 code040b        
 
 @Event_056a:
 code0301        8, 7
-dialogtxt       "　＜エリエからのおねがい＞"
-dialogtxt       "つかったどうぐは、ちゃあんと"
-dialogtxt       "もとのばしょに　もどしてね！"
+dialogtxt       "　＜A Request From Elieze＞"
+dialogtxt       "Please make sure to put the tools"
+dialogtxt       "back where you found them!"
 code0309        
 code0302        7
 code040b        

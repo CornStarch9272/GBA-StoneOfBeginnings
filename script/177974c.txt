@@ -10,7 +10,7 @@ code0412        4, 1
 code0418        2
 setvar          $b075, 1
 setvar          $b072, 0
-placetxt        "Prosban"
+placetxt        "Prosban Town"
 code040c        1, @Label_03f2
 code040c        2, @Label_03e8
 call            @Func_0b8e
@@ -49,7 +49,7 @@ goto            @Label_0248
 
 @Label_0248:
 code041d        
-placetxt        "Prosban　Mining District"
+placetxt        "Prosban Town　Mining District"
 code040b        
 
 @Event_0266:
@@ -330,9 +330,9 @@ ret
 code0301        8, 7
 code047d        0, 118
 code047e        0, 1
-dialogtxt       "オ[NAME 8]はここの番をしているんだ"
-dialogtxt       "何があってもはなれるワケには"
-dialogtxt       "いかないぞ！"
+dialogtxt       "I'm in charge here."
+dialogtxt       "No matter what happens,"
+dialogtxt       "I may not leave!"
 code0309        
 code047e        0, 0
 code0302        7
@@ -342,8 +342,8 @@ code040b
 code0301        8, 7
 code047d        0, 120
 code047e        0, 1
-dialogtxt       "会員証をお持ちの方はどうぞ"
-dialogtxt       "お通り下さい"
+dialogtxt       "Only those with a Membership"
+dialogtxt       "Card may pass."
 code0309        
 code047e        0, 0
 code0302        7
@@ -353,12 +353,11 @@ code040b
 code0301        8, 7
 code047d        0, 120
 code047e        0, 1
-dialogtxt       "悪いがここから先は特別に"
-dialogtxt       "許可された者しか通すわけには"
-dialogtxt       "いかないな"
+dialogtxt       "Sorry, but only VIPs can"
+dialogtxt       "pass through here."
 code0309        
-dialogtxt       "ただし会員証を持っているなら"
-dialogtxt       "話は別だがな"
+dialogtxt       "But, if you have a Membership"
+dialogtxt       "Card, we might let you in."
 code0309        
 code047e        0, 0
 code0302        7
@@ -366,9 +365,9 @@ code040b
 
 @Event_0e94:
 code0301        8, 7
-dialogtxt       "選ばれたお客様だけに"
-dialogtxt       "最高の一時を差し上げます"
-dialogtxt       "福引きしてみませんか？"
+dialogtxt       "We offer the best experience"
+dialogtxt       "only to select customers!"
+dialogtxt       "Want to give the lottery a try?"
 code0309        
 code0302        7
 code040b        

@@ -113,11 +113,11 @@ code0301        8, 7
 code047d        0, 0
 code047e        0, 1
 jumpz           @Cond_05bc, ($b002 == 0)
-dialogtxt       "こっちに用はないな..."
+dialogtxt       "Nothing to do here…"
 goto            @Label_05e2
 
 @Cond_05bc:
-dialogtxt       "あちこち行くと迷子になるかも..."
+dialogtxt       "I shouldn't wander off…"
 goto            @Label_05e2
 
 @Label_05e2:
@@ -152,9 +152,9 @@ goto            @start
 code0301        8, 7
 code047d        0, 118
 code047e        0, 1
-dialogtxt       "ここから先は行かない方がいい"
-dialogtxt       "アカバ[NAME 6]ってコワイはぐれがいて"
-dialogtxt       "あぶないからね"
+dialogtxt       "You shouldn't go any further."
+dialogtxt       "There's a dangerous Stray"
+dialogtxt       "past here called Red Wing."
 code0309        
 code047e        0, 0
 code0302        7
@@ -372,9 +372,9 @@ ret
 code0301        8, 7
 code047d        0, 123
 code047e        0, 1
-dialogtxt       "ねぇ、しょうかんごっこしようよ"
-dialogtxt       "ボクが[NAME 4]ミをしょうかんして"
-dialogtxt       "[NAME 4]ミがはぐれになるの"
+dialogtxt       "Hey, let's play Summon Beast!"
+dialogtxt       "I'll be the Summoner,"
+dialogtxt       "and you can be a Stray."
 code0309        
 code047e        0, 0
 code0302        7
@@ -382,17 +382,18 @@ code040b
 
 @Event_1020:
 code0301        8, 7
-dialogtxt       "弓は集中力と平常心が大切ですわ！"
-dialogtxt       "落ち着きの無い方にこそオススメです！"
+dialogtxt       "Bows require patience and"
+dialogtxt       "composure!"
+dialogtxt       "Here are some tips!"
 code0309        
 code0302        7
 code040b        
 
 @Event_1086:
 code0301        8, 7
-dialogtxt       "下を見ろ↓"
+dialogtxt       "\"Look below\""
 code0309        
-dialogtxt       "って言われて見るのか"
+dialogtxt       "…is what it says."
 code0309        
 code0302        7
 code040b        

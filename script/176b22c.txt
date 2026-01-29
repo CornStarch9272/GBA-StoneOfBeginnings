@@ -354,11 +354,11 @@ code040b
 code0301        8, 7
 code047d        0, 120
 code047e        0, 1
-dialogtxt       "アカバ[NAME 6]の羽が赤いのは"
-dialogtxt       "全部、..."
-dialogtxt       "って噂だ..."
+dialogtxt       "Red Wing's coloration…"
+dialogtxt       "There's a rumor…"
+dialogtxt       "It's from its victims…"
 code0309        
-dialogtxt       "こわくて口に出せねぇ"
+dialogtxt       "It's too frightening to say."
 code0309        
 code047e        0, 0
 code0302        7
@@ -367,37 +367,39 @@ code040b
 @Event_0f64:
 code0301        8, 7
 dialogtxt       "　"
-dialogtxt       "　　　　　　　　●←のぞき穴"
+dialogtxt       "　"
+dialogtxt       "　●← Peep hole"
 code0309        
-dialogtxt       "そんなわけないでしょ"
+dialogtxt       "No way that's true."
 code0309        
 code0302        7
 code040b        
 
 @Event_0fbe:
 code0301        8, 7
-dialogtxt       "今日できることは明日するな！"
-dialogtxt       "　　　　　　　　　　せっかち男"
+dialogtxt       "Don't do tomorrow what"
+dialogtxt       "you can do today!"
+dialogtxt       "-Impatient man"
 code0309        
 code0302        7
 code040b        
 
 @Event_101a:
 code0301        8, 7
-dialogtxt       "ドク・マヒ・[NAME 6]ムリ・サビを受けると"
-dialogtxt       "とても辛いですが、時間がたてば"
-dialogtxt       "効果は消えます"
+dialogtxt       "Poison, paralysis, sleep, and rust."
+dialogtxt       "Status effects are painful, but"
+dialogtxt       "they'll wear off in time."
 code0309        
 code0302        7
 code040b        
 
 @Event_108e:
 code0301        8, 7
-dialogtxt       "マー[NAME 6]イル宿場にお立ちよりの際は"
-dialogtxt       "ぜひ「ほほえみ亭」をご利用ください！"
+dialogtxt       "When staying at Marnail Station,"
+dialogtxt       "make sure to visit Smile Inn!"
 code0309        
-dialogtxt       "かわいい看板娘ティエちゃんが"
-dialogtxt       "サービスしちゃいます！∞"
+dialogtxt       "Our cute poster girl, Tier,"
+dialogtxt       "will give you special service! ∞"
 code0309        
 code0302        7
 code040b        

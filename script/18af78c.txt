@@ -19,7 +19,7 @@ goto            @Cond_00da
 code046c        1
 setvar          $b075, 1
 setvar          $b072, 1
-placetxt        "ゴヴァンの遺跡"
+placetxt        "Govan Ruins"
 code040c        0, @Label_04ea
 code040c        1, @Label_0670
 code040c        2, @Label_0666
@@ -151,7 +151,7 @@ setvar          $h137, 30
 call            @Func_0812
 code0421        1
 code0368        
-popuptxt        "元気になった！"
+popuptxt        "You feel refreshed!"
 code0318        
 code0461        3
 code040b        

@@ -70,11 +70,13 @@ code047d        0, 0
 code047e        0, 1
 jumpz           @Cond_03a8, ($f0053 == 0)
 jumpz           @Cond_037e, ($b002 == 0)
-dialogtxt       "リュート岩窟はコッチじゃないぜ"
+dialogtxt       "This isn't the way"
+dialogtxt       "to Lute Cave."
 goto            @Label_03a4
 
 @Cond_037e:
-dialogtxt       "リュート岩窟はコッチじゃないよ"
+dialogtxt       "This isn't the way"
+dialogtxt       "to Lute Cave."
 goto            @Label_03a4
 
 @Label_03a4:
@@ -82,11 +84,12 @@ goto            @Label_03f6
 
 @Cond_03a8:
 jumpz           @Cond_03da, ($f0055 == 0)
-dialogtxt       "リュート岩窟に行かないと！"
+dialogtxt       "I need to go to Lute Cave!"
 goto            @Label_03f6
 
 @Cond_03da:
-dialogtxt       "今日は工房に帰ろう..."
+dialogtxt       "I should go back"
+dialogtxt       "to the workshop…"
 goto            @Label_03f6
 
 @Label_03f6:
@@ -110,7 +113,7 @@ goto            @start
 code0301        8, 7
 code047d        0, 118
 code047e        0, 1
-dialogtxt       "あの像、大きいよね"
+dialogtxt       "That painting is is huge…"
 code0309        
 code047e        0, 0
 code0302        7
@@ -375,15 +378,15 @@ code040b
 code0301        8, 7
 code047d        0, 120
 code047e        0, 1
-dialogtxt       "おい、オマエ"
-dialogtxt       "一般人が召喚獣をつれてるって"
-dialogtxt       "どういう事かな？"
+dialogtxt       "Hey, you there."
+dialogtxt       "What's an ordinary person doing"
+dialogtxt       "with a Summon Beast?"
 code0309        
-dialogtxt       "ちょっと詳しく聞かせてもらおうか？"
+dialogtxt       "Let's have a little chat."
 code0309        
-dialogtxt       "え？オマエ鍛冶師なの？"
-dialogtxt       "ん？オ[NAME 8]は金の派閥の一員だから"
-dialogtxt       "何の問題もねぇよ"
+dialogtxt       "You're a Craftknight?"
+dialogtxt       "Me? I'm from the Gold Faction."
+dialogtxt       "Move along now."
 code0309        
 code047e        0, 0
 code0302        7
@@ -396,8 +399,8 @@ code040b
 
 @Event_10da:
 code0301        8, 7
-dialogtxt       "　　　プロスバンの町の創設者"
-dialogtxt       "　　　勇者プロスバンの石像"
+dialogtxt       "　　　The Founder Of This City,"
+dialogtxt       "　　　Our Hero Prosban"
 code0309        
 code0302        7
 code040b        

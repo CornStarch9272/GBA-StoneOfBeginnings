@@ -208,7 +208,7 @@ code034f
 goto            @start
 
 code0301        8, 7
-dialogtxt       "何らかのメッセージ予定"
+dialogtxt       "Some kind of message planned."
 code0309        
 code0302        7
 code040b        
@@ -453,8 +453,8 @@ ret
 code0301        8, 7
 code047d        0, 118
 code047e        0, 1
-dialogtxt       "本当にブッ[NAME 5]ウだよなぁ"
-dialogtxt       "早く家に帰りたいな..."
+dialogtxt       "This is too risky for me!"
+dialogtxt       "I wanna go home…"
 code0309        
 code047e        0, 0
 code0302        7
@@ -463,10 +463,11 @@ code040b
 @Event_121a:
 code0301        8, 7
 dialogtxt       "　"
-dialogtxt       "　　　　　〜困ってます〜"
+dialogtxt       "　　　　　Looking for help!"
 code0309        
-dialogtxt       "スパイスが手に入らなくて困ってます"
-dialogtxt       "どこかに売っていないだろうか？"
+dialogtxt       "I'm having a hard time trying to"
+dialogtxt       "stock up on spices…"
+dialogtxt       "Do you know where I can get them?"
 code0309        
 code0302        7
 code040b        
@@ -475,9 +476,9 @@ code040b
 code0301        8, 7
 dialogtxt       "　"
 dialogtxt       "　"
-dialogtxt       "　　　　　　　　　　●←のぞき穴"
+dialogtxt       "　●←Peep hole"
 code0309        
-dialogtxt       "たいした根性だ"
+dialogtxt       "Aw man, you've got guts!"
 code0309        
 code0302        7
 code040b        
@@ -485,11 +486,11 @@ code040b
 @Event_12fe:
 code0301        8, 7
 dialogtxt       "　"
-dialogtxt       "　　　　　∞探しています∞"
+dialogtxt       "　　　　　∞Searching∞"
 code0309        
-dialogtxt       "全身まっくろな[NAME 6]コを探しています"
-dialogtxt       "闇にまぎれて逃げられました"
-dialogtxt       "見つけた方は連絡ください"
+dialogtxt       "I'm looking for a black cat."
+dialogtxt       "I think it fled to a dark alley."
+dialogtxt       "Let me know if you find it."
 code0309        
 code0302        7
 code040b        

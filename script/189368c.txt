@@ -131,7 +131,7 @@ goto            @Cond_06e2
 goto            @Label_06e6
 
 @Label_06e6:
-placetxt        "ピュビックの森　エリア１"
+placetxt        "Pubick Forest　Area 1"
 code040b        
 
 @Label_0704:

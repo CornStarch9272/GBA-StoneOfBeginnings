@@ -409,13 +409,13 @@ ret
 code0301        8, 7
 code047d        0, 120
 code047e        0, 1
-dialogtxt       "ミミズが釣りエサなんて"
-dialogtxt       "誰が決めたんだ？"
-dialogtxt       "もっと別の使いみちもあるはずなんだ"
+dialogtxt       "Using earthworms as bait!?"
+dialogtxt       "Hell no, there's gotta be other"
+dialogtxt       "uses for the poor things!"
 code0309        
-dialogtxt       "きっと食べたヤツもいる..."
-dialogtxt       "...いるんじゃないかな"
-dialogtxt       "...やっぱいないかなぁ"
+dialogtxt       "Like, they can be eaten as food…"
+dialogtxt       "…Okay, probably not."
+dialogtxt       "…Nevermind, I guess…"
 code0309        
 code047e        0, 0
 code0302        7
@@ -423,39 +423,41 @@ code040b
 
 @Talk_1274:
 code0301        8, 7
-dialogtxt       "にゃーん"
+dialogtxt       "Meooow!"
 code0309        
 code0302        7
 code040b        
 
 @Event_129a:
 code0301        8, 7
-dialogtxt       "最近、とんでもなく大きな召喚獣の"
-dialogtxt       "目撃情報が報告されています"
+dialogtxt       "Recently, we've received sightings"
+dialogtxt       "of a gigantic Summon Beast!"
 code0309        
-dialogtxt       "ガン...とか、ボル...とかいう"
-dialogtxt       "召喚獣だそうです"
+dialogtxt       "I think they called it a…"
+dialogtxt       "\"Gun…bol…\"?"
+dialogtxt       "Or something like that…"
 code0309        
 code0302        7
 code040b        
 
 @Event_132a:
 code0301        8, 7
-dialogtxt       "「福引き」であなたの運を"
-dialogtxt       "試してみませんか？"
-dialogtxt       "毎日抽選！空くじ無し！！"
+dialogtxt       "Care to try our Lucky Draw?"
+dialogtxt       "It's available all day, everyday!"
+dialogtxt       "Guaranteed no losing tickets!"
 code0309        
 code0302        7
 code040b        
 
 @Event_1392:
 code0301        8, 7
-dialogtxt       "何か困った事があっても"
-dialogtxt       "気の持ちようでなんとかなったり"
-dialogtxt       "するもんだ"
+dialogtxt       "Even if you're in a bind, all you"
+dialogtxt       "gotta do is see things differently!"
+dialogtxt       "That'll get you out of it!"
 code0309        
-dialogtxt       "「気合だ！」ってエラい人も"
-dialogtxt       "言ってたような気もするし"
+dialogtxt       "\"It's all about spirit!\""
+dialogtxt       "…Is what I think a certain"
+dialogtxt       "upstanding guy would say a lot…"
 code0309        
 code0302        7
 code040b        

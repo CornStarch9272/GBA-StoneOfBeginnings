@@ -4,15 +4,15 @@ code047d        0, 0
 call            @Func_089e
 call            @Func_07c6
 jumpz           @Cond_009c, ($b002 == 0)
-dialogtxt       "...って、こんなところにいたって"
-dialogtxt       "何も解決するわけないし"
-dialogtxt       "もう帰ろっかな..."
+dialogtxt       "… Hanging around here"
+dialogtxt       "isn't going to resolve anything."
+dialogtxt       "I might as well head back…"
 goto            @Label_00f0
 
 @Cond_009c:
-dialogtxt       "...って、こんなところにいたって"
-dialogtxt       "何も解決するわけないね"
-dialogtxt       "もう帰ろっかな..."
+dialogtxt       "… Hanging around here"
+dialogtxt       "isn't going to resolve anything."
+dialogtxt       "I might as well head back…"
 goto            @Label_00f0
 
 @Label_00f0:
@@ -28,15 +28,15 @@ code0479        0, 0, 16
 call            @Func_089e
 call            @Func_07c6
 jumpz           @Cond_0174, ($b002 == 0)
-dialogtxt       "ん？"
-dialogtxt       "誰か来た？"
-dialogtxt       "まさか..."
+dialogtxt       "Hm?"
+dialogtxt       "Is somewhere there?"
+dialogtxt       "Could it be…"
 goto            @Label_01a2
 
 @Cond_0174:
-dialogtxt       "あれ？"
-dialogtxt       "誰か来たみたい？"
-dialogtxt       "まさか..."
+dialogtxt       "Hm?"
+dialogtxt       "Is somewhere there?"
+dialogtxt       "Could it be…"
 goto            @Label_01a2
 
 @Label_01a2:
@@ -46,12 +46,12 @@ call            @Func_08f4
 call            @Func_0802
 code047b        
 code0312        
-menutxt         @Menu_01fc, "ミューノ"
-menutxt         @Menu_0208, "γ"
-menutxt         @Menu_0214, "ヴィー"
-menutxt         @Menu_0220, "[NAME 8]ミィ"
-menutxt         @Menu_022c, "ジェイド"
-menutxt         @Menu_0238, "ティエ"
+menutxt         @Menu_01fc, "Murno"
+menutxt         @Menu_0208, "[NAME 1]"
+menutxt         @Menu_0214, "V.E"
+menutxt         @Menu_0220, "Lemmy"
+menutxt         @Menu_022c, "Jade"
+menutxt         @Menu_0238, "Tier"
 menuwait        
 
 @Menu_01fc:

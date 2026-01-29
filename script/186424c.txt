@@ -14,22 +14,22 @@ code0479        1, 5, 17
 code047d        1, 108
 call            @Func_11ec
 call            @Func_1154
-dialogtxt       "あ..."
+dialogtxt       "Ah…"
 code047b        
 code0309        
 call            @Func_11a8
 code0479        0, 4, 16
 call            @Func_1106
 jumpz           @Cond_0132, ($b002 == 0)
-dialogtxt       "うわ..."
-dialogtxt       "ごめん、親方..."
-dialogtxt       "オ[NAME 8]、またこわしちゃって..."
+dialogtxt       "Uwah…"
+dialogtxt       "Sorry, Master…"
+dialogtxt       "I broke it again…"
 goto            @Label_0172
 
 @Cond_0132:
-dialogtxt       "うわ..."
-dialogtxt       "ごめん、親方..."
-dialogtxt       "わたし、またこわしちゃって..."
+dialogtxt       "Uwah…"
+dialogtxt       "Sorry, Master…"
+dialogtxt       "I broke it again…"
 goto            @Label_0172
 
 @Label_0172:
@@ -37,14 +37,14 @@ code0309
 call            @Func_113c
 code0479        1, 2, 14
 call            @Func_1172
-dialogtxt       "..."
+dialogtxt       "…"
 code0309        
 call            @Func_11a8
 code0479        0, 4, 17
 call            @Func_1106
-dialogtxt       "う...！"
-dialogtxt       "あの......！！"
-dialogtxt       "その.........！！！"
+dialogtxt       "Uu…!"
+dialogtxt       "Um……!!"
+dialogtxt       "I………!!!"
 code0309        
 call            @Func_1242
 call            @Func_1124
@@ -58,15 +58,15 @@ code0479        0, 0, 16
 code0479        1, 7, 13
 call            @Func_11ec
 call            @Func_1154
-dialogtxt       "本当にウデを上げたね"
-dialogtxt       "δ..."
+dialogtxt       "You've gotten much better,"
+dialogtxt       "[NAME 2]…"
 code047b        
 code0309        
 code0479        0, 0, 16
 code0479        1, 2, 12
-dialogtxt       "ロブと作ったこの斧を使ってる"
-dialogtxt       "アタシをたおしたんだ"
-dialogtxt       "アンタ、大したもんだよ！"
+dialogtxt       "You defeated me, even though I'm"
+dialogtxt       "using the axe I made with Rob."
+dialogtxt       "You're great!"
 code0309        
 call            @Func_11a8
 goto            @Label_04da
@@ -85,15 +85,15 @@ code0479        1, 0, 12
 call            @Func_11ec
 call            @Func_10e8
 jumpz           @Cond_03e4, ($b002 == 0)
-dialogtxt       "やった..."
-dialogtxt       "オ[NAME 8]..."
-dialogtxt       "勝ったんだ...！"
+dialogtxt       "I…"
+dialogtxt       "I won…"
+dialogtxt       "I really won…!"
 goto            @Label_0412
 
 @Cond_03e4:
-dialogtxt       "やった..."
-dialogtxt       "わたし..."
-dialogtxt       "勝ったんだ...！"
+dialogtxt       "I…"
+dialogtxt       "I won…"
+dialogtxt       "I really won…!"
 goto            @Label_0412
 
 @Label_0412:
@@ -102,14 +102,14 @@ code0309
 call            @Func_113c
 code0479        1, 7, 13
 call            @Func_1172
-dialogtxt       "本当にウデを上げたね"
-dialogtxt       "δ..."
+dialogtxt       "You've gotten much better,"
+dialogtxt       "[NAME 2]…"
 code0309        
 code0479        0, 0, 16
 code0479        1, 2, 12
-dialogtxt       "ロブと作ったこの斧を使ってる"
-dialogtxt       "アタシをたおしたんだ"
-dialogtxt       "アンタ、大したもんだよ！"
+dialogtxt       "You defeated me, even though I'm"
+dialogtxt       "using the axe I made with Rob."
+dialogtxt       "You're great!"
 code0309        
 call            @Func_11a8
 goto            @Label_04da
@@ -117,97 +117,96 @@ goto            @Label_04da
 @Label_04da:
 code0479        0, 5, 12
 call            @Func_1106
-dialogtxt       "あ..."
-dialogtxt       "親方..."
-dialogtxt       "ありがとう！"
+dialogtxt       "Ah…"
+dialogtxt       "Master…"
+dialogtxt       "Thank you!"
 code0309        
 call            @Func_113c
 code0479        1, 0, 12
 call            @Func_1172
-dialogtxt       "これだけのウデがあるんだ"
-dialogtxt       "γがいなくなっても"
-dialogtxt       "とりあえずは大丈夫だね"
+dialogtxt       "If you're this good"
+dialogtxt       "even without [NAME 1],"
+dialogtxt       "I'm sure you'll be fine."
 code0309        
 call            @Func_11a8
 code0479        0, 4, 14
 call            @Func_1106
-dialogtxt       "そっか..."
-dialogtxt       "γは..."
+dialogtxt       "That's right…"
+dialogtxt       "[NAME 1] is…"
 code0309        
 call            @Func_113c
 code0479        1, 4, 12
 call            @Func_1172
-dialogtxt       "そんな顔するんじゃないよ"
-dialogtxt       "あの子たちだってきっと"
-dialogtxt       "アンタと同じ気持ちなんだしね"
+dialogtxt       "Don't make that face."
+dialogtxt       "I'm sure those two feel"
+dialogtxt       "the same way you do."
 code0309        
 code0479        1, 2, 12
-dialogtxt       "それにアンタにゃ"
-dialogtxt       "アタシがついてるんだからさ"
-dialogtxt       "シャ[NAME 4]っとしな！"
+dialogtxt       "We have to be there for them."
+dialogtxt       "So stand tall!"
 code0309        
 call            @Func_11a8
 code0479        0, 5, 16
 call            @Func_1106
-dialogtxt       "親方..."
+dialogtxt       "Master…"
 code0309        
 code0479        0, 2, 12
-dialogtxt       "はい！"
+dialogtxt       "Yes!"
 code0309        
 call            @Func_113c
 code0479        1, 1, 13
 call            @Func_1172
-dialogtxt       "よし、その意気だよ！"
-dialogtxt       "こうやってアンタも成長してるんだ"
-dialogtxt       "アタシもがんばんなきゃねぇ"
+dialogtxt       "Yeah, that's the spirit!"
+dialogtxt       "I can tell you've grown."
+dialogtxt       "I have to work hard too."
 code0309        
 code0479        1, 2, 12
-dialogtxt       "いつまでもロブとの思い出の武器に"
-dialogtxt       "しがみついてちゃ、２代目親方として"
-dialogtxt       "ロブに申し訳が立たないからね！"
+dialogtxt       "I can't keep clinging to Rob."
+dialogtxt       "I have to be able to be proud,"
+dialogtxt       "as your second master!"
 code0309        
 call            @Func_11a8
 code0333        2, 30
 code0479        0, 2, 16
 call            @Func_1106
-dialogtxt       "２代目..."
+dialogtxt       "Second master…"
 code0309        
 call            @Func_113c
 code0334        
 code0331        40, 256
 code0479        1, 2, 13
 call            @Func_1172
-dialogtxt       "目標はアンタとふたりで生み出した"
-dialogtxt       "最高の鍛冶とロッ[NAME 4]ンロールで"
-dialogtxt       "リィンバウム中をシビ[NAME 8]させるんだ"
+dialogtxt       "Together, all of Lyndbaum will"
+dialogtxt       "shiver in the face of your skills"
+dialogtxt       "and my rock and roll."
 code0309        
 code0479        1, 2, 15
-dialogtxt       "世界をこの手につかむ日まで"
-dialogtxt       "いままで以上にビッシビシいくから"
-dialogtxt       "シッカリついてきなよ！"
+dialogtxt       "Until I hold the world in these"
+dialogtxt       "hands, I'll be working you harder"
+dialogtxt       "than before. Be prepared!"
 code0309        
 call            @Func_11a8
 code0479        0, 4, 17
 call            @Func_1106
-dialogtxt       "え〜！"
+dialogtxt       "Eh~~"
 code0309        
 call            @Func_113c
 code0479        1, 2, 17
 call            @Func_1172
-dialogtxt       "なんだい！"
-dialogtxt       "気合い入れないとそのケツ"
-dialogtxt       "けっとばすよ！　いいのかい！？"
+dialogtxt       "What is it!?"
+dialogtxt       "Put your back into it or I'll"
+dialogtxt       "kick your butt! You want that!?"
 code0309        
 call            @Func_11a8
 code0479        0, 1, 15
 call            @Func_1106
-dialogbig       24, 116, 1, 0, 0, "イヤ〜ァっ！！！"
+dialogbig       24, 116, 1, 0, 0, "Nooo~!!!"
 code030c        
 call            @Func_113c
 code0479        1, 7, 13
 call            @Func_1172
-dialogtxt       "よしっ！"
-dialogtxt       "なかなかロックなシャウトだよ！"
+dialogtxt       "Alright!"
+dialogtxt       "That was a rocking shout!"
 code0309        
 call            @Func_1242
 call            @Func_1190
@@ -224,13 +223,13 @@ code047d        0, 108
 code0301        16, 7
 code047e        0, 1
 jumpz           @Cond_0afe, ($b002 == 0)
-dialogtxt       "それでこそアタシの見込んだ"
-dialogtxt       "男ってもんだ！"
+dialogtxt       "That's what makes you the"
+dialogtxt       "man I've been anticipating!"
 goto            @Label_0b32
 
 @Cond_0afe:
-dialogtxt       "それでこそアタシの見込んだ"
-dialogtxt       "女ってもんだ！"
+dialogtxt       "That's what makes you the"
+dialogtxt       "woman I've been anticipating!"
 goto            @Label_0b32
 
 @Label_0b32:

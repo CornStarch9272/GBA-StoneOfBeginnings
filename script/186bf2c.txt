@@ -25,13 +25,13 @@ code047d        1, 2
 call            @Func_0f5a
 call            @Func_0e56
 jumpz           @Cond_0116, ($b002 == 0)
-dialogtxt       "よっし！"
-dialogtxt       "じゃあ今日は..."
+dialogtxt       "Alright!"
+dialogtxt       "So today I'll…"
 goto            @Label_0138
 
 @Cond_0116:
-dialogtxt       "よーし！"
-dialogtxt       "じゃあ今日は..."
+dialogtxt       "Alright!"
+dialogtxt       "So today I'll…"
 goto            @Label_0138
 
 @Label_0138:
@@ -67,8 +67,8 @@ code0479        0, 0, 16
 code047d        0, 108
 call            @Func_0f2e
 call            @Func_0e56
-dialogtxt       "ちょっと、δ"
-dialogtxt       "こっちにミューノは来てないかい？"
+dialogtxt       "Hey, [NAME 2],"
+dialogtxt       "have you seen Murno today?"
 code047b        
 code0309        
 call            @Func_0eaa
@@ -78,8 +78,8 @@ code047d        1, 0
 code0479        1, 0, 16
 call            @Func_0f44
 call            @Func_0ee0
-dialogtxt       "え？"
-dialogtxt       "来てないけど"
+dialogtxt       "Eh?"
+dialogtxt       "No, I haven't."
 code047b        
 code0309        
 call            @Func_0f9a
@@ -109,22 +109,22 @@ code047d        1, 2
 call            @Func_0f44
 call            @Func_0ee0
 jumpz           @Cond_046e, ($b003 == 0)
-dialogtxt       "みゅーの様ガ　イナイノデスカ？"
+dialogtxt       "Lady Murno Is Gone?"
 goto            @Cond_046e
 
 @Cond_046e:
 jumpz           @Cond_049c, ($b003 == 1)
-dialogtxt       "ミューノがおらんのか？"
+dialogtxt       "Murno is gone?"
 goto            @Cond_049c
 
 @Cond_049c:
 jumpz           @Cond_04ca, ($b003 == 2)
-dialogtxt       "ミューノがいないのか？"
+dialogtxt       "Murno's gone?"
 goto            @Cond_04ca
 
 @Cond_04ca:
 jumpz           @Cond_04fe, ($b003 == 3)
-dialogtxt       "ミューノ様がいないんですか？"
+dialogtxt       "Lady Murno Is Gone?"
 goto            @Cond_04fe
 
 @Cond_04fe:
@@ -133,9 +133,9 @@ code0309
 call            @Func_0f16
 code0479        0, 2, 14
 call            @Func_0e74
-dialogtxt       "そうなんだよ"
-dialogtxt       "ウェルマンさんもいないみたいで"
-dialogtxt       "ドコかへ出かけたのかね..."
+dialogtxt       "That's right."
+dialogtxt       "Mr. Wellman is gone too."
+dialogtxt       "Maybe they went out together…?"
 code0309        
 call            @Func_0fb0
 call            @Func_0e92
@@ -178,7 +178,7 @@ code0479        0, 2, 16
 code047d        0, 0
 call            @Func_0f5a
 call            @Func_0e56
-dialogtxt       "何があったんだろう？"
+dialogtxt       "I wonder what happened?"
 code047b        
 code0309        
 call            @Func_0eaa
@@ -203,25 +203,25 @@ goto            @Label_07ba
 @Label_07ba:
 call            @Func_0ee0
 jumpz           @Cond_07f4, ($b003 == 0)
-dialogtxt       "私タチモ　サガシニ行[NAME 4]マショウ"
+dialogtxt       "Let Us Search As Well."
 goto            @Cond_07f4
 
 @Cond_07f4:
 jumpz           @Cond_0830, ($b003 == 1)
-dialogtxt       "ふむ...、不安じゃの..."
-dialogtxt       "行ってみるか"
+dialogtxt       "Hmm… Murno…"
+dialogtxt       "Shall we have a look?"
 goto            @Cond_0830
 
 @Cond_0830:
 jumpz           @Cond_0860, ($b003 == 2)
-dialogtxt       "イヤな感じだ..."
-dialogtxt       "行くぞ"
+dialogtxt       "I've got a bad feeling about this…"
+dialogtxt       "Let's go."
 goto            @Cond_0860
 
 @Cond_0860:
 jumpz           @Cond_0896, ($b003 == 3)
-dialogtxt       "心配ですね"
-dialogtxt       "行ってみましょう"
+dialogtxt       "I'm worried."
+dialogtxt       "Let's have a look around."
 goto            @Cond_0896
 
 @Cond_0896:

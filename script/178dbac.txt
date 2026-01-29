@@ -11,7 +11,7 @@ code0418        0
 setvar          $b075, 1
 setvar          $b072, 0
 code046c        0
-placetxt        "Louise Village　Prison Cell A"
+placetxt        "Louise Village　Jail A"
 code040c        1, @Label_01c2
 code041c        0, 240, 391, 1
 jumpz           @Cond_0108, ($h319 == 53)
@@ -25,7 +25,7 @@ setvar          $h319, 54
 code0409        
 code046e        16, 256, 0
 code041d        
-placetxt        "ルイーズ村　村入り口"
+placetxt        "Louise Village　Village Entrance"
 code040b        
 
 @Event_0176:

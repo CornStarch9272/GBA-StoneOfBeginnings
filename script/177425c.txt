@@ -407,7 +407,7 @@ ret
 code0301        8, 7
 code047d        0, 122
 code047e        0, 1
-dialogtxt       "小豆は体にええぞぉ"
+dialogtxt       "Azuki beans are good for the body."
 code0309        
 code047e        0, 0
 code0302        7
@@ -417,9 +417,9 @@ code040b
 code0301        8, 7
 code047d        0, 123
 code047e        0, 1
-dialogtxt       "ゆうしゃもけんしも"
-dialogtxt       "なるのはむずかしそうだから"
-dialogtxt       "かじしになろうかな"
+dialogtxt       "Becoming a hero or a swordsman"
+dialogtxt       "both seem too hard…"
+dialogtxt       "Maybe I'll be a Craftknight instead."
 code0309        
 code047e        0, 0
 code0302        7
@@ -434,7 +434,7 @@ code040b
 code0301        8, 7
 code047d        0, 118
 code047e        0, 1
-dialogtxt       "ま、がんばれ"
+dialogtxt       "Well, do your best."
 code0309        
 code047e        0, 0
 code0302        7

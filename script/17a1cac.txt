@@ -146,9 +146,9 @@ goto            @start
 code0301        8, 7
 code047d        0, 114
 code047e        0, 1
-dialogtxt       "なんだかはぐれが"
-dialogtxt       "さわがしくなったみたいだけど..."
-dialogtxt       "無事に帰ってきてね"
+dialogtxt       "It looks like the Strays have"
+dialogtxt       "become more active, but…"
+dialogtxt       "Come back safely."
 code0309        
 code047e        0, 0
 code0302        7
@@ -159,15 +159,16 @@ code0301        8, 7
 code047d        0, 113
 code047e        0, 1
 jumpz           @Cond_0734, ($b002 == 0)
-dialogtxt       "δくん"
+dialogtxt       "[NAME 2]"
 goto            @Label_0744
 
 @Cond_0734:
-dialogtxt       "δちゃん"
+dialogtxt       "[NAME 2]"
 goto            @Label_0744
 
 @Label_0744:
-dialogtxt       "娘のこと、たのみます"
+dialogtxt       "I'm counting on you to help"
+dialogtxt       "my daughter."
 code0309        
 code047e        0, 0
 code0302        7
@@ -175,9 +176,9 @@ code040b
 
 @Event_0776:
 code0301        8, 7
-dialogtxt       "ここから先は乙女の秘密◎"
-dialogtxt       "立ち入り禁止！！"
-dialogtxt       "　　　　　　　　　　　ティエ"
+dialogtxt       "A lady's secret lies beyond here◎"
+dialogtxt       "NO TRESPASSING!!!"
+dialogtxt       "　　　　　　　　　　　-Tier<end_line>"
 code0309        
 code0302        7
 code040b        
@@ -393,9 +394,8 @@ ret
 code0301        8, 7
 code047d        0, 121
 code047e        0, 1
-dialogtxt       "お休みもらってここに来たんだけど"
-dialogtxt       "正解だったみたいね"
-dialogtxt       "いろんな意味で"
+dialogtxt       "I came here for my break, but"
+dialogtxt       "it looks like I hit the jackpot."
 code0309        
 code047e        0, 0
 code0302        7
@@ -405,7 +405,8 @@ code040b
 code0301        8, 7
 code047d        0, 122
 code047e        0, 1
-dialogtxt       "何やら良くない事が起きそうじゃ..."
+dialogtxt       "I feel like something bad is"
+dialogtxt       "going to happen…"
 code0309        
 code047e        0, 0
 code0302        7

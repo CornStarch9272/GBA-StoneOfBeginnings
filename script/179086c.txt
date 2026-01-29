@@ -296,11 +296,12 @@ ret
 code0301        8, 7
 code047d        0, 120
 code047e        0, 1
-dialogtxt       "ザックとか言う工房の見習いが"
-dialogtxt       "大けがしたって話だ"
+dialogtxt       "I heard that the Zakk kid who"
+dialogtxt       "apprentices for the Workshop"
+dialogtxt       "has been seriously injured…"
 code0309        
-dialogtxt       "ほんと、世の中"
-dialogtxt       "あぶなくってしょうがない"
+dialogtxt       "For real!? Man, it really is"
+dialogtxt       "a dangerous world out there…"
 code0309        
 code047e        0, 0
 code0302        7

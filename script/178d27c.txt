@@ -336,8 +336,9 @@ ret
 code0301        8, 7
 code047d        0, 118
 code047e        0, 1
-dialogtxt       "いつでも遊びに来てください"
-dialogtxt       "特に歓迎はできませんが"
+dialogtxt       "Feel free to visit anytime!"
+dialogtxt       "Not that we'd be able to give"
+dialogtxt       "you a proper welcome, though"
 code0309        
 code047e        0, 0
 code0302        7
@@ -347,8 +348,8 @@ code040b
 code0301        8, 7
 code047d        0, 120
 code047e        0, 1
-dialogtxt       "この村を守るためには"
-dialogtxt       "強力な武器が必要だと思うんだ"
+dialogtxt       "We need powerful weapons if"
+dialogtxt       "we are to protect this village."
 code0309        
 code047e        0, 0
 code0302        7

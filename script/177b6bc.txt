@@ -160,8 +160,8 @@ goto            @start
 code047d        0, 107
 code0301        8, 7
 code047e        0, 1
-dialogtxt       "無事に戻ってきてね"
-dialogtxt       "約束よ、δ"
+dialogtxt       "Promise me you'll"
+dialogtxt       "come back safely, [NAME 2]."
 code0309        
 code047e        0, 0
 code0302        7
@@ -171,8 +171,8 @@ code040b
 code047d        0, 138
 code0301        8, 7
 code047e        0, 1
-dialogtxt       "わるいひとたちを"
-dialogtxt       "やっつけてね！"
+dialogtxt       "Go beat up"
+dialogtxt       "those bad guys!"
 code0309        
 code047e        0, 0
 code0302        7
@@ -182,7 +182,7 @@ code040b
 code047d        0, 133
 code0301        8, 7
 code047e        0, 1
-dialogtxt       "ん"
+dialogtxt       "Mm."
 code0309        
 code047e        0, 0
 code0302        7
@@ -192,7 +192,7 @@ code040b
 code047d        0, 138
 code0301        8, 7
 code047e        0, 1
-dialogtxt       "おやかた、だいじょうぶかなぁ"
+dialogtxt       "I wonder if Master is okay."
 code0309        
 code047e        0, 0
 code0302        7
@@ -202,7 +202,7 @@ code040b
 code047d        0, 120
 code0301        8, 7
 code047e        0, 1
-dialogtxt       "どうしてこんなことに..."
+dialogtxt       "How did it come to this…"
 code0309        
 code047e        0, 0
 code0302        7
@@ -212,8 +212,8 @@ code040b
 code0301        8, 7
 code047d        0, 120
 code047e        0, 1
-dialogtxt       "うぅっ..."
-dialogtxt       "床掃除までやりなおしなんて..."
+dialogtxt       "Ugh… I don't"
+dialogtxt       "want to clean the floors again…"
 code0309        
 code047e        0, 0
 code0302        7
@@ -221,17 +221,17 @@ code040b
 
 @Event_0a00:
 code0301        8, 7
-dialogtxt       "武器を鍛える前に"
-dialogtxt       "まずは己を鍛えるべし"
+dialogtxt       "Before you forge a weapon,"
+dialogtxt       "you must first forge yourself."
 code0309        
 code0302        7
 code040b        
 
 @Event_0a46:
 code0301        8, 7
-dialogtxt       "　＜エリエからのおねがい＞"
-dialogtxt       "つかったどうぐは、ちゃあんと"
-dialogtxt       "もとのばしょに　もどしてね！"
+dialogtxt       "　＜A Request From Elieze＞"
+dialogtxt       "Please make sure to put the tools"
+dialogtxt       "back where you found them!"
 code0309        
 code0302        7
 code040b        

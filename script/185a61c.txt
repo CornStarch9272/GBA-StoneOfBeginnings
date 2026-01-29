@@ -4,28 +4,28 @@ code0479        0, 0, 14
 code047d        0, 0
 call            @Func_0958
 call            @Func_0880
-dialogtxt       "魔石を戻すって言っても"
-dialogtxt       "イアナさんは詳しく調べたい"
-dialogtxt       "感じだったからなぁ..."
+dialogtxt       "Though we planned on returning"
+dialogtxt       "the Demon Stone, Ianna wants to"
+dialogtxt       "conduct an investigation…"
 code047b        
 code0309        
 code0479        0, 0, 16
-dialogtxt       "ウェルマンさんのこともあるし"
-dialogtxt       "すぐ返しに行くってワケには"
-dialogtxt       "いかないかも..."
+dialogtxt       "There's Wellman's thing too,"
+dialogtxt       "so they most likely won't be"
+dialogtxt       "able to return the Stone soon…"
 code0309        
 code0479        0, 2, 16
 jumpz           @Cond_018c, ($b002 == 0)
-dialogtxt       "まあ、ミシュース村までは"
-dialogtxt       "遠くて結構あぶないみたいだから"
-dialogtxt       "しっかり準備をしとくかな！"
+dialogtxt       "Well, the road to Mishus Village"
+dialogtxt       "is long and filled with danger."
+dialogtxt       "I gotta make sure I'm ready!"
 code0309        
 goto            @Label_01f2
 
 @Cond_018c:
-dialogtxt       "まあ、ミシュース村までは"
-dialogtxt       "遠くて結構あぶないみたいだから"
-dialogtxt       "しっかり準備をしておこうかな！"
+dialogtxt       "Well, the road to Mishus Village"
+dialogtxt       "is long and filled with danger."
+dialogtxt       "I gotta make sure I'm ready!"
 code0309        
 goto            @Label_01f2
 
@@ -40,19 +40,19 @@ code0446        0
 code0479        0, 0, 16
 call            @Func_0958
 call            @Func_0880
-dialogtxt       "あれ？"
-dialogtxt       "誰だろう...？"
+dialogtxt       "Huh?"
+dialogtxt       "Who's that…?"
 code0309        
 call            @Func_09ae
 call            @Func_08bc
 code047b        
 code0312        
-menutxt         @Menu_02b6, "ミューノ"
-menutxt         @Menu_02c2, "γ"
-menutxt         @Menu_02ce, "ヴィー"
-menutxt         @Menu_02da, "[NAME 8]ミィ"
-menutxt         @Menu_02e6, "ジェイド"
-menutxt         @Menu_02f2, "ティエ"
+menutxt         @Menu_02b6, "Murno"
+menutxt         @Menu_02c2, "[NAME 1]"
+menutxt         @Menu_02ce, "V.E"
+menutxt         @Menu_02da, "Lemmy"
+menutxt         @Menu_02e6, "Jade"
+menutxt         @Menu_02f2, "Tier"
 menuwait        
 
 @Menu_02b6:

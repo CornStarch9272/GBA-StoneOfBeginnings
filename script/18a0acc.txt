@@ -19,7 +19,7 @@ goto            @Cond_00da
 code046c        1
 setvar          $b075, 1
 setvar          $b072, 1
-placetxt        "グマグの炎遺跡"
+placetxt        "Gumag Fire Ruins"
 code040c        0, @Label_05a6
 code040c        1, @Label_0776
 code040c        2, @Label_076c
@@ -113,7 +113,7 @@ goto            @Cond_0584
 goto            @Label_0588
 
 @Label_0588:
-placetxt        "Ghumag Flame Ruins　Area 4"
+placetxt        "Gumag Fire Ruins Area 4"
 code040b        
 
 @Label_05a6:
@@ -165,7 +165,7 @@ setvar          $h137, 30
 call            @Func_0918
 code0421        1
 code0368        
-popuptxt        "元気になった！"
+popuptxt        "You feel refreshed!"
 code0318        
 code0461        3
 code040b        

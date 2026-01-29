@@ -7,11 +7,11 @@ code047d        1, 131
 call            @Func_095c
 call            @Func_0858
 jumpz           @Cond_009a, ($b002 == 0)
-dialogtxt       "お前、ケガは大丈夫なのか？"
+dialogtxt       "Hey, how are your wounds?"
 goto            @Label_00bc
 
 @Cond_009a:
-dialogtxt       "あなた、ケガは大丈夫なの？"
+dialogtxt       "Hey, how are your wounds?"
 goto            @Label_00bc
 
 @Label_00bc:
@@ -20,20 +20,20 @@ code0309
 call            @Func_08ac
 code0479        1, 2, 13
 call            @Func_08e2
-dialogtxt       "うん！"
-dialogtxt       "あのくらい、へっちゃらさ"
+dialogtxt       "Totally fine!"
+dialogtxt       "This is nothing."
 code0309        
 call            @Func_0918
 code0479        0, 0, 13
 call            @Func_0876
 jumpz           @Cond_0158, ($b002 == 0)
-dialogtxt       "良かった..."
-dialogtxt       "みんな心配してたぞ"
+dialogtxt       "Thank goodness…"
+dialogtxt       "Everyone was worried."
 goto            @Label_0180
 
 @Cond_0158:
-dialogtxt       "良かった..."
-dialogtxt       "みんな心配してたよ"
+dialogtxt       "Thank goodness…"
+dialogtxt       "Everyone was worried."
 goto            @Label_0180
 
 @Label_0180:
@@ -41,22 +41,22 @@ code0309
 call            @Func_08ac
 code0479        1, 4, 16
 call            @Func_08e2
-dialogtxt       "あ、うん..."
-dialogtxt       "ごめん..."
+dialogtxt       "Ah, yeah…"
+dialogtxt       "Sorry…"
 code0309        
 call            @Func_0918
 code0479        0, 0, 12
 call            @Func_0876
 jumpz           @Cond_023e, ($b002 == 0)
-dialogtxt       "お前があやまることないよ"
-dialogtxt       "でも、今度からはあんまり"
-dialogtxt       "ムチャなことすんなよな！"
+dialogtxt       "You don't need to apologize."
+dialogtxt       "But make sure not to do"
+dialogtxt       "anything too reckless from now on!"
 goto            @Label_0298
 
 @Cond_023e:
-dialogtxt       "あなたがあやまることないよ"
-dialogtxt       "でも、今度からはあんまり"
-dialogtxt       "ムチャなことしないでね！"
+dialogtxt       "You don't need to apologize."
+dialogtxt       "But make sure not to do"
+dialogtxt       "anything too reckless from now on!"
 goto            @Label_0298
 
 @Label_0298:
@@ -64,7 +64,7 @@ code0309
 call            @Func_08ac
 code0479        1, 2, 12
 call            @Func_08e2
-dialogtxt       "そっちこそ！"
+dialogtxt       "Right back at you!"
 code0309        
 call            @Func_09b2
 call            @Func_0900

@@ -7,13 +7,13 @@ code047d        1, 131
 call            @Func_08da
 call            @Func_07d6
 jumpz           @Cond_00a8, ($b002 == 0)
-dialogtxt       "あのさ、ザック"
-dialogtxt       "ミューノ見なかったか？"
+dialogtxt       "Hey, Zakk,"
+dialogtxt       "have you seen Murno?"
 goto            @Label_00d4
 
 @Cond_00a8:
-dialogtxt       "ねぇ、ザック"
-dialogtxt       "ミューノ見なかった？"
+dialogtxt       "Hey, Zakk,"
+dialogtxt       "have you seen Murno?"
 goto            @Label_00d4
 
 @Label_00d4:
@@ -22,29 +22,29 @@ code0309
 call            @Func_082a
 code0479        1, 0, 16
 call            @Func_0860
-dialogtxt       "ああ..."
-dialogtxt       "あの人ならさっき"
-dialogtxt       "商店通りの方へ行ったよ"
+dialogtxt       "Uhh…"
+dialogtxt       "Yeah, she was headed"
+dialogtxt       "towards the shops."
 code0309        
 code0479        1, 2, 14
-dialogtxt       "なんだかジェイドさんを"
-dialogtxt       "おいかけてたみたいだったけど..."
+dialogtxt       "I saw Jade following her too,"
+dialogtxt       "though I'm not sure why…"
 code0309        
 call            @Func_0896
 code0479        0, 2, 14
 call            @Func_07f4
-dialogtxt       "道具屋さんの方か..."
-dialogtxt       "そっか、ありがと！"
+dialogtxt       "The shops…"
+dialogtxt       "Alright, thanks!"
 code0309        
 call            @Func_082a
 code0479        1, 1, 12
 call            @Func_0860
-dialogtxt       "へへへ"
-dialogtxt       "おやすいごようさ！"
+dialogtxt       "Heheheh,"
+dialogtxt       "no problem!"
 code0309        
 code0479        0, 2, 12
 code0479        1, 5, 15
-dialogtxt       "...って、ちがう！"
+dialogtxt       "…wait, no!"
 code0309        
 call            @Func_0930
 call            @Func_087e

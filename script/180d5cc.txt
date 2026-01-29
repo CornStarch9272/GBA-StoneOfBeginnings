@@ -20,9 +20,9 @@ code0479        1, 2, 16
 code047d        1, 108
 call            @Func_12b6
 call            @Func_121e
-dialogtxt       "アンタたち、無事だったんだね"
-dialogtxt       "はぐれが出た方に行ってたんだって？"
-dialogtxt       "またムチャして"
+dialogtxt       "Oh, good, you're safe."
+dialogtxt       "Chasing after Strays again?"
+dialogtxt       "You're so reckless."
 code047b        
 code0309        
 call            @Func_12f6
@@ -33,14 +33,14 @@ code0479        1, 2, 12
 code047d        1, 132
 call            @Func_12a0
 call            @Func_123c
-dialogtxt       "そうだ！"
-dialogtxt       "この辺りのはぐれのことはオ[NAME 8]たちに"
-dialogtxt       "任せておけばいいんだよ"
+dialogtxt       "She's right!"
+dialogtxt       "Just leave the Strays"
+dialogtxt       "to the militia."
 code0309        
 code0479        1, 2, 16
-dialogtxt       "しっかしまさか鐘をならし忘れる"
-dialogtxt       "ドジなヤツがいるとはな"
-dialogtxt       "持ち場のヤツに言ってやらないと"
+dialogtxt       "But really, who would've"
+dialogtxt       "thought some idiots would"
+dialogtxt       "forget to sound the alarm."
 code0309        
 call            @Func_130c
 call            @Func_125a
@@ -72,25 +72,25 @@ code047d        1, 108
 call            @Func_12b6
 call            @Func_11b2
 jumpz           @Cond_03a4, ($b003 == 0)
-dialogtxt       "親方"
-dialogtxt       "みゅーの様ハ　戻ッテイマスカ？"
+dialogtxt       "Master,"
+dialogtxt       "Has Lady Murno Returned?"
 goto            @Cond_03a4
 
 @Cond_03a4:
 jumpz           @Cond_03e2, ($b003 == 1)
-dialogtxt       "ところで"
-dialogtxt       "ミューノは戻っておるかの？"
+dialogtxt       "By the way,"
+dialogtxt       "has Murno returned?"
 goto            @Cond_03e2
 
 @Cond_03e2:
 jumpz           @Cond_0412, ($b003 == 2)
-dialogtxt       "ミューノは戻っているか？"
+dialogtxt       "Has Murno returned?"
 goto            @Cond_0412
 
 @Cond_0412:
 jumpz           @Cond_0454, ($b003 == 3)
-dialogtxt       "すみません"
-dialogtxt       "ミューノ様は戻っていますか？"
+dialogtxt       "Excuse me,"
+dialogtxt       "has Murno returned?"
 goto            @Cond_0454
 
 @Cond_0454:
@@ -99,9 +99,9 @@ code0309
 call            @Func_1206
 code0479        1, 0, 16
 call            @Func_123c
-dialogtxt       "あ、ああ"
-dialogtxt       "戻ってるよ"
-dialogtxt       "中にいると思うけど..."
+dialogtxt       "Y-yeah,"
+dialogtxt       "she's back."
+dialogtxt       "I think she's inside…"
 code0309        
 call            @Func_1272
 jumpz           @Cond_04d4, ($b003 == 0)
@@ -125,27 +125,27 @@ goto            @Label_053c
 @Label_053c:
 call            @Func_11d0
 jumpz           @Cond_0576, ($b003 == 0)
-dialogtxt       "デハ、話ガアルノデ"
-dialogtxt       "行[NAME 4]マス"
+dialogtxt       "I Must Talk To Her."
+dialogtxt       "I Will Go Inside."
 goto            @Cond_0576
 
 @Cond_0576:
 jumpz           @Cond_05c0, ($b003 == 1)
-dialogtxt       "そうか"
-dialogtxt       "では、少し話すことがあるので"
-dialogtxt       "すまんな"
+dialogtxt       "I see…"
+dialogtxt       "Excuse me, I must have"
+dialogtxt       "a word with her."
 goto            @Cond_05c0
 
 @Cond_05c0:
 jumpz           @Cond_05de, ($b003 == 2)
-dialogtxt       "そうか"
+dialogtxt       "I see…"
 goto            @Cond_05de
 
 @Cond_05de:
 jumpz           @Cond_063e, ($b003 == 3)
-dialogtxt       "そうですか"
-dialogtxt       "じゃあ少しお話ししたいことが"
-dialogtxt       "ありますから、失礼しますわ"
+dialogtxt       "Is that so…"
+dialogtxt       "Please excuse me, I must"
+dialogtxt       "speak with her."
 goto            @Cond_063e
 
 @Cond_063e:
@@ -179,8 +179,8 @@ code0446        2
 code0479        1, 0, 14
 call            @Func_12a0
 call            @Func_121e
-dialogtxt       "なんか様子がおかしくないか？"
-dialogtxt       "なんの用なんだろうね？"
+dialogtxt       "You're acting strange."
+dialogtxt       "What's this about?"
 code047b        
 code0309        
 call            @Func_1272
@@ -189,36 +189,35 @@ code0479        0, 4, 16
 code047d        0, 0
 call            @Func_128a
 call            @Func_11d0
-dialogtxt       "いや..."
-dialogtxt       "その、γが"
-dialogtxt       "早く町を出たいって..."
+dialogtxt       "Well, uh…"
+dialogtxt       "That is, [NAME 1] wants"
+dialogtxt       "to skip town…"
 code047b        
 code0309        
 call            @Func_1206
 code0479        1, 5, 17
 call            @Func_123c
-dialogtxt       "ち、ちょっと待ちなよ"
-dialogtxt       "突然だね"
+dialogtxt       "W-wait, why?"
 code0309        
 code0479        1, 4, 14
-dialogtxt       "こっちはボスタフとの話に"
-dialogtxt       "決着がまだついてないんだけど"
+dialogtxt       "I still haven't finished"
+dialogtxt       "my business with Bostaph."
 code0309        
 call            @Func_1272
 code0479        0, 4, 14
 call            @Func_11d0
-dialogtxt       "..."
+dialogtxt       "…"
 code0309        
 call            @Func_1206
 code0479        1, 2, 16
 call            @Func_123c
-dialogtxt       "どうした、δ"
-dialogtxt       "一体なにがあったんだい？"
+dialogtxt       "What's wrong, [NAME 2]?"
+dialogtxt       "What happened to you out there?"
 code0309        
 call            @Func_1272
 code0479        0, 4, 16
 call            @Func_11d0
-dialogtxt       "それは..."
+dialogtxt       "That's…"
 code0309        
 call            @Func_130c
 call            @Func_11ee
@@ -230,24 +229,25 @@ code031b        8, -2, -2, 0, 30
 code031c        8, 1
 code031f        8
 code0304        1
-dialogtxt       "　結局、親方には何も話せなかった...　"
+dialogtxt       "　In the end, I couldn't　"
+dialogtxt       "　　give her an answer　…"
 code030a        6, 1
 jumpz           @Cond_0aa2, ($b002 == 0)
-dialogtxt       "　　　話せるわけないじゃないか　　　"
-dialogtxt       "　　　ミューノがはぐれ召喚獣を　　　"
-dialogtxt       "あばれさせているかもしれないなんて..."
+dialogtxt       "　　　I can't just up and say,　　　"
+dialogtxt       "　　　Murno may have caused the 　　"
+dialogtxt       "　　　Strays to go berserk…　　　"
 goto            @Label_0b1e
 
 @Cond_0aa2:
-dialogtxt       "　　　話せるわけないじゃない　　　　"
-dialogtxt       "　　　ミューノがはぐれ召喚獣を　　　"
-dialogtxt       "あばれさせているかもしれないなんて..."
+dialogtxt       "　　　I can't just up and say,　　　"
+dialogtxt       "　　　Murno may have caused the 　　"
+dialogtxt       "　　　Strays to go berserk…　　　"
 goto            @Label_0b1e
 
 @Label_0b1e:
 code030a        6, 1
-dialogtxt       "　　ミューノのせいで、ロブ親方が　　"
-dialogtxt       "　　死んだかもしれないなんて......　　"
+dialogtxt       "And that it's her fault"
+dialogtxt       "Master Rob was……"
 code030a        6, 1
 code0304        0
 code0334        

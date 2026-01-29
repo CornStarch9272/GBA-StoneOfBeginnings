@@ -351,9 +351,8 @@ code040b
 code0301        8, 7
 code047d        0, 120
 code047e        0, 1
-dialogtxt       "とりあえず、"
-dialogtxt       "お互いに武器を持つのは"
-dialogtxt       "ヤバイって、実感したよ"
+dialogtxt       "I've personally learned that you"
+dialogtxt       "both having weapons is dangerous."
 code0309        
 code047e        0, 0
 code0302        7
@@ -363,9 +362,9 @@ code040b
 code0301        8, 7
 code047d        0, 120
 code047e        0, 1
-dialogtxt       "うう..."
-dialogtxt       "今日は、コツコツためた商品券まで"
-dialogtxt       "カケに負けて同僚に取られちゃったよ"
+dialogtxt       "Ugh…  Today I lost"
+dialogtxt       "all the gift cards I've been saving"
+dialogtxt       "up to a bet with a coworker."
 code0309        
 code047e        0, 0
 code0302        7
@@ -388,26 +387,27 @@ code040b
 
 @Event_1066:
 code0301        8, 7
-dialogtxt       "対人間戦では、武器を破壊して"
-dialogtxt       "勝利すべきだと思います"
-dialogtxt       "　　　　　　武器破壊推進委員会"
+dialogtxt       "When fighting a human opponent,"
+dialogtxt       "breaking their weapon is a win."
+dialogtxt       "Committee for Weapon Destruction"
 code0309        
 code0302        7
 code040b        
 
 @Event_10dc:
 code0301        8, 7
-dialogtxt       "明日できることは今日するな！"
-dialogtxt       "　　　　　　　　　　なまけもの"
+dialogtxt       "Don't do today,"
+dialogtxt       "what you can do tomorrow!"
+dialogtxt       "　　　　　　　　　　-A lazy person"
 code0309        
 code0302        7
 code040b        
 
 @Event_1138:
 code0301        8, 7
-dialogtxt       "[NAME 6]ムリ攻撃を受けると瞬時に眠れて"
-dialogtxt       "体力も回復しますが、起こされる時は"
-dialogtxt       "イタイ目にあいます"
+dialogtxt       "If you get hit by a sleep attack,"
+dialogtxt       "you become immobile and recover HP!"
+dialogtxt       "But when you awaken, it'll hurt…"
 code0309        
 code0302        7
 code040b        
@@ -416,9 +416,9 @@ code040b
 code0301        8, 7
 dialogtxt       "　"
 dialogtxt       "　"
-dialogtxt       "　●←のぞき穴"
+dialogtxt       "　●← Peep hole"
 code0309        
-dialogtxt       "やっぱりだまされたな"
+dialogtxt       "I should've known you'd trick me…"
 code0309        
 code0302        7
 code040b        

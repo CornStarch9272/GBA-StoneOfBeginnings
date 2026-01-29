@@ -9,8 +9,8 @@ code0479        1, 2, 14
 code047d        1, 137
 call            @Func_092a
 call            @Func_0892
-dialogtxt       "くそう！"
-dialogtxt       "今度は負けねぇぞ！"
+dialogtxt       "Dammit!"
+dialogtxt       "I'll get you next time!"
 goto            @Label_0148
 
 @Cond_00ba:
@@ -22,8 +22,8 @@ code0479        1, 2, 13
 code047d        1, 137
 call            @Func_092a
 call            @Func_0892
-dialogtxt       "どうだ！"
-dialogtxt       "オ[NAME 8]の修行の成果！"
+dialogtxt       "How's that!"
+dialogtxt       "That's the result of my training!"
 goto            @Label_0148
 
 @Label_0148:
@@ -46,15 +46,15 @@ code0479        1, 2, 12
 code047d        1, 137
 call            @Func_092a
 call            @Func_0892
-dialogtxt       "オ[NAME 8]も修行して強くなってるんだぜ"
-dialogtxt       "どうだ？"
-dialogtxt       "勝負しねぇか？"
+dialogtxt       "I've trained and grown stronger too."
+dialogtxt       "Wanna have a match?"
+dialogtxt       "How about it?"
 code047b        
 code0309        
 call            @Func_08e6
 call            @Func_0844
-choicetxt       @Choice_0240, "勝負する"
-choicetxt       @Choice_025a, "勝負しない"
+choicetxt       @Choice_0240, "Fight"
+choicetxt       @Choice_025a, "Don't fight"
 choicewait      
 
 @Choice_0240:
@@ -68,8 +68,8 @@ goto            @Label_02a0
 call            @Func_087a
 code0479        1, 0, 12
 call            @Func_08b0
-dialogtxt       "そうか"
-dialogtxt       "じゃ、また今度な"
+dialogtxt       "Is that so?"
+dialogtxt       "Well, maybe next time."
 code0309        
 call            @Func_0980
 call            @Func_08ce

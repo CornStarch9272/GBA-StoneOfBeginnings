@@ -6,9 +6,9 @@ code0479        1, 0, 13
 code047d        1, 130
 call            @Func_0752
 call            @Func_06ba
-dialogtxt       "あなたと出会って"
-dialogtxt       "[NAME 8]ミィは変わった気がします"
-dialogtxt       "これからも[NAME 8]ミィをよろしくね"
+dialogtxt       "I feel like Lemmy changed after"
+dialogtxt       "he met you. Please keep looking"
+dialogtxt       "after him."
 code047b        
 code0309        
 call            @Func_07a8

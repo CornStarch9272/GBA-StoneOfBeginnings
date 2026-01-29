@@ -10,7 +10,7 @@ code0412        4, 1
 code0418        2
 setvar          $b075, 1
 setvar          $b072, 0
-placetxt        "Prosban　Villager's House A"
+placetxt        "Prosban Town　Private House A"
 code040c        1, @Label_01a6
 code040c        2, @Label_019c
 call            @Func_0942
@@ -256,12 +256,12 @@ ret
 code0301        8, 7
 code047d        0, 120
 code047e        0, 1
-dialogtxt       "むこうからあやまってくるとは"
-dialogtxt       "思ってもなかったよ"
+dialogtxt       "I didn't expect an apology"
+dialogtxt       "from their side."
 code0309        
-dialogtxt       "しかも、ぼくたちの思い出の"
-dialogtxt       "ア[NAME 8]を探してくるなんて"
-dialogtxt       "ちゃんと覚えててくれたんだな"
+dialogtxt       "Moreso, they're searching for"
+dialogtxt       "*that* memorable item."
+dialogtxt       "They remembered…"
 code0309        
 code047e        0, 0
 code0302        7
@@ -271,9 +271,9 @@ code040b
 code0301        8, 7
 code047d        0, 121
 code047e        0, 1
-dialogtxt       "なんとか仲直りできたわ"
-dialogtxt       "なんだかんだ言ったって"
-dialogtxt       "私たちは愛し合ってるんですもの"
+dialogtxt       "We managed to reconcile."
+dialogtxt       "In the end, we still love"
+dialogtxt       "eachother."
 code0309        
 code047e        0, 0
 code0302        7

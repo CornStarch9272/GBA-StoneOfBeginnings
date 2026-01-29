@@ -15,7 +15,7 @@ code0412        4, 1
 code0418        2
 setvar          $b075, 1
 setvar          $b072, 0
-placetxt        "Auric Collective　Entrance"
+placetxt        "Gold Council　Entrance"
 code040c        1, @Label_020c
 code040c        2, @Label_0202
 call            @Func_09a8
@@ -295,13 +295,13 @@ code040b
 code0301        8, 7
 code047d        0, 120
 code047e        0, 1
-dialogtxt       "金の派閥って言うけど"
-dialogtxt       "中には、さらに派閥があるんだよね"
-dialogtxt       "ベルヴォ[NAME 8]ン派か、イアナ派か"
+dialogtxt       "It's called the Gold Council,"
+dialogtxt       "but there are sub groups in it."
+dialogtxt       "Like the Velvoren and Ianna Parties."
 code0309        
-dialogtxt       "え？どっちに入ってるかって？"
-dialogtxt       "いちおうベルヴォ[NAME 8]ン派なんだけど"
-dialogtxt       "抜けようかと思ってるよ"
+dialogtxt       "Eh? Which one am I in?"
+dialogtxt       "Right now I'm in the Velvoren"
+dialogtxt       "party, but I'm thinking of leaving."
 code0309        
 code047e        0, 0
 code0302        7

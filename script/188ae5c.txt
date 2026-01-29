@@ -7,8 +7,8 @@ code0479        1, 0, 16
 code047d        1, 138
 call            @Func_07f2
 call            @Func_075a
-dialogtxt       "ボスタフおやかたって"
-dialogtxt       "いつかえってくるのかな..."
+dialogtxt       "When is Master Bostaph"
+dialogtxt       "coming back…?"
 goto            @Label_015a
 
 @Cond_00b0:
@@ -20,8 +20,8 @@ code0479        1, 0, 13
 code047d        1, 138
 call            @Func_07f2
 call            @Func_075a
-dialogtxt       "きょうのエリエのおしごとは"
-dialogtxt       "こうぼうのおかたづけなんだよ"
+dialogtxt       "Elieze's chore today is to"
+dialogtxt       "help clean up the Workshop!"
 goto            @Label_015a
 
 @Label_015a:

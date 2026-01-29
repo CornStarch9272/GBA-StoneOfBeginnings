@@ -1,7 +1,7 @@
 code047d        1, 106
 code0301        8, 7
 code047e        1, 1
-dialogtxt       "δ...！"
+dialogtxt       "[NAME 2]…!"
 code0309        
 code047e        1, 0
 code0302        7
@@ -41,13 +41,13 @@ code047d        1, 2
 call            @Func_0b0a
 call            @Func_0a32
 jumpz           @Cond_01c2, ($b002 == 0)
-dialogtxt       "なんだ？"
-dialogtxt       "今の声、親方...？"
+dialogtxt       "Hm?"
+dialogtxt       "Was that Master…?"
 goto            @Label_01e4
 
 @Cond_01c2:
-dialogtxt       "なに？"
-dialogtxt       "今の声、親方...？"
+dialogtxt       "Hm?"
+dialogtxt       "Was that Master…?"
 goto            @Label_01e4
 
 @Label_01e4:
@@ -57,28 +57,26 @@ call            @Func_0a86
 call            @Func_0b20
 call            @Func_0abc
 jumpz           @Cond_0244, ($b003 == 0)
-dialogtxt       "タシカニ　親方ノ"
-dialogtxt       "音声でーたト　波形ガ"
-dialogtxt       "近イデスガ..."
+dialogtxt       "The Soundwaves Are Similar"
+dialogtxt       "To Master's Voice Data."
 goto            @Cond_0244
 
 @Cond_0244:
 jumpz           @Cond_0296, ($b003 == 1)
-dialogtxt       "たしかに..."
-dialogtxt       "そんな声だったの"
-dialogtxt       "しかし、用心するのじゃぞ"
+dialogtxt       "Hmm…"
+dialogtxt       "It did sound like her."
+dialogtxt       "But keep your guard up."
 goto            @Cond_0296
 
 @Cond_0296:
 jumpz           @Cond_02c4, ($b003 == 2)
-dialogtxt       "...聞こえた"
-dialogtxt       "本物か？"
+dialogtxt       "…I heard it too."
+dialogtxt       "Is it the real Master?"
 goto            @Cond_02c4
 
 @Cond_02c4:
 jumpz           @Cond_030c, ($b003 == 3)
-dialogtxt       "そうですわね"
-dialogtxt       "たしかに親方さんみたいでしたが..."
+dialogtxt       "Yes, I'm sure it was her…"
 goto            @Cond_030c
 
 @Cond_030c:
@@ -117,13 +115,13 @@ code0479        0, 2, 14
 call            @Func_0b0a
 call            @Func_0a32
 jumpz           @Cond_0458, ($b002 == 0)
-dialogtxt       "あれ...？"
-dialogtxt       "誰かいるぞ..."
+dialogtxt       "Huh…?"
+dialogtxt       "Someone's there…"
 goto            @Label_0476
 
 @Cond_0458:
-dialogtxt       "あれ...？"
-dialogtxt       "誰かいる..."
+dialogtxt       "Huh…?"
+dialogtxt       "Someone's there…"
 goto            @Label_0476
 
 @Label_0476:

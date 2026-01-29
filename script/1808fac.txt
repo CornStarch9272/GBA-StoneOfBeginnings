@@ -22,15 +22,14 @@ code0479        1, 0, 12
 code047d        1, 138
 call            @Func_0c90
 call            @Func_0b8c
-dialogtxt       "ここからリュート岩窟に"
-dialogtxt       "行けるの？"
+dialogtxt       "This leads to Lute Cave?"
 code0309        
 call            @Func_0be0
 code0479        1, 0, 12
 call            @Func_0c16
-dialogtxt       "うん！"
-dialogtxt       "いろんなとこをさがすと"
-dialogtxt       "そざいがあったりするんだよ"
+dialogtxt       "Yep!"
+dialogtxt       "There's lots of different kinds"
+dialogtxt       "of materials to find there."
 code047b        
 code0309        
 call            @Func_0ce6
@@ -41,13 +40,13 @@ code043c        1, 4
 code047d        0, 118
 code0301        8, 7
 code047e        0, 1
-dialogtxt       "エリエちゃん"
-dialogtxt       "今日はみんなで材料集めかい？"
-dialogtxt       "リュート岩窟ならいいんだけど..."
+dialogtxt       "Oh, Elieze!"
+dialogtxt       "Going gathering today?"
+dialogtxt       "Lute Cave should be fine but…"
 code0309        
-dialogtxt       "ス[NAME 7]ート洞窟はこの間の地震で"
-dialogtxt       "あぶなくなっているから"
-dialogtxt       "今は立ち入り禁止だからね"
+dialogtxt       "Spoat Grotto's become dangerous"
+dialogtxt       "thanks to that earthquake."
+dialogtxt       "You should stay away for now."
 code0309        
 code047e        0, 0
 code0302        7
@@ -56,7 +55,7 @@ code0479        0, 0, 13
 code047d        0, 138
 call            @Func_0c64
 call            @Func_0baa
-dialogtxt       "はーい！"
+dialogtxt       "Okaaay!"
 code047b        
 code0309        
 call            @Func_0cba
@@ -72,13 +71,13 @@ code0479        0, 2, 12
 call            @Func_0c64
 call            @Func_0b8c
 jumpz           @Cond_0420, ($b002 == 0)
-dialogtxt       "んじゃあ、とりあえず"
-dialogtxt       "奥まで行ってみるか！"
+dialogtxt       "Alright, let's have"
+dialogtxt       "a look inside!"
 goto            @Label_0450
 
 @Cond_0420:
-dialogtxt       "じゃあ、とりあえず"
-dialogtxt       "奥まで行ってみよう"
+dialogtxt       "Alright, let's have"
+dialogtxt       "a look inside!"
 goto            @Label_0450
 
 @Label_0450:
@@ -108,22 +107,22 @@ code047d        1, 2
 call            @Func_0c7a
 call            @Func_0c16
 jumpz           @Cond_0528, ($b003 == 0)
-dialogtxt       "オー！"
+dialogtxt       "Yes!"
 goto            @Cond_0528
 
 @Cond_0528:
 jumpz           @Cond_0546, ($b003 == 1)
-dialogtxt       "承知！"
+dialogtxt       "Understood."
 goto            @Cond_0546
 
 @Cond_0546:
 jumpz           @Cond_0568, ($b003 == 2)
-dialogtxt       "好きにしろ"
+dialogtxt       "Do as you like."
 goto            @Cond_0568
 
 @Cond_0568:
 jumpz           @Cond_0586, ($b003 == 3)
-dialogtxt       "はい！"
+dialogtxt       "Yes!"
 goto            @Cond_0586
 
 @Cond_0586:

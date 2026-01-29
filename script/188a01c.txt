@@ -9,9 +9,9 @@ code0479        1, 1, 12
 code047d        1, 109
 call            @Func_0aea
 call            @Func_0a52
-dialogtxt       "さすがδね"
-dialogtxt       "今すぐにでもほほえみ亭の"
-dialogtxt       "専属鍛冶師にしてあげるわ"
+dialogtxt       "Heh, as expected of [NAME 2]!"
+dialogtxt       "I'd love to have you as the Inn's"
+dialogtxt       "exclusive Craftknight."
 goto            @Label_0198
 
 @Cond_00de:
@@ -23,9 +23,9 @@ code0479        1, 2, 12
 code047d        1, 109
 call            @Func_0aea
 call            @Func_0a52
-dialogtxt       "わたしに負けてる様じゃ"
-dialogtxt       "ほほえみ亭の専属鍛冶師の道は"
-dialogtxt       "まだまだ遠いわよ"
+dialogtxt       "Considering you lost to me,"
+dialogtxt       "you've still got a long way to go"
+dialogtxt       "before becoming the Inn's Craftknight."
 goto            @Label_0198
 
 @Label_0198:
@@ -49,15 +49,15 @@ code0479        1, 7, 12
 code047d        1, 109
 call            @Func_0aea
 call            @Func_0a52
-dialogtxt       "今日もわたしのために"
-dialogtxt       "修行をがんばってるのね"
-dialogtxt       "うれしいわ◎"
+dialogtxt       "I'm so happy to see you"
+dialogtxt       "training your heart out"
+dialogtxt       "for me◎"
 code047b        
 code0309        
 code0479        1, 2, 12
-dialogtxt       "わたしが力になれるなら"
-dialogtxt       "何でもするけど..."
-dialogtxt       "勝負の相手でもしてあげようか？"
+dialogtxt       "If I can do anything"
+dialogtxt       "to help…"
+dialogtxt       "How about I be your opponent?"
 code0309        
 goto            @Label_03cc
 
@@ -67,23 +67,23 @@ code0479        1, 0, 12
 code047d        1, 109
 call            @Func_0aea
 call            @Func_0a52
-dialogtxt       "今日もがんばってるわね"
-dialogtxt       "早くヴィーさんにもδの"
-dialogtxt       "独り立ちを許してもらいたいし"
+dialogtxt       "You're working hard today too."
+dialogtxt       "I want V.E. to let you be"
+dialogtxt       "independent soon."
 code047b        
 code0309        
 code0479        1, 2, 12
-dialogtxt       "修行のお手伝いなら"
-dialogtxt       "いつでもするわよ"
-dialogtxt       "どう？　勝負する？"
+dialogtxt       "I'm willing to help you train"
+dialogtxt       "whenever you want me to."
+dialogtxt       "Well? Want to spar?"
 code0309        
 goto            @Label_03cc
 
 @Label_03cc:
 call            @Func_0aa6
 call            @Func_0a04
-choicetxt       @Choice_03f4, "勝負する"
-choicetxt       @Choice_040e, "勝負しない"
+choicetxt       @Choice_03f4, "Fight"
+choicetxt       @Choice_040e, "Don't fight"
 choicewait      
 
 @Choice_03f4:
@@ -97,8 +97,9 @@ goto            @Label_0460
 call            @Func_0a3a
 code0479        1, 0, 12
 call            @Func_0a70
-dialogtxt       "あ、そう..."
-dialogtxt       "じゃあ修行がんばってね！"
+dialogtxt       "Oh, okay…"
+dialogtxt       "Well, good luck with"
+dialogtxt       "training, then!"
 code0309        
 call            @Func_0b40
 call            @Func_0a8e

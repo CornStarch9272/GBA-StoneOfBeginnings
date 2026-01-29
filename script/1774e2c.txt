@@ -49,8 +49,8 @@ goto            @start
 
 @Event_01e4:
 code0301        8, 7
-dialogtxt       "召喚獣トロッコに乗車の際には"
-dialogtxt       "足下に十分ご注意下さい"
+dialogtxt       "Please watch your step when you"
+dialogtxt       "board the Summon Beast railway!"
 code0309        
 code0302        7
 code040b        
@@ -260,9 +260,9 @@ ret
 code0301        8, 7
 code047d        0, 122
 code047e        0, 1
-dialogtxt       "近頃の若いヤツはなっとらん"
-dialogtxt       "あ〜〜なっとらん"
-dialogtxt       "と言ったらなっとらん"
+dialogtxt       "Young'uns these days are too lax!"
+dialogtxt       "Sigh, nothing I say goes"
+dialogtxt       "past their ears…"
 code0309        
 code047e        0, 0
 code0302        7

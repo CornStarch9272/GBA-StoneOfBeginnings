@@ -49,15 +49,13 @@ code047d        1, 0
 call            @Func_0c3a
 call            @Func_0bb8
 jumpz           @Cond_02a6, ($b002 == 0)
-dialogtxt       "どうしたんだよ"
-dialogtxt       "γ！"
-dialogtxt       "大丈夫か？"
+dialogtxt       "[NAME 1],"
+dialogtxt       "what's wrong!?"
 goto            @Label_02ce
 
 @Cond_02a6:
-dialogtxt       "どうしたのよ"
-dialogtxt       "γ！"
-dialogtxt       "大丈夫？"
+dialogtxt       "[NAME 1],"
+dialogtxt       "what's wrong!?"
 goto            @Label_02ce
 
 @Label_02ce:
@@ -88,30 +86,30 @@ code047d        0, 2
 call            @Func_0c24
 call            @Func_0b6a
 jumpz           @Cond_03e8, ($b003 == 0)
-dialogtxt       "コノ奥カラ　強力ナえねるぎーヲ"
-dialogtxt       "検知シテイマス..."
-dialogtxt       "気ヲツケテ下サイ"
+dialogtxt       "I Detect A Strong Energy"
+dialogtxt       "Coming From Inside…"
+dialogtxt       "Please Be Careful."
 goto            @Cond_03e8
 
 @Cond_03e8:
 jumpz           @Cond_0448, ($b003 == 1)
-dialogtxt       "なんじゃ、この気の量は..."
-dialogtxt       "この奥には何かあるぞ"
-dialogtxt       "気をつけるのじゃぞ..."
+dialogtxt       "What is this mass of emotion…"
+dialogtxt       "There's something inside."
+dialogtxt       "Be careful."
 goto            @Cond_0448
 
 @Cond_0448:
 jumpz           @Cond_04a2, ($b003 == 2)
-dialogtxt       "なんてイヤなフンイ[NAME 4]だ..."
-dialogtxt       "この奥には何かあるぞ"
-dialogtxt       "覚悟しておけ..."
+dialogtxt       "This disgusting feeling again…"
+dialogtxt       "There's something inside."
+dialogtxt       "Be prepared…"
 goto            @Cond_04a2
 
 @Cond_04a2:
 jumpz           @Cond_0502, ($b003 == 3)
-dialogtxt       "うぅ...、この感じ..."
-dialogtxt       "この奥には絶対何かありますわ"
-dialogtxt       "気をつけてください"
+dialogtxt       "Uu… this feeling…"
+dialogtxt       "There must be something inside."
+dialogtxt       "Please be careful."
 goto            @Cond_0502
 
 @Cond_0502:
@@ -121,13 +119,13 @@ call            @Func_0ba0
 code0479        1, 2, 14
 call            @Func_0bd6
 jumpz           @Cond_0552, ($b002 == 0)
-dialogtxt       "お、おう..."
-dialogtxt       "わかった！"
+dialogtxt       "Y-yeah…"
+dialogtxt       "I will!"
 goto            @Label_0572
 
 @Cond_0552:
-dialogtxt       "う、うん..."
-dialogtxt       "わかった！"
+dialogtxt       "Y-yeah…"
+dialogtxt       "I will!"
 goto            @Label_0572
 
 @Label_0572:

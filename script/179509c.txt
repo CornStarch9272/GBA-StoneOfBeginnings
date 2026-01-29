@@ -336,8 +336,9 @@ ret
 code0301        8, 7
 code047d        0, 118
 code047e        0, 1
-dialogtxt       "何だか町の外だけでなくて"
-dialogtxt       "中まで騒がしくなってないか？"
+dialogtxt       "Man, don't you think it's starting"
+dialogtxt       "to get rowdy both outside town and"
+dialogtxt       "within this town?"
 code0309        
 code047e        0, 0
 code0302        7
@@ -347,11 +348,12 @@ code040b
 code0301        8, 7
 code047d        0, 120
 code047e        0, 1
-dialogtxt       "洞窟を抜けた先の森のさらに奥に"
-dialogtxt       "平和な村があったって噂だ"
+dialogtxt       "There's a cave out there deep"
+dialogtxt       "within the forest that leads"
+dialogtxt       "to some quaint, little village."
 code0309        
-dialogtxt       "その村を滅ぼしたのは"
-dialogtxt       "ヴォイジンって男だって噂だ"
+dialogtxt       "I heard that a man named Voijin"
+dialogtxt       "laid siege to that village."
 code0309        
 code047e        0, 0
 code0302        7
@@ -361,8 +363,8 @@ code040b
 code0301        8, 7
 code047d        0, 120
 code047e        0, 1
-dialogtxt       "会員証をお持ちの方はどうぞ"
-dialogtxt       "お通り下さい"
+dialogtxt       "Sorry, but only VIPs can"
+dialogtxt       "pass through here."
 code0309        
 code047e        0, 0
 code0302        7
@@ -372,12 +374,11 @@ code040b
 code0301        8, 7
 code047d        0, 120
 code047e        0, 1
-dialogtxt       "悪いがここから先は特別に"
-dialogtxt       "許可された者しか通すわけには"
-dialogtxt       "いかないな"
+dialogtxt       "Sorry, but only VIPs can"
+dialogtxt       "pass through here."
 code0309        
-dialogtxt       "ただし会員証を持っているなら"
-dialogtxt       "話は別だがな"
+dialogtxt       "But, if you have a Membership"
+dialogtxt       "Card, we might let you in."
 code0309        
 code047e        0, 0
 code0302        7
@@ -385,9 +386,9 @@ code040b
 
 @Event_0fa2:
 code0301        8, 7
-dialogtxt       "選ばれたお客様だけに"
-dialogtxt       "最高の一時を差し上げます"
-dialogtxt       "福引きしてみませんか？"
+dialogtxt       "We offer the best experience"
+dialogtxt       "only to select customers!"
+dialogtxt       "Want to give the lottery a try?"
 code0309        
 code0302        7
 code040b        

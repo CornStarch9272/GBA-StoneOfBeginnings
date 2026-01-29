@@ -14,7 +14,7 @@ code0482
 code047d        0, 132
 code0301        16, 3
 code047e        0, 1
-dialogtxt       "あ、δ..."
+dialogtxt       "Ah, [NAME 2]…"
 code0309        
 code047e        0, 0
 code0302        3
@@ -44,112 +44,108 @@ code0479        1, 0, 16
 code047d        1, 132
 call            @Func_0e2e
 call            @Func_0d96
-dialogtxt       "お前..."
-dialogtxt       "ここにいたのか"
+dialogtxt       "So…"
+dialogtxt       "You were here."
 code047b        
 code0309        
 call            @Func_0dea
 code0479        0, 4, 12
 call            @Func_0d48
-dialogtxt       "うん"
-dialogtxt       "散歩してたら何となく..."
+dialogtxt       "Yeah."
+dialogtxt       "I took a walk, and somehow…"
 code0309        
 call            @Func_0d7e
 code0479        1, 4, 12
 call            @Func_0db4
-dialogtxt       "そうか..."
-dialogtxt       "ちょっと心配したんだぜ..."
+dialogtxt       "I see…"
+dialogtxt       "I was a bit worried…"
 code0309        
 code0479        0, 0, 16
 code0479        1, 4, 12
-dialogtxt       "ミューノたちが突然出てくかも"
-dialogtxt       "なんて言い出すから"
-dialogtxt       "もしかしてお前も..."
+dialogtxt       "You'd said Murno wanted to leave,"
+dialogtxt       "so I thought maybe you would too…"
 code0309        
 call            @Func_0dea
 code0479        0, 4, 14
 call            @Func_0d48
-dialogtxt       "ごめん..."
+dialogtxt       "Sorry…"
 code0309        
 call            @Func_0d7e
 code0479        1, 2, 16
 call            @Func_0db4
-dialogtxt       "本当に何があったんだ？"
-dialogtxt       "オ[NAME 8]でよければ力になるぜ？"
+dialogtxt       "Seriously, did something happen?"
+dialogtxt       "Maybe I can help, you know?"
 code0309        
 call            @Func_0dea
 code0479        0, 4, 16
 call            @Func_0d48
-dialogtxt       "ありがと"
-dialogtxt       "でも..."
+dialogtxt       "Thanks, but…"
 code0309        
 call            @Func_0d7e
 code0479        1, 4, 13
 call            @Func_0db4
-dialogtxt       "そうか..."
-dialogtxt       "ダメか..."
+dialogtxt       "I see…"
+dialogtxt       "No good, huh…"
 code0309        
 call            @Func_0dea
 code0479        0, 4, 14
 call            @Func_0d48
-dialogtxt       "ごめん、アニ[NAME 4]..."
+dialogtxt       "Sorry, Bro…"
 code0309        
 call            @Func_0d7e
 code0479        1, 0, 16
 call            @Func_0db4
-dialogtxt       "お前があやまることじゃねぇよ"
-dialogtxt       "気にすんな"
-dialogtxt       "でも、ひとつだけ約束してくれ"
+dialogtxt       "You don't need to apologize."
+dialogtxt       "But promise me one thing."
 code0309        
 code0479        0, 0, 14
 code0479        1, 0, 12
-dialogtxt       "必要以上に危ないことに"
-dialogtxt       "首を突っ込まないってな"
+dialogtxt       "Don't stick your neck out"
+dialogtxt       "more than you have to."
 code0309        
 call            @Func_0dea
 code0479        0, 5, 16
 call            @Func_0d48
-dialogtxt       "え？"
+dialogtxt       "Huh?"
 code0309        
 call            @Func_0d7e
 code0479        1, 2, 12
 call            @Func_0db4
-dialogtxt       "オ[NAME 8]はこの町の自警団をやってンだ"
-dialogtxt       "危ないことは"
-dialogtxt       "オ[NAME 8]たちにまかせればいい"
+dialogtxt       "I'm part of the militia, you know."
+dialogtxt       "Leave the dangerous stuff to us."
 code0309        
 call            @Func_0dea
 code0479        0, 4, 16
 call            @Func_0d48
-dialogtxt       "でも..."
+dialogtxt       "But…"
 code0309        
 call            @Func_0d7e
 code0479        1, 2, 16
 call            @Func_0db4
-dialogtxt       "お前はこの町の人間じゃない"
-dialogtxt       "そこまでムチャする必要はないんだ"
+dialogtxt       "You're not a resident here."
+dialogtxt       "There's no need to push yourself."
 code0309        
 code0479        1, 4, 12
-dialogtxt       "ただでさえお前は"
-dialogtxt       "すぐにムチャするんだからよ"
-dialogtxt       "あんまり心配かけるなよ"
+dialogtxt       "Even in normal situations,"
+dialogtxt       "you always act so reckless."
+dialogtxt       "I'm worried about you, you know."
 code0309        
 call            @Func_0dea
 code0479        0, 4, 14
 call            @Func_0d48
-dialogtxt       "ごめん..."
+dialogtxt       "Sorry…"
 code0309        
 call            @Func_0d7e
 code0479        1, 5, 17
 call            @Func_0db4
-dialogtxt       "あ、いや"
-dialogtxt       "怒ってるわけじゃないぜ"
+dialogtxt       "Ah, no,"
+dialogtxt       "it's not like I'm mad at you."
 code0309        
 call            @Func_0dea
 code0479        0, 4, 12
 call            @Func_0d48
-dialogtxt       "うん"
-dialogtxt       "わかってるって"
+dialogtxt       "Yeah."
+dialogtxt       "I know."
 code0309        
 call            @Func_0e84
 call            @Func_0d66

@@ -1,5 +1,5 @@
 .gba
-.open "swordcraft3.gba","swordcraft3-test.gba",0x08000000
+.open "swordcraft3.gba","build/swordcraft3-test.gba",0x08000000
 
 ; Patches to enable ASCII and the VWF.
 .include "asm/vwf_font.asm"
@@ -34,6 +34,14 @@
 ;Fixes obtained! issue with money and items
 .include "asm/item_obtained.asm"
 .include "asm/money_obtained.asm"
+
+;text dialog fixes
+.include "asm/golden_weapon_dialog.asm"
+.include "asm/battle_item_get_dialog.asm"
+.include "asm/weapon_crafted.asm"
+
+;location text fixes
+.include "asm/location_text.asm"
 
 ;graphics
 .include "asm/title.asm"
@@ -78,9 +86,9 @@
 
 ;firewood minigame gfx
 .org 0x094CF11C 
-.import "asm/firewood/firewood_ex2_tile.bin" 
+.import "asm/firewood/firewood_k1_tile.bin" 
 .org 0x094D3C4C 
-.import "asm/firewood/firewood_ex2_map.bin" 
+.import "asm/firewood/firewood_k1_map.bin" 
 
 ;minigame results
 .org 0x964F58C
@@ -147,7 +155,7 @@
 
 ;customize screen
 .org 0x0951237C 
-.import "asm/s_custom_1_tile.lzss" 
+.import "asm/s_custom_1_k1_tile.lzss" 
 .org 0x09532E0C 
-.import "asm/s_custom_1_map.lzss" 
+.import "asm/s_custom_1_k1_map.lzss" 
 .close

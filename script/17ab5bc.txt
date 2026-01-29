@@ -12,7 +12,7 @@ code0422        0, 0
 code0418        2
 setvar          $b075, 1
 setvar          $b072, 0
-placetxt        "Mishus Ruins"
+placetxt        "Mishus Abandoned Site"
 code040c        1, @Label_09cc
 code040c        2, @Label_09c2
 jumpz           @Cond_016a, ($f0047 == 1 && $f0051 == 0 && $h311 == 12)
@@ -144,7 +144,7 @@ gotomap         1436 ; map 17a456c
 goto            @Cond_0752
 
 @Cond_0752:
-placetxt        "Mishus Ruins　Square"
+placetxt        "Mishus Abandoned Site　Plaza"
 code040b        
 
 @Event_076e:
@@ -164,7 +164,7 @@ code043e        0, 3, 0
 code0301        8, 7
 code047d        0, 0
 code047e        0, 1
-dialogtxt       "みんなのところに戻らなくちゃ！"
+dialogtxt       "I have to go back to them!"
 code0309        
 code047e        0, 0
 code0302        7
@@ -241,19 +241,19 @@ goto            @start
 code0301        8, 7
 code047d        0, 125
 code047e        0, 1
-dialogtxt       "何だかこの辺で仕事しなきゃ"
-dialogtxt       "いけない気がしたんだが"
-dialogtxt       "商売になりそうもないなぁ..."
+dialogtxt       "I managed to scrape some profit"
+dialogtxt       "here and there, but I don't think"
+dialogtxt       "my business will stay afloat…"
 code0309        
-dialogtxt       "[NAME 4]ミ何か買ってく？"
+dialogtxt       "Here to buy something?"
 code0309        
 code047e        0, 0
 code0302        7
 code0312        
 code0313        @Menu_0dca
-menutxt         @Menu_0abc, "武器類"
-menutxt         @Menu_0ace, "道具類"
-menutxt         @Menu_0dca, "やめる"
+menutxt         @Menu_0abc, "Weapons"
+menutxt         @Menu_0ace, "Equipment"
+menutxt         @Menu_0dca, "Nevermind"
 menuwait        
 
 @Menu_0abc:
@@ -289,7 +289,7 @@ code0422        0, 0
 code0418        2
 setvar          $b075, 1
 setvar          $b072, 0
-placetxt        "Mishus Ruins　Square"
+placetxt        "Mishus Abandoned Site　Plaza"
 code040c        1, @Label_09cc
 code040c        2, @Label_09c2
 code0438        16, 398, 645, 1

@@ -73,7 +73,7 @@ code040b
 code0301        8, 7
 code047d        0, 0
 code047e        0, 1
-dialogtxt       "これは賞品じゃないのかな？"
+dialogtxt       "This isn't a prize, is it?"
 code0309        
 code047e        0, 0
 code0302        7
@@ -96,9 +96,9 @@ code040b
 
 @Event_039a:
 code0301        8, 7
-dialogtxt       "当店をご利用のお客様へ"
-dialogtxt       "福引き券１枚につき１回の福引きが"
-dialogtxt       "ご利用頂けます"
+dialogtxt       "To our esteemed customers:"
+dialogtxt       "You are entitled to 1 draw"
+dialogtxt       "per lottery ticket."
 code0309        
 code0302        7
 code040b        

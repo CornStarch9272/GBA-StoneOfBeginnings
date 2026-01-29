@@ -161,11 +161,11 @@ code0301        8, 7
 code047d        0, 138
 code047e        0, 1
 jumpz           @Cond_0820, ($b002 == 0)
-dialogtxt       "がんばってね！　おにーちゃん"
+dialogtxt       "Good luck, [NAME 2]!"
 goto            @Label_0844
 
 @Cond_0820:
-dialogtxt       "がんばってね！　おねーちゃん"
+dialogtxt       "Good luck, [NAME 2]!"
 goto            @Label_0844
 
 @Label_0844:
@@ -178,7 +178,7 @@ code040b
 code0301        8, 7
 code047d        0, 133
 code047e        0, 1
-dialogtxt       "ん！"
+dialogtxt       "Mm!"
 code0309        
 code047e        0, 0
 code0302        7
@@ -187,7 +187,7 @@ code040b
 code0301        8, 7
 code047d        0, 133
 code047e        0, 1
-dialogtxt       "ん"
+dialogtxt       "Mm."
 code0309        
 code047e        0, 0
 code0302        7
@@ -197,7 +197,7 @@ code040b
 code0301        8, 7
 code047d        0, 107
 code047e        0, 1
-dialogtxt       "気をつけてね、δ..."
+dialogtxt       "Take care, [NAME 2]…"
 code0309        
 code047e        0, 0
 code0302        7
@@ -207,7 +207,7 @@ code040b
 code0301        8, 7
 code047d        0, 120
 code047e        0, 1
-dialogtxt       "今日は床掃除なんです"
+dialogtxt       "Today is cleaning day."
 code0309        
 code047e        0, 0
 code0302        7
@@ -215,17 +215,17 @@ code040b
 
 @Event_09aa:
 code0301        8, 7
-dialogtxt       "武器を鍛える前に"
-dialogtxt       "まずは己を鍛えるべし"
+dialogtxt       "Before you forge a weapon,"
+dialogtxt       "you must first forge yourself."
 code0309        
 code0302        7
 code040b        
 
 @Event_09f0:
 code0301        8, 7
-dialogtxt       "　＜エリエからのおねがい＞"
-dialogtxt       "つかったどうぐは、ちゃあんと"
-dialogtxt       "もとのばしょに　もどしてね！"
+dialogtxt       "　＜A Request From Elieze＞"
+dialogtxt       "Please make sure to put the tools"
+dialogtxt       "back where you found them!"
 code0309        
 code0302        7
 code040b        

@@ -14,7 +14,7 @@ code049b        0, 0, 0, 0, 224, 160
 code049b        1, 0, 320, 288, 352, 312
 setvar          $b075, 1
 setvar          $b072, 0
-placetxt        "Deckell Village　Fishing Pond"
+placetxt        "Deckell Village　Fisherman's Pond"
 code040c        1, @Label_037e
 code040c        2, @Label_0374
 code0438        2, 411, 653, 4
@@ -85,7 +85,7 @@ jumpz           @Cond_042a, $h132
 code0301        8, 7
 code047d        0, 120
 code047e        0, 1
-dialogtxt       "武器を取りに来たのか？"
+dialogtxt       "Here to pick up your weapons?"
 code0309        
 code047e        0, 0
 code0302        7
@@ -95,7 +95,7 @@ goto            @Label_048a
 code0301        8, 7
 code047d        0, 120
 code047e        0, 1
-dialogtxt       "武器を預けに来たのか？"
+dialogtxt       "Here to drop off your weapons?"
 code0309        
 code047e        0, 0
 code0302        7
@@ -104,8 +104,8 @@ goto            @Label_048a
 @Label_048a:
 code0312        
 code0313        @Menu_0582
-menutxt         @Menu_04a8, "はい"
-menutxt         @Menu_0582, "いいえ"
+menutxt         @Menu_04a8, "Yes"
+menutxt         @Menu_0582, "No"
 menuwait        
 
 @Menu_04a8:
@@ -115,7 +115,8 @@ jumpz           @Cond_0530, ($b071 == 0 && ($h083 != -1 ? 1 : 0))
 code0301        8, 7
 code047d        0, 120
 code047e        0, 1
-dialogtxt       "預けられそうな武器が無いぞ"
+dialogtxt       "You don't have any<end_line>"
+dialogtxt       "weapons to deposit.<end_line>"
 code0309        
 code047e        0, 0
 code0302        7
@@ -361,8 +362,9 @@ ret
 code0301        8, 7
 code047d        0, 121
 code047e        0, 1
-dialogtxt       "ひとり物思いにふける女って"
-dialogtxt       "絵にならない？"
+dialogtxt       "A lone woman lost in her"
+dialogtxt       "thoughts. Doesn't that make"
+dialogtxt       "the perfect picture?"
 code0309        
 code047e        0, 0
 code0302        7

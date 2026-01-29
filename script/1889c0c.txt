@@ -10,8 +10,8 @@ code0479        1, 1, 13
 code047d        1, 132
 call            @Func_0b0e
 call            @Func_0a76
-dialogtxt       "強くなったな..."
-dialogtxt       "さすがオ[NAME 8]のライバルだぜ！"
+dialogtxt       "You've gotten stronger…"
+dialogtxt       "As expected of my rival!"
 goto            @Label_016e
 
 @Cond_00d8:
@@ -23,8 +23,8 @@ code0479        1, 2, 13
 code047d        1, 132
 call            @Func_0b0e
 call            @Func_0a76
-dialogtxt       "強くなったな..."
-dialogtxt       "さすがロブの弟子だぜ"
+dialogtxt       "You've gotten stronger…"
+dialogtxt       "As expected of Rob's disciple!"
 goto            @Label_016e
 
 @Label_016e:
@@ -41,9 +41,9 @@ code0479        1, 2, 15
 code047d        1, 132
 call            @Func_0b0e
 call            @Func_0a76
-dialogtxt       "そんなウデではオ[NAME 8]はたおせないぜ"
-dialogtxt       "なぜならオ[NAME 8]は..."
-dialogtxt       "不死身のジェイドだからだ！"
+dialogtxt       "You can't defeat me with those skills."
+dialogtxt       "Because I'm…"
+dialogtxt       "Jade the immortal!"
 code047b        
 code0309        
 goto            @Label_023c
@@ -67,14 +67,13 @@ code0479        1, 0, 12
 code047d        1, 132
 call            @Func_0b0e
 call            @Func_0a76
-dialogtxt       "お前がオ[NAME 8]に会いにくる理由は"
-dialogtxt       "ただ一つ、勝負だな？"
-dialogtxt       "なぜなら..."
+dialogtxt       "There's only one reason you'd come"
+dialogtxt       "to see me. A  match right?"
+dialogtxt       "How'd I know? Because…"
 code047b        
 code0309        
 code0479        1, 2, 13
-dialogtxt       "オ[NAME 8]がお前にとって"
-dialogtxt       "宿命のライバルだからだ！"
+dialogtxt       "I am your fated rival!"
 code0309        
 goto            @Label_03f8
 
@@ -84,9 +83,9 @@ code0479        1, 0, 13
 code047d        1, 132
 call            @Func_0b0e
 call            @Func_0a76
-dialogtxt       "修行、がんばってるみたいだな"
-dialogtxt       "いい武器ができたならいつでも"
-dialogtxt       "相手になるぜ"
+dialogtxt       "You've been training hard."
+dialogtxt       "If you make any good weapons,"
+dialogtxt       "I'll be your opponent any time."
 code047b        
 code0309        
 goto            @Label_03f8
@@ -94,8 +93,8 @@ goto            @Label_03f8
 @Label_03f8:
 call            @Func_0aca
 call            @Func_0a28
-choicetxt       @Choice_0420, "勝負する"
-choicetxt       @Choice_043a, "勝負しない"
+choicetxt       @Choice_0420, "Fight"
+choicetxt       @Choice_043a, "Don't fight"
 choicewait      
 
 @Choice_0420:
@@ -109,8 +108,8 @@ goto            @Label_0484
 call            @Func_0a5e
 code0479        1, 0, 16
 call            @Func_0a94
-dialogtxt       "そっか"
-dialogtxt       "じゃあ、気ぃつけてな"
+dialogtxt       "I see."
+dialogtxt       "Take care."
 code0309        
 call            @Func_0b64
 call            @Func_0ab2

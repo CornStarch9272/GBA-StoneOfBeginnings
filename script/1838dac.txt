@@ -1,6 +1,6 @@
 code0304        1
-dialogtxt       "　　　　　　結局アニスは　　　　　　"
-dialogtxt       "　　　　　見つからなかった...　　　　"
+dialogtxt       "In the end, Anise was"
+dialogtxt       "nowhere to be found…"
 code030a        6, 1
 code0304        0
 code048b        136, 112, 32
@@ -18,13 +18,13 @@ code047d        1, 0
 call            @Func_1640
 call            @Func_15be
 jumpz           @Cond_0130, ($b002 == 0)
-dialogtxt       "くそう..."
-dialogtxt       "油断してたぜ..."
+dialogtxt       "Damn it…"
+dialogtxt       "We let our guard down…"
 goto            @Label_0152
 
 @Cond_0130:
-dialogtxt       "はぁ..."
-dialogtxt       "油断してたかも..."
+dialogtxt       "Sigh…"
+dialogtxt       "We let our guard down…"
 goto            @Label_0152
 
 @Label_0152:
@@ -36,7 +36,7 @@ code0479        0, 0, 16
 code047d        0, 135
 call            @Func_162a
 call            @Func_1570
-dialogtxt       "君たちのせいじゃありませんよ"
+dialogtxt       "It's not your fault."
 code047b        
 code0309        
 call            @Func_1680
@@ -47,15 +47,15 @@ code0479        0, 0, 13
 code047d        0, 136
 call            @Func_162a
 call            @Func_1570
-dialogtxt       "そうだ"
-dialogtxt       "お前たちはよくやったぞ"
-dialogtxt       "本当にご苦労だったな！"
+dialogtxt       "That's right."
+dialogtxt       "You've done well."
+dialogtxt       "Truly good work!"
 code047b        
 code0309        
 call            @Func_15a6
 code0479        1, 4, 16
 call            @Func_15dc
-dialogtxt       "..."
+dialogtxt       "…"
 code0309        
 call            @Func_16ac
 call            @Func_15fa
@@ -68,32 +68,33 @@ code0479        0, 0, 12
 code047d        0, 135
 call            @Func_1656
 call            @Func_1552
-dialogtxt       "そういえば、魔晶柱のことは"
-dialogtxt       "何かわかりましたか？"
+dialogtxt       "That reminds me,"
+dialogtxt       "did you learn anything"
+dialogtxt       "about the Crystal Pillar?"
 code047b        
 code0309        
 call            @Func_15a6
 code0479        1, 0, 16
 call            @Func_15dc
-dialogtxt       "私の村にあるものとそっくりな魔晶柱..."
-dialogtxt       "その魔晶柱から出たフシギな力..."
-dialogtxt       "そして、あばれだした召喚獣..."
+dialogtxt       "Yes, it's just like the one in"
+dialogtxt       "my village… Its mysterious"
+dialogtxt       "power, and influence over Summons…"
 code0309        
 code0479        0, 0, 14
 code0479        1, 2, 14
-dialogtxt       "あの魔晶柱は魔石に反応して"
-dialogtxt       "より強い力を放って"
-dialogtxt       "マグドラドをおかしくしてしまった"
+dialogtxt       "The Crystal Pillar reacted"
+dialogtxt       "to the Demon Stone, and amplified"
+dialogtxt       "its effect on Summon Beasts."
 code0309        
 code0479        1, 2, 16
-dialogtxt       "その力は、私たちが"
-dialogtxt       "ミシュース村から逃げ出した時に"
-dialogtxt       "γが感じたのと同じ力..."
+dialogtxt       "That power is the same as"
+dialogtxt       "what [NAME 1] sensed when we ran"
+dialogtxt       "from our village…"
 code0309        
 code0479        1, 4, 14
-dialogtxt       "やっぱり、この魔石を"
-dialogtxt       "村から持ち出しては"
-dialogtxt       "いけなかったのかしら..."
+dialogtxt       "Maybe we really shouldn't have"
+dialogtxt       "taken the Demon Stone outside"
+dialogtxt       "the village…"
 code0309        
 call            @Func_1680
 call            @Func_1612
@@ -124,22 +125,22 @@ code047d        0, 2
 call            @Func_162a
 call            @Func_1570
 jumpz           @Cond_05d8, ($b003 == 0)
-dialogtxt       "みゅーの様..."
+dialogtxt       "Lady Murno…"
 goto            @Cond_05d8
 
 @Cond_05d8:
 jumpz           @Cond_05f8, ($b003 == 1)
-dialogtxt       "ミューノ"
+dialogtxt       "Murno."
 goto            @Cond_05f8
 
 @Cond_05f8:
 jumpz           @Cond_0618, ($b003 == 2)
-dialogtxt       "ミューノ"
+dialogtxt       "Murno."
 goto            @Cond_0618
 
 @Cond_0618:
 jumpz           @Cond_063c, ($b003 == 3)
-dialogtxt       "ミューノ様..."
+dialogtxt       "Lady Murno…"
 goto            @Cond_063c
 
 @Cond_063c:
@@ -154,15 +155,13 @@ code047d        1, 0
 call            @Func_1640
 call            @Func_15be
 jumpz           @Cond_06da, ($b002 == 0)
-dialogtxt       "仕方ないじゃないか"
-dialogtxt       "アニスたちがそいつを"
-dialogtxt       "ねらってるんだし..."
+dialogtxt       "You didn't have a choice, right?"
+dialogtxt       "Anise wants it, after all…"
 goto            @Label_071a
 
 @Cond_06da:
-dialogtxt       "仕方ないよ"
-dialogtxt       "アニスたちがそいつを"
-dialogtxt       "ねらってるんだし..."
+dialogtxt       "You didn't have a choice."
+dialogtxt       "Anise wants it, after all…"
 goto            @Label_071a
 
 @Label_071a:
@@ -175,15 +174,15 @@ code0479        0, 4, 14
 code047d        0, 107
 call            @Func_162a
 call            @Func_1570
-dialogtxt       "あの人たちが、あんなにしつこく"
-dialogtxt       "この魔石をねらっているのに"
-dialogtxt       "私は何にも知らなくて..."
+dialogtxt       "Those people wanted the"
+dialogtxt       "Demon Stone so much, and"
+dialogtxt       "I didn't know anything about it…"
 code047b        
 code0309        
 code0479        0, 4, 16
-dialogtxt       "ただ、お父さんが、守れって..."
-dialogtxt       "誰にもわたしちゃいけないって"
-dialogtxt       "そう言ったから..."
+dialogtxt       "My father told me to protect it…"
+dialogtxt       "That I musn't let anyone"
+dialogtxt       "else have it…"
 code0309        
 call            @Func_1680
 call            @Func_15a6
@@ -196,33 +195,33 @@ code043c        0, 2
 code043c        1, 2
 code043c        2, 2
 call            @Func_1570
-dialogtxt       "以前お話しした通り、このルイーズ村は"
-dialogtxt       "ずっと昔にミシュース村からきた"
-dialogtxt       "人たちが作った村です"
+dialogtxt       "As I told you earlier, Louise"
+dialogtxt       "Village was founded by people who"
+dialogtxt       "came from Mishus Village long ago."
 code047b        
 code0309        
 code0479        1, 2, 14
 code0479        0, 2, 16
-dialogtxt       "そのせいか、ゴヴァンの魔石の話は"
-dialogtxt       "伝わっているのですが、その内容は"
-dialogtxt       "”大いなる力がある”くらいしか..."
+dialogtxt       "That is why stories of the Demon"
+dialogtxt       "Stone are told here. But all we know"
+dialogtxt       "is it possesses great power…"
 code0309        
 code0479        0, 2, 14
-dialogtxt       "だからアニスが知っていることも"
-dialogtxt       "その程度だと思うのですが..."
+dialogtxt       "So I think this is"
+dialogtxt       "all Anise knows as well…"
 code0309        
 call            @Func_15a6
 code0479        1, 2, 16
 call            @Func_15dc
-dialogtxt       "えーっと..."
+dialogtxt       "Umm…"
 jumpz           @Cond_0a64, ($b002 == 0)
-dialogtxt       "とにかくそいつを元に戻せば"
-dialogtxt       "全て元通りになるのか？"
+dialogtxt       "So basically, if we put it back"
+dialogtxt       "everything will return to normal?"
 goto            @Label_0a9e
 
 @Cond_0a64:
-dialogtxt       "とにかくそいつを元に戻せば"
-dialogtxt       "全て元通りになるの？"
+dialogtxt       "So if we put it back,"
+dialogtxt       "will everything return to normal?"
 goto            @Label_0a9e
 
 @Label_0a9e:
@@ -237,8 +236,8 @@ code047d        0, 107
 call            @Func_162a
 code043c        0, 1
 call            @Func_1570
-dialogtxt       "それは、わからないけど..."
-dialogtxt       "でも今、私ができることと言えば..."
+dialogtxt       "That, I don't know, but…"
+dialogtxt       "Right now what I can do is…"
 code047b        
 code0309        
 call            @Func_1680
@@ -253,9 +252,9 @@ code043c        0, 2
 code043c        1, 2
 code043c        2, 2
 call            @Func_1570
-dialogtxt       "そうですね..."
-dialogtxt       "ミシュース村を目指すしかありません"
-dialogtxt       "では、すぐにでも出発の準備を..."
+dialogtxt       "That's right…"
+dialogtxt       "We have aim for Mishus Village."
+dialogtxt       "You should get ready to go."
 code047b        
 code0309        
 call            @Func_16ac
@@ -272,41 +271,42 @@ code0479        1, 5, 16
 call            @Func_1656
 call            @Func_15be
 jumpz           @Cond_0cc6, ($b002 == 0)
-dialogtxt       "え？"
-dialogtxt       "帰ってもいいのか？"
+dialogtxt       "Eh?"
+dialogtxt       "We can leave?"
 goto            @Label_0ce6
 
 @Cond_0cc6:
-dialogtxt       "え？"
-dialogtxt       "帰ってもいいの？"
+dialogtxt       "Eh?"
+dialogtxt       "We can leave?"
 goto            @Label_0ce6
 
 @Label_0ce6:
 code0309        
 code0479        1, 2, 14
-dialogtxt       "前に村のヒミツがどうとかって...？"
+dialogtxt       "What about your village's secret…?"
 code0309        
 call            @Func_1612
 code0479        0, 1, 12
 call            @Func_1570
-dialogtxt       "君たちは村を救ってくれたんです"
-dialogtxt       "カンシャこそすれ、うたがうなんて"
-dialogtxt       "できるワケありませんよ"
+dialogtxt       "You saved our village."
+dialogtxt       "You've proven yourself"
+dialogtxt       "to be trustworthy."
 code0309        
 call            @Func_15a6
 code0479        1, 1, 12
 call            @Func_15dc
-dialogtxt       "ありがとう"
+dialogtxt       "Thank you."
 code0309        
 call            @Func_1612
 code0479        0, 0, 13
 call            @Func_1570
-dialogtxt       "こちらこそ"
-dialogtxt       "本当にありがとう"
+dialogtxt       "Us as well."
+dialogtxt       "Truly, thank you."
 code0309        
 code0479        0, 0, 12
-dialogtxt       "出口はこの先にあります"
-dialogtxt       "準備が出来たら教えてください"
+dialogtxt       "The exit is just ahead of here."
+dialogtxt       "Please let me know when you're"
+dialogtxt       "ready to leave."
 code0309        
 call            @Func_16ac
 call            @Func_158e

@@ -52,39 +52,39 @@ jumpz           @Cond_046e, ($f0132 == 0)
 call            @Func_0f18
 code047b        
 jumpz           @Cond_02c0, ($f0142 == 0)
-dialogtxt       "それでは最初の問題だ"
+dialogtxt       "First question."
 code0309        
 goto            @Label_02d6
 
 @Cond_02c0:
-dialogtxt       "では、問題だ"
+dialogtxt       "First question."
 code0309        
 goto            @Label_02d6
 
 @Label_02d6:
 code0479        1, 0, 16
-dialogtxt       "武器の種類はハンマーも含めて"
-dialogtxt       "全部でいくつある？"
+dialogtxt       "Including the hammer itself,"
+dialogtxt       "how many weapon types are there?"
 code0309        
 call            @Func_0f6c
 code0479        0, 2, 14
 call            @Func_0eca
 jumpz           @Cond_0380, ($b002 == 0)
-dialogtxt       "武器の種類だな！"
-dialogtxt       "そんなの決まってるぜ..."
+dialogtxt       "Weapon types, huh!"
+dialogtxt       "It's obviously…"
 goto            @Label_03b0
 
 @Cond_0380:
-dialogtxt       "武器の種類ね！"
-dialogtxt       "そんなの決まってるよ..."
+dialogtxt       "Weapon types, huh!"
+dialogtxt       "It's obviously…"
 goto            @Label_03b0
 
 @Label_03b0:
 code0309        
 code0479        0, 2, 12
-choicetxt       @Choice_080c, "５種類"
-choicetxt       @Choice_080c, "６種類"
-choicetxt       @Choice_03ec, "７種類"
+choicetxt       @Choice_080c, "5 types"
+choicetxt       @Choice_080c, "6 types"
+choicetxt       @Choice_03ec, "7 types"
 choicewait      
 
 @Choice_03ec:
@@ -92,9 +92,9 @@ setvar          $f0132, 1
 call            @Func_0f00
 code0479        1, 0, 12
 call            @Func_0f36
-dialogtxt       "そうだ..."
-dialogtxt       "まあ、自ら鍛冶師を名乗るくらいだ"
-dialogtxt       "この程度は知っていて当然だな"
+dialogtxt       "That's right…"
+dialogtxt       "Well, as a supposed Craftknight,"
+dialogtxt       "that one should be easy."
 code0309        
 goto            @Label_0482
 
@@ -106,39 +106,39 @@ call            @Func_0f18
 @Label_0482:
 code047b        
 jumpz           @Cond_04ae, ($f0142 == 0)
-dialogtxt       "ならば次の問題だ"
+dialogtxt       "Onto the next question."
 code0309        
 goto            @Label_04c4
 
 @Cond_04ae:
-dialogtxt       "では、問題だ"
+dialogtxt       "First question."
 code0309        
 goto            @Label_04c4
 
 @Label_04c4:
 code0479        1, 0, 14
-dialogtxt       "武器の中で最も重いものは"
-dialogtxt       "次のうちどれだ？"
+dialogtxt       "Of the following, the heaviest is…"
+dialogtxt       "Which one of the following?"
 code0309        
 call            @Func_0f6c
 code0479        0, 2, 16
 call            @Func_0eca
 jumpz           @Cond_055e, ($b002 == 0)
-dialogtxt       "一番重い武器だな！"
-dialogtxt       "それなら..."
+dialogtxt       "The heaviest weapon!"
+dialogtxt       "That's…"
 goto            @Label_0584
 
 @Cond_055e:
-dialogtxt       "一番重い武器ね！"
-dialogtxt       "それなら..."
+dialogtxt       "The heaviest weapon!"
+dialogtxt       "That's…"
 goto            @Label_0584
 
 @Label_0584:
 code0309        
 code0479        0, 2, 12
-choicetxt       @Choice_080c, "[NAME 5]ード"
-choicetxt       @Choice_05c2, "アクス"
-choicetxt       @Choice_080c, "ナックル"
+choicetxt       @Choice_080c, "Sword"
+choicetxt       @Choice_05c2, "Axe"
+choicetxt       @Choice_080c, "Knuckle"
 choicewait      
 
 @Choice_05c2:
@@ -146,9 +146,9 @@ setvar          $f0133, 1
 call            @Func_0f00
 code0479        1, 0, 12
 call            @Func_0f36
-dialogtxt       "そうだ"
-dialogtxt       "なるほど、少しは武器の心得も"
-dialogtxt       "あるようだな"
+dialogtxt       "Correct."
+dialogtxt       "I see, looks like you know"
+dialogtxt       "quite a bit about weapons."
 code0309        
 goto            @Label_0642
 
@@ -160,40 +160,40 @@ call            @Func_0f18
 @Label_0642:
 code047b        
 jumpz           @Cond_0670, ($f0142 == 0)
-dialogtxt       "では、最後の問題だ"
+dialogtxt       "This is the final question."
 code0309        
 goto            @Label_0686
 
 @Cond_0670:
-dialogtxt       "最後の問題だ"
+dialogtxt       "This is the final question."
 code0309        
 goto            @Label_0686
 
 @Label_0686:
 code0479        1, 2, 14
-dialogtxt       "鍛冶師として"
-dialogtxt       "武器作製で最も大切なものは"
-dialogtxt       "次のうちどれだ？"
+dialogtxt       "As a Craftknight, the most"
+dialogtxt       "important thing when forging is…"
+dialogtxt       "Which one of the following?"
 code0309        
 call            @Func_0f6c
 code0479        0, 2, 14
 call            @Func_0eca
 jumpz           @Cond_0736, ($b002 == 0)
-dialogtxt       "武器作製で大切なもの...？"
-dialogtxt       "それは..."
+dialogtxt       "The most important thing…?"
+dialogtxt       "That's…"
 goto            @Label_0762
 
 @Cond_0736:
-dialogtxt       "武器作製で大切なもの...？"
-dialogtxt       "それは..."
+dialogtxt       "The most important thing…?"
+dialogtxt       "That's…"
 goto            @Label_0762
 
 @Label_0762:
 code0309        
 code0479        0, 2, 12
-choicetxt       @Choice_080c, "強い武器マテル"
-choicetxt       @Choice_080c, "高価な合成アイテム"
-choicetxt       @Choice_07c0, "魂がこもったハンマー"
+choicetxt       @Choice_080c, "A strong Shapestone"
+choicetxt       @Choice_080c, "Quality ingredients"
+choicetxt       @Choice_07c0, "A spirit-filled hammer"
 choicewait      
 
 @Choice_07c0:
@@ -201,8 +201,8 @@ setvar          $f0134, 1
 call            @Func_0f00
 code0479        1, 2, 13
 call            @Func_0f36
-dialogtxt       "うむ..."
-dialogtxt       "良い答えだ！"
+dialogtxt       "Mm…"
+dialogtxt       "Good answer!"
 code0309        
 goto            @Label_08e0
 
@@ -214,12 +214,12 @@ setvar          $f0142, 1
 code0479        1, 2, 14
 code0479        0, 0, 16
 call            @Func_0f36
-dialogtxt       "不正解だ"
+dialogtxt       "Incorrect."
 code0309        
 code0479        1, 0, 16
 code0479        0, 4, 14
-dialogtxt       "召喚獣と相談でもして"
-dialogtxt       "よく考えてみるんだな！"
+dialogtxt       "Consult your Summon Beast"
+dialogtxt       "and give it some thought!"
 code0309        
 call            @Func_1006
 call            @Func_0f54
@@ -233,7 +233,7 @@ goto            @Label_0926
 @Label_08e0:
 jumpz           @Label_0926, ($f0142 == 0)
 code0479        1, 2, 12
-dialogtxt       "全て間違えずに正解とは..."
+dialogtxt       "You got them all correct…"
 code0309        
 goto            @Label_0926
 

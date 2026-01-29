@@ -125,8 +125,8 @@ code040b
 code0301        8, 7
 code047d        0, 118
 code047e        0, 1
-dialogtxt       "素材あつめならリュート岩窟にしな"
-dialogtxt       "ス[NAME 7]ート洞窟は立ち入り禁止だ"
+dialogtxt       "Spoat Grotto is off limits."
+dialogtxt       "You can go gather in Lute Cave."
 code0309        
 code047e        0, 0
 code0302        7
@@ -390,9 +390,9 @@ code040b
 code0301        8, 7
 code047d        0, 120
 code047e        0, 1
-dialogtxt       "ここ最近、あちこちで暴れている"
-dialogtxt       "召喚獣は全部、例の子供が"
-dialogtxt       "操ってるって噂だ"
+dialogtxt       "Lately I've been hearing that"
+dialogtxt       "a group of children are"
+dialogtxt       "behind the rampaging Summons."
 code0309        
 code047e        0, 0
 code0302        7
@@ -402,8 +402,8 @@ code040b
 code0301        8, 7
 code047d        0, 120
 code047e        0, 1
-dialogtxt       "会員証をお持ちの方はどうぞ"
-dialogtxt       "お通り下さい"
+dialogtxt       "Only those with a Membership"
+dialogtxt       "Card may pass."
 code0309        
 code047e        0, 0
 code0302        7
@@ -413,12 +413,11 @@ code040b
 code0301        8, 7
 code047d        0, 120
 code047e        0, 1
-dialogtxt       "悪いがここから先は特別に"
-dialogtxt       "許可された者しか通すわけには"
-dialogtxt       "いかないな"
+dialogtxt       "Sorry, but only VIPs can"
+dialogtxt       "pass through here."
 code0309        
-dialogtxt       "ただし会員証を持っているなら"
-dialogtxt       "話は別だがな"
+dialogtxt       "But, if you have a Membership"
+dialogtxt       "Card, we might let you in."
 code0309        
 code047e        0, 0
 code0302        7

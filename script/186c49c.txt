@@ -15,8 +15,8 @@ code0479        1, 2, 16
 code047d        1, 108
 call            @Func_0e20
 call            @Func_0d9e
-dialogtxt       "そっちはどうだった？"
-dialogtxt       "ミューノはいたかい？"
+dialogtxt       "How'd it go?"
+dialogtxt       "Find anything?"
 code047b        
 code0309        
 call            @Func_0df2
@@ -25,9 +25,9 @@ code0479        0, 2, 16
 code047d        0, 132
 call            @Func_0e0a
 call            @Func_0d50
-dialogtxt       "いや、ウェルマンさんもいない"
-dialogtxt       "やっぱ工房の中には"
-dialogtxt       "いないみたいだ..."
+dialogtxt       "No, nothing at all."
+dialogtxt       "Like I thought, they don't seem"
+dialogtxt       "to be inside the workshop…"
 code047b        
 code0309        
 call            @Func_0e8c
@@ -41,15 +41,15 @@ code047d        1, 0
 call            @Func_0e20
 call            @Func_0d9e
 jumpz           @Cond_024a, ($b002 == 0)
-dialogtxt       "...ってことは"
-dialogtxt       "ふたりで出かけたってことか？"
-dialogtxt       "ドコへ？"
+dialogtxt       "…Which means,"
+dialogtxt       "they left together?"
+dialogtxt       "Where to?"
 goto            @Label_0288
 
 @Cond_024a:
-dialogtxt       "...ってことは"
-dialogtxt       "ふたりで出かけたってこと？"
-dialogtxt       "ドコへ？"
+dialogtxt       "…Which means,"
+dialogtxt       "they left together?"
+dialogtxt       "Where to?"
 goto            @Label_0288
 
 @Label_0288:
@@ -61,9 +61,9 @@ code0479        0, 0, 16
 code047d        0, 109
 call            @Func_0e0a
 call            @Func_0d50
-dialogtxt       "もしかして"
-dialogtxt       "お父さんとふたりで"
-dialogtxt       "帰ったんじゃないの？"
+dialogtxt       "Could it be that Murno"
+dialogtxt       "already returned home"
+dialogtxt       "with her father?"
 code047b        
 code0309        
 call            @Func_0e76
@@ -96,30 +96,30 @@ code043c        2, 4
 code043c        4, 4
 call            @Func_0dbc
 jumpz           @Cond_0446, ($b003 == 0)
-dialogtxt       "[NAME 5]ノ可能性ハ　[NAME 4]ワメテ低イト"
-dialogtxt       "思ワ[NAME 8]マス"
-dialogtxt       "私モ　サガシマス"
+dialogtxt       "The Possibility Of That"
+dialogtxt       "Is Exceedingly Low."
+dialogtxt       "I Will Also Aid In The Search."
 goto            @Cond_0446
 
 @Cond_0446:
 jumpz           @Cond_04aa, ($b003 == 1)
-dialogtxt       "ワガハイに黙って帰るなど"
-dialogtxt       "あるわけないではないか！"
-dialogtxt       "ワガハイもさがすぞ！"
+dialogtxt       "Murno would not do that"
+dialogtxt       "without telling me!"
+dialogtxt       "I will search as well!"
 goto            @Cond_04aa
 
 @Cond_04aa:
 jumpz           @Cond_04fa, ($b003 == 2)
-dialogtxt       "ふざけるな"
-dialogtxt       "あいつらが黙って帰るなど"
-dialogtxt       "あるハズがない"
+dialogtxt       "No way."
+dialogtxt       "She's not a person who would"
+dialogtxt       "leave without saying anything."
 goto            @Cond_04fa
 
 @Cond_04fa:
 jumpz           @Cond_0552, ($b003 == 3)
-dialogtxt       "私に黙ってだなんて"
-dialogtxt       "絶対にありませんわ"
-dialogtxt       "私もさがしてみます！"
+dialogtxt       "In that case, I'm sure she"
+dialogtxt       "would have told me."
+dialogtxt       "I will look for them as well!"
 goto            @Cond_0552
 
 @Cond_0552:
@@ -134,13 +134,13 @@ code047d        0, 0
 call            @Func_0e0a
 call            @Func_0d50
 jumpz           @Cond_05dc, ($b002 == 0)
-dialogtxt       "そうだな"
-dialogtxt       "もう少しこの辺りもさがしてみよう"
+dialogtxt       "You're right."
+dialogtxt       "Let's look around for a bit longer."
 goto            @Label_0610
 
 @Cond_05dc:
-dialogtxt       "そうだね"
-dialogtxt       "もう少しこの辺りもさがしてみよう"
+dialogtxt       "You're right."
+dialogtxt       "Let's look around for a bit longer."
 goto            @Label_0610
 
 @Label_0610:
@@ -156,8 +156,7 @@ code0479        1, 2, 12
 code047d        1, 108
 call            @Func_0e20
 call            @Func_0d9e
-dialogtxt       "んじゃ、みんなで手分けして"
-dialogtxt       "さがすとするかね"
+dialogtxt       "Alright, then we'll split up."
 code047b        
 code0309        
 call            @Func_0e76

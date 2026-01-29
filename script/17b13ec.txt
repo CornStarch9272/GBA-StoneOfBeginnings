@@ -156,8 +156,8 @@ goto            @start
 code0301        8, 7
 code047d        0, 114
 code047e        0, 1
-dialogtxt       "これからもティエと"
-dialogtxt       "なかよくしてあげてね"
+dialogtxt       "I hope you'll still"
+dialogtxt       "be Tier's friend…"
 code0309        
 code047e        0, 0
 code0302        7
@@ -165,9 +165,9 @@ code040b
 
 @Event_06fa:
 code0301        8, 7
-dialogtxt       "ここから先は乙女の秘密◎"
-dialogtxt       "立ち入り禁止！！"
-dialogtxt       "　　　　　　　　　　　ティエ"
+dialogtxt       "A lady's secret lies beyond here◎"
+dialogtxt       "NO TRESPASSING!!!"
+dialogtxt       "　　　　　　　　　　　-Tier<end_line>"
 code0309        
 code0302        7
 code040b        
@@ -394,11 +394,11 @@ code040b
 code0301        8, 7
 code047d        0, 121
 code047e        0, 1
-dialogtxt       "ハンマーって"
-dialogtxt       "武器屋にも売ってないのよ"
+dialogtxt       "Hammers aren't sold at"
+dialogtxt       "weapon shops, you know."
 code0309        
-dialogtxt       "武器好きのあたしでも"
-dialogtxt       "あれはナゾなのよね〜"
+dialogtxt       "As a weaponry enthusiast,"
+dialogtxt       "I do think that's strange…"
 code0309        
 code047e        0, 0
 code0302        7
@@ -406,7 +406,7 @@ code040b
 
 @Talk_10de:
 code0301        8, 7
-dialogtxt       "ゴロゴロ..."
+dialogtxt       "Purr…"
 code0309        
 code0302        7
 code040b        

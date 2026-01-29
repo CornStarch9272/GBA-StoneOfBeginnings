@@ -2,6 +2,7 @@
 
 bool Script::validate(std::vector<std::string> &errors) {
 	uint16_t pos = 0;
+    bool ok = true;
 	for (auto &s : statements) {
 		s->update(*this, pos);
 		pos += s->size();
@@ -9,15 +10,15 @@ bool Script::validate(std::vector<std::string> &errors) {
 	// We validate in two passes, to ensure size=0 errors bubble to the top.
 	for (auto &s : statements) {
 		if (s->size() == 0 && !s->validate(*this, errors)) {
-			return false;
+			ok = false;
 		}
 	}
 	for (auto &s : statements) {
 		if (s->size() != 0 && !s->validate(*this, errors)) {
-			return false;
+			ok = false;
 		}
 	}
-	return true;
+	return ok;
 }
 
 std::vector<uint8_t> Script::encode() {

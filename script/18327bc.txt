@@ -5,8 +5,9 @@ call            @Func_0f7e
 code036f        
 jumpz           @Cond_009c, ($b071 > 1)
 call            @Func_0efc
-dialogtxt       "勝負に使える武器はひとつだけだ"
-dialogtxt       "どれかひとつを選ぶのだ"
+dialogtxt       "You may only use one weapon"
+dialogtxt       "in this match."
+dialogtxt       "Make your choice."
 code047b        
 code0309        
 call            @Func_0fd4
@@ -19,7 +20,8 @@ goto            @Label_090a
 @Cond_009c:
 jumpz           @Cond_00ea, ($b071 == 0)
 call            @Func_0efc
-dialogtxt       "勝負に使う武器を装備してきなさい"
+dialogtxt       "Equip the weapon you plan"
+dialogtxt       "on using."
 code047b        
 code0309        
 call            @Func_0fd4
@@ -33,12 +35,11 @@ goto            @Label_090a
 call            @Func_0efc
 jumpz           @Cond_0134, ($f0132 == 0)
 setvar          $f0132, 1
-dialogtxt       "勝負の準備は"
-dialogtxt       "ととのったようだな"
+dialogtxt       "It seems you're prepared."
 goto            @Label_0152
 
 @Cond_0134:
-dialogtxt       "勝負の準備はできたか？"
+dialogtxt       "Ready to begin?"
 goto            @Label_0152
 
 @Label_0152:
@@ -49,8 +50,8 @@ code0479        0, 2, 14
 code047d        0, 0
 call            @Func_0f68
 call            @Func_0eae
-choicetxt       @Choice_01d2, "勝負の準備はカンペ[NAME 4]です！"
-choicetxt       @Choice_08b2, "あ、ちょっと待ってください"
+choicetxt       @Choice_01d2, "I'm ready!"
+choicetxt       @Choice_08b2, "Ah, wait just a minute."
 choicewait      
 
 @Choice_01d2:
@@ -58,7 +59,7 @@ setvar          $f0133, 1
 call            @Func_0ee4
 code0479        1, 0, 14
 call            @Func_0f1a
-dialogtxt       "では、はじめるとしよう..."
+dialogtxt       "Then, let us begin…"
 code0309        
 call            @Func_0fea
 call            @Func_0f38
@@ -100,7 +101,7 @@ code0479        0, 4, 14
 code047d        0, 107
 call            @Func_0f68
 call            @Func_0e90
-dialogtxt       "δ..."
+dialogtxt       "[NAME 2]…"
 code047b        
 code0309        
 call            @Func_0ee4
@@ -129,29 +130,29 @@ code047d        1, 2
 call            @Func_0f7e
 call            @Func_0f1a
 jumpz           @Cond_0560, ($b003 == 0)
-dialogtxt       "[NAME 5]ノ表情カラ　判断スルト"
-dialogtxt       "みゅーの様ハ　私ノぱーとなーガ"
-dialogtxt       "負ケルト　考エテイルノデスカ？"
+dialogtxt       "Examining Facial Expression."
+dialogtxt       "Lady Murno, Do You Believe"
+dialogtxt       "My Partner Will Lose."
 goto            @Cond_0560
 
 @Cond_0560:
 jumpz           @Cond_05c2, ($b003 == 1)
-dialogtxt       "安心するのじゃ、ミューノ"
-dialogtxt       "このマゲにかけてもいい"
-dialogtxt       "あやつを信じておれ..."
+dialogtxt       "Be at ease, Murno. I would "
+dialogtxt       "bet this topknot on the outcome."
+dialogtxt       "Believe in them…"
 goto            @Cond_05c2
 
 @Cond_05c2:
 jumpz           @Cond_0628, ($b003 == 2)
-dialogtxt       "ふ..."
-dialogtxt       "そんなに心配そうな顔をしていると"
-dialogtxt       "あいつまで不安になるかもしれんな..."
+dialogtxt       "Hmph…"
+dialogtxt       "If you look that worried,"
+dialogtxt       "[NAME 2] might get anxious too."
 goto            @Cond_0628
 
 @Cond_0628:
 jumpz           @Cond_0672, ($b003 == 3)
-dialogtxt       "大丈夫ですよ、ミューノ様"
-dialogtxt       "δさんなら、絶対に...！"
+dialogtxt       "It'll be okay, Lady Murno."
+dialogtxt       "If it's [NAME 2], I'm sure!"
 goto            @Cond_0672
 
 @Cond_0672:
@@ -161,11 +162,11 @@ call            @Func_0f50
 code043c        2, 4
 code0479        0, 5, 16
 call            @Func_0eae
-dialogtxt       "あ、ごめんなさい、γ..."
+dialogtxt       "Ah, I'm sorry, [NAME 1]…"
 code0309        
 code0479        0, 2, 14
-dialogtxt       "そうね..."
-dialogtxt       "私も、δを信じる..."
+dialogtxt       "You're right…"
+dialogtxt       "I believe in [NAME 2] too."
 code0309        
 call            @Func_0fea
 call            @Func_0ecc
@@ -185,7 +186,7 @@ call            @Func_0f94
 code0301        6, 7
 code047e        0, 1
 code047e        1, 1
-dialogtxt       "..."
+dialogtxt       "[NAME 2]…"
 code0309        
 code047e        0, 0
 code047e        1, 0
@@ -197,11 +198,11 @@ code0479        1, 0, 14
 code047d        1, 136
 call            @Func_0f7e
 call            @Func_0efc
-dialogtxt       "よし..."
-dialogtxt       "では..."
+dialogtxt       "Alright…"
+dialogtxt       "Well then…"
 code0309        
 code0479        1, 2, 15
-dialogbig       60, 116, 1, 0, 0, "試合開始！"
+dialogbig       60, 116, 1, 0, 0, "Begin!"
 code030c        
 call            @Func_0fd4
 call            @Func_0f38
@@ -214,9 +215,9 @@ goto            @Label_090a
 call            @Func_0ee4
 call            @Func_0f1a
 code0479        1, 0, 12
-dialogtxt       "よし..."
-dialogtxt       "準備ができたら"
-dialogtxt       "知らせてくれ"
+dialogtxt       "Alright…"
+dialogtxt       "Whenever you're ready,"
+dialogtxt       "let me know."
 code0309        
 call            @Func_0fea
 call            @Func_0f38

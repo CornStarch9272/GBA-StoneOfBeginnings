@@ -10,7 +10,7 @@ code0412        4, 1
 code0418        2
 setvar          $b075, 1
 setvar          $b072, 0
-placetxt        "Bostaph's workshop　Deckell Branch"
+placetxt        "Bostaph's Workshop　Deckell Branch"
 code040c        1, @Label_01ae
 code040c        2, @Label_01a4
 call            @Func_094a
@@ -250,8 +250,8 @@ ret
 code0301        8, 7
 code047d        0, 120
 code047e        0, 1
-dialogtxt       "この村の鍛冶屋はボスタフ工房で"
-dialogtxt       "十分だぜ"
+dialogtxt       "Bostaph's Workshop is the only"
+dialogtxt       "smithy this town needs."
 code0309        
 code047e        0, 0
 code0302        7

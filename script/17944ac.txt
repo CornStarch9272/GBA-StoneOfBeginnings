@@ -423,8 +423,8 @@ ret
 code0301        8, 7
 code047d        0, 120
 code047e        0, 1
-dialogtxt       "人間、要領が良いってのは"
-dialogtxt       "才能だと思うね"
+dialogtxt       "It truly takes talent to become"
+dialogtxt       "very resourceful, I must say."
 code0309        
 code047e        0, 0
 code0302        7
@@ -432,9 +432,9 @@ code040b
 
 @Talk_1144:
 code0301        8, 7
-dialogtxt       "..."
+dialogtxt       "…"
 code0309        
-dialogtxt       "にゃ〜"
+dialogtxt       "Meooow~"
 code0309        
 code0302        7
 code040b        
@@ -442,20 +442,20 @@ code040b
 @Event_1170:
 code0301        8, 7
 dialogtxt       "　"
-dialogtxt       "　　　　　　〜ねぇねぇ〜"
+dialogtxt       "　　　　　　~Hey, hey!~"
 code0309        
-dialogtxt       "最近、うしろの机から変な声がするの"
-dialogtxt       "何だか気味が悪くて..."
-dialogtxt       "誰かどうにかしてくれないかしら？"
+dialogtxt       "Lately, I can hear a lot of strange"
+dialogtxt       "noises under the desk behind me…"
+dialogtxt       "It's creepy! Can't anyone help me?"
 code0309        
 code0302        7
 code040b        
 
 @Event_1210:
 code0301        8, 7
-dialogtxt       "「福引き」であなたの運を"
-dialogtxt       "試してみませんか？"
-dialogtxt       "毎日抽選！空くじ無し！！"
+dialogtxt       "Care to try our Lucky Draw?"
+dialogtxt       "It's available all day, everyday!"
+dialogtxt       "Guaranteed no losing tickets!"
 code0309        
 code0302        7
 code040b        
@@ -463,14 +463,16 @@ code040b
 @Event_1278:
 code0301        8, 7
 dialogtxt       "　"
-dialogtxt       "　　　　　釣り仲間新聞　号外"
+dialogtxt       "　　　　Fishing Buddies Newspaper"
+dialogtxt       "　　　　　　　　　-Special Edition"
 code0309        
-dialogtxt       "ディックル村の釣り人の池には"
-dialogtxt       "とんでもない大物がいるらしいぞ"
+dialogtxt       "I heard that a monster fish"
+dialogtxt       "lurks in Deckell Town's very"
+dialogtxt       "own fishing spot."
 code0309        
-dialogtxt       "釣ったという仲間は"
-dialogtxt       "「画面からかなりはみ出てた」と"
-dialogtxt       "意味不明なことを言っているのだが..."
+dialogtxt       "My pal who caught it spouted some"
+dialogtxt       "gibberish like \"IT DOESN'T"
+dialogtxt       "FIT THE SCREEN!\", or whatever."
 code0309        
 code0302        7
 code040b        

@@ -246,8 +246,8 @@ code040b
 code0301        8, 7
 code047d        0, 131
 code047e        0, 1
-dialogtxt       "ミューノなら商店通りの方へ"
-dialogtxt       "行ったよ"
+dialogtxt       "Murno went towards the street"
+dialogtxt       "lined with shops."
 code0309        
 code047e        0, 0
 code0302        7
@@ -267,9 +267,9 @@ code040b
 code0301        8, 7
 code047d        0, 118
 code047e        0, 1
-dialogtxt       "僕はここの門番をしてるんだ"
-dialogtxt       "鐘をぶら下げてるのは"
-dialogtxt       "事件があった時に鳴らすからだよ"
+dialogtxt       "I'm the gatekeeper here."
+dialogtxt       "This bell is used to alert the"
+dialogtxt       "town of any trouble."
 code0309        
 code047e        0, 0
 code0302        7
@@ -483,38 +483,40 @@ ret
 code0301        8, 7
 code047d        0, 149
 code047e        0, 1
-dialogtxt       "私のお母様は、旅商人なの"
-dialogtxt       "今は２人で旅をして鍛冶師や職人に"
-dialogtxt       "顔を売っている段階なんだって"
+dialogtxt       "My mom and I are peddlers!"
+dialogtxt       "Currently we're acquainting with so"
+dialogtxt       "many Craftknights and artisans!"
 code0309        
-dialogtxt       "将来は大きなお店をもつ予定なの"
-dialogtxt       "だから、旅費は私が頑張って稼ぐしか"
-dialogtxt       "無いってことなの"
+dialogtxt       "We plan on opening a shop."
+dialogtxt       "That's why I have to work hard"
+dialogtxt       "to save up money."
 code0309        
 jumpz           @Cond_1650, ($f1248 == 0)
-dialogtxt       "ところであなたは、鍛冶師みたいだけど"
-dialogtxt       "強化の情報を聞いていかない？"
+dialogtxt       "You're a Craftknight, aren't you?"
+dialogtxt       "Want to hear about enhancement?"
 code0309        
 code047e        0, 0
-choicetxt       @Choice_13f2, "聞いてみる"
-choicetxt       @Choice_1658, "特に聞かない"
+choicetxt       @Choice_13f2, "Sure thing!"
+choicetxt       @Choice_1658, "Nah, I'm fine."
 choicewait      
 
 @Choice_13f2:
 code047e        0, 1
-dialogtxt       "えっとね、強化で「伝説級の鉄串」を"
-dialogtxt       "使うと、特殊効果の「貫通」が"
-dialogtxt       "武器に付加されるの"
+dialogtxt       "Let's see…"
+dialogtxt       "Using a Legendary Iron Skewer"
+dialogtxt       "to enhance your weapon will"
+code0309
+dialogtxt       "give it the \"Piercing\" effect."
 code0309        
-dialogtxt       "でもって、今回はなんと"
-dialogtxt       "「伝説級の鉄串」を、１０００バームで"
-dialogtxt       "販売中なの〜"
+dialogtxt       "Anyway, I have this special"
+dialogtxt       "material on sale right now,"
+dialogtxt       "at a low, low price of…1000 Boam!"
 code0309        
-dialogtxt       "買ってくれます？"
+dialogtxt       "How about it?"
 code0309        
 code047e        0, 0
-choicetxt       @Choice_14f0, "買う"
-choicetxt       @Choice_1606, "買わない"
+choicetxt       @Choice_14f0, "Buy"
+choicetxt       @Choice_1606, "Don't buy"
 choicewait      
 
 @Choice_14f0:
@@ -529,7 +531,7 @@ code0445        16, 4
 code0446        16
 code0301        8, 7
 code047e        0, 1
-dialogtxt       "ありがと〜"
+dialogtxt       "Thanks~"
 code0309        
 goto            @Label_16a8
 
@@ -541,9 +543,9 @@ code0445        16, 5
 code0446        16
 code0301        8, 7
 code047e        0, 1
-dialogtxt       "ええぇ〜これじゃ〜"
-dialogtxt       "お金たりないの〜"
-dialogtxt       "商談不成立だよ〜"
+dialogtxt       "Whaaaaaat!? What do you mean"
+dialogtxt       "you don't have enough money!?"
+dialogtxt       "I'm calling this deal off!"
 code0309        
 goto            @Label_16a8
 
@@ -551,8 +553,9 @@ goto            @Choice_1606
 
 @Choice_1606:
 code047e        0, 1
-dialogtxt       "え〜聞くだけ聞いて買ってくれないの〜"
-dialogtxt       "ケチ〜"
+dialogtxt       "Whaaat!? You make me talk a lot"
+dialogtxt       "but you don't want to buy from me?"
+dialogtxt       "Cheapskate!"
 code0309        
 goto            @Label_16a8
 
@@ -565,8 +568,9 @@ goto            @Choice_1658
 
 @Choice_1658:
 code047e        0, 1
-dialogtxt       "え〜聞いてくれないの〜"
-dialogtxt       "せっかくのお客さんだと思ったのに〜"
+dialogtxt       "Whaaat? You're not interested?!"
+dialogtxt       "Just when I thought"
+dialogtxt       "I finally had a customer…"
 code0309        
 @Label_16a8:
 code047e        0, 0
@@ -575,9 +579,9 @@ code040b
 
 @Event_16c0:
 code0301        8, 7
-dialogtxt       "簡単に見つかるほど"
-dialogtxt       "強化は甘くないのです"
-dialogtxt       "自分の力で頑張りましょう"
+dialogtxt       "Strengthening weapons"
+dialogtxt       "isn't as easy as it looks."
+dialogtxt       "Keep on practicing."
 code0309        
 code0302        7
 code040b        

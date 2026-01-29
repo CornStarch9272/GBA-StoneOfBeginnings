@@ -14,7 +14,7 @@ code0482
 code047d        0, 110
 code0301        16, 3
 code047e        0, 1
-dialogtxt       "やっぱり君か..."
+dialogtxt       "I thought it was you…"
 code0309        
 code047e        0, 0
 code0302        3
@@ -44,22 +44,24 @@ code0479        1, 0, 16
 code047d        1, 110
 call            @Func_0e4c
 call            @Func_0db4
-dialogtxt       "どうしたんだい？"
-dialogtxt       "またこっそりと町を抜け出す"
-dialogtxt       "つもりだった？"
+dialogtxt       "What are you up to?"
+dialogtxt       "Are you going to sneak"
+dialogtxt       "out of town again?"
 code047b        
 code0309        
 call            @Func_0e08
 code0479        0, 2, 15
 call            @Func_0d66
 jumpz           @Cond_031c, ($b002 == 0)
-dialogtxt       "なんだよ、それ！"
-dialogtxt       "オ[NAME 8]はただ、この辺りの見回りを..."
+dialogtxt       "What? No!"
+dialogtxt       "I was just patrolling around"
+dialogtxt       "here…"
 goto            @Label_0358
 
 @Cond_031c:
-dialogtxt       "なによ、それ！"
-dialogtxt       "わたしはただ、この辺りの見回りを..."
+dialogtxt       "What? No!"
+dialogtxt       "I was just patrolling around"
+dialogtxt       "here…"
 goto            @Label_0358
 
 @Label_0358:
@@ -67,36 +69,35 @@ code0309
 call            @Func_0d9c
 code0479        1, 0, 12
 call            @Func_0dd2
-dialogtxt       "見回り？"
-dialogtxt       "どうして？"
+dialogtxt       "Patrolling?"
+dialogtxt       "Why?"
 code0309        
 call            @Func_0e08
 code0479        0, 0, 14
 call            @Func_0d66
-dialogtxt       "それは、今だってアニスたちが"
-dialogtxt       "どこかでミューノをねらってるかも"
-dialogtxt       "しれないから..."
+dialogtxt       "I'm sure Anise and the others"
+dialogtxt       "are still out there, hiding."
 code0309        
 call            @Func_0d9c
 code0479        1, 2, 14
 call            @Func_0dd2
-dialogtxt       "ふん..."
-dialogtxt       "どうしてもあの人たちを"
-dialogtxt       "悪者にしたいみたいだね"
+dialogtxt       "Hmm…"
+dialogtxt       "Seems like you're determined"
+dialogtxt       "to cast the blame on them."
 code0309        
 call            @Func_0e08
 code0479        0, 2, 15
 call            @Func_0d66
 jumpz           @Cond_04ec, ($b002 == 0)
-dialogtxt       "お前こそまだあいつらを"
-dialogtxt       "仲間だと思っているのか？"
-dialogtxt       "ボスタフさんがそう言ったのか！？"
+dialogtxt       "Do you still think"
+dialogtxt       "they're on our side?"
+dialogtxt       "Did Bostaph say that!?"
 goto            @Label_054a
 
 @Cond_04ec:
-dialogtxt       "あんたこそまだあいつらを"
-dialogtxt       "仲間だと思っているの？"
-dialogtxt       "ボスタフさんがそう言ったから！？"
+dialogtxt       "Do you still think"
+dialogtxt       "they're on our side?"
+dialogtxt       "Did Bostaph say that!?"
 goto            @Label_054a
 
 @Label_054a:
@@ -105,20 +106,20 @@ call            @Func_0d9c
 code0479        0, 2, 14
 code0479        1, 0, 12
 call            @Func_0dd2
-dialogtxt       "それは..."
-dialogtxt       "親方にはまだ、話していない..."
+dialogtxt       "That's…"
+dialogtxt       "I haven't talked to Master yet…"
 code0309        
 call            @Func_0e08
 code0479        0, 2, 16
 call            @Func_0d66
 jumpz           @Cond_05fe, ($b002 == 0)
-dialogtxt       "なんだよ..."
-dialogtxt       "さっきはあんなに..."
+dialogtxt       "What's with that…"
+dialogtxt       "Why haven't you…"
 goto            @Label_0624
 
 @Cond_05fe:
-dialogtxt       "なによ..."
-dialogtxt       "さっきはあんなに..."
+dialogtxt       "What's with that…"
+dialogtxt       "Why haven't you…"
 goto            @Label_0624
 
 @Label_0624:
@@ -126,32 +127,32 @@ code0309
 call            @Func_0d9c
 code0479        1, 2, 17
 call            @Func_0dd2
-dialogtxt       "親方は忙しいんだ！"
-dialogtxt       "余計な心配なんて"
-dialogtxt       "かけられるもんか！"
+dialogtxt       "Master is busy!"
+dialogtxt       "He doesn't need more"
+dialogtxt       "things to worry about!"
 code0309        
 call            @Func_0e08
 code0479        0, 4, 16
 call            @Func_0d66
-dialogtxt       "...っ！"
-dialogtxt       "そんな怒らなくても..."
+dialogtxt       "…!"
+dialogtxt       "Don't get so angry…"
 code0309        
 call            @Func_0d9c
 code0479        1, 0, 16
 call            @Func_0dd2
-dialogtxt       "明日、みんなを集めて"
-dialogtxt       "話し合いがあるよね？"
-dialogtxt       "きっとその時にハッ[NAME 4]リするよ"
+dialogtxt       "We're having a meeting"
+dialogtxt       "tomorrow, right?"
+dialogtxt       "It'll all become clear then."
 code0309        
 code0479        1, 2, 14
-dialogtxt       "ボスタフ親方が"
-dialogtxt       "まちがったことなんて"
-dialogtxt       "するはずないって"
+dialogtxt       "There's no way Master Bostaph"
+dialogtxt       "could be wrong."
+dialogtxt       "Absolutely not."
 code0309        
 call            @Func_0e08
 code0479        0, 4, 14
 call            @Func_0d66
-dialogtxt       "..."
+dialogtxt       "…"
 code0309        
 call            @Func_0ea2
 call            @Func_0d84

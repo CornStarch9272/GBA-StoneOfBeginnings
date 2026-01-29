@@ -46,15 +46,13 @@ code047d        1, 2
 call            @Func_0f22
 call            @Func_0e1e
 jumpz           @Cond_0238, ($b002 == 0)
-dialogtxt       "おっちゃんは"
-dialogtxt       "いないみたいだな..."
-dialogtxt       "借りちゃおっかな"
+dialogtxt       "Looks like Gramps isn't here…"
+dialogtxt       "I'll be borrowing his workshop."
 goto            @Label_0276
 
 @Cond_0238:
-dialogtxt       "ギャラハンさんは"
-dialogtxt       "いないみたい..."
-dialogtxt       "借りちゃおっかな"
+dialogtxt       "Looks like Gallhan isn't here…"
+dialogtxt       "I'll be borrowing his workshop."
 goto            @Label_0276
 
 @Label_0276:
@@ -82,21 +80,21 @@ goto            @Label_030e
 @Label_030e:
 call            @Func_0ea8
 jumpz           @Cond_0444, ($b003 == 0)
-dialogtxt       "無断デ　デスカ？"
+dialogtxt       "Without Permission?"
 code0309        
 call            @Func_0ede
 code0479        0, 0, 14
 call            @Func_0e3c
 jumpz           @Cond_03ba, ($b002 == 0)
-dialogtxt       "仕方ないだろ、いないんだし"
-dialogtxt       "道具とかのお金はちゃんとはらうしさ"
-dialogtxt       "いいじゃん"
+dialogtxt       "I can't ask if he's not here."
+dialogtxt       "I'll pay for whatever I use,"
+dialogtxt       "it'll be fine."
 goto            @Label_0410
 
 @Cond_03ba:
-dialogtxt       "仕方ないでしょ、いないんだし"
-dialogtxt       "道具とかのお金はちゃんとはらうし"
-dialogtxt       "いいじゃん"
+dialogtxt       "I can't ask if he's not here."
+dialogtxt       "I'll pay for whatever I use,"
+dialogtxt       "it'll be fine."
 goto            @Label_0410
 
 @Label_0410:
@@ -104,26 +102,26 @@ code0309
 call            @Func_0e72
 code0479        1, 0, 12
 call            @Func_0ea8
-dialogtxt       "非常事態デス[NAME 6]"
+dialogtxt       "It Is An Emergency, After All."
 goto            @Cond_0444
 
 @Cond_0444:
 jumpz           @Cond_059a, ($b003 == 1)
-dialogtxt       "無断で借りると言うのか...？"
+dialogtxt       "Without permission…?"
 code0309        
 call            @Func_0ede
 code0479        0, 0, 14
 call            @Func_0e3c
 jumpz           @Cond_04f6, ($b002 == 0)
-dialogtxt       "仕方ないだろ、いないんだし"
-dialogtxt       "道具とかのお金はちゃんとはらうしさ"
-dialogtxt       "いいじゃん"
+dialogtxt       "I can't ask if he's not here."
+dialogtxt       "I'll pay for whatever I use,"
+dialogtxt       "it'll be fine."
 goto            @Label_054c
 
 @Cond_04f6:
-dialogtxt       "仕方ないでしょ、いないんだし"
-dialogtxt       "道具とかのお金はちゃんとはらうし"
-dialogtxt       "いいじゃん"
+dialogtxt       "I can't ask if he's not here."
+dialogtxt       "I'll pay for whatever I use,"
+dialogtxt       "it'll be fine."
 goto            @Label_054c
 
 @Label_054c:
@@ -131,28 +129,28 @@ code0309
 call            @Func_0e72
 code0479        1, 2, 14
 call            @Func_0ea8
-dialogtxt       "たしかに..."
-dialogtxt       "悠長なことは言っておられん"
+dialogtxt       "That is true, however…"
+dialogtxt       "You should not think that way."
 goto            @Cond_059a
 
 @Cond_059a:
 jumpz           @Cond_06c6, ($b003 == 2)
-dialogtxt       "ふん"
-dialogtxt       "ぬすむってことか"
+dialogtxt       "Hmph."
+dialogtxt       "So you're going to steal from him."
 code0309        
 call            @Func_0ede
 code0479        0, 1, 17
 call            @Func_0e3c
 jumpz           @Cond_0642, ($b002 == 0)
-dialogtxt       "ちがうよ！"
-dialogtxt       "工房を借りるんだよ！"
-dialogtxt       "道具とかはちゃんとお金をはらうよ"
+dialogtxt       "I'm not!"
+dialogtxt       "I'm just borrowing!"
+dialogtxt       "I'll pay for whatever I use."
 goto            @Label_0690
 
 @Cond_0642:
-dialogtxt       "ちがうわよ！"
-dialogtxt       "工房を借りるの！"
-dialogtxt       "道具とかはちゃんとお金をはらうわよ"
+dialogtxt       "I'm not!"
+dialogtxt       "I'm just borrowing!"
+dialogtxt       "I'll pay for whatever I use."
 goto            @Label_0690
 
 @Label_0690:
@@ -160,27 +158,27 @@ code0309
 call            @Func_0e72
 code0479        1, 2, 14
 call            @Func_0ea8
-dialogtxt       "ちっ"
-dialogtxt       "つまらん"
+dialogtxt       "Tch."
+dialogtxt       "Boring."
 goto            @Cond_06c6
 
 @Cond_06c6:
 jumpz           @Cond_085e, ($b003 == 3)
-dialogtxt       "だ、だまってですか？"
+dialogtxt       "W-without permission?"
 code0309        
 call            @Func_0ede
 code0479        0, 0, 14
 call            @Func_0e3c
 jumpz           @Cond_0782, ($b002 == 0)
-dialogtxt       "仕方ないだろ、いないんだし"
-dialogtxt       "道具とかのお金はちゃんとはらうしさ"
-dialogtxt       "大丈夫だって、怒られないよ"
+dialogtxt       "I can't ask if he's not here."
+dialogtxt       "I'll pay for whatever I use."
+dialogtxt       "I'm sure he won't be angry."
 goto            @Label_07e8
 
 @Cond_0782:
-dialogtxt       "仕方ないでしょ、いないんだし"
-dialogtxt       "道具とかのお金はちゃんとはらうし"
-dialogtxt       "大丈夫だって、怒られないよ"
+dialogtxt       "I can't ask if he's not here."
+dialogtxt       "I'll pay for whatever I use."
+dialogtxt       "I'm sure he won't be angry."
 goto            @Label_07e8
 
 @Label_07e8:
@@ -188,9 +186,9 @@ code0309
 call            @Func_0e72
 code0479        1, 2, 12
 call            @Func_0ea8
-dialogtxt       "そんな、怒られるのがコワイんじゃ"
-dialogtxt       "ありませんから"
-dialogtxt       "いいですわ、借りましょう！"
+dialogtxt       "Oh, I'm not scared"
+dialogtxt       "of that at all."
+dialogtxt       "Borrow away!"
 goto            @Cond_085e
 
 @Cond_085e:

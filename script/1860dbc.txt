@@ -30,13 +30,13 @@ code047d        1, 2
 call            @Func_1522
 call            @Func_144a
 jumpz           @Cond_01f4, ($b002 == 0)
-dialogtxt       "どうだ？"
-dialogtxt       "なんか伝わっただろ？"
+dialogtxt       "How was that?"
+dialogtxt       "You felt it, didn't you?"
 goto            @Label_021c
 
 @Cond_01f4:
-dialogtxt       "どう？"
-dialogtxt       "なんか伝わったでしょ？"
+dialogtxt       "How was that?"
+dialogtxt       "You felt it, didn't you?"
 goto            @Label_021c
 
 @Label_021c:
@@ -47,51 +47,51 @@ code043c        1, 2
 code0479        1, 0, 12
 call            @Func_1538
 call            @Func_14d4
-dialogtxt       "[NAME 5]ウ言ワ[NAME 8]テモ"
-dialogtxt       "攻撃ニヨル　ショウゲ[NAME 4]シカ"
-dialogtxt       "伝ワッテ[NAME 4]マセンデシタガ"
+dialogtxt       "So You Say,"
+dialogtxt       "But Your Attacks Did Not Convey"
+dialogtxt       "Anything Other Than Force."
 code0309        
 call            @Func_150a
 code0479        0, 5, 12
 call            @Func_1468
-dialogtxt       "それだよ！　γ"
+dialogtxt       "That's it! [NAME 1]!"
 code0309        
 call            @Func_149e
 code0479        1, 0, 12
 call            @Func_14d4
-dialogtxt       "ド[NAME 8]デスカ？"
+dialogtxt       "What Is?"
 code0309        
 call            @Func_150a
 code0479        0, 2, 14
 call            @Func_1468
 jumpz           @Cond_0432, ($b002 == 0)
-dialogtxt       "オ[NAME 8]の使った武器は"
-dialogtxt       "お前といっしょに修行してたから"
-dialogtxt       "できた武器なんだ"
+dialogtxt       "The weapon I used"
+dialogtxt       "was one we made"
+dialogtxt       "together during training."
 code0309        
 code0479        0, 2, 16
-dialogtxt       "つまり、これはオ[NAME 8]の武器じゃなくて"
-dialogtxt       "オ[NAME 8]たちの武器なんだよ..."
-dialogtxt       "だから、オ[NAME 8]は、なんと言うか..."
+dialogtxt       "In other words, this isn't"
+dialogtxt       "just my weapon, its ours…"
+dialogtxt       "So, how should I say this…"
 code0309        
 code0479        0, 2, 13
-dialogtxt       "オ[NAME 8]はお前といっしょに"
-dialogtxt       "戦ってたんだよ"
+dialogtxt       "I was fighting"
+dialogtxt       "together with you."
 goto            @Label_054c
 
 @Cond_0432:
-dialogtxt       "わたしの使った武器は"
-dialogtxt       "あなたといっしょに修行してたから"
-dialogtxt       "できた武器なんだよ"
+dialogtxt       "The weapon I used"
+dialogtxt       "was one we made"
+dialogtxt       "together during training."
 code0309        
 code0479        0, 2, 16
-dialogtxt       "つまり、これはわたしの武器じゃなくて"
-dialogtxt       "わたしたちの武器なんだ..."
-dialogtxt       "だから、わたしは、なんと言うか..."
+dialogtxt       "In other words, this isn't"
+dialogtxt       "just my weapon, its ours…"
+dialogtxt       "So, how should I say this…"
 code0309        
 code0479        0, 2, 13
-dialogtxt       "わたしはあなたといっしょに"
-dialogtxt       "戦ってたんだよ"
+dialogtxt       "I was fighting"
+dialogtxt       "together with you."
 goto            @Label_054c
 
 @Label_054c:
@@ -99,31 +99,29 @@ code0309
 call            @Func_149e
 code0479        1, 5, 12
 call            @Func_14d4
-dialogtxt       "私ト　イッショニ..."
+dialogtxt       "With Me…"
 code0309        
 call            @Func_150a
 code0479        0, 2, 14
 call            @Func_1468
 jumpz           @Cond_0644, ($b002 == 0)
-dialogtxt       "だから、えーと..."
-dialogtxt       "お前に伝わったのは"
-dialogtxt       "武器の力というか..."
+dialogtxt       "So, um…"
+dialogtxt       "What I conveyed to you was the"
+dialogtxt       "power of the weapon or something…"
 code0309        
 code0479        0, 5, 12
-dialogtxt       "そうだ"
-dialogtxt       "お前に伝わったのは"
-dialogtxt       "オ[NAME 8]とお前の魂の重さだ！"
+dialogtxt       "Uh, right!"
+dialogtxt       "It was the weight of our souls!"
 goto            @Label_06e2
 
 @Cond_0644:
-dialogtxt       "だから、えーと..."
-dialogtxt       "あなたに伝わったのは"
-dialogtxt       "武器の力というか..."
+dialogtxt       "So, um…"
+dialogtxt       "What I conveyed to you was the"
+dialogtxt       "power of the weapon or something…"
 code0309        
 code0479        0, 5, 12
-dialogtxt       "そうよ"
-dialogtxt       "あなたに伝わったのは"
-dialogtxt       "わたしとあなたの魂の重さよ！"
+dialogtxt       "Uh, right!"
+dialogtxt       "It was the weight of our souls!"
 goto            @Label_06e2
 
 @Label_06e2:
@@ -131,21 +129,19 @@ code0309
 call            @Func_149e
 code0479        1, 4, 12
 call            @Func_14d4
-dialogtxt       "魂ノ　重サ..."
+dialogtxt       "Weight Of… Souls?"
 code0309        
 call            @Func_150a
 code0479        0, 2, 12
 call            @Func_1468
 jumpz           @Cond_0780, ($b002 == 0)
-dialogtxt       "なんか、攻撃を受けたとき"
-dialogtxt       "ガーンときただろ？"
-dialogtxt       "ガーンと"
+dialogtxt       "Like, when you got hit,"
+dialogtxt       "didn't it feel like a shock?"
 goto            @Label_07c4
 
 @Cond_0780:
-dialogtxt       "なんか、攻撃を受けたとき"
-dialogtxt       "ガーンときたでしょ？"
-dialogtxt       "ガーンと"
+dialogtxt       "Like, when you got hit,"
+dialogtxt       "didn't it feel like a shock?"
 goto            @Label_07c4
 
 @Label_07c4:
@@ -153,25 +149,25 @@ code0309
 call            @Func_149e
 code0479        1, 0, 12
 call            @Func_14d4
-dialogtxt       "エエ　[NAME 5][NAME 8]ハ..."
-dialogtxt       "タシカニ..."
+dialogtxt       "Yes, That…"
+dialogtxt       "It Did…"
 code0309        
 call            @Func_150a
 code0479        0, 2, 13
 call            @Func_1468
-dialogtxt       "そのガーンってなかにはさ"
-dialogtxt       "言葉にならない気持ちが"
-dialogtxt       "たくさんこもってるんだよ！"
+dialogtxt       "Inside that shock was a"
+dialogtxt       "bunch of feelings that"
+dialogtxt       "can't be put into words!"
 code0309        
 code0479        0, 2, 12
 jumpz           @Cond_08c6, ($b002 == 0)
-dialogtxt       "あとはお前が"
-dialogtxt       "それを感じるだけだ！"
+dialogtxt       "All that's left is for"
+dialogtxt       "you to feel it!"
 goto            @Label_08f4
 
 @Cond_08c6:
-dialogtxt       "あとはあなたが"
-dialogtxt       "それを感じるだけよ！"
+dialogtxt       "All that's left is for"
+dialogtxt       "you to feel it!"
 goto            @Label_08f4
 
 @Label_08f4:
@@ -179,21 +175,21 @@ code0309
 call            @Func_149e
 code0479        1, 5, 12
 call            @Func_14d4
-dialogtxt       "感ジル...デスカ？"
+dialogtxt       "Feel…?"
 code0309        
 call            @Func_150a
 code0479        0, 0, 12
 call            @Func_1468
 jumpz           @Cond_09a6, ($b002 == 0)
-dialogtxt       "そうだ"
-dialogtxt       "相手の動きとか表情をみていれば"
-dialogtxt       "何を考えているか大体わかるだろ"
+dialogtxt       "That's right. You know how you can"
+dialogtxt       "figure out what your opponent is"
+dialogtxt       "thinking from their body language?"
 goto            @Label_09f8
 
 @Cond_09a6:
-dialogtxt       "そう"
-dialogtxt       "相手の動きとか表情をみていれば"
-dialogtxt       "何を考えているか大体わかるでしょ"
+dialogtxt       "That's right. You know how you can"
+dialogtxt       "figure out what your opponent is"
+dialogtxt       "thinking from their body language?"
 goto            @Label_09f8
 
 @Label_09f8:
@@ -201,35 +197,35 @@ code0309
 call            @Func_149e
 code0479        1, 0, 12
 call            @Func_14d4
-dialogtxt       "ナルホド..."
-dialogtxt       "アナタノ　先ホドノ戦闘カラ"
-dialogtxt       "アナタノ気持チヲ推測スルト..."
+dialogtxt       "I See…"
+dialogtxt       "If I Were To Predict Your Thoughts"
+dialogtxt       "Based On Our Fight Just Now…"
 code0309        
 code0479        1, 1, 12
-dialogtxt       "アナタハ　楽シカッタ様ニ"
-dialogtxt       "思ワ[NAME 8]マス"
+dialogtxt       "I Believe"
+dialogtxt       "You Had Fun."
 code0309        
 call            @Func_150a
 code0479        0, 1, 12
 call            @Func_1468
 jumpz           @Cond_0b72, ($b002 == 0)
-dialogtxt       "そうだよ！　楽しかった！"
-dialogtxt       "お前、結構強かったしな"
+dialogtxt       "That's right! It was fun!"
+dialogtxt       "You're a strong opponent,"
 code0309        
 code0479        0, 0, 13
-dialogtxt       "お前はオ[NAME 8]がケガしないように"
-dialogtxt       "ちゃんと考えていてくれただろ？"
-dialogtxt       "やさしいよな"
+dialogtxt       "and you were being careful"
+dialogtxt       "not to hurt me, right?"
+dialogtxt       "You're too kind."
 goto            @Label_0c1a
 
 @Cond_0b72:
-dialogtxt       "そうだよ！　楽しかった！"
-dialogtxt       "あなた、結構強かったしね"
+dialogtxt       "That's right! It was fun!"
+dialogtxt       "You're a strong opponent,"
 code0309        
 code0479        0, 0, 13
-dialogtxt       "あなたはわたしがケガしないように"
-dialogtxt       "ちゃんと考えていてくれたでしょ？"
-dialogtxt       "やさしいね"
+dialogtxt       "and you were being careful"
+dialogtxt       "not to hurt me, right?"
+dialogtxt       "You're too kind."
 goto            @Label_0c1a
 
 @Label_0c1a:
@@ -237,22 +233,20 @@ code0309
 call            @Func_149e
 code0479        1, 5, 12
 call            @Func_14d4
-dialogtxt       "ヤサシイ？"
-dialogtxt       "私ガ...？"
+dialogtxt       "Kind?"
+dialogtxt       "I Am…?"
 code0309        
 call            @Func_150a
 code0479        0, 0, 12
 call            @Func_1468
 jumpz           @Cond_0cb0, ($b002 == 0)
-dialogtxt       "そうだよ"
-dialogtxt       "γはやさしくて"
-dialogtxt       "いいやつだ"
+dialogtxt       "You are."
+dialogtxt       "[NAME 1] is kind and gentle."
 goto            @Label_0cdc
 
 @Cond_0cb0:
-dialogtxt       "そうよ"
-dialogtxt       "γはやさしくて"
-dialogtxt       "いい子よ"
+dialogtxt       "You are."
+dialogtxt       "[NAME 1] is kind and gentle."
 goto            @Label_0cdc
 
 @Label_0cdc:
@@ -260,23 +254,23 @@ code0309
 call            @Func_149e
 code0479        1, 3, 12
 call            @Func_14d4
-dialogtxt       "ぱーとなー..."
-dialogtxt       "私ハ..."
+dialogtxt       "Partner…"
+dialogtxt       "I…"
 code0309        
 code0479        1, 9, 12
-dialogtxt       "私ハ...！"
+dialogtxt       "I…!"
 code0309        
 call            @Func_150a
 code0479        0, 5, 17
 call            @Func_1468
 jumpz           @Cond_0d96, ($b002 == 0)
-dialogtxt       "うわっ！　ちょっと！？"
-dialogtxt       "そんなに泣くなよ"
+dialogtxt       "Uwah! What!?"
+dialogtxt       "Don't cry!"
 goto            @Label_0dca
 
 @Cond_0d96:
-dialogtxt       "うわっ！　ちょっと！？"
-dialogtxt       "そんなに泣かないで"
+dialogtxt       "Uwah! What!?"
+dialogtxt       "Don't cry!"
 goto            @Label_0dca
 
 @Label_0dca:
@@ -284,8 +278,8 @@ code0309
 call            @Func_149e
 code0479        1, 9, 12
 call            @Func_14d4
-dialogtxt       "ダメデス"
-dialogtxt       "止マリマセン〜"
+dialogtxt       "I Cannot."
+dialogtxt       "It Will Not Stop."
 code0309        
 call            @Func_15a4
 call            @Func_14f2
@@ -298,7 +292,7 @@ code040d        15
 code047d        0, 2
 code0301        16, 7
 code047e        0, 1
-dialogtxt       "原因不明ノ　しすてむえらーデス..."
+dialogtxt       "System Error. Cause, Unknown…"
 code0309        
 code047e        0, 0
 code0302        7

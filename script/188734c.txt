@@ -100,23 +100,23 @@ call            @Func_234c
 call            @Func_22b4
 jumpz           @Cond_03de, ($f0262 == 1)
 jumpz           @Cond_03ae, ($b003 == 0)
-dialogtxt       "ぱーとなー！"
+dialogtxt       "Partner!"
 goto            @Label_03da
 
 @Cond_03ae:
 jumpz           @Cond_03ce, ($b003 == 3)
-dialogtxt       "δさん！"
+dialogtxt       "[NAME 2]!"
 goto            @Label_03da
 
 @Cond_03ce:
-dialogtxt       "δ！"
+dialogtxt       "[NAME 2]!"
 goto            @Label_03da
 
 @Label_03da:
 goto            @Label_03ea
 
 @Cond_03de:
-dialogtxt       "δ！"
+dialogtxt       "[NAME 2]!"
 goto            @Label_03ea
 
 @Label_03ea:
@@ -127,15 +127,15 @@ code0479        0, 6, 13
 call            @Func_2266
 jumpz           @Cond_04aa, ($f0261 == 1)
 jumpz           @Cond_0466, ($b002 == 0)
-dialogtxt       "聞こえたよ..."
-dialogtxt       "みんなの声...、それから..."
-dialogtxt       "君の声..."
+dialogtxt       "I heard it…"
+dialogtxt       "Everyone's voices… And then…"
+dialogtxt       "Yours…"
 goto            @Label_04a6
 
 @Cond_0466:
-dialogtxt       "聞こえたよ..."
-dialogtxt       "みんなの声...、それから..."
-dialogtxt       "あなたの声..."
+dialogtxt       "I heard it…"
+dialogtxt       "Everyone's voices… And then…"
+dialogtxt       "Yours…"
 goto            @Label_04a6
 
 @Label_04a6:
@@ -144,15 +144,15 @@ goto            @Label_07c4
 @Cond_04aa:
 jumpz           @Cond_054a, ($f0262 == 1)
 jumpz           @Cond_0506, ($b002 == 0)
-dialogtxt       "聞こえたよ..."
-dialogtxt       "みんなの声...、それから..."
-dialogtxt       "γの声..."
+dialogtxt       "I heard it…"
+dialogtxt       "Everyone's voices… And then…"
+dialogtxt       "Yours…"
 goto            @Label_0546
 
 @Cond_0506:
-dialogtxt       "聞こえたよ..."
-dialogtxt       "みんなの声...、それから..."
-dialogtxt       "あなたの声..."
+dialogtxt       "I heard it…"
+dialogtxt       "Everyone's voices… And then…"
+dialogtxt       "Yours…"
 goto            @Label_0546
 
 @Label_0546:
@@ -161,15 +161,15 @@ goto            @Label_07c4
 @Cond_054a:
 jumpz           @Cond_05ea, ($f0263 == 1)
 jumpz           @Cond_05a8, ($b002 == 0)
-dialogtxt       "聞こえたよ..."
-dialogtxt       "みんなの声...、それから..."
-dialogtxt       "親方の声..."
+dialogtxt       "I heard it…"
+dialogtxt       "Everyone's voices… And then…"
+dialogtxt       "Master's…"
 goto            @Label_05e6
 
 @Cond_05a8:
-dialogtxt       "聞こえたよ..."
-dialogtxt       "みんなの声...、それから..."
-dialogtxt       "親方の声..."
+dialogtxt       "I heard it…"
+dialogtxt       "Everyone's voices… And then…"
+dialogtxt       "Master's…"
 goto            @Label_05e6
 
 @Label_05e6:
@@ -178,15 +178,15 @@ goto            @Label_07c4
 @Cond_05ea:
 jumpz           @Cond_068c, ($f0264 == 1)
 jumpz           @Cond_0648, ($b002 == 0)
-dialogtxt       "聞こえたよ..."
-dialogtxt       "みんなの声...、それから..."
-dialogtxt       "お前の声..."
+dialogtxt       "I heard it…"
+dialogtxt       "Everyone's voices… And then…"
+dialogtxt       "Yours…"
 goto            @Label_0688
 
 @Cond_0648:
-dialogtxt       "聞こえたよ..."
-dialogtxt       "みんなの声...、それから..."
-dialogtxt       "あなたの声..."
+dialogtxt       "I heard it…"
+dialogtxt       "Everyone's voices… And then…"
+dialogtxt       "Yours…"
 goto            @Label_0688
 
 @Label_0688:
@@ -195,15 +195,15 @@ goto            @Label_07c4
 @Cond_068c:
 jumpz           @Cond_0730, ($f0265 == 1)
 jumpz           @Cond_06ec, ($b002 == 0)
-dialogtxt       "聞こえたよ..."
-dialogtxt       "みんなの声...、それから..."
-dialogtxt       "アニ[NAME 4]の声..."
+dialogtxt       "I heard it…"
+dialogtxt       "Everyone's voices… And then…"
+dialogtxt       "Bro's…"
 goto            @Label_072c
 
 @Cond_06ec:
-dialogtxt       "聞こえたよ..."
-dialogtxt       "みんなの声...、それから..."
-dialogtxt       "アニ[NAME 4]の声..."
+dialogtxt       "I heard it…"
+dialogtxt       "Everyone's voices… And then…"
+dialogtxt       "Bro's…"
 goto            @Label_072c
 
 @Label_072c:
@@ -211,15 +211,15 @@ goto            @Label_07c4
 
 @Cond_0730:
 jumpz           @Cond_0780, ($b002 == 0)
-dialogtxt       "聞こえたよ..."
-dialogtxt       "みんなの声...、それから..."
-dialogtxt       "ティエの声..."
+dialogtxt       "I heard it…"
+dialogtxt       "Everyone's voices… And then…"
+dialogtxt       "Tier's…"
 goto            @Label_07c0
 
 @Cond_0780:
-dialogtxt       "聞こえたよ..."
-dialogtxt       "みんなの声...、それから..."
-dialogtxt       "ティエの声..."
+dialogtxt       "I heard it…"
+dialogtxt       "Everyone's voices… And then…"
+dialogtxt       "Tier's…"
 goto            @Label_07c0
 
 @Label_07c0:
@@ -253,8 +253,8 @@ code0479        0, 5, 16
 code047d        0, 129
 call            @Func_2320
 call            @Func_2248
-dialogtxt       "これは..."
-dialogtxt       "奇跡だ...！"
+dialogtxt       "This is…"
+dialogtxt       "A miracle…!"
 code047b        
 code0309        
 call            @Func_2376
@@ -269,20 +269,20 @@ code0479        1, 7, 13
 code047d        1, 107
 call            @Func_234c
 call            @Func_22b4
-dialogtxt       "うふふ..."
-dialogtxt       "奇跡を起こすなんて"
-dialogtxt       "δらしい"
+dialogtxt       "Ufufu…"
+dialogtxt       "A miracle, huh."
+dialogtxt       "That's our [NAME 2]."
 code047b        
 code0309        
 code0479        0, 11, 12
 code0479        1, 7, 12
-dialogtxt       "すごくカッコイイ！"
+dialogtxt       "You're super cool!"
 code0309        
 call            @Func_2308
 code0479        0, 7, 13
 call            @Func_2266
-dialogtxt       "えへへ..."
-dialogtxt       "そっかな"
+dialogtxt       "Ehehe…"
+dialogtxt       "You think so?"
 goto            @Label_1026
 
 @Cond_0a36:
@@ -311,30 +311,30 @@ code047d        1, 2
 call            @Func_234c
 call            @Func_22b4
 jumpz           @Cond_0b58, ($b003 == 0)
-dialogtxt       "奇跡ヲ起コストハ"
-dialogtxt       "アナタラシイデス[NAME 6]"
-dialogtxt       "カッコイイデスヨ　ぱーとなー"
+dialogtxt       "Causing A Miracle,"
+dialogtxt       "That Is Fitting For You."
+dialogtxt       "You Are Cool, Partner."
 goto            @Cond_0b58
 
 @Cond_0b58:
 jumpz           @Cond_0bac, ($b003 == 1)
-dialogtxt       "奇跡、か..."
-dialogtxt       "それはまた、おぬしらしいの"
-dialogtxt       "カッコイイぞ、δ"
+dialogtxt       "A miracle…"
+dialogtxt       "That's just like you."
+dialogtxt       "Very impressive, [NAME 2]."
 goto            @Cond_0bac
 
 @Cond_0bac:
 jumpz           @Cond_0bf0, ($b003 == 2)
-dialogtxt       "ふっ、奇跡か..."
-dialogtxt       "まったく[NAME 4]サマらしい"
-dialogtxt       "δ"
+dialogtxt       "A miracle, hm…"
+dialogtxt       "That's just like you,"
+dialogtxt       "[NAME 2]…"
 goto            @Cond_0bf0
 
 @Cond_0bf0:
 jumpz           @Cond_0c54, ($b003 == 3)
-dialogtxt       "奇跡を起こすだなんて"
-dialogtxt       "とってもδさんらしくて"
-dialogtxt       "すっごくカッコイイですわ！"
+dialogtxt       "That's not unexpected,"
+dialogtxt       "coming from [NAME 2]."
+dialogtxt       "You're so cool!"
 goto            @Cond_0c54
 
 @Cond_0c54:
@@ -343,8 +343,8 @@ code0309
 call            @Func_2308
 code0479        0, 7, 13
 call            @Func_2266
-dialogtxt       "えへへ..."
-dialogtxt       "そっかな"
+dialogtxt       "Ehehe…"
+dialogtxt       "You think so?"
 goto            @Label_1026
 
 @Cond_0c90:
@@ -354,16 +354,16 @@ code0479        1, 7, 13
 code047d        1, 108
 call            @Func_234c
 call            @Func_22b4
-dialogtxt       "ま、アタシの弟子なんだもの"
-dialogtxt       "奇跡くらい起こせるさ"
-dialogtxt       "ね、δ"
+dialogtxt       "Well, as an apprentice of mine,"
+dialogtxt       "a miracle should be easy."
+dialogtxt       "Right, [NAME 2]?"
 code047b        
 code0309        
 call            @Func_2308
 code0479        0, 7, 13
 call            @Func_2266
-dialogtxt       "えへへ..."
-dialogtxt       "そっかな"
+dialogtxt       "Ehehe…"
+dialogtxt       "You think so?"
 goto            @Label_1026
 
 @Cond_0d54:
@@ -373,16 +373,16 @@ code0479        1, 7, 13
 code047d        1, 110
 call            @Func_234c
 call            @Func_22b4
-dialogtxt       "奇跡、か..."
-dialogtxt       "まったく、君らしいよ"
-dialogtxt       "δ"
+dialogtxt       "A miracle, huh…"
+dialogtxt       "How very fitting,"
+dialogtxt       "[NAME 2]"
 code047b        
 code0309        
 call            @Func_2308
 code0479        0, 7, 13
 call            @Func_2266
-dialogtxt       "えへへ..."
-dialogtxt       "そっかな"
+dialogtxt       "Ehehe…"
+dialogtxt       "You think so?"
 goto            @Label_1026
 
 @Cond_0e04:
@@ -393,21 +393,21 @@ code047d        1, 132
 call            @Func_2336
 call            @Func_234c
 call            @Func_22b4
-dialogtxt       "奇跡が起こせたとしても"
-dialogtxt       "それほどおどろくことではないな"
-dialogtxt       "なぜならば..."
+dialogtxt       "Somehow I'm"
+dialogtxt       "not suprised."
+dialogtxt       "Because…"
 code047b        
 code0309        
 code0479        0, 11, 12
 code0479        1, 7, 13
-dialogtxt       "オ[NAME 8]の見込んだ"
-dialogtxt       "δだからな！"
+dialogtxt       "That's the [NAME 2]"
+dialogtxt       "I know!"
 code0309        
 call            @Func_2308
 code0479        0, 7, 13
 call            @Func_2266
-dialogtxt       "えへへ..."
-dialogtxt       "そっかな"
+dialogtxt       "Ehehe…"
+dialogtxt       "You think so?"
 goto            @Label_1026
 
 @Cond_0f24:
@@ -416,21 +416,21 @@ code0479        1, 7, 13
 code047d        1, 109
 call            @Func_234c
 call            @Func_22b4
-dialogtxt       "奇跡だって...！"
-dialogtxt       "なんだかδだと"
-dialogtxt       "当たり前のことみたい！"
+dialogtxt       "A miracle…!"
+dialogtxt       "That suits you perfectly,"
+dialogtxt       "[NAME 2]!"
 code047b        
 code0309        
 code0479        1, 7, 12
 code0479        0, 11, 12
-dialogtxt       "さすが、わたしのδ"
-dialogtxt       "カッコイイ！"
+dialogtxt       "That's my [NAME 2]!"
+dialogtxt       "So cool!"
 code0309        
 call            @Func_2308
 code0479        0, 7, 13
 call            @Func_2266
-dialogtxt       "えへへ..."
-dialogtxt       "そっかな"
+dialogtxt       "Ehehe…"
+dialogtxt       "You think so?"
 goto            @Label_1026
 
 @Label_1026:

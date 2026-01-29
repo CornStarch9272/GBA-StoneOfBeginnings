@@ -9,11 +9,11 @@ code047d        1, 136
 call            @Func_0b02
 call            @Func_09fe
 jumpz           @Cond_00b0, ($b002 == 0)
-dialogtxt       "ここ、おっちゃんの工房か？"
+dialogtxt       "This is your workshop?"
 goto            @Label_00ce
 
 @Cond_00b0:
-dialogtxt       "ここがおじさんの工房？"
+dialogtxt       "This is your workshop?"
 goto            @Label_00ce
 
 @Label_00ce:
@@ -22,23 +22,23 @@ code0309
 call            @Func_0a52
 code0479        1, 0, 12
 call            @Func_0a88
-dialogtxt       "そうだ"
-dialogtxt       "では、さっそく試験を"
-dialogtxt       "行うとするか"
+dialogtxt       "That's right."
+dialogtxt       "Now then, let us"
+dialogtxt       "begin the test."
 code0309        
 call            @Func_0abe
 code0479        0, 0, 16
 call            @Func_0a1c
 jumpz           @Cond_01b6, ($b002 == 0)
-dialogtxt       "で、試験って何をするんだ？"
-dialogtxt       "やっぱり何か武器を作るのか？"
-dialogtxt       "それとも剣のウデをたしかめるのか？"
+dialogtxt       "So, what do I need to do?"
+dialogtxt       "Craft a weapon?"
+dialogtxt       "Or prove my skill with a sword?"
 goto            @Label_021c
 
 @Cond_01b6:
-dialogtxt       "で、試験って何をするの？"
-dialogtxt       "やっぱり何か武器を作るのかな？"
-dialogtxt       "それとも剣のウデをたしかめるの？"
+dialogtxt       "So, what do I need to do?"
+dialogtxt       "Craft a weapon?"
+dialogtxt       "Or prove my skill with a sword?"
 goto            @Label_021c
 
 @Label_021c:
@@ -46,23 +46,23 @@ code0309
 call            @Func_0a52
 code0479        1, 0, 13
 call            @Func_0a88
-dialogtxt       "まずは知識だ"
-dialogtxt       "お前が鍛冶師としてどれだけモノを"
-dialogtxt       "知っているか、たしかめてやる"
+dialogtxt       "First is knowledge."
+dialogtxt       "We'll determine just how"
+dialogtxt       "much you know as a Craftknight."
 code0309        
 call            @Func_0abe
 code0479        0, 2, 12
 call            @Func_0a1c
 jumpz           @Cond_02f4, ($b002 == 0)
-dialogtxt       "よっし！"
-dialogtxt       "何でも答えてやるぜ！"
-dialogtxt       "いくぞ、γ！"
+dialogtxt       "Okay!"
+dialogtxt       "Ask me anything!"
+dialogtxt       "Let's do this, [NAME 1]!"
 goto            @Label_032e
 
 @Cond_02f4:
-dialogtxt       "よぉし！"
-dialogtxt       "何でも答えてあげるわ！"
-dialogtxt       "いくよ、γ！"
+dialogtxt       "Okay!"
+dialogtxt       "Ask me anything!"
+dialogtxt       "Let's do this, [NAME 1]!"
 goto            @Label_032e
 
 @Label_032e:
@@ -94,22 +94,22 @@ code047d        1, 2
 call            @Func_0aec
 call            @Func_0a88
 jumpz           @Cond_040c, ($b003 == 0)
-dialogtxt       "オー！"
+dialogtxt       "Yes!"
 goto            @Cond_040c
 
 @Cond_040c:
 jumpz           @Cond_042a, ($b003 == 1)
-dialogtxt       "承知！"
+dialogtxt       "Understood!"
 goto            @Cond_042a
 
 @Cond_042a:
 jumpz           @Cond_044c, ($b003 == 2)
-dialogtxt       "好きにしろ"
+dialogtxt       "Whatever."
 goto            @Cond_044c
 
 @Cond_044c:
 jumpz           @Cond_046a, ($b003 == 3)
-dialogtxt       "はい！"
+dialogtxt       "Yes!"
 goto            @Cond_046a
 
 @Cond_046a:

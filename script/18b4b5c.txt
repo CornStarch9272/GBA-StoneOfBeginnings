@@ -105,7 +105,7 @@ goto            @Cond_05fc
 goto            @Label_0600
 
 @Label_0600:
-placetxt        "Rekui Water Ruins Area 2"
+placetxt        "Rekui Water Ruins　Area 2"
 code040b        
 
 @Label_061e:

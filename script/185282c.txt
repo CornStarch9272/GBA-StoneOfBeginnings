@@ -26,16 +26,16 @@ code0479        0, 2, 17
 code047d        0, 108
 call            @Func_0a82
 call            @Func_09ea
-dialogtxt       "親方！"
+dialogtxt       "Master!"
 code047b        
 code0309        
 call            @Func_0a3e
 code043c        2, 4
 code0479        0, 2, 15
 call            @Func_099c
-dialogtxt       "δ！"
-dialogtxt       "気をつけな"
-dialogtxt       "この召喚獣は..."
+dialogtxt       "[NAME 2]!"
+dialogtxt       "Be careful."
+dialogtxt       "That Summon Beast is…"
 code0309        
 call            @Func_0ad8
 call            @Func_09ba
@@ -71,22 +71,22 @@ code047d        1, 2
 call            @Func_0a6c
 call            @Func_09ea
 jumpz           @Cond_0308, ($b003 == 0)
-dialogtxt       "来マス！"
+dialogtxt       "It Is Coming!"
 goto            @Cond_0308
 
 @Cond_0308:
 jumpz           @Cond_0328, ($b003 == 1)
-dialogtxt       "くるぞ！"
+dialogtxt       "It's coming!"
 goto            @Cond_0328
 
 @Cond_0328:
 jumpz           @Cond_0346, ($b003 == 2)
-dialogtxt       "きた！"
+dialogtxt       "It's coming!"
 goto            @Cond_0346
 
 @Cond_0346:
 jumpz           @Cond_0376, ($b003 == 3)
-dialogtxt       "こ、こっちにきましたわ！"
+dialogtxt       "I-it's heading this way!"
 goto            @Cond_0376
 
 @Cond_0376:
@@ -101,11 +101,11 @@ code047d        1, 0
 call            @Func_0a6c
 call            @Func_09ea
 jumpz           @Cond_03dc, ($b002 == 0)
-dialogtxt       "行くぞ！"
+dialogtxt       "Here we go!"
 goto            @Label_03ec
 
 @Cond_03dc:
-dialogtxt       "行くよ！"
+dialogtxt       "Here we go!"
 goto            @Label_03ec
 
 @Label_03ec:

@@ -14,7 +14,7 @@ code048b        144, 72, 16
 code048c        
 code040d        15
 code0301        8, 7
-dialogbig       48, 116, 1, 8, 0, "ぐぅおおお..."
+dialogbig       48, 116, 1, 8, 0, "*Loud Roaring*"
 code030c        
 code0302        7
 code0478        0, 0
@@ -44,15 +44,15 @@ code047d        1, 2
 call            @Func_0b0a
 call            @Func_0a32
 jumpz           @Cond_0232, ($b002 == 0)
-dialogtxt       "あいつら..."
-dialogtxt       "アニ[NAME 4]たちが向かった"
-dialogtxt       "はぐれの仲間か...？"
+dialogtxt       "Those must be…"
+dialogtxt       "The leftovers of Jade's"
+dialogtxt       "Stray extermination…?"
 goto            @Label_0280
 
 @Cond_0232:
-dialogtxt       "あれって..."
-dialogtxt       "アニ[NAME 4]たちが退治しに行った"
-dialogtxt       "はぐれ召喚獣の仲間かな...？"
+dialogtxt       "Those must be…"
+dialogtxt       "The leftovers of Jade's"
+dialogtxt       "Stray extermination…?"
 goto            @Label_0280
 
 @Label_0280:
@@ -62,26 +62,24 @@ call            @Func_0a86
 call            @Func_0b20
 call            @Func_0abc
 jumpz           @Cond_02ca, ($b003 == 0)
-dialogtxt       "デハ　みゅーの様モ"
-dialogtxt       "コノ近クニ..."
+dialogtxt       "Lady Murno Must Be Close…"
 goto            @Cond_02ca
 
 @Cond_02ca:
 jumpz           @Cond_0310, ($b003 == 1)
-dialogtxt       "ならば、ミューノも"
-dialogtxt       "この近くにおるのじゃな..."
+dialogtxt       "Murno must be close by…"
 goto            @Cond_0310
 
 @Cond_0310:
 jumpz           @Cond_035a, ($b003 == 2)
-dialogtxt       "...ということは、あいつも"
-dialogtxt       "この近くにいるんだな..."
+dialogtxt       "…That means"
+dialogtxt       "Murno must also be nearby…"
 goto            @Cond_035a
 
 @Cond_035a:
 jumpz           @Cond_03a4, ($b003 == 3)
-dialogtxt       "だったら、この近くに"
-dialogtxt       "ミューノ様がいるんですね..."
+dialogtxt       "In that case, Lady Murno"
+dialogtxt       "must be nearby…"
 goto            @Cond_03a4
 
 @Cond_03a4:
@@ -91,13 +89,13 @@ call            @Func_0af2
 code0479        0, 2, 15
 call            @Func_0a50
 jumpz           @Cond_03f8, ($b002 == 0)
-dialogtxt       "じゃあ..."
-dialogtxt       "行くしかないか！"
+dialogtxt       "Right…"
+dialogtxt       "We have to break through!"
 goto            @Label_041e
 
 @Cond_03f8:
-dialogtxt       "じゃあ..."
-dialogtxt       "行くしかないよね！"
+dialogtxt       "Right…"
+dialogtxt       "We have to break through!"
 goto            @Label_041e
 
 @Label_041e:

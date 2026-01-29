@@ -6,23 +6,23 @@ code0479        1, 0, 12
 code047d        1, 109
 call            @Func_0994
 call            @Func_08fc
-dialogtxt       "どうδ？"
-dialogtxt       "勝負の準備はできたの？"
+dialogtxt       "Well, [NAME 2]?"
+dialogtxt       "Ready?"
 code047b        
 code0309        
 call            @Func_0950
 code0479        0, 0, 14
 call            @Func_08ae
 jumpz           @Cond_00dc, ($b002 == 0)
-choicetxt       @Choice_0110, "いつでも勝負できるぜ"
+choicetxt       @Choice_0110, "Ready when you are."
 goto            @Label_00fa
 
 @Cond_00dc:
-choicetxt       @Choice_0110, "いつでも勝負できるよ"
+choicetxt       @Choice_0110, "Ready when you are."
 goto            @Label_00fa
 
 @Label_00fa:
-choicetxt       @Choice_0300, "もう少し待って"
+choicetxt       @Choice_0300, "Just a second."
 choicewait      
 
 @Choice_0110:
@@ -33,7 +33,7 @@ setvar          $f0139, 1
 call            @Func_08e4
 code0479        1, 2, 12
 call            @Func_091a
-dialogtxt       "かくごしなさいよ！"
+dialogtxt       "Prepare yourself!"
 code0334        
 code046e        31, 2, 1
 code0331        40, 256
@@ -47,11 +47,11 @@ code047d        1, 113
 call            @Func_097e
 call            @Func_091a
 jumpz           @Cond_020e, ($b002 == 0)
-dialogtxt       "δくん...！"
+dialogtxt       "[NAME 2]!"
 goto            @Label_0222
 
 @Cond_020e:
-dialogtxt       "δちゃん...！"
+dialogtxt       "[NAME 2]!"
 goto            @Label_0222
 
 @Label_0222:
@@ -61,15 +61,15 @@ call            @Func_0950
 code0479        0, 2, 14
 call            @Func_08ae
 jumpz           @Cond_02a8, ($b002 == 0)
-dialogtxt       "そうだ..."
-dialogtxt       "この勝負、ティエの両親のためにも"
-dialogtxt       "絶対に負けるわけにはいかない！"
+dialogtxt       "That's right…"
+dialogtxt       "I have to win, not just for me,"
+dialogtxt       "but for Tier's parents!"
 goto            @Label_02fe
 
 @Cond_02a8:
-dialogtxt       "そうよ..."
-dialogtxt       "この勝負、ティエの両親のためにも"
-dialogtxt       "絶対に負けるわけにはいかない！"
+dialogtxt       "That's right…"
+dialogtxt       "I have to win, not just for me,"
+dialogtxt       "but for Tier's parents!"
 goto            @Label_02fe
 
 @Label_02fe:

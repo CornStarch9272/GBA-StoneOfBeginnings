@@ -419,11 +419,10 @@ code040b
 code0301        8, 7
 code047d        0, 123
 code047e        0, 1
-dialogtxt       "この町って、ごみごみしてて"
-dialogtxt       "いやよね"
+dialogtxt       "This town has trash everywhere."
+dialogtxt       "I hate it."
 code0309        
-dialogtxt       "どこかに、しずかなところ"
-dialogtxt       "ないかしら"
+dialogtxt       "Is there anywhere quiet around here?"
 code0309        
 code047e        0, 0
 code0302        7
@@ -431,7 +430,7 @@ code040b
 
 @Talk_129a:
 code0301        8, 7
-dialogtxt       "..."
+dialogtxt       "…"
 code0309        
 code0302        7
 code040b        
@@ -439,29 +438,29 @@ code040b
 @Event_12ba:
 code0301        8, 7
 dialogtxt       "　"
-dialogtxt       "　　　釣り仲間新聞　第２号"
+dialogtxt       "　　　Fishing Friends Paper, No. 2"
 code0309        
-dialogtxt       "釣りを続けていると"
-dialogtxt       "釣り上げたエモノの[NAME 7]イントが"
-dialogtxt       "たくさんもらえる時があるらしいぞ"
+dialogtxt       "If you keep fishing continuously,"
+dialogtxt       "you may randomly find a fish that"
+dialogtxt       "grants a lot of points."
 code0309        
 code0302        7
 code040b        
 
 @Event_1354:
 code0301        8, 7
-dialogtxt       "「福引き」であなたの運を"
-dialogtxt       "試してみませんか？"
-dialogtxt       "毎日抽選！空くじ無し！！"
+dialogtxt       "Care to try our Lucky Draw?"
+dialogtxt       "It's available all day, everyday!"
+dialogtxt       "Guaranteed no losing tickets!"
 code0309        
 code0302        7
 code040b        
 
 @Event_13bc:
 code0301        8, 7
-dialogtxt       "パラメータに物足りなさを感じたら"
-dialogtxt       "ぜひアクセサリーを装備してください"
-dialogtxt       "道具屋からのお知らせでした"
+dialogtxt       "Notice from the shop."
+dialogtxt       "If you feel your stats are lacking,"
+dialogtxt       "make sure to equip an accessory."
 code0309        
 code0302        7
 code040b        

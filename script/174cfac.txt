@@ -392,11 +392,11 @@ ret
 code0301        8, 7
 code047d        0, 123
 code047e        0, 1
-dialogtxt       "おおきくなったら"
-dialogtxt       "ゆうしゃになるんだ"
-dialogtxt       "ゆうしゃはけんしより"
+dialogtxt       "When I grow up,"
+dialogtxt       "I want to be a hero."
+dialogtxt       "Compared to normal swordsmen,"
 code0309        
-dialogtxt       "つよいんだよ"
+dialogtxt       "heroes are much stronger."
 code0309        
 code047e        0, 0
 code0302        7
@@ -406,8 +406,8 @@ code040b
 code0301        8, 7
 code047d        0, 120
 code047e        0, 1
-dialogtxt       "村の外に出てみたいけど"
-dialogtxt       "はぐれもコワイし..."
+dialogtxt       "I'd like to leave the village,"
+dialogtxt       "but the Strays are scary…"
 code0309        
 code047e        0, 0
 code0302        7
@@ -422,7 +422,7 @@ code040b
 code0301        8, 7
 code047d        0, 118
 code047e        0, 1
-dialogtxt       "町での用はまだ済まないのかい？"
+dialogtxt       "Still have business here?"
 code0309        
 code047e        0, 0
 code0302        7

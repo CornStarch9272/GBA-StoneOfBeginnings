@@ -159,9 +159,9 @@ goto            @start
 code0301        8, 7
 code047d        0, 136
 code047e        0, 1
-dialogtxt       "魔晶柱のある祭壇までは"
-dialogtxt       "強力な召喚獣がたくさんいるから"
-dialogtxt       "気をつけるんだな"
+dialogtxt       "There are many strong Summon"
+dialogtxt       "Beasts on the way to the "
+dialogtxt       "Crystal Pillar. Please be careful."
 code0309        
 code047e        0, 0
 code0302        7
@@ -169,9 +169,9 @@ code040b
 
 @Event_0786:
 code0301        8, 7
-dialogtxt       "ギャラハン工房からのお知らせ"
-dialogtxt       "カウンターに店員がいないときには"
-dialogtxt       "勝手に買い物してください"
+dialogtxt       "A notice From Gallahan's Workshop:"
+dialogtxt       "When a clerk is not at the counter,"
+dialogtxt       "please shop at your own convenience."
 code0309        
 code0302        7
 code040b        

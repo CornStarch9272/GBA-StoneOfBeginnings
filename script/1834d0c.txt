@@ -25,16 +25,16 @@ code0479        0, 0, 14
 code047d        0, 107
 call            @Func_3738
 call            @Func_36a0
-dialogtxt       "どう、ミューノ？"
-dialogtxt       "なんかわかった？"
+dialogtxt       "Well?"
+dialogtxt       "Figure anything out, Murno?"
 code047b        
 code0309        
 call            @Func_36f4
 code0479        0, 0, 16
 call            @Func_3652
-dialogtxt       "この魔晶柱..."
-dialogtxt       "やっぱり私の村にあったのと"
-dialogtxt       "同じなのかしら...？"
+dialogtxt       "This Crystal Pillar…"
+dialogtxt       "Like I thought, maybe it's the"
+dialogtxt       "same as the one in my village…"
 code0309        
 call            @Func_3778
 call            @Func_3688
@@ -63,23 +63,22 @@ code047d        1, 2
 call            @Func_3722
 call            @Func_36be
 jumpz           @Cond_0c86, ($b003 == 0)
-dialogtxt       "魔晶柱カラ　波動ヲ　検知シテイマス"
-dialogtxt       "ご※ぁんノ魔石ノ影響ヲ"
-dialogtxt       "受ケテイルヨウニ　思ワ[NAME 8]マス"
+dialogtxt       "I Detect A Signal Coming From The"
+dialogtxt       "Pillar. It Must Be Affected By"
+dialogtxt       "Govan's Demon Stone."
 code047b        
 code0309        
 call            @Func_36f4
 code043c        2, 4
 code0479        0, 2, 16
 call            @Func_3652
-dialogtxt       "魔石の...？"
+dialogtxt       "The Demon Stone…?"
 code0309        
 call            @Func_3688
 code0479        1, 0, 12
 call            @Func_36be
-dialogtxt       "私タチガ　村カラ"
-dialogtxt       "逃ゲテ[NAME 4]タ時ニ　検知シタ波動ト"
-dialogtxt       "酷似シテイマス"
+dialogtxt       "I Detected It When We Ran"
+dialogtxt       "From The Village."
 code0309        
 call            @Func_378e
 call            @Func_36dc
@@ -90,14 +89,14 @@ code0479        1, 2, 16
 code047d        1, 0
 call            @Func_3722
 call            @Func_36a0
-dialogtxt       "え...？"
-dialogtxt       "わかんないよ"
+dialogtxt       "Huh?"
+dialogtxt       "I don't get it!"
 jumpz           @Cond_046a, ($b002 == 0)
-dialogtxt       "どういうことだよ？"
+dialogtxt       "What do you mean by that!?"
 goto            @Label_0480
 
 @Cond_046a:
-dialogtxt       "どういうこと？"
+dialogtxt       "What do you mean by that!?"
 goto            @Label_0480
 
 @Label_0480:
@@ -131,7 +130,8 @@ code0479        0, 2, 14
 code047d        0, 107
 call            @Func_370c
 call            @Func_3634
-dialogtxt       "魔石に、何か..."
+dialogtxt       "I Advise Caution."
+dialogtxt       "The Demon Stone Is…"
 code047b        
 code0309        
 call            @Func_3762
@@ -143,13 +143,13 @@ code0479        1, 5, 15
 code047d        1, 0
 call            @Func_3722
 call            @Func_36a0
-dialogtxt       "な！"
+dialogtxt       "The Demon Stone!"
 jumpz           @Cond_0672, ($b002 == 0)
-dialogtxt       "今度はなんだよ！？"
+dialogtxt       "What's happening to it!?"
 goto            @Label_0688
 
 @Cond_0672:
-dialogtxt       "今度はなに！？"
+dialogtxt       "What's happening to it!?"
 goto            @Label_0688
 
 @Label_0688:
@@ -172,7 +172,7 @@ code033b        401, 0, 0, 0, 1, 0
 code047d        0, 142
 code0301        8, 7
 code047e        0, 1
-dialogtxt       "グルルル..."
+dialogtxt       "Grrrrrr…"
 code0309        
 code047e        0, 0
 code0302        7
@@ -190,8 +190,8 @@ code0479        0, 2, 14
 code047d        0, 135
 call            @Func_370c
 call            @Func_3634
-dialogtxt       "どうしたんだ？"
-dialogtxt       "マグドラド"
+dialogtxt       "Magdrad?"
+dialogtxt       "What's wrong!?"
 code047b        
 code0309        
 call            @Func_3762
@@ -208,18 +208,18 @@ code0479        1, 0, 12
 code047d        1, 2
 call            @Func_3738
 call            @Func_36a0
-dialogtxt       "気ヲツケテ下サイ"
-dialogtxt       "魔晶柱カラ　発セラ[NAME 8]テイル"
-dialogtxt       "波動ガ　強クナッテイマス"
+dialogtxt       "Please Exercise Caution."
+dialogtxt       "Malicious Energy Waves From"
+dialogtxt       "The Crystal Pillars Detected"
 code047b        
 code0309        
 call            @Func_36f4
 code043c        2, 4
 code0479        0, 2, 16
 call            @Func_3652
-dialogtxt       "まさか..."
-dialogtxt       "その波動が召喚獣を"
-dialogtxt       "暴れさせてしまうの...！？"
+dialogtxt       "Oh no…"
+dialogtxt       "Could it be that whatever it felt"
+dialogtxt       "from the stone made it go mad?"
 code0309        
 call            @Func_378e
 call            @Func_3670
@@ -243,7 +243,7 @@ code0479        0, 1, 15
 code047d        0, 107
 call            @Func_370c
 call            @Func_3634
-dialogbig       60, 116, 1, 0, 0, "きゃあっ！"
+dialogbig       60, 116, 1, 0, 0, "Eeek!"
 code047b        
 code030c        
 call            @Func_3762
@@ -256,13 +256,13 @@ code0479        1, 5, 15
 code047d        1, 0
 call            @Func_3722
 call            @Func_36a0
-dialogtxt       "ミューノっ！"
+dialogtxt       "Murno!"
 jumpz           @Cond_0b6a, ($b002 == 0)
-dialogtxt       "大丈夫か！？"
+dialogtxt       "Are you okay!?"
 goto            @Label_0b7c
 
 @Cond_0b6a:
-dialogtxt       "大丈夫！？"
+dialogtxt       "Are you okay!?"
 goto            @Label_0b7c
 
 @Label_0b7c:
@@ -279,36 +279,38 @@ code0479        0, 2, 15
 code047d        0, 135
 call            @Func_3738
 call            @Func_3634
-dialogtxt       "どうしたんだ！？"
-dialogtxt       "マグドラド！？"
+dialogtxt       "Magdrad?"
+dialogtxt       "What's wrong!?"
 code047b        
 code0309        
 call            @Func_3688
 code043c        1, 2
 code0479        1, 5, 12
 call            @Func_36be
-dialogtxt       "召喚主ガイナイト　オトナシイノデハ"
-dialogtxt       "ナカッタノデスカ？"
+dialogtxt       "ERROR: Not Bound To A Summoner!"
+dialogtxt       "The Lack Of Control Over Magdrad"
+dialogtxt       "Should Be Impossible!"
 goto            @Cond_0c86
 
 @Cond_0c86:
 jumpz           @Cond_1622, ($b003 == 1)
-dialogtxt       "何やらイヤな気配がしておるの..."
-dialogtxt       "ゴヴァンの魔石と共鳴しておるのか？"
+dialogtxt       "The air makes me naught but unease…"
+dialogtxt       "Was Govan's Demon Stone attached"
+dialogtxt       "To the Crystal Pillars?"
 code047b        
 code0309        
 call            @Func_36f4
 code043c        2, 4
 code0479        0, 2, 16
 call            @Func_3652
-dialogtxt       "魔石と...？"
+dialogtxt       "The Demon Stone…?"
 code0309        
 call            @Func_3688
 code0479        1, 2, 16
 call            @Func_36be
-dialogtxt       "この気配どこかで..."
-dialogtxt       "そうじゃ、我らが村を出たときに"
-dialogtxt       "感じた気配に似ておるぞ..."
+dialogtxt       "Where have I felt this before…"
+dialogtxt       "…Indeed, I recognized its aura"
+dialogtxt       "from when we fleed our village…!"
 code0309        
 call            @Func_378e
 call            @Func_36dc
@@ -319,14 +321,14 @@ code0479        1, 2, 16
 code047d        1, 0
 call            @Func_3722
 call            @Func_36a0
-dialogtxt       "え...？"
-dialogtxt       "わかんないよ"
+dialogtxt       "Huh?"
+dialogtxt       "I don't get it!"
 jumpz           @Cond_0e22, ($b002 == 0)
-dialogtxt       "どういうことだよ？"
+dialogtxt       "What do you mean by that!?"
 goto            @Label_0e38
 
 @Cond_0e22:
-dialogtxt       "どういうこと？"
+dialogtxt       "What do you mean by that!?"
 goto            @Label_0e38
 
 @Label_0e38:
@@ -360,7 +362,8 @@ code0479        0, 2, 14
 code047d        0, 107
 call            @Func_370c
 call            @Func_3634
-dialogtxt       "魔石に、何か..."
+dialogtxt       "I can sense that something's amiss…"
+dialogtxt       "…The Demon Stone!"
 code047b        
 code0309        
 call            @Func_3762
@@ -372,13 +375,13 @@ code0479        1, 5, 15
 code047d        1, 0
 call            @Func_3722
 call            @Func_36a0
-dialogtxt       "な！"
+dialogtxt       "The Demon Stone!"
 jumpz           @Cond_102a, ($b002 == 0)
-dialogtxt       "今度はなんだよ！？"
+dialogtxt       "What's happening to it!?"
 goto            @Label_1040
 
 @Cond_102a:
-dialogtxt       "今度はなに！？"
+dialogtxt       "What's happening to it!?"
 goto            @Label_1040
 
 @Label_1040:
@@ -401,7 +404,7 @@ code033b        401, 0, 0, 0, 1, 0
 code047d        0, 142
 code0301        8, 7
 code047e        0, 1
-dialogtxt       "グルルル..."
+dialogtxt       "Grrrrrr…"
 code0309        
 code047e        0, 0
 code0302        7
@@ -419,8 +422,8 @@ code0479        0, 2, 14
 code047d        0, 135
 call            @Func_370c
 call            @Func_3634
-dialogtxt       "どうしたんだ？"
-dialogtxt       "マグドラド"
+dialogtxt       "Magdrad?"
+dialogtxt       "What's wrong!?"
 code047b        
 code0309        
 call            @Func_3762
@@ -437,17 +440,18 @@ code0479        1, 2, 15
 code047d        1, 2
 call            @Func_3738
 call            @Func_36a0
-dialogtxt       "気をつけるのじゃ！"
-dialogtxt       "イヤな気配が強くなっておるぞ！"
+dialogtxt       "Stay vigilant!"
+dialogtxt       "I can sense a strong and"
+dialogtxt       "malicious aura from it!"
 code047b        
 code0309        
 call            @Func_36f4
 code043c        2, 4
 code0479        0, 2, 16
 call            @Func_3652
-dialogtxt       "まさか..."
-dialogtxt       "それが召喚獣を"
-dialogtxt       "あばれさせる原因...！？"
+dialogtxt       "Oh no…"
+dialogtxt       "Could it be that whatever it felt"
+dialogtxt       "from the stone made it go mad?"
 code0309        
 call            @Func_378e
 call            @Func_3670
@@ -471,7 +475,7 @@ code0479        0, 1, 15
 code047d        0, 107
 call            @Func_370c
 call            @Func_3634
-dialogbig       60, 116, 1, 0, 0, "きゃあっ！"
+dialogbig       60, 116, 1, 0, 0, "Eeek!"
 code047b        
 code030c        
 call            @Func_3762
@@ -484,13 +488,13 @@ code0479        1, 5, 15
 code047d        1, 0
 call            @Func_3722
 call            @Func_36a0
-dialogtxt       "ミューノっ！"
+dialogtxt       "Murno!"
 jumpz           @Cond_1506, ($b002 == 0)
-dialogtxt       "大丈夫か！？"
+dialogtxt       "Are you okay!?"
 goto            @Label_1518
 
 @Cond_1506:
-dialogtxt       "大丈夫！？"
+dialogtxt       "Are you okay!?"
 goto            @Label_1518
 
 @Label_1518:
@@ -507,38 +511,38 @@ code0479        0, 2, 15
 code047d        0, 135
 call            @Func_3738
 call            @Func_3634
-dialogtxt       "どうしたんだ！？"
-dialogtxt       "マグドラド！？"
+dialogtxt       "Magdrad?"
+dialogtxt       "What's wrong!?"
 code047b        
 code0309        
 call            @Func_3688
 code043c        1, 2
 code0479        1, 3, 15
 call            @Func_36be
-dialogtxt       "召喚主がいなければ"
-dialogtxt       "何もしないのでは"
-dialogtxt       "なかったのか！"
+dialogtxt       "It's not bound to a Summoner now,"
+dialogtxt       "is it!? How can it be that Magrdad"
+dialogtxt       "went berserk on its own!?"
 goto            @Cond_1622
 
 @Cond_1622:
 jumpz           @Cond_1f88, ($b003 == 2)
-dialogtxt       "ちっ..."
-dialogtxt       "イヤな感じだ"
-dialogtxt       "ゴヴァンの魔石と共鳴してるのか？"
+dialogtxt       "Tch…I can sense malice."
+dialogtxt       "Was Govan's Demon Stone attached"
+dialogtxt       "To the Crystal Pillars?"
 code047b        
 code0309        
 call            @Func_36f4
 code043c        2, 4
 code0479        0, 2, 16
 call            @Func_3652
-dialogtxt       "魔石と...？"
+dialogtxt       "The Demon Stone…?"
 code0309        
 call            @Func_3688
 code0479        1, 2, 16
 call            @Func_36be
-dialogtxt       "この感じ...、そうだ..."
-dialogtxt       "私たちが村を出たときの感じに"
-dialogtxt       "似ている..."
+dialogtxt       "This feeling…I remember now!"
+dialogtxt       "Last I felt this malice was when"
+dialogtxt       "when we fleed from the village…!"
 code0309        
 call            @Func_378e
 call            @Func_36dc
@@ -549,14 +553,14 @@ code0479        1, 2, 16
 code047d        1, 0
 call            @Func_3722
 call            @Func_36a0
-dialogtxt       "え...？"
-dialogtxt       "わかんないよ"
+dialogtxt       "Huh?"
+dialogtxt       "I don't get it!"
 jumpz           @Cond_17a6, ($b002 == 0)
-dialogtxt       "どういうことだよ？"
+dialogtxt       "What do you mean by that!?"
 goto            @Label_17bc
 
 @Cond_17a6:
-dialogtxt       "どういうこと？"
+dialogtxt       "What do you mean by that!?"
 goto            @Label_17bc
 
 @Label_17bc:
@@ -590,7 +594,8 @@ code0479        0, 2, 14
 code047d        0, 107
 call            @Func_370c
 call            @Func_3634
-dialogtxt       "魔石に、何か..."
+dialogtxt       "Something feels off here…"
+dialogtxt       "…The Demon Stone!"
 code047b        
 code0309        
 call            @Func_3762
@@ -602,13 +607,13 @@ code0479        1, 5, 15
 code047d        1, 0
 call            @Func_3722
 call            @Func_36a0
-dialogtxt       "な！"
+dialogtxt       "The Demon Stone!"
 jumpz           @Cond_19ae, ($b002 == 0)
-dialogtxt       "今度はなんだよ！？"
+dialogtxt       "What's happening to it!?"
 goto            @Label_19c4
 
 @Cond_19ae:
-dialogtxt       "今度はなに！？"
+dialogtxt       "What's happening to it!?"
 goto            @Label_19c4
 
 @Label_19c4:
@@ -631,7 +636,7 @@ code033b        401, 0, 0, 0, 1, 0
 code047d        0, 142
 code0301        8, 7
 code047e        0, 1
-dialogtxt       "グルルル..."
+dialogtxt       "Grrrrrr…"
 code0309        
 code047e        0, 0
 code0302        7
@@ -649,8 +654,8 @@ code0479        0, 2, 14
 code047d        0, 135
 call            @Func_370c
 call            @Func_3634
-dialogtxt       "どうしたんだ？"
-dialogtxt       "マグドラド"
+dialogtxt       "Magdrad?"
+dialogtxt       "What's wrong!?"
 code047b        
 code0309        
 call            @Func_3762
@@ -667,16 +672,17 @@ code0479        1, 2, 14
 code047d        1, 2
 call            @Func_3738
 call            @Func_36a0
-dialogtxt       "ちっ...！"
-dialogtxt       "イヤな感じが強くなった"
+dialogtxt       "Tch…!"
+dialogtxt       "I can feel its malice"
+dialogtxt       "grow even stronger!"
 code047b        
 code0309        
 call            @Func_36f4
 code0479        0, 5, 16
 call            @Func_3652
-dialogtxt       "まさか..."
-dialogtxt       "それが召喚獣を"
-dialogtxt       "あばれさせる原因...！？"
+dialogtxt       "Oh no…"
+dialogtxt       "Could it be that whatever it felt"
+dialogtxt       "from the stone made it go mad?"
 code0309        
 call            @Func_378e
 call            @Func_3670
@@ -700,7 +706,7 @@ code0479        0, 1, 15
 code047d        0, 107
 call            @Func_370c
 call            @Func_3634
-dialogbig       60, 116, 1, 0, 0, "きゃあっ！"
+dialogbig       60, 116, 1, 0, 0, "Eeek!"
 code047b        
 code030c        
 call            @Func_3762
@@ -713,13 +719,13 @@ code0479        1, 5, 15
 code047d        1, 0
 call            @Func_3722
 call            @Func_36a0
-dialogtxt       "ミューノっ！"
+dialogtxt       "Murno!"
 jumpz           @Cond_1e6a, ($b002 == 0)
-dialogtxt       "大丈夫か！？"
+dialogtxt       "Are you okay!?"
 goto            @Label_1e7c
 
 @Cond_1e6a:
-dialogtxt       "大丈夫！？"
+dialogtxt       "Are you okay!?"
 goto            @Label_1e7c
 
 @Label_1e7c:
@@ -736,38 +742,38 @@ code0479        0, 2, 15
 code047d        0, 135
 call            @Func_3738
 call            @Func_3634
-dialogtxt       "どうしたんだ！？"
-dialogtxt       "マグドラド！？"
+dialogtxt       "Magdrad?"
+dialogtxt       "What's wrong!?"
 code047b        
 code0309        
 call            @Func_3688
 code043c        1, 2
 code0479        1, 3, 15
 call            @Func_36be
-dialogtxt       "召喚主がいなければ"
-dialogtxt       "何もしないハズじゃ"
-dialogtxt       "なかったのか！"
+dialogtxt       "It's not bound to a Summoner!"
+dialogtxt       "Why is Magrdad acting berserk"
+dialogtxt       "on its own!?"
 goto            @Cond_1f88
 
 @Cond_1f88:
 jumpz           @Cond_2926, ($b003 == 3)
-dialogtxt       "なんだかイヤな感じですわ..."
-dialogtxt       "これってミューノ様の"
-dialogtxt       "ゴヴァンの魔石からも..."
+dialogtxt       "I feel queasy… I wonder if I"
+dialogtxt       "sensed Govan's Demon Stone?"
+dialogtxt       "It belonged to Lady Murno…"
 code047b        
 code0309        
 call            @Func_36f4
 code043c        2, 4
 code0479        0, 2, 16
 call            @Func_3652
-dialogtxt       "魔石からも...？"
+dialogtxt       "Then, that meant the Demon Stone…"
 code0309        
 call            @Func_3688
 code0479        1, 2, 16
 call            @Func_36be
-dialogtxt       "この感じ...、そうですわ..."
-dialogtxt       "私たちが村を出たときの感じに"
-dialogtxt       "似ているんです..."
+dialogtxt       "This feeling…indeed, it is…"
+dialogtxt       "This was the very same thing I"
+dialogtxt       "felt when we fled the village…!"
 code0309        
 call            @Func_378e
 call            @Func_36dc
@@ -778,14 +784,14 @@ code0479        1, 2, 16
 code047d        1, 0
 call            @Func_3722
 call            @Func_36a0
-dialogtxt       "え...？"
-dialogtxt       "わかんないよ"
+dialogtxt       "Huh"
+dialogtxt       "I don't get it!"
 jumpz           @Cond_212c, ($b002 == 0)
-dialogtxt       "どういうことだよ？"
+dialogtxt       "What do you mean by that!?"
 goto            @Label_2142
 
 @Cond_212c:
-dialogtxt       "どういうこと？"
+dialogtxt       "What do you mean by that!?"
 goto            @Label_2142
 
 @Label_2142:
@@ -819,7 +825,8 @@ code0479        0, 2, 14
 code047d        0, 107
 call            @Func_370c
 call            @Func_3634
-dialogtxt       "魔石に、何か..."
+dialogtxt       "I can sense that something's amiss…"
+dialogtxt       "…The Demon Stone!"
 code047b        
 code0309        
 call            @Func_3762
@@ -831,13 +838,14 @@ code0479        1, 5, 15
 code047d        1, 0
 call            @Func_3722
 call            @Func_36a0
-dialogtxt       "な！"
+dialogtxt       "The Demon Stone!"
 jumpz           @Cond_2334, ($b002 == 0)
-dialogtxt       "今度はなんだよ！？"
+dialogtxt       "What's happening to it!?"
 goto            @Label_234a
 
 @Cond_2334:
-dialogtxt       "今度はなに！？"
+dialogtxt       "The Demon Stone!"
+dialogtxt       "What's happening to it!?"
 goto            @Label_234a
 
 @Label_234a:
@@ -860,7 +868,7 @@ code033b        401, 0, 0, 0, 1, 0
 code047d        0, 142
 code0301        8, 7
 code047e        0, 1
-dialogtxt       "グルルル..."
+dialogtxt       "Grrrrrr…"
 code0309        
 code047e        0, 0
 code0302        7
@@ -878,8 +886,8 @@ code0479        0, 2, 14
 code047d        0, 135
 call            @Func_370c
 call            @Func_3634
-dialogtxt       "どうしたんだ？"
-dialogtxt       "マグドラド"
+dialogtxt       "Magdrad?"
+dialogtxt       "What's wrong!?"
 code047b        
 code0309        
 call            @Func_3762
@@ -896,16 +904,17 @@ code0479        1, 2, 15
 code047d        1, 2
 call            @Func_3738
 call            @Func_36a0
-dialogtxt       "気をつけてください！"
-dialogtxt       "イヤな感じが強くなってます！"
+dialogtxt       "Please be careful!"
+dialogtxt       "I can feel its malice"
+dialogtxt       "grow even stronger!"
 code047b        
 code0309        
 call            @Func_36f4
 code0479        0, 2, 16
 call            @Func_3652
-dialogtxt       "まさか..."
-dialogtxt       "それが召喚獣を"
-dialogtxt       "あばれさせる原因...！？"
+dialogtxt       "Oh no…"
+dialogtxt       "Could it be that whatever it felt"
+dialogtxt       "from the stone made it go mad?"
 code0309        
 call            @Func_378e
 call            @Func_3670
@@ -929,7 +938,7 @@ code0479        0, 1, 15
 code047d        0, 107
 call            @Func_370c
 call            @Func_3634
-dialogbig       60, 116, 1, 0, 0, "きゃあっ！"
+dialogbig       60, 116, 1, 0, 0, "Eeek!"
 code047b        
 code030c        
 call            @Func_3762
@@ -942,13 +951,13 @@ code0479        1, 5, 15
 code047d        1, 0
 call            @Func_3722
 call            @Func_36a0
-dialogtxt       "ミューノっ！"
+dialogtxt       "Murno!"
 jumpz           @Cond_2802, ($b002 == 0)
-dialogtxt       "大丈夫か！？"
+dialogtxt       "Are you okay!?"
 goto            @Label_2814
 
 @Cond_2802:
-dialogtxt       "大丈夫！？"
+dialogtxt       "Are you okay!?"
 goto            @Label_2814
 
 @Label_2814:
@@ -965,17 +974,17 @@ code0479        0, 2, 15
 code047d        0, 135
 call            @Func_3738
 call            @Func_3634
-dialogtxt       "どうしたんだ！？"
-dialogtxt       "マグドラド！？"
+dialogtxt       "Magdrad?"
+dialogtxt       "What's wrong!?"
 code047b        
 code0309        
 call            @Func_3688
 code043c        1, 2
 code0479        1, 2, 15
 call            @Func_36be
-dialogtxt       "召喚主がいなければ"
-dialogtxt       "何もしないハズじゃ"
-dialogtxt       "なかったんですか！？"
+dialogtxt       "It's not bound to a Summoner now,"
+dialogtxt       "is it!? How can it be that Magrdad"
+dialogtxt       "went berserk on its own!?"
 goto            @Cond_2926
 
 @Cond_2926:
@@ -983,12 +992,12 @@ code0309
 call            @Func_36f4
 code0479        0, 5, 15
 call            @Func_3652
-dialogtxt       "ダメです...！"
-dialogtxt       "言うことをきかない...！"
+dialogtxt       "Impossible…!"
+dialogtxt       "It won't listen to what I say!"
 code0309        
 code0479        0, 2, 14
-dialogtxt       "ここは危険です！"
-dialogtxt       "一旦戻りましょう！"
+dialogtxt       "This is too dangerous!"
+dialogtxt       "We have to retreat! NOW!"
 code0309        
 call            @Func_378e
 call            @Func_3670
@@ -1021,7 +1030,7 @@ code033b        402, 0, 0, 0, 1, 0
 code047d        0, 142
 code0301        8, 7
 code047e        0, 1
-dialogbig       24, 116, 1, 0, 0, "グゥァアアア！！"
+dialogbig       24, 116, 1, 0, 0, "Grrraaaah!!"
 code030c        
 code047e        0, 0
 code0302        7

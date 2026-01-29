@@ -10,7 +10,7 @@ code0412        4, 1
 code0418        2
 setvar          $b075, 1
 setvar          $b072, 0
-placetxt        "Mayor's house　Hall"
+placetxt        "Mayor's House　Hall"
 code040c        1, @Label_01fc
 code040c        2, @Label_01f2
 call            @Func_09b4
@@ -267,9 +267,9 @@ ret
 code0301        8, 7
 code047d        0, 119
 code047e        0, 1
-dialogtxt       "お前やヴィーねえさんが"
-dialogtxt       "留守にしてるから"
-dialogtxt       "なんだか寂しいんだよ"
+dialogtxt       "It's been lonely around here,"
+dialogtxt       "with both you and Vee"
+dialogtxt       "out of town."
 code0309        
 code047e        0, 0
 code0302        7
@@ -279,8 +279,8 @@ code040b
 code0301        8, 7
 code047d        0, 123
 code047e        0, 1
-dialogtxt       "おかえりなさい"
-dialogtxt       "いつでも帰ってきていいのよ"
+dialogtxt       "Welcome back."
+dialogtxt       "Come by any time you want."
 code0309        
 code047e        0, 0
 code0302        7

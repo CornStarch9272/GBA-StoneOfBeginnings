@@ -41,7 +41,7 @@ goto            @Label_01a2
 code047d        1, 2
 call            @Func_0b02
 call            @Func_09fe
-dialogtxt       "この音は...！"
+dialogtxt       "That's…!"
 code047b        
 code0309        
 call            @Func_0a52
@@ -66,30 +66,28 @@ goto            @Label_0260
 @Label_0260:
 call            @Func_0a88
 jumpz           @Cond_02c8, ($b003 == 0)
-dialogtxt       "何カ事件ガ発生シタ　合図デス"
-dialogtxt       "マタ　ハグ[NAME 8]召喚獣ガ出タ"
-dialogtxt       "可能性ガアリマス"
+dialogtxt       "Something Has Happened."
+dialogtxt       "There Is A Chance That"
+dialogtxt       "Another Stray Has Appeared."
 goto            @Cond_02c8
 
 @Cond_02c8:
 jumpz           @Cond_0326, ($b003 == 1)
-dialogtxt       "何かあったのじゃな..."
-dialogtxt       "また近くにはぐれ召喚獣でも"
-dialogtxt       "出たのかのお...？"
+dialogtxt       "Something's going on…"
+dialogtxt       "Is it another Stray…?"
 goto            @Cond_0326
 
 @Cond_0326:
 jumpz           @Cond_0386, ($b003 == 2)
-dialogtxt       "何かあった様だな..."
-dialogtxt       "また近くにはぐれ召喚獣でも"
-dialogtxt       "出たんじゃないのか？"
+dialogtxt       "Wonder what that was…"
+dialogtxt       "Could it be another Stray?"
 goto            @Cond_0386
 
 @Cond_0386:
 jumpz           @Cond_03ec, ($b003 == 3)
-dialogtxt       "何かあったみたいですわ"
-dialogtxt       "また近くにはぐれ召喚獣が出たような"
-dialogtxt       "気がしますわ！"
+dialogtxt       "It seems something is happening."
+dialogtxt       "I have a hunch another"
+dialogtxt       "Stray has appeared!"
 goto            @Cond_03ec
 
 @Cond_03ec:
@@ -98,13 +96,13 @@ call            @Func_0abe
 code0479        0, 2, 14
 call            @Func_0a1c
 jumpz           @Cond_043c, ($b002 == 0)
-dialogtxt       "まったく！"
-dialogtxt       "こんな時に！"
+dialogtxt       "Oh, come on!"
+dialogtxt       "What terrible timing!"
 goto            @Label_045a
 
 @Cond_043c:
-dialogtxt       "もう！"
-dialogtxt       "こんな時に！"
+dialogtxt       "Oh, come on!"
+dialogtxt       "What terrible timing!"
 goto            @Label_045a
 
 @Label_045a:

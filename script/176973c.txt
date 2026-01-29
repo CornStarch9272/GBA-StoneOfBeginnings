@@ -168,15 +168,15 @@ code0301        8, 7
 code047d        0, 0
 code047e        0, 1
 jumpz           @Cond_08a8, ($b002 == 0)
-dialogtxt       "ねらわれてるミューノをつれて"
-dialogtxt       "あまりウロウロしない方がいいな..."
-dialogtxt       "とにかく工房に行こう"
+dialogtxt       "I shouldn't wander around while"
+dialogtxt       "Murno is still in danger…"
+dialogtxt       "Let's head to the workshop."
 goto            @Label_090a
 
 @Cond_08a8:
-dialogtxt       "ねらわれてるミューノをつれて"
-dialogtxt       "あまりウロウロしない方がいいよね..."
-dialogtxt       "とにかく工房に行こう"
+dialogtxt       "I shouldn't wander around while"
+dialogtxt       "Murno is still in danger…"
+dialogtxt       "Let's head to the workshop."
 goto            @Label_090a
 
 @Label_090a:
@@ -496,7 +496,7 @@ ret
 code0301        8, 7
 code047d        0, 118
 code047e        0, 1
-dialogtxt       "ひさしぶりですね"
+dialogtxt       "Haven't seen you in a while."
 code0309        
 code047e        0, 0
 code0302        7
@@ -506,8 +506,8 @@ code040b
 code0301        8, 7
 code047d        0, 120
 code047e        0, 1
-dialogtxt       "金の派閥がはぐれを何とか"
-dialogtxt       "してくれないかなぁ"
+dialogtxt       "I wonder if the Gold Factio will"
+dialogtxt       "do anything about the Strays."
 code0309        
 code047e        0, 0
 code0302        7
@@ -517,12 +517,12 @@ code040b
 code0301        8, 7
 code047d        0, 120
 code047e        0, 1
-dialogtxt       "プロスバンの西には"
-dialogtxt       "ス[NAME 8]ンジ採掘場があるんだ"
+dialogtxt       "West of Prosban is"
+dialogtxt       "the Slenj Mine."
 code0309        
-dialogtxt       "でも、アカバ[NAME 6]って恐ろしい"
-dialogtxt       "はぐれ召喚獣がでるってうわさで"
-dialogtxt       "近づく人もいなくなったんだ"
+dialogtxt       "Be careful though. I've heard a"
+dialogtxt       "Stray called Red Wing is there,"
+dialogtxt       "and people have gone missing."
 code0309        
 code047e        0, 0
 code0302        7
@@ -530,12 +530,12 @@ code040b
 
 @Event_1636:
 code0301        8, 7
-dialogtxt       "良質な武器の完成には"
-dialogtxt       "パートナーも大きく影響していると"
-dialogtxt       "ベン[NAME 5]ンさんはにらんでいるらしい..."
+dialogtxt       "Mr. Benson is scowling, seemingly"
+dialogtxt       "saying that your partner has a huge"
+dialogtxt       "effect on the quality of a weapon."
 code0309        
-dialogtxt       "しかし、彼は一言も語らないので"
-dialogtxt       "真意は定かではない..."
+dialogtxt       "He doesn't actually talk though,"
+dialogtxt       "so I'm not completely sure…"
 code0309        
 code0302        7
 code040b        

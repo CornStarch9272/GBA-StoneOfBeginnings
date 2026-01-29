@@ -27,30 +27,30 @@ goto            @Label_00f2
 code047d        1, 2
 call            @Func_0cb4
 call            @Func_0bdc
-dialogtxt       "（今のところミューノに"
-dialogtxt       "　町を出る気はないことは"
-dialogtxt       "　わかったけど）"
+dialogtxt       "(I know Murno doesn't"
+dialogtxt       "　intend to skip town"
+dialogtxt       "　just yet.)"
 code047b        
 code0309        
 code0479        0, 2, 16
 jumpz           @Cond_0206, ($b002 == 0)
-dialogtxt       "（それがどうしてなのかは"
-dialogtxt       "　わからない..."
-dialogtxt       "　γも教えてくれないし）"
+dialogtxt       "(But as for why that is…"
+dialogtxt       "　I have no idea…"
+dialogtxt       "　And neither does [NAME 1]…)"
 code0309        
 code0479        0, 4, 16
-dialogtxt       "はあ..."
-dialogtxt       "オ[NAME 8]はどうしたらいいんだ..."
+dialogtxt       "Sigh…"
+dialogtxt       "What am I supposed to do…"
 goto            @Label_0292
 
 @Cond_0206:
-dialogtxt       "（それがどうしてなのかは"
-dialogtxt       "　わかんないし..."
-dialogtxt       "　γも教えてくれない）"
+dialogtxt       "(But as for why that is…"
+dialogtxt       "　I have no idea…"
+dialogtxt       "　And neither does [NAME 1]…)"
 code0309        
 code0479        0, 4, 16
-dialogtxt       "はあ..."
-dialogtxt       "わたし、どうしたらいいの..."
+dialogtxt       "Sigh…"
+dialogtxt       "What am I supposed to do…"
 goto            @Label_0292
 
 @Label_0292:
@@ -79,43 +79,43 @@ goto            @Label_0336
 call            @Func_0cca
 call            @Func_0c66
 jumpz           @Cond_03e0, ($b003 == 0)
-dialogtxt       "コノ町ニ　イルカギリ"
-dialogtxt       "みゅーの様ガ　敵ニ　発見サ[NAME 8]ル"
-dialogtxt       "可能性ハ　高イママデス"
+dialogtxt       "As Long As We Are Here,"
+dialogtxt       "The Possibility That Murno"
+dialogtxt       "Will Be Discovered Is High."
 code047b        
 code0309        
 code0479        1, 0, 12
-dialogtxt       "十分ニ　ケイカイ　シテクダサイ"
+dialogtxt       "We Must Stay Vigilant."
 goto            @Cond_03e0
 
 @Cond_03e0:
 jumpz           @Cond_046a, ($b003 == 1)
-dialogtxt       "この町におるかぎり"
-dialogtxt       "ミューノは敵に見つかる[NAME 4]ケンが"
-dialogtxt       "高いのじゃ"
+dialogtxt       "As long as we're here,"
+dialogtxt       "it's very likely Murno"
+dialogtxt       "will be found out."
 code047b        
 code0309        
 code0479        1, 2, 14
-dialogtxt       "用心せねばならんぞ！"
+dialogtxt       "We must be cautious!"
 goto            @Cond_046a
 
 @Cond_046a:
 jumpz           @Cond_04e8, ($b003 == 2)
-dialogtxt       "あいつが、敵のウジャウジャいる"
-dialogtxt       "この町に残ると言っているのに"
-dialogtxt       "いつまでそうしているつもりなんだ？"
+dialogtxt       "That girl…"
+dialogtxt       "This place is crawling with enemies."
+dialogtxt       "How long can she keep this up?"
 code047b        
 goto            @Cond_04e8
 
 @Cond_04e8:
 jumpz           @Cond_0578, ($b003 == 3)
-dialogtxt       "この町にいるかぎり"
-dialogtxt       "いつミューノ様が敵に見つかるか"
-dialogtxt       "わかりませんわ！"
+dialogtxt       "As long as we are here,"
+dialogtxt       "there is always the chance"
+dialogtxt       "Murno could be discovered!"
 code047b        
 code0309        
 code0479        1, 2, 14
-dialogtxt       "十分注意しなくては！"
+dialogtxt       "We must be cautious!"
 goto            @Cond_0578
 
 @Cond_0578:
@@ -124,15 +124,13 @@ call            @Func_0c9c
 code0479        0, 2, 14
 call            @Func_0bfa
 jumpz           @Cond_05de, ($b002 == 0)
-dialogtxt       "そうか..."
-dialogtxt       "ここで考えていても"
-dialogtxt       "しかたないな..."
+dialogtxt       "Right…"
+dialogtxt       "I can't just sit here all day."
 goto            @Label_061c
 
 @Cond_05de:
-dialogtxt       "そっか..."
-dialogtxt       "ここでずっと考えてても"
-dialogtxt       "しかたないよね..."
+dialogtxt       "Right…"
+dialogtxt       "I can't just sit here all day."
 goto            @Label_061c
 
 @Label_061c:
