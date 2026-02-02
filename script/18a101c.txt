@@ -12,7 +12,7 @@ code0420        0, 614, 13
 code0422        0, 0
 setvar          $b075, 1
 setvar          $b072, 1
-placetxt        "Ghumag Flame Ruins"
+placetxt        "Gumag Fire Ruins"
 code040c        1, @Label_08ba
 code040c        2, @Label_08b0
 jumpz           @Cond_0230, ($f0036 == 1 && $f0038 == 0 && $h311 == 7)
