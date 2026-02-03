@@ -18,4 +18,4 @@ call .\build_stage\import_font.bat >> build\build_log.txt 2>&1
 
 call .\build_stage\create_patch.bat >> build\build_log.txt 2>&1
 
-python version.py
+python version.py --date

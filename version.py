@@ -1,10 +1,12 @@
 from __future__ import annotations
 from dataclasses import dataclass
+from datetime import datetime
 from enum import Enum
 import json
 import os
 import re
 import subprocess
+import sys
 
 
 @dataclass
@@ -61,43 +63,60 @@ class BuildInfo:
     def __str__(self) -> str:
         return f'{self.major}.{self.minor}.{self.patch}_{self.type}'
 
+    def get_version_info(self, date=False):
+        if date:
+            commit_time = datetime.fromtimestamp(self.commit.time)
+            date_str = commit_time.strftime('%y%m%d')
+            return f'{date_str}_{self.type}'
+        else:
+            return str(self)
+
     def __repr__(self) -> str:
         return (f'{self.commit.hash[:7]}, '
                 f'{self.major}.{self.minor}.{self.patch}_{self.type}')
 
-    def calc_minor_patch_value(self, release_history: dict[str, str]):
+    def calc_minor_patch_value(
+            self, release_history: dict[str, dict[str, str]]):
         change = eval_changes(self.commit.hash)
         prev = self.commit.prev
         if prev is None:
             return 0, 0
         if prev.hash in release_history:
-            _, minor, patch, _ = parse_build_str(release_history[prev.hash])
-            if change is ChangeType.MINOR:
-                return minor + 1, 0
-            elif change is ChangeType.PATCH:
-                return minor, patch + 1
-            else:
-                return minor, patch
-        else:
-            info = BuildInfo(prev)
-            info.autofill_missing_info(release_history)
-            if change is ChangeType.MINOR:
-                return info.minor + 1 if info.minor is not None else 1, 0
-            elif change is ChangeType.PATCH:
-                return (info.minor if info.minor is not None else 0,
-                        info.patch + 1 if info.patch is not None else 1)
-            else:
-                return info.minor, info.patch
+            time_str = datetime.fromtimestamp(
+                prev.time).strftime('%Y%m%d %H:%M:%S')
+            if time_str in release_history[prev.hash]:
+                _, minor, patch, _ = parse_build_str(
+                    release_history[prev.hash][time_str])
+                if change is ChangeType.MINOR:
+                    return minor + 1, 0
+                elif change is ChangeType.PATCH:
+                    return minor, patch + 1
+                else:
+                    return minor, patch
 
-    def autofill_missing_info(self, release_history: dict[str, str]):
+        info = BuildInfo(prev)
+        info.autofill_missing_info(release_history)
+        if change is ChangeType.MINOR:
+            return info.minor + 1 if info.minor is not None else 1, 0
+        elif change is ChangeType.PATCH:
+            return (info.minor if info.minor is not None else 0,
+                    info.patch + 1 if info.patch is not None else 1)
+        else:
+            return info.minor, info.patch
+
+    def autofill_missing_info(
+            self, release_history: dict[str, dict[str, str]]):
+        time_str = datetime.fromtimestamp(
+            self.commit.time).strftime('%Y%m%d %H:%M:%S')
         if self.commit.hash in release_history:
-            major, minor, patch, build_type = parse_build_str(
-                release_history[self.commit.hash])
-            self.major = int(major)
-            self.minor = int(minor)
-            self.patch = int(patch)
-            self.type = build_type
-            return
+            if time_str in release_history[self.commit.hash]:
+                major, minor, patch, build_type = parse_build_str(
+                    release_history[self.commit.hash][time_str])
+                self.major = int(major)
+                self.minor = int(minor)
+                self.patch = int(patch)
+                self.type = build_type
+                return
 
         latest_major = get_latest_major_commit()
         if self.major is None:
@@ -113,8 +132,8 @@ class BuildInfo:
                 release_history)
         if 'dirty' in self.type:
             return
-        release_history[self.commit.hash] = (f'{self.major}.{self.minor}.'
-                                             f'{self.patch}_{self.type}')
+        release_history[self.commit.hash] = {
+            time_str: f'{self.major}.{self.minor}.{self.patch}_{self.type}'}
 
 
 def get_changes(commit_hash: str) -> list[str]:
@@ -249,8 +268,13 @@ def is_dirty():
 
 
 if __name__ == '__main__':
+    if '--date' in sys.argv:
+        date = True
+    else:
+        date = False
+
     os.chdir(os.path.dirname(__file__))
-    RELEASE_HISTORY: dict[str, str] = dict()
+    RELEASE_HISTORY: dict[str, dict[str, str]] = dict()
 
     config = 'release.json'
     try:
@@ -262,7 +286,14 @@ if __name__ == '__main__':
     current_commit = get_current_commit()
     if current_commit is None:
         exit(0)
+
+    rebuild_history = False
     if len(RELEASE_HISTORY) == 0:
+        rebuild_history = True
+    if not isinstance(next(iter(RELEASE_HISTORY.values())), dict):
+        RELEASE_HISTORY = dict()
+        rebuild_history = True
+    if rebuild_history:
         current = current_commit
         while current.prev is not None:
             current = current.prev
@@ -272,10 +303,11 @@ if __name__ == '__main__':
             current = current.next
     info = BuildInfo(current_commit)
     info.autofill_missing_info(RELEASE_HISTORY)
+    vinfo = info.get_version_info(date)
 
     with open(config, 'w') as f:
         json.dump(RELEASE_HISTORY, f)
 
     file = 'patches/swordcraft3.bps'
     name, ext = os.path.splitext(file)
-    os.renames(file, f'{name}_v{info}{ext}')
+    os.renames(file, f'{name}_v{vinfo}{ext}')
